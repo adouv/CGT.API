@@ -1,0 +1,108 @@
+LoggerDateTime:2017/6/20 15:00:56  
+ID:[ThreadID:12] 
+Message:Error:多次为 'peta_paged' 指定了列 'BillInterest'。|   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at PetaPoco.NetCore.Database.<Query>d__63`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at PetaPoco.NetCore.Database.Fetch[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.TravelBillRep.GetTravelBillList(String PayCenterCode, Int32 Status, String BillType, Nullable`1 StartDate, Nullable`1 EndDate, Int32 PageIndex, Int32 PageSize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\TravelBillRep.cs:line 95
+   at CGT.Api.Service.Boss.TravelBill.GetTravelBillService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBill\GetTravelBillService.cs:line 35 
+                        
+LoggerDateTime:2017/6/20 15:01:58  
+ID:[ThreadID:6]  
+Message:Error:多次为 'peta_paged' 指定了列 'BillInterest'。|   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at PetaPoco.NetCore.Database.<Query>d__63`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at PetaPoco.NetCore.Database.Fetch[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.TravelBillRep.GetTravelBillList(String PayCenterCode, Int32 Status, String BillType, Nullable`1 StartDate, Nullable`1 EndDate, Int32 PageIndex, Int32 PageSize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\TravelBillRep.cs:line 95
+   at CGT.Api.Service.Boss.TravelBill.GetTravelBillService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBill\GetTravelBillService.cs:line 35 
+                        
+LoggerDateTime:2017/6/20 15:02:02  
+ID:[ThreadID:18] 
+Message:Error:多次为 'peta_paged' 指定了列 'BillInterest'。|   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at PetaPoco.NetCore.Database.<Query>d__63`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at PetaPoco.NetCore.Database.Fetch[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.TravelBillRep.GetTravelBillList(String PayCenterCode, Int32 Status, String BillType, Nullable`1 StartDate, Nullable`1 EndDate, Int32 PageIndex, Int32 PageSize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\TravelBillRep.cs:line 95
+   at CGT.Api.Service.Boss.TravelBill.GetTravelBillService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBill\GetTravelBillService.cs:line 35 
+                        
+LoggerDateTime:2017/6/20 15:02:05  
+ID:[ThreadID:6]  
+Message:Error:多次为 'peta_paged' 指定了列 'BillInterest'。|   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at PetaPoco.NetCore.Database.<Query>d__63`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at PetaPoco.NetCore.Database.Fetch[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.TravelBillRep.GetTravelBillList(String PayCenterCode, Int32 Status, String BillType, Nullable`1 StartDate, Nullable`1 EndDate, Int32 PageIndex, Int32 PageSize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\TravelBillRep.cs:line 95
+   at CGT.Api.Service.Boss.TravelBill.GetTravelBillService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBill\GetTravelBillService.cs:line 35 
+                        
+LoggerDateTime:2017/6/20 15:02:56  
+ID:[ThreadID:18] 
+Message:Error:多次为 'peta_paged' 指定了列 'BillInterest'。|   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at PetaPoco.NetCore.Database.<Query>d__63`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at PetaPoco.NetCore.Database.Fetch[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.TravelBillRep.GetTravelBillList(String PayCenterCode, Int32 Status, String BillType, Nullable`1 StartDate, Nullable`1 EndDate, Int32 PageIndex, Int32 PageSize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\TravelBillRep.cs:line 95
+   at CGT.Api.Service.Boss.TravelBill.GetTravelBillService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBill\GetTravelBillService.cs:line 35 
+                        
+LoggerDateTime:2017/6/20 15:04:40  
+ID:[ThreadID:4]  
+Message:Error:多次为 'peta_paged' 指定了列 'BillInterest'。|   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at PetaPoco.NetCore.Database.<Query>d__63`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at PetaPoco.NetCore.Database.Fetch[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.TravelBillRep.GetTravelBillList(String PayCenterCode, Int32 Status, String BillType, Nullable`1 StartDate, Nullable`1 EndDate, Int32 PageIndex, Int32 PageSize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\TravelBillRep.cs:line 95
+   at CGT.Api.Service.Boss.TravelBill.GetTravelBillService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBill\GetTravelBillService.cs:line 35 
+                        

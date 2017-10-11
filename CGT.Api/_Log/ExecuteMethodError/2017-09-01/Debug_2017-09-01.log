@@ -1,0 +1,99 @@
+LoggerDateTime:2017/9/1 11:49:46   
+ID:[ThreadID:14] 
+Message:Debug:Model:{"GuidKey":"aa6861ed-16e5-4c37-829d-749804cbcd01","MerchantId":"CS01","Data":"jx7YdDo9qmSmAwHPF+KCBQm5lEfcJk6LX9gwhHnZnrmJztNUEwij7PEJR+koAO/5vhTqxf5BHEGIJN5tl/MF4p1fD4UlA4qdKwYliZbXWi9KY9ML5jvc6eLkMGoNgDlWvJpYeu869j+uV8r3Up+Kp04X4+ZrIjjgOAfLB8NFUBb4ZVTOUv9Us69Crpp9Xf2f9x7THhhpY68NYkny0o2mOeGx12bZRoPzscAC4+3M6VI=","EncryptKey":"ZWYKBvbe8Vhl7zWGXoABJ2XMmV4bLHsvXByQw+l6WBKrbjNm+6P756T+dZxkFr2Lm9ugSVhiEnklex4A3fVbmbMvlOOrk6mxnh94ZONDaKeljSMAaFwabP2+eSv+lO1XfCQN2X9Aw06zh2m3iZftQIF2o0PCWp+MD5CQPWm7sJ5Lgs7FYQEga5/WSdKKHj4k5AQcdXk4oor0u+JKUS0ZRmxdUHIMMqbkWt2Bbq7tDrzRcpkvEshzPkpP5HAt4TMDapdDbagDfWbSD11KcKr2N2FJOGo2eLL+tq7VjINLOEw9495NcsRyLElUIzw4T5bpuz5VaID44HxUoqYQMIzCAQ=="}
+Parameter:{"ID":1220,"UserId":17,"TimesTamp":"1504266586614","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"7278949E861F69311EB4F8759A5FACFD","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:Instances cannot be resolved and nested lifetimes cannot be created from this LifetimeScope as it has already been disposed.|   at Autofac.Core.Lifetime.LifetimeScope.CheckNotDisposed()
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at CGT.DDD.Utils.Http.CGTHttpContext.get_Current() in C:\code\cgt_api\CGT.ApiCode\CGT.DDD\Utils\Http\CGTHttpContext.cs:line 29
+   at CGT.Api.Service.Boss.Enterprise.ImportProtocolService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\ImportProtocolService.cs:line 53
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 146 
+                        
+LoggerDateTime:2017/9/1 11:51:12   
+ID:[ThreadID:3]  
+Message:Debug:Model:{"GuidKey":"97f251f2-11ee-4264-a47c-0983bba29204","MerchantId":"CS01","Data":"1abhQWFvK5r0E82bDNs/HR93EZXFl37dpB+5RI13JurcsWUWGhpivqTpt5+wTbK8f4704djvpG5Cx8blBNoWHRGCSsUicDeztQoq1qnm/fwlNz1Mt2b0I63JFKgBM2KZa87kf6wfiwkvD5wjLqPV0zvaRtA9czl4OkxFJVmtTgZQRwFENsDN5wTOW5aUGqxirAFT3Ow8tJaQ8AnQLEpeUZ5H3QiNlHEv/36gPlGWiaY=","EncryptKey":"i0xY2GqaXRyW0b32Bd+uETSnG6Q1yqQzKtA0KSLCDEjvtcMSYCUv5KudNvINsVztqEDw4d/9RDg+C7wCzK3oGLEcWXK0hmftT1+OX+CUaC5MDWpFjscirCJO1dttiIVl/QkGUDocdcTvoqmmncHTaq2Y/YqRYLeBpxv7EDNZqCOmPOaU9lWmcrWpTka3RcoMdgxDYqYAbg7yRuAmmBhkUYf5DDhOrkp/m2j7ivHaIfGqGuGu7aaiK84+yUa4kK325obQmdm2s8Slc5XsYiy+7Bxqs4e4KbhshzLUZE8YwNN03F7BaznN3OVGmkqDvfdPDFfpbejAIGpRhDt9ublpDA=="}
+Parameter:{"ID":1220,"UserId":17,"TimesTamp":"1504266617242","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"00E13BBA45B7B5BF79ED4BD3E586DB3E","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:Instances cannot be resolved and nested lifetimes cannot be created from this LifetimeScope as it has already been disposed.|   at Autofac.Core.Lifetime.LifetimeScope.CheckNotDisposed()
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at CGT.DDD.Utils.Http.CGTHttpContext.get_Current() in C:\code\cgt_api\CGT.ApiCode\CGT.DDD\Utils\Http\CGTHttpContext.cs:line 29
+   at CGT.Api.Service.Boss.Enterprise.ImportProtocolService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\ImportProtocolService.cs:line 53
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 146 
+                        
+LoggerDateTime:2017/9/1 13:06:57   
+ID:[ThreadID:35] 
+Message:Debug:Model:{"GuidKey":"1c166e10-010c-4bc2-a66d-01bf5688d180","MerchantId":"CS01","Data":"U4v8yD1p0qU4FcDnIK0b5Q2kw92Mh8Dl3Sq4zmY+naCq1wnGD6xz3EQqw0Dcvuqap2j6Z5Ka34gEv6ZnBsOtOKpvVnSNiiONzGrdJ0sto1xzoxZmejA4j6s/RslQfC+/S2tFKoPX/eWqckJDcvu8egtqluHLy6SIBTVN9lN5RirO6/6/BAhIFXflig5ct84JrFsiPnAnIBwZEniqQU3hcFpKsJOWjeZUNaSSUUEuCyQ=","EncryptKey":"AegeQCA7HcxvP13PHVvZ7iCSIGPgnONYnin+L4VbQYTRNZqvNL7/414GsKhU6WwxJSua5kUP9rxmsYhGdKJFHuSDGgYwDDsUKrWgqtLt9lALPDAYhX6zDJIcGgznvmAM/PNBvQ3NfKRaJjFfvF65zlVXmMYoG8vgM5Bco8NobFEf+li1Qkje1X/D2XNySaE7W3P5uzeL/GtRy8VZOwOvvnfX8kLXO1+sbMyah6tt9p3sh9aZYyOyF02fGf+Q3vLV1aJk+lmYRWglZeuH1ym5nfChUSSbxCC2qh266RC4DT365WuAyJR9FCMdrjC4Ofy/I3Pto5VwugcFkJ0pUg1tBA=="}
+Parameter:{"ID":1220,"UserId":17,"TimesTamp":"1504271138396","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"194CE71D972D3CB2D9DDAD1E69F31A6B","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:Instances cannot be resolved and nested lifetimes cannot be created from this LifetimeScope as it has already been disposed.|   at Autofac.Core.Lifetime.LifetimeScope.CheckNotDisposed()
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at CGT.DDD.Utils.Http.CGTHttpContext.get_Current() in C:\code\cgt_api\CGT.ApiCode\CGT.DDD\Utils\Http\CGTHttpContext.cs:line 29
+   at CGT.Api.Service.Boss.Enterprise.ImportProtocolService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\ImportProtocolService.cs:line 53
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 146 
+                        
+LoggerDateTime:2017/9/1 13:20:04   
+ID:[ThreadID:3]  
+Message:Debug:Model:{"GuidKey":"eaa3b3de-26e8-466f-8541-cafcdb11eec5","MerchantId":"CS01","Data":"JtV9LfGQjIo2RHrt9tTXTkSECezy6ulIhQGz1pYIV1j3qtKKhX6mT5q/e5A9dlq5Ys1h15Tsah9xK54jmkqrpiT7ZXzBMJXkXpzdHKtISxJajUbJWlaAO1I0suhU3OZ+R2OJD9OTQqSuzOr1QFv9HMc0Y3cGj1zGswtXlS5+eLzYUBJk/xCEklglrMf49MR8lUN6asLtnCed0eOISOd3Mbi1pZHSrU0ZCnQYLTM6sN8=","EncryptKey":"WzJR2sW1q2fWjn5WN8YfvokzwSkJVLj0A4coZNinqPcCgCDui/AiI1B6sZvMfixvdSJXZvDlROsDEqbXcHgGkRQuZ+TsNu8AyXsdt3tqZMyMD3TNbC1zB1Ynh9RBHDUFKgq5lQMrKsdYlZFfRW/BA+ag+rSOfyPR+ka+nfmoczr9TuHhMQBhnfSQZrfxLShoWeoAuBDZqFc1goi3qO7HPojQXIKXOJKadP1D/8woYNVHv39TFbNPQ/UIUMU1MXix9fkvrVKFPY5r9dACzsAnjx5R6kzP49tQ8Iv8uEyZXCMduksWPzGzI+h00Oe8rQxuQXn5w9z2LEPr5PrmpH5dAw=="}
+Parameter:{"ID":1219,"UserId":17,"TimesTamp":"1504271773061","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"EC1328D464153CECA9BBFE08FDD201F6","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:Instances cannot be resolved and nested lifetimes cannot be created from this LifetimeScope as it has already been disposed.|   at Autofac.Core.Lifetime.LifetimeScope.CheckNotDisposed()
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at CGT.DDD.Utils.Http.CGTHttpContext.get_Current() in C:\code\cgt_api\CGT.ApiCode\CGT.DDD\Utils\Http\CGTHttpContext.cs:line 29
+   at CGT.Api.Service.Boss.Enterprise.ImportProtocolService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\ImportProtocolService.cs:line 47
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 146 
+                        
+LoggerDateTime:2017/9/1 13:40:51   
+ID:[ThreadID:3]  
+Message:Debug:Model:{"GuidKey":"bda3ec48-2da4-4582-aa3e-f412435cbfc6","MerchantId":"CS01","Data":"0uOPGJperwtpqeTtpy8/tAuh26utmkM+MF1hC/ognF2W6i5tcMHIviAY92eyxjYf+HcNQ28jlCcLYIXi0RRFkUe6pzYUY5YCvH3XlYx7RuoBZkK1T2DwfgnG1INrtaSSO8Nf1z3lZ4ZFyMhoX8DnWaZxWFTCojjEPwciuDmXfJjhsudVN+f+bRqEk+SAVe9xlxmWbvAWKZki/qaGloqfTJGtL0frXhfOXvfm4cHRpAU=","EncryptKey":"bp9MCz8MKAMqebL3C+Zd8ip1b/tCbfvR7so/A3NS+jIvRi9dgRzz4hCnnvJnZDLpjItGasZGUVL7RdDEeMqn3niX7zhHd6mN9GVJmnWAyWYibvcJSh7n9kWkUf9++6Uwxy2oxgZZBB6DQWIQeg09ng9mFKiDACL3INumFICNSTuAqPdMi58vGaRjoVPrpO7PTiJzKHCxf+RAbIC8mRk5yK/59wklyzQcD5qpOW+hOiBcsgQgbZa44+4+7dCjtLbjKWUkwLE+Sz5trh97RYPfOvJTEY6t9zpIi1VCdkf1UbV0VMQbE8BQS2CvOmWrSmqJISwB+XXVv8nr0yekDiZ6Fw=="}
+Parameter:{"ID":1220,"UserId":17,"TimesTamp":"1504273234657","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"2E35A985ECF5990A0BD9DB2CFBEF65D7","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:Object reference not set to an instance of an object.|   at CGT.Api.Service.Boss.Enterprise.ImportProtocolService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\ImportProtocolService.cs:line 53
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 146 
+                        
+LoggerDateTime:2017/9/1 13:45:04   
+ID:[ThreadID:3]  
+Message:Debug:Model:{"GuidKey":"2c209ab3-4142-4d56-89c6-f5a4f112c5cc","MerchantId":"CS01","Data":"0iX8KabU8GaB+1isVflEhLX6uiAp4iQH1eY1R6EpKxpRgvFheLttDq+0RLhyTgCY8T5m7OH/oVvjzWiFDhlWOSjGvrqvdw6S5TTGsYXT7rE7sjHSDIG88U1sVFWUSuRaEsNF6Hbq50BBSiKV9txScVXHoo4N78gJhEcri8i2T2VIA4LGbfX/HbItJCJhynA4OBbURlZfd1vcMtOPN/EivlPpslrVDhXBxRx7mGnO9X4=","EncryptKey":"Bi5j+ZyyQkG5gG+LxlEyGL3nUMFVoTh1kd0+25T1MYHcGbGSpjdDYoKM4cm8iDi43InzZEn5rUfvZ/sMbGeSwpPPlvZOnyz7AI2mN7wCVgSQcyAE8lD1DLVftxb1SElBM+4NXa/iqMlR8aQcap3N81P3ybhUDTTZKteQnYAjgeYNhl26nl5KvROPPWIMMEsNJH3QNoPXHlEUxujwPAvnWejecVYrJRUVElgoYiZYJ6cbCsvfWSd3PJXpRHyB9BFbi3UXOSlzOUQXQC4AmZxRBPklaBpKWx/AbMHa+T8kfNB6WThur8axWH1yGxO99WL6MDFryTFLAHoLufYjHUNJcQ=="}
+Parameter:{"ID":1220,"UserId":17,"TimesTamp":"1504273472696","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"2B68C9AA811E8F84EE1D81E6C9080D19","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:Object reference not set to an instance of an object.|   at CGT.Api.Service.Boss.Enterprise.ImportProtocolService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\ImportProtocolService.cs:line 47
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 146 
+                        
+LoggerDateTime:2017/9/1 14:09:34   
+ID:[ThreadID:3]  
+Message:Debug:Model:{"GuidKey":"163f61ac-e792-428e-a925-4b6d2be2d39c","MerchantId":"CS01","Data":"Oo75D9m2iBS9u9KOO1NytlaLUgZH3lGuRvwMJnFT3Wiwjwn2w7/eymAC42GtQKU5qvsrTWeeN0tl35AtEIn9wQlsNye3Xvr1EUZjXbT5FGhSU1ISvg/T0yeanNOzdJdbSG7gdLOGViMGq0TpM2ly3Pf3q9pIMGrXxfGn0+ZkuMoLBvnso8sSxRb8ShM9RmSiqrj4JtT3NqLc0cG3YKiGmX6Xk5GBl20eJH+8MHRQr1I=","EncryptKey":"FvmHHYYjuIG4AfPV3E2PhnKP/suh6+xXB/Oe2epr8kk4TKAtIV3ohVxmGl8Kx/e6cBY/bfPTSpZ89Ix54CAtwAcRaEAuCGW3rvAC12QUL3h3ncmoUrkUrHA6X71Fe+95yN85JUYHsSGlPo14SmLDqg0yuyPJ9Fmt038FApShHR/g/hXh0a88FcWVp8f3TFad4dJXtlGN6X+om73Y5hdFbd4OPXHoUceXwmAGHf81084X1S23G6B0cD3QDb8xhcVpA2zL/VBrmXDEfwsXFFBy2A7jOMxDFYgRTurB4rsOmac8RIZPoCUv8qxporCx05oYF+MoTH3Towiuve9LUW2t9Q=="}
+Parameter:{"ID":1220,"UserId":17,"TimesTamp":"1504274381364","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"788DC5725EFC2E6816A08D6E8781FC4C","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:Instances cannot be resolved and nested lifetimes cannot be created from this LifetimeScope as it has already been disposed.|   at Autofac.Core.Lifetime.LifetimeScope.CheckNotDisposed()
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at CGT.DDD.Utils.Http.CGTHttpContext.get_Current() in C:\code\cgt_api\CGT.ApiCode\CGT.DDD\Utils\Http\CGTHttpContext.cs:line 21
+   at CGT.Api.Service.Boss.Enterprise.ImportProtocolService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\ImportProtocolService.cs:line 53
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 146 
+                        
+LoggerDateTime:2017/9/1 14:27:10   
+ID:[ThreadID:3]  
+Message:Debug:Model:{"GuidKey":"76f2532f-dc7b-4d61-9507-ae059fc04d25","MerchantId":"CS01","Data":"kdu+dApcZIskzI08U2c0rjffx/hVBnGv/XgdowhLgZFbwGbeUQTQ+FxJmbltkKdYi8ntIlDR2m1RkgYRbZHEx5k+2nda0T5JY9Bgrjb1oGRusLVHZDI8N/CmxiENL244Qs8zTFHbTvMiWyrGgwN0PiRE3u50QPLwvwkKvQNbtYtSFcJ29jUxqL9YH30J6r1BV10lChcvCYc1fpk3xRk6pmflpD56m5/pHd7hu4f2IFI=","EncryptKey":"WY7jlgXPntuTZuLRW/6WVri6B4sa/+yUvxVs500BpBZghYDDNvQjxIK5DYjKxpM4i6/i8sCjl9kFGe9veZlQMdJ3T+Yd3JE02isiBCNAs07jm71905zZxA46YcL39omuipIOtuzY5xylRE57WhpOOfIAjFalGOFf3cCgTOLWrzGUkGO4+4S9FOJOoIDyc4cpeRyFWPPc/3TPAq7/hNsVYq4JBx7YLkGVGpjx0TEeOuDzG/oeT4wv/RRkfjE6UhXtehUj5bPlvb2tVGXPNU390gZeRiqxKwzaKHsBj/e69PrTTPKXfATbJQ3NjthNvAMpwvJ/VIQI8otj7bmmqGuh9Q=="}
+Parameter:{"ID":1220,"UserId":17,"TimesTamp":"1504275995584","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"E5870408CBDCCFA24F6A7C28BF26A2A1","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:Instances cannot be resolved and nested lifetimes cannot be created from this LifetimeScope as it has already been disposed.|   at Autofac.Core.Lifetime.LifetimeScope.CheckNotDisposed()
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at CGT.DDD.Utils.Http.CGTHttpContext.GetHttpContext() in C:\code\cgt_api\CGT.ApiCode\CGT.DDD\Utils\Http\CGTHttpContext.cs:line 26
+   at CGT.Api.Service.Boss.Enterprise.ImportProtocolService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\ImportProtocolService.cs:line 53
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 146 
+                        
+LoggerDateTime:2017/9/1 14:30:50   
+ID:[ThreadID:3]  
+Message:Debug:Model:{"GuidKey":"ceb8cc37-af34-4c37-b1da-c4dd56a8556f","MerchantId":"CS01","Data":"vtIng+6/HfAcQ0hEZ/Ubyd1L25ovKiLeKY0ZPhmZZ+jBLM4fIx5xZDFdnfpCu+JMp/BqzC3SoVxITdDtc8rBGy/VDmA+VC1biv36MfU7tIcAK1F5qboFbCT6mfwR8ukRhfYwFoPTtSbfWxufkDLvFkHnLLJwRYv93LilPccOpo+YgXXG7zUqj0rD3bkoD44ofx2EUzkI1gN5SnRlux2syEK4wx6ku4sFYyoHPPnMc+8=","EncryptKey":"Pir0tOQRlpyZaXrw1NWxbTGRDsTrrHMUGk4+bRqFdH7oDXPKQefz3HmhkuBqHdlhc47AQCRF3u5RBvBoS1zgUim9T0P2yS6yuUc91ame0x27U38OyAS1EEnjlUllbwnrAU+x9kgGwFew1FOstKO75zjfzuZCAZAEKuiaVT4IyaBEUNILR8wJ86P/SsBU7eYS77ZZpyK8AiFIh+zmeA2JScZieeZ/TEn2vyhmbcqwswXsvXelT9IOCJzQrbuyBSlQPR2LNKQK8isqWGbJQbHsvGO41ihdHieqXWHDOV7QDjgYJzXU9tE0jjm4c5b2YjLSPnNCjoXllKirqopKZPBRbw=="}
+Parameter:{"ID":1220,"UserId":17,"TimesTamp":"1504276217311","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"3E5958F471C2D44DA64B1376EC3611D0","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:Instances cannot be resolved and nested lifetimes cannot be created from this LifetimeScope as it has already been disposed.|   at Autofac.Core.Lifetime.LifetimeScope.CheckNotDisposed()
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at CGT.DDD.Utils.Http.CGTHttpContext.GetHttpContext() in C:\code\cgt_api\CGT.ApiCode\CGT.DDD\Utils\Http\CGTHttpContext.cs:line 26
+   at CGT.DDD.Utils.Http.CGTHttpContext.get_Current() in C:\code\cgt_api\CGT.ApiCode\CGT.DDD\Utils\Http\CGTHttpContext.cs:line 21
+   at CGT.Api.Service.Boss.Enterprise.ImportProtocolService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\ImportProtocolService.cs:line 47
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 146 
+                        

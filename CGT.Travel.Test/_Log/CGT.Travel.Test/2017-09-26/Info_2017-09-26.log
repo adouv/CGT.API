@@ -1,0 +1,111 @@
+LoggerDateTime:2017/9/26 10:26:19  
+Type:CGT.Travel.Test
+ID:[ThreadID:8]  
+Message:Info:开始测试：2017-09-26 10:26:19   |||
+                        
+LoggerDateTime:2017/9/26 10:27:43  
+Type:CGT.Travel.Test
+ID:[ThreadID:11] 
+Message:Info:导入失败：One or more errors occurred. (The remote server returned an error: (500) Internal Server Error.)   |||
+                        
+LoggerDateTime:2017/9/26 10:35:53  
+Type:CGT.Travel.Test
+ID:[ThreadID:6]  
+Message:Info:开始测试：2017-09-26 10:35:53   |||
+                        
+LoggerDateTime:2017/9/26 10:37:26  
+Type:CGT.Travel.Test
+ID:[ThreadID:6]  
+Message:Info:导入失败：One or more errors occurred. (The remote server returned an error: (500) Internal Server Error.)   |||
+                        
+LoggerDateTime:2017/9/26 10:41:17  
+Type:CGT.Travel.Test
+ID:[ThreadID:4]  
+Message:Info:开始测试：2017-09-26 10:41:17   |||
+                        
+LoggerDateTime:2017/9/26 11:10:15  
+Type:CGT.Travel.Test
+ID:[ThreadID:4]  
+Message:Info:开始测试：2017-09-26 11:10:15   |||
+                        
+LoggerDateTime:2017/9/26 11:10:34  
+Type:CGT.Travel.Test
+ID:[ThreadID:6]  
+Message:Info:导入失败：Object reference not set to an instance of an object.   |||
+                        
+LoggerDateTime:2017/9/26 11:41:03  
+Type:CGT.Travel.Test
+ID:[ThreadID:4]  
+Message:Info:开始测试：2017-09-26 11:41:03   |||
+                        
+LoggerDateTime:2017/9/26 11:41:34  
+Type:CGT.Travel.Test
+ID:[ThreadID:4]  
+Message:Info:导入失败：Object reference not set to an instance of an object.   |||
+                        
+LoggerDateTime:2017/9/26 13:26:44  
+Type:CGT.Travel.Test
+ID:[ThreadID:6]  
+Message:Info:开始测试：2017-09-26 13:26:44   |||
+                        
+LoggerDateTime:2017/9/26 13:27:44  
+Type:CGT.Travel.Test
+ID:[ThreadID:5]  
+Message:Info:导入成功：服务端程序错误，请联系相关人员！   |||
+                        
+LoggerDateTime:2017/9/26 16:49:05  
+Type:CGT.Travel.Test
+ID:[ThreadID:5]  
+Message:Info:开始测试：2017-09-26 16:49:05   |||
+                        
+LoggerDateTime:2017/9/26 16:50:30  
+Type:CGT.Travel.Test
+ID:[ThreadID:5]  
+Message:Info:导入成功：Excel数据验证失败!   |||
+                        
+LoggerDateTime:2017/9/26 17:16:41  
+Type:CGT.Travel.Test
+ID:[ThreadID:4]  
+Message:Info:开始测试：2017-09-26 17:16:41   |||
+                        
+LoggerDateTime:2017/9/26 17:18:11  
+Type:CGT.Travel.Test
+ID:[ThreadID:8]  
+Message:Info:导入成功：Excel数据验证失败!   |||
+                        
+LoggerDateTime:2017/9/26 17:19:30  
+Type:CGT.Travel.Test
+ID:[ThreadID:14] 
+Message:Info:开始测试：2017-09-26 17:19:30   |||
+                        
+LoggerDateTime:2017/9/26 17:23:30  
+Type:CGT.Travel.Test
+ID:[ThreadID:10] 
+Message:Info:开始测试：2017-09-26 17:23:30   |||
+                        
+LoggerDateTime:2017/9/26 17:44:23  
+Type:CGT.Travel.Test
+ID:[ThreadID:4]  
+Message:Info:开始测试：2017-09-26 17:44:23   |||
+                        
+LoggerDateTime:2017/9/26 17:46:08  
+Type:CGT.Travel.Test
+ID:[ThreadID:4]  
+Message:Info:导入成功：Excel数据验证失败!   |||
+                        
+LoggerDateTime:2017/9/26 17:52:39  
+Type:CGT.Travel.Test
+ID:[ThreadID:4]  
+Message:Info:开始测试：2017-09-26 17:52:39   |||
+                        
+LoggerDateTime:2017/9/26 17:56:58  
+Type:CGT.Travel.Test
+ID:[ThreadID:4]  
+Message:Info:开始测试：2017-09-26 17:56:58   |||
+                        
+LoggerDateTime:2017/9/26 17:58:20  
+Type:CGT.Travel.Test
+ID:[ThreadID:4]  
+Message:Info:导入成功：成功
+ 成功上传条数：1   |||
+                        

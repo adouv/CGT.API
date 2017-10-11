@@ -1,0 +1,20 @@
+LoggerDateTime:2017/10/10 10:45:12 
+Type:
+ID:[ThreadID:15] 
+Message:Info:UserCenterService----target:http://182.92.5.99:9091/pay-merchant-web/manage/companyConfiguration/companyConfigurationList
+reqTime:2017-10-10 10:45:08.796
+request:{"sign":"97c680b49cc8c4e20291128368a3aa14","data":{"companyName":null,"status":0,"currentPage":1,"pageSize":3,"startDate":null,"endDate":null}}
+resTime:2017-10-10 10:45:12.349
+response:
+   |||
+                        
+LoggerDateTime:2017/10/10 10:46:53 
+Type:
+ID:[ThreadID:15] 
+Message:Info:UserCenterService----target:http://182.92.5.99:9091/pay-merchant-web/manage/merchant/merchantList
+reqTime:2017-10-10 10:46:52.183
+request:{"sign":"f987b7a9addfe06f9d15312ffe0f42e9","data":{"companyName":null,"status":-1,"currentPage":1,"pageSize":10,"startDate":null,"endDate":null}}
+resTime:2017-10-10 10:46:53.500
+response:
+   |||
+                        

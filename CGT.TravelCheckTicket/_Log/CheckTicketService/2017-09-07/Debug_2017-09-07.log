@@ -1,0 +1,36 @@
+LoggerDateTime:2017/9/7 10:32:14   
+ID:[ThreadID:2]  
+Message:Debug:CheckTicketService----target:http://apijr.xiaoheer.com/webapi/TicketVerify/Register
+reqTime:2017-09-07 10:32:13.212
+request:{"lstticket":[{"Name":"朱明","TicketNo":"9995783619889"},{"Name":"朱明","TicketNo":"9995793618889"},{"Name":"朱明","TicketNo":"9995789618889"},{"Name":"朱明","TicketNo":"9999783618889"},{"Name":"朱明","TicketNo":"9995983618889"}],"Hashcode":"d5c855c8406847eea9d10d99608fcbd5","sign":"072bdaf6984becfc9b3bd16c868cccac","uuid":"","NotifyURL":"http://123.57.7.161:5002/api/manage/xhcheckticket/notify"}
+resTime:2017-09-07 10:32:13.958
+response:{"ErrorRes":{"Err_code":"200","Err_content":"递交任务5个,成功5,失败0个","uuid":"170907109ddff0b989e984e7"}}
+ 
+                        
+LoggerDateTime:2017/9/7 10:32:16   
+ID:[ThreadID:2]  
+Message:Debug:CheckTicketService----target:http://apijr.xiaoheer.com/webapi/TicketVerify/Register
+reqTime:2017-09-07 10:32:15.399
+request:{"lstticket":[{"Name":"朱明","TicketNo":"9999783618889"},{"Name":"朱{0}明","TicketNo":"9995983618889"},{"Name":"朱@明","TicketNo":"9995783619889"},{"Name":"朱@明","TicketNo":"9995789618889"},{"Name":"朱{0}明","TicketNo":"9995793618889"}],"Hashcode":"d5c855c8406847eea9d10d99608fcbd5","sign":"072bdaf6984becfc9b3bd16c868cccac","uuid":"","NotifyURL":"http://123.57.7.161:5002/api/manage/xhcheckticket/notify"}
+resTime:2017-09-07 10:32:16.067
+response:{"ErrorRes":{"Err_code":"200","Err_content":"递交任务5个,成功5,失败0个","uuid":"1709071063f36034e335e02a"}}
+ 
+                        
+LoggerDateTime:2017/9/7 11:18:59   
+ID:[ThreadID:2]  
+Message:Debug:CheckTicketService----target:http://apijr.xiaoheer.com/webapi/TicketVerify/Register
+reqTime:2017-09-07 11:18:57.952
+request:{"lstticket":[{"Name":"朱@明","TicketNo":"9995783619889"},{"Name":"朱@明","TicketNo":"9995789618889"},{"Name":"朱{0}明","TicketNo":"9995793618889"},{"Name":"朱明","TicketNo":"9999783618889"},{"Name":"朱{0}明","TicketNo":"9995983618889"}],"Hashcode":"d5c855c8406847eea9d10d99608fcbd5","sign":"072bdaf6984becfc9b3bd16c868cccac","uuid":"","NotifyURL":"http://123.57.7.161:5002/api/manage/xhcheckticket/notify"}
+resTime:2017-09-07 11:18:58.661
+response:{"ErrorRes":{"Err_code":"200","Err_content":"递交任务5个,成功5,失败0个","uuid":"17090711127a56ec7a18023d"}}
+ 
+                        
+LoggerDateTime:2017/9/7 11:19:01   
+ID:[ThreadID:2]  
+Message:Debug:CheckTicketService----target:http://apijr.xiaoheer.com/webapi/TicketVerify/Register
+reqTime:2017-09-07 11:19:01.425
+request:{"lstticket":[{"Name":"朱@明","TicketNo":"9995783619889"},{"Name":"朱明","TicketNo":"9999783618889"},{"Name":"朱{0}明","TicketNo":"9995793618889"},{"Name":"朱@明","TicketNo":"9995789618889"},{"Name":"朱{0}明","TicketNo":"9995983618889"}],"Hashcode":"d5c855c8406847eea9d10d99608fcbd5","sign":"072bdaf6984becfc9b3bd16c868cccac","uuid":"","NotifyURL":"http://123.57.7.161:5002/api/manage/xhcheckticket/notify"}
+resTime:2017-09-07 11:19:01.801
+response:{"ErrorRes":{"Err_code":"200","Err_content":"递交任务5个,成功5,失败0个","uuid":"1709071191968bdae9cfba13"}}
+ 
+                        

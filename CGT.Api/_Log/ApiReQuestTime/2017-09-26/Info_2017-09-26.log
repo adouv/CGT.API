@@ -1,0 +1,20 @@
+LoggerDateTime:2017/9/26 14:55:15  
+Type:ApiReQuestTime
+ID:[ThreadID:12] 
+Message:Info:请求花费17989.5858ms   |||
+                        
+LoggerDateTime:2017/9/26 15:26:54  
+Type:ApiReQuestTime
+ID:[ThreadID:16] 
+Message:Info:请求花费5794.3402ms   |||
+                        
+LoggerDateTime:2017/9/26 15:47:34  
+Type:ApiReQuestTime
+ID:[ThreadID:14] 
+Message:Info:请求花费359970.373ms   |||
+                        
+LoggerDateTime:2017/9/26 17:13:33  
+Type:ApiReQuestTime
+ID:[ThreadID:15] 
+Message:Info:请求花费313064.7128ms   |||
+                        

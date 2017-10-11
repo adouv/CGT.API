@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Boss\CgtOrder\CgtOrderDetailService.cs" />
+    <Compile Remove="Boss\CgtOrder\CgtOrderService - 复制.cs" />
+    <Compile Remove="Boss\CgtOrder\CgtOrderService.cs" />
+    <Compile Remove="Boss\CgtOrder\TestController.cs" />
+    <Compile Remove="Boss\Enterprise\DownLoadEnterpriseExcel.cs" />
+    <Compile Remove="Boss\Enterprise\ImportEnterpriseList.cs" />
+    <Compile Remove="Boss\Changes\GetInterRefundDetailService.cs" />
+    <Compile Remove="Boss\Changes\GetInterRefundService.cs" />
+    <Compile Remove="Boss\Refunds\GetInterRefundService - 复制.cs" />
+    <Compile Remove="Boss\Refunds\ModtifyInterRefundAffairStatusService - 复制.cs" />
+    <Compile Remove="Boss\TravelBatch\GetTravelBatchService - 复制.cs" />
+    <Compile Remove="Boss\UserCenter\ModifyMerchatsStatusServices.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CGT.Api.DTO\CGT.Api.DTO.csproj" />
+    <ProjectReference Include="..\CGT.CheckTicket.Service\CGT.CheckTicket.Service.csproj" />
+    <ProjectReference Include="..\CGT.DDD\CGT.DDD.csproj" />
+    <ProjectReference Include="..\CGT.Entity\CGT.Entity.csproj" />
+    <ProjectReference Include="..\CGT.Event.Model\CGT.Event.Model.csproj" />
+    <ProjectReference Include="..\CGT.Mongo.Repositories\CGT.Mongo.Repositories.csproj" />
+    <ProjectReference Include="..\CGT.PayCenter.Service\CGT.PayCenter.Service.csproj" />
+    <ProjectReference Include="..\CGT.PetaPoco.Repositories\CGT.PetaPoco.Repositories.csproj" />
+    <ProjectReference Include="..\CGT.Reapal.Service\CGT.Reapal.Service.csproj" />
+    <ProjectReference Include="..\CGT.Suspended.Service\CGT.Suspended.Service.csproj" />
+    <ProjectReference Include="..\CGT.UserCenter.Service\CGT.UserCenter.Service.csproj" />
+  </ItemGroup>
+
+</Project>

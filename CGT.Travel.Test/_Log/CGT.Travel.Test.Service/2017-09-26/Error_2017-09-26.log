@@ -1,0 +1,22 @@
+LoggerDateTime:2017/9/26 10:27:17  
+Type:CGT.Travel.Test.Service
+ID:[ThreadID:11] 
+Message:Error:One or more errors occurred. (The remote server returned an error: (500) Internal Server Error.)|   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CGT.DDD.Utils.Http.HttpRequest.HttpRequestUtility.ReceiveResponse(HttpWebRequest request, String encodingName) in D:\GitWork\CGT.API\CGT.DDD\Utils\Http\HttpRequest.cs:line 388
+   at CGT.DDD.Utils.Http.HttpRequest.HttpRequestUtility.SendPostRequestjson(String url, String content, String encodingName, Nullable`1 timeout, CookieCollection cookies, NameValueCollection headers, String contentType) in D:\GitWork\CGT.API\CGT.DDD\Utils\Http\HttpRequest.cs:line 194
+   at CGT.Travel.Test.Service.BaseProcessor`2.Execute() in D:\GitWork\CGT.API\CGT.Travel.Test.Service\BaseProcessor.cs:line 75   |||
+                        
+LoggerDateTime:2017/9/26 10:36:44  
+Type:CGT.Travel.Test.Service
+ID:[ThreadID:6]  
+Message:Error:One or more errors occurred. (The remote server returned an error: (500) Internal Server Error.)|   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CGT.DDD.Utils.Http.HttpRequest.HttpRequestUtility.ReceiveResponse(HttpWebRequest request, String encodingName) in D:\GitWork\CGT.API\CGT.DDD\Utils\Http\HttpRequest.cs:line 388
+   at CGT.DDD.Utils.Http.HttpRequest.HttpRequestUtility.SendPostRequestjson(String url, String content, String encodingName, Nullable`1 timeout, CookieCollection cookies, NameValueCollection headers, String contentType) in D:\GitWork\CGT.API\CGT.DDD\Utils\Http\HttpRequest.cs:line 194
+   at CGT.Travel.Test.Service.BaseProcessor`2.Execute() in D:\GitWork\CGT.API\CGT.Travel.Test.Service\BaseProcessor.cs:line 75   |||
+                        
+LoggerDateTime:2017/9/26 11:10:34  
+Type:CGT.Travel.Test.Service
+ID:[ThreadID:6]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.Travel.Test.Service.BaseProcessor`2.ParseResponse(String response) in D:\GitWork\CGT.API\CGT.Travel.Test.Service\BaseProcessor.cs:line 119
+   at CGT.Travel.Test.Service.BaseProcessor`2.Execute() in D:\GitWork\CGT.API\CGT.Travel.Test.Service\BaseProcessor.cs:line 81   |||
+                        

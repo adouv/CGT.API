@@ -1,0 +1,356 @@
+LoggerDateTime:2017/10/10 10:40:17 
+Type:ExecuteMethodError
+ID:[ThreadID:6]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.Api.Service.Boss.User.GetUserAccountLimitListService.ExecuteMethod() in D:\GitWork\CGT.API\CGT.Api.Service\Boss\User\GetUserAccountLimitListService.cs:line 33
+   at CGT.Api.Service.ApiBase`1.Execute() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 153   |||
+                        
+LoggerDateTime:2017/10/10 10:44:51 
+Type:ExecuteMethodError
+ID:[ThreadID:13] 
+Message:Error:Object reference not set to an instance of an object.|   at CGT.Api.Service.Boss.User.GetUserAccountLimitListService.ExecuteMethod() in D:\GitWork\CGT.API\CGT.Api.Service\Boss\User\GetUserAccountLimitListService.cs:line 33
+   at CGT.Api.Service.ApiBase`1.Execute() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 153   |||
+                        
+LoggerDateTime:2017/10/10 10:46:54 
+Type:ExecuteMethodError
+ID:[ThreadID:19] 
+Message:Error:SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.|   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseOrderRep.GetTravelAuditResult(Nullable`1 EnterpriseID, String PayCenterCode, String TravelBatchId, Nullable`1 CreateTimeBegion, Nullable`1 CreateTimeEnd, Int32 pageindex, Int32 pagesize) in D:\GitWork\CGT.API\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseOrderRep.cs:line 645
+   at CGT.Api.Service.Boss.TravelOrder.GetAuditOrderResultService.ExecuteMethod() in D:\GitWork\CGT.API\CGT.Api.Service\Boss\TravelOrder\GetAuditOrderResultService.cs:line 40
+   at CGT.Api.Service.ApiBase`1.Execute() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 153   |||
+                        
+LoggerDateTime:2017/10/10 10:47:07 
+Type:ExecuteMethodError
+ID:[ThreadID:20] 
+Message:Error:SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.|   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseOrderRep.GetTravelAuditResult(Nullable`1 EnterpriseID, String PayCenterCode, String TravelBatchId, Nullable`1 CreateTimeBegion, Nullable`1 CreateTimeEnd, Int32 pageindex, Int32 pagesize) in D:\GitWork\CGT.API\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseOrderRep.cs:line 645
+   at CGT.Api.Service.Boss.TravelOrder.GetAuditOrderResultService.ExecuteMethod() in D:\GitWork\CGT.API\CGT.Api.Service\Boss\TravelOrder\GetAuditOrderResultService.cs:line 40
+   at CGT.Api.Service.ApiBase`1.Execute() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 153   |||
+                        
+LoggerDateTime:2017/10/10 10:47:11 
+Type:ExecuteMethodError
+ID:[ThreadID:19] 
+Message:Error:SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.|   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseOrderRep.GetTravelAuditResult(Nullable`1 EnterpriseID, String PayCenterCode, String TravelBatchId, Nullable`1 CreateTimeBegion, Nullable`1 CreateTimeEnd, Int32 pageindex, Int32 pagesize) in D:\GitWork\CGT.API\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseOrderRep.cs:line 645
+   at CGT.Api.Service.Boss.TravelOrder.GetAuditOrderResultService.ExecuteMethod() in D:\GitWork\CGT.API\CGT.Api.Service\Boss\TravelOrder\GetAuditOrderResultService.cs:line 40
+   at CGT.Api.Service.ApiBase`1.Execute() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 153   |||
+                        
+LoggerDateTime:2017/10/10 10:47:20 
+Type:ExecuteMethodError
+ID:[ThreadID:20] 
+Message:Error:Null object cannot be converted to a value type.|   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseOrderRep.GetTravelAuditResult(Nullable`1 EnterpriseID, String PayCenterCode, String TravelBatchId, Nullable`1 CreateTimeBegion, Nullable`1 CreateTimeEnd, Int32 pageindex, Int32 pagesize) in D:\GitWork\CGT.API\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseOrderRep.cs:line 645
+   at CGT.Api.Service.Boss.TravelOrder.GetAuditOrderResultService.ExecuteMethod() in D:\GitWork\CGT.API\CGT.Api.Service\Boss\TravelOrder\GetAuditOrderResultService.cs:line 40
+   at CGT.Api.Service.ApiBase`1.Execute() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 153   |||
+                        
+LoggerDateTime:2017/10/10 10:52:16 
+Type:ExecuteMethodError
+ID:[ThreadID:4]  
+Message:Error:SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.|   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseOrderRep.GetTravelAuditResult(Nullable`1 EnterpriseID, String PayCenterCode, String TravelBatchId, Nullable`1 CreateTimeBegion, Nullable`1 CreateTimeEnd, Int32 pageindex, Int32 pagesize) in D:\GitWork\CGT.API\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseOrderRep.cs:line 645
+   at CGT.Api.Service.Boss.TravelOrder.GetAuditOrderResultService.ExecuteMethod() in D:\GitWork\CGT.API\CGT.Api.Service\Boss\TravelOrder\GetAuditOrderResultService.cs:line 40
+   at CGT.Api.Service.ApiBase`1.Execute() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 153   |||
+                        
+LoggerDateTime:2017/10/10 10:53:37 
+Type:ExecuteMethodError
+ID:[ThreadID:12] 
+Message:Error:SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.|   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseOrderRep.GetTravelAuditResult(Nullable`1 EnterpriseID, String PayCenterCode, String TravelBatchId, Nullable`1 CreateTimeBegion, Nullable`1 CreateTimeEnd, Int32 pageindex, Int32 pagesize) in D:\GitWork\CGT.API\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseOrderRep.cs:line 645
+   at CGT.Api.Service.Boss.TravelOrder.GetAuditOrderResultService.ExecuteMethod() in D:\GitWork\CGT.API\CGT.Api.Service\Boss\TravelOrder\GetAuditOrderResultService.cs:line 40
+   at CGT.Api.Service.ApiBase`1.Execute() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 153   |||
+                        
+LoggerDateTime:2017/10/10 10:53:53 
+Type:ExecuteMethodError
+ID:[ThreadID:33] 
+Message:Error:SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.|   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseOrderRep.GetTravelAuditResult(Nullable`1 EnterpriseID, String PayCenterCode, String TravelBatchId, Nullable`1 CreateTimeBegion, Nullable`1 CreateTimeEnd, Int32 pageindex, Int32 pagesize) in D:\GitWork\CGT.API\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseOrderRep.cs:line 645
+   at CGT.Api.Service.Boss.TravelOrder.GetAuditOrderResultService.ExecuteMethod() in D:\GitWork\CGT.API\CGT.Api.Service\Boss\TravelOrder\GetAuditOrderResultService.cs:line 40
+   at CGT.Api.Service.ApiBase`1.Execute() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 153   |||
+                        
+LoggerDateTime:2017/10/10 11:03:45 
+Type:ExecuteMethodError
+ID:[ThreadID:39] 
+Message:Error:SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.|   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseOrderRep.GetTravelAuditResult(Nullable`1 EnterpriseID, String PayCenterCode, String TravelBatchId, Nullable`1 CreateTimeBegion, Nullable`1 CreateTimeEnd, Int32 pageindex, Int32 pagesize) in D:\GitWork\CGT.API\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseOrderRep.cs:line 645
+   at CGT.Api.Service.Boss.TravelOrder.GetAuditOrderResultService.ExecuteMethod() in D:\GitWork\CGT.API\CGT.Api.Service\Boss\TravelOrder\GetAuditOrderResultService.cs:line 40
+   at CGT.Api.Service.ApiBase`1.Execute() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 153   |||
+                        
+LoggerDateTime:2017/10/10 11:07:17 
+Type:ExecuteMethodError
+ID:[ThreadID:38] 
+Message:Error:SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.|   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseOrderRep.GetTravelAuditResult(Nullable`1 EnterpriseID, String PayCenterCode, String TravelBatchId, Nullable`1 CreateTimeBegion, Nullable`1 CreateTimeEnd, Int32 pageindex, Int32 pagesize) in D:\GitWork\CGT.API\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseOrderRep.cs:line 645
+   at CGT.Api.Service.Boss.TravelOrder.GetAuditOrderResultService.ExecuteMethod() in D:\GitWork\CGT.API\CGT.Api.Service\Boss\TravelOrder\GetAuditOrderResultService.cs:line 40
+   at CGT.Api.Service.ApiBase`1.Execute() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 153   |||
+                        
+LoggerDateTime:2017/10/10 11:19:45 
+Type:ExecuteMethodError
+ID:[ThreadID:53] 
+Message:Error:Null object cannot be converted to a value type.|   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseOrderRep.GetTravelAuditResult(Nullable`1 EnterpriseID, String PayCenterCode, String TravelBatchId, Nullable`1 CreateTimeBegion, Nullable`1 CreateTimeEnd, Int32 pageindex, Int32 pagesize) in D:\GitWork\CGT.API\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseOrderRep.cs:line 645
+   at CGT.Api.Service.Boss.TravelOrder.GetAuditOrderResultService.ExecuteMethod() in D:\GitWork\CGT.API\CGT.Api.Service\Boss\TravelOrder\GetAuditOrderResultService.cs:line 40
+   at CGT.Api.Service.ApiBase`1.Execute() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 153   |||
+                        
+LoggerDateTime:2017/10/10 11:20:47 
+Type:ExecuteMethodError
+ID:[ThreadID:53] 
+Message:Error:Null object cannot be converted to a value type.|   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseOrderRep.GetTravelAuditResult(Nullable`1 EnterpriseID, String PayCenterCode, String TravelBatchId, Nullable`1 CreateTimeBegion, Nullable`1 CreateTimeEnd, Int32 pageindex, Int32 pagesize) in D:\GitWork\CGT.API\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseOrderRep.cs:line 645
+   at CGT.Api.Service.Boss.TravelOrder.GetAuditOrderResultService.ExecuteMethod() in D:\GitWork\CGT.API\CGT.Api.Service\Boss\TravelOrder\GetAuditOrderResultService.cs:line 40
+   at CGT.Api.Service.ApiBase`1.Execute() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 153   |||
+                        
+LoggerDateTime:2017/10/10 11:34:46 
+Type:ExecuteMethodError
+ID:[ThreadID:13] 
+Message:Error:SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.|   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseOrderRep.GetTravelAuditResult(Nullable`1 EnterpriseID, String PayCenterCode, String TravelBatchId, Nullable`1 CreateTimeBegion, Nullable`1 CreateTimeEnd, Int32 pageindex, Int32 pagesize) in D:\GitWork\CGT.API\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseOrderRep.cs:line 645
+   at CGT.Api.Service.Boss.TravelOrder.GetAuditOrderResultService.ExecuteMethod() in D:\GitWork\CGT.API\CGT.Api.Service\Boss\TravelOrder\GetAuditOrderResultService.cs:line 40
+   at CGT.Api.Service.ApiBase`1.Execute() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 153   |||
+                        
+LoggerDateTime:2017/10/10 11:36:56 
+Type:ExecuteMethodError
+ID:[ThreadID:13] 
+Message:Error:SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.|   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseOrderRep.GetTravelAuditResult(Nullable`1 EnterpriseID, String PayCenterCode, String TravelBatchId, Nullable`1 CreateTimeBegion, Nullable`1 CreateTimeEnd, Int32 pageindex, Int32 pagesize) in D:\GitWork\CGT.API\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseOrderRep.cs:line 645
+   at CGT.Api.Service.Boss.TravelOrder.GetAuditOrderResultService.ExecuteMethod() in D:\GitWork\CGT.API\CGT.Api.Service\Boss\TravelOrder\GetAuditOrderResultService.cs:line 40
+   at CGT.Api.Service.ApiBase`1.Execute() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 153   |||
+                        
+LoggerDateTime:2017/10/10 11:52:06 
+Type:ExecuteMethodError
+ID:[ThreadID:17] 
+Message:Error:Null object cannot be converted to a value type.|   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseOrderRep.GetTravelAuditResult(Nullable`1 EnterpriseID, String PayCenterCode, String TravelBatchId, Nullable`1 CreateTimeBegion, Nullable`1 CreateTimeEnd, Int32 pageindex, Int32 pagesize) in D:\GitWork\CGT.API\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseOrderRep.cs:line 645
+   at CGT.Api.Service.Boss.TravelOrder.GetAuditOrderResultService.ExecuteMethod() in D:\GitWork\CGT.API\CGT.Api.Service\Boss\TravelOrder\GetAuditOrderResultService.cs:line 40
+   at CGT.Api.Service.ApiBase`1.Execute() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 153   |||
+                        
+LoggerDateTime:2017/10/10 13:50:30 
+Type:ExecuteMethodError
+ID:[ThreadID:13] 
+Message:Error:Null object cannot be converted to a value type.|   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseOrderRep.GetTravelAuditResult(Nullable`1 EnterpriseID, String PayCenterCode, String TravelBatchId, Nullable`1 CreateTimeBegion, Nullable`1 CreateTimeEnd, Int32 pageindex, Int32 pagesize) in D:\GitWork\CGT.API\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseOrderRep.cs:line 645
+   at CGT.Api.Service.Boss.TravelOrder.GetAuditOrderResultService.ExecuteMethod() in D:\GitWork\CGT.API\CGT.Api.Service\Boss\TravelOrder\GetAuditOrderResultService.cs:line 40
+   at CGT.Api.Service.ApiBase`1.Execute() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 153   |||
+                        
+LoggerDateTime:2017/10/10 14:05:10 
+Type:ExecuteMethodError
+ID:[ThreadID:15] 
+Message:Error:Null object cannot be converted to a value type.|   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseOrderRep.GetTravelAuditResult(Nullable`1 EnterpriseID, String PayCenterCode, String TravelBatchId, Nullable`1 CreateTimeBegion, Nullable`1 CreateTimeEnd, Int32 pageindex, Int32 pagesize) in D:\GitWork\CGT.API\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseOrderRep.cs:line 645
+   at CGT.Api.Service.Boss.TravelOrder.GetAuditOrderResultService.ExecuteMethod() in D:\GitWork\CGT.API\CGT.Api.Service\Boss\TravelOrder\GetAuditOrderResultService.cs:line 40
+   at CGT.Api.Service.ApiBase`1.Execute() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 153   |||
+                        
+LoggerDateTime:2017/10/10 14:08:05 
+Type:ExecuteMethodError
+ID:[ThreadID:18] 
+Message:Error:Null object cannot be converted to a value type.|   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseOrderRep.GetTravelAuditResult(Nullable`1 EnterpriseID, String PayCenterCode, String TravelBatchId, Nullable`1 CreateTimeBegion, Nullable`1 CreateTimeEnd, Int32 pageindex, Int32 pagesize) in D:\GitWork\CGT.API\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseOrderRep.cs:line 645
+   at CGT.Api.Service.Boss.TravelOrder.GetAuditOrderResultService.ExecuteMethod() in D:\GitWork\CGT.API\CGT.Api.Service\Boss\TravelOrder\GetAuditOrderResultService.cs:line 40
+   at CGT.Api.Service.ApiBase`1.Execute() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 153   |||
+                        
+LoggerDateTime:2017/10/10 14:28:31 
+Type:ExecuteMethodError
+ID:[ThreadID:14] 
+Message:Error:Null object cannot be converted to a value type.|   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseOrderRep.GetTravelAuditResult(Nullable`1 EnterpriseID, String PayCenterCode, String TravelBatchId, Nullable`1 CreateTimeBegion, Nullable`1 CreateTimeEnd, Int32 pageindex, Int32 pagesize) in D:\GitWork\CGT.API\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseOrderRep.cs:line 646
+   at CGT.Api.Service.Boss.TravelOrder.GetAuditOrderResultService.ExecuteMethod() in D:\GitWork\CGT.API\CGT.Api.Service\Boss\TravelOrder\GetAuditOrderResultService.cs:line 40
+   at CGT.Api.Service.ApiBase`1.Execute() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 153   |||
+                        
+LoggerDateTime:2017/10/10 14:28:39 
+Type:ExecuteMethodError
+ID:[ThreadID:16] 
+Message:Error:Null object cannot be converted to a value type.|   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseOrderRep.GetTravelAuditResult(Nullable`1 EnterpriseID, String PayCenterCode, String TravelBatchId, Nullable`1 CreateTimeBegion, Nullable`1 CreateTimeEnd, Int32 pageindex, Int32 pagesize) in D:\GitWork\CGT.API\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseOrderRep.cs:line 646
+   at CGT.Api.Service.Boss.TravelOrder.GetAuditOrderResultService.ExecuteMethod() in D:\GitWork\CGT.API\CGT.Api.Service\Boss\TravelOrder\GetAuditOrderResultService.cs:line 40
+   at CGT.Api.Service.ApiBase`1.Execute() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 153   |||
+                        
+LoggerDateTime:2017/10/10 14:28:57 
+Type:ExecuteMethodError
+ID:[ThreadID:16] 
+Message:Error:Null object cannot be converted to a value type.|   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseOrderRep.GetTravelAuditResult(Nullable`1 EnterpriseID, String PayCenterCode, String TravelBatchId, Nullable`1 CreateTimeBegion, Nullable`1 CreateTimeEnd, Int32 pageindex, Int32 pagesize) in D:\GitWork\CGT.API\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseOrderRep.cs:line 646
+   at CGT.Api.Service.Boss.TravelOrder.GetAuditOrderResultService.ExecuteMethod() in D:\GitWork\CGT.API\CGT.Api.Service\Boss\TravelOrder\GetAuditOrderResultService.cs:line 40
+   at CGT.Api.Service.ApiBase`1.Execute() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 153   |||
+                        
+LoggerDateTime:2017/10/10 14:31:29 
+Type:ExecuteMethodError
+ID:[ThreadID:16] 
+Message:Error:Null object cannot be converted to a value type.|   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseOrderRep.GetTravelAuditResult(Nullable`1 EnterpriseID, String PayCenterCode, String TravelBatchId, Nullable`1 CreateTimeBegion, Nullable`1 CreateTimeEnd, Int32 pageindex, Int32 pagesize) in D:\GitWork\CGT.API\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseOrderRep.cs:line 646
+   at CGT.Api.Service.Boss.TravelOrder.GetAuditOrderResultService.ExecuteMethod() in D:\GitWork\CGT.API\CGT.Api.Service\Boss\TravelOrder\GetAuditOrderResultService.cs:line 40
+   at CGT.Api.Service.ApiBase`1.Execute() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 153   |||
+                        
+LoggerDateTime:2017/10/10 14:31:34 
+Type:ExecuteMethodError
+ID:[ThreadID:16] 
+Message:Error:Null object cannot be converted to a value type.|   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseOrderRep.GetTravelAuditResult(Nullable`1 EnterpriseID, String PayCenterCode, String TravelBatchId, Nullable`1 CreateTimeBegion, Nullable`1 CreateTimeEnd, Int32 pageindex, Int32 pagesize) in D:\GitWork\CGT.API\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseOrderRep.cs:line 646
+   at CGT.Api.Service.Boss.TravelOrder.GetAuditOrderResultService.ExecuteMethod() in D:\GitWork\CGT.API\CGT.Api.Service\Boss\TravelOrder\GetAuditOrderResultService.cs:line 40
+   at CGT.Api.Service.ApiBase`1.Execute() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 153   |||
+                        
+LoggerDateTime:2017/10/10 14:32:33 
+Type:ExecuteMethodError
+ID:[ThreadID:16] 
+Message:Error:Null object cannot be converted to a value type.|   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseOrderRep.GetTravelAuditResult(Nullable`1 EnterpriseID, String PayCenterCode, String TravelBatchId, Nullable`1 CreateTimeBegion, Nullable`1 CreateTimeEnd, Int32 pageindex, Int32 pagesize) in D:\GitWork\CGT.API\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseOrderRep.cs:line 646
+   at CGT.Api.Service.Boss.TravelOrder.GetAuditOrderResultService.ExecuteMethod() in D:\GitWork\CGT.API\CGT.Api.Service\Boss\TravelOrder\GetAuditOrderResultService.cs:line 40
+   at CGT.Api.Service.ApiBase`1.Execute() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 153   |||
+                        
+LoggerDateTime:2017/10/10 14:41:18 
+Type:ExecuteMethodError
+ID:[ThreadID:13] 
+Message:Error:Null object cannot be converted to a value type.|   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseOrderRep.GetTravelAuditResult(Nullable`1 EnterpriseID, String PayCenterCode, String TravelBatchId, Nullable`1 CreateTimeBegion, Nullable`1 CreateTimeEnd, Int32 pageindex, Int32 pagesize) in D:\GitWork\CGT.API\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseOrderRep.cs:line 646
+   at CGT.Api.Service.Boss.TravelOrder.GetAuditOrderResultService.ExecuteMethod() in D:\GitWork\CGT.API\CGT.Api.Service\Boss\TravelOrder\GetAuditOrderResultService.cs:line 40
+   at CGT.Api.Service.ApiBase`1.Execute() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 153   |||
+                        
+LoggerDateTime:2017/10/10 14:41:27 
+Type:ExecuteMethodError
+ID:[ThreadID:13] 
+Message:Error:Null object cannot be converted to a value type.|   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseOrderRep.GetTravelAuditResult(Nullable`1 EnterpriseID, String PayCenterCode, String TravelBatchId, Nullable`1 CreateTimeBegion, Nullable`1 CreateTimeEnd, Int32 pageindex, Int32 pagesize) in D:\GitWork\CGT.API\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseOrderRep.cs:line 646
+   at CGT.Api.Service.Boss.TravelOrder.GetAuditOrderResultService.ExecuteMethod() in D:\GitWork\CGT.API\CGT.Api.Service\Boss\TravelOrder\GetAuditOrderResultService.cs:line 40
+   at CGT.Api.Service.ApiBase`1.Execute() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 153   |||
+                        
+LoggerDateTime:2017/10/10 15:02:57 
+Type:ExecuteMethodError
+ID:[ThreadID:13] 
+Message:Error:A transport-level error has occurred when receiving results from the server. (provider: Session Provider, error: 19 - Physical connection is not usable)|   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at PetaPoco.NetCore.Database.<Query>d__63`1.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at PetaPoco.NetCore.Database.SingleOrDefault[T](String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.Cgt.InterfaceAccountRep.GetInterfaceAccount(InterfaceAccount model) in D:\GitWork\CGT.API\CGT.PetaPoco.Repositories\Cgt\InterfaceAccountRep.cs:line 51
+   at CGT.Api.Service.ApiBase`1.Validate() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 88
+   at CGT.Api.Service.Boss.TravelOrder.GetAuditOrderResultService.Validate() in D:\GitWork\CGT.API\CGT.Api.Service\Boss\TravelOrder\GetAuditOrderResultService.cs:line 33
+   at CGT.Api.Service.ApiBase`1.Execute() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 147   |||
+                        
+LoggerDateTime:2017/10/10 15:02:57 
+Type:ExecuteMethodError
+ID:[ThreadID:17] 
+Message:Error:Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.|   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at PetaPoco.NetCore.Database.<Query>d__63`1.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at PetaPoco.NetCore.Database.SingleOrDefault[T](String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.Cgt.InterfaceAccountRep.GetInterfaceAccount(InterfaceAccount model) in D:\GitWork\CGT.API\CGT.PetaPoco.Repositories\Cgt\InterfaceAccountRep.cs:line 51
+   at CGT.Api.Service.ApiBase`1.Validate() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 88
+   at CGT.Api.Service.Boss.TravelOrder.GetAuditOrderResultService.Validate() in D:\GitWork\CGT.API\CGT.Api.Service\Boss\TravelOrder\GetAuditOrderResultService.cs:line 33
+   at CGT.Api.Service.ApiBase`1.Execute() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 147   |||
+                        
+LoggerDateTime:2017/10/10 15:31:41 
+Type:ExecuteMethodError
+ID:[ThreadID:14] 
+Message:Error:Null object cannot be converted to a value type.|   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseOrderRep.GetTravelAuditResult(Nullable`1 EnterpriseID, String PayCenterCode, String TravelBatchId, Nullable`1 CreateTimeBegion, Nullable`1 CreateTimeEnd, Int32 pageindex, Int32 pagesize) in D:\GitWork\CGT.API\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseOrderRep.cs:line 645
+   at CGT.Api.Service.Boss.TravelOrder.GetAuditOrderResultService.ExecuteMethod() in D:\GitWork\CGT.API\CGT.Api.Service\Boss\TravelOrder\GetAuditOrderResultService.cs:line 40
+   at CGT.Api.Service.ApiBase`1.Execute() in D:\GitWork\CGT.API\CGT.Api.Service\ApiBase.cs:line 153   |||
+                        

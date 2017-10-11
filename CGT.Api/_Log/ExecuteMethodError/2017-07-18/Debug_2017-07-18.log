@@ -1,0 +1,97 @@
+LoggerDateTime:2017/7/18 11:00:30  
+ID:[ThreadID:16] 
+Message:Debug:Model:{"GuidKey":"dbd9e9e0-5f9d-4fe0-8873-19d50a90c5a7","MerchantId":"CS01","Data":"Rt8kMoXAC32svLqeRV5qWXwaEFrJOuVRd0w2DKARzEakGzce3sBedFM0ii2nQ0n46WPPQI+LzvGxFuOeaMmmqhFr03PeGfK82EGQ4gfVv1nCY7jTQ1allbb73oaztub/M+9zVrW1Dj9lnMkcyyftS3zAXHxXSlSUQZNybOK4MJ/EVFsVym0ADrENTbTnZhAM1g0/Mb1BAmie3qS4PfgoyuzvUfwQle8RUjdYupyqGT0M/sBkU51NH9305sdeqjnvq55BYC5G1440YgJFzb77UfeNNewwekRrJgSjZVJpv4Y6HdAenkyQT+IdDeHPR0dHggwz/TKtfutgHSEIqnTgr+gL9SsJrKCXEXoeMwKaiKTX7sSPvbc7FbGMw4m9+/Zhenw40Yx9mDTBzVC627Ajx6iSShCK+aUAsSD7pc09O+Y=","EncryptKey":"LE4BcE2EkkZQ13SLeU76t/CVX2mTWGQqzIjn6cUn4NCSvfyt42CZI3NhGtmL6ZNlnlO9kQ3RBXBeOEsOel/eRo8O0mk1Ti5e90AQR+JdH/ExIF+uSl4fUUM6bJT2eYFtMKbMq9V5hReWsqfbiyHLcgFTrnB9vqOM4AZnYlhO1ridfZs/8Y9hfWvj36eTmjB6AYfaHDKLIlE9ZX4b1MxSt+1xwtLOb3ln9IWG/KV1Rjmgh7fzqZh61Y9aKsddeu98vWLANS5C6mb/WI3Z1xYYesWF6v9OlrNCteBsqwXTUN38X9mvtBa99tcbLl4CMa7XyypbauoSA7N5TW99TM+kVA=="}
+Parameter:{"PayCenterName":null,"PayCenterCode":"CSSX41080209","EnterpriseId":null,"EnterpriseName":null,"MerchantType":0,"StartBillDate":"2017-06-30T16:00:01.43Z","EndBillDate":"2017-07-30T16:00:00Z","Status":-1,"BillType":"0","PageIndex":1,"PageSize":1,"TimesTamp":"1500375627431","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"1444B713CCB20F2D57FFA4044DE509A3","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:ExecuteScalar requires an open and available Connection. The connection's current state is connecting.|   at CGT.Api.Service.Boss.TravelBill.GetTravelBillService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBill\GetTravelBillService.cs:line 47
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 146 
+                        
+LoggerDateTime:2017/7/18 15:16:38  
+ID:[ThreadID:343]
+Message:Debug:Model:{"GuidKey":"38ff6a17-a737-45aa-bada-8df46985d2ae","MerchantId":"CS01","Data":"rwB8ubG5BsYLiMms7bpGE6N74pFAIQGiG88/wptPTBHvBbsMV4QtrtlVqJXVfuLSk2JN+EyJ22/iRqIfMQkdbWG/k6xg+V2DV13sX7GjrTWxacS1ntSUR0biHs1F4xiK+jAKVI281vdgPzsxTN7KzthM34zXxUdQTENrjfZ8yCvLDgjbpQSCxN9HeXW5VoiDlffYrpqfLnfqh0l7MmeKi+W0XgQyqD0m7+N7MnWv5Nn5+LlRlTd4cY2heg3fJ1lE","EncryptKey":"FNGoMYgbzXkgdPmex2JqkkgOjqnQqZ7omQcFh9E4cK9TFKyf9SFy06H/O41tRTxIjX7o8oBI6VKaADvcBOUw85EckqEXes3kcnDzxT/6SeQMhzDfAUTAv43LJQ7Jf4Ogb5juanoAErDCj3zxFScRke+UfjPlyy2vVPZZVER89HPS+egdBTThRrhWrotGhwAv06ihjhtROKOh2NaAA3wCNokDmPXhsZ0QWPmWZXDGhzAAtSmQNlCZGqlcvtXGIfQ4nPL3Utl4SfrHr0e4Wg93/2SJhElSA8D1/KqWtRGWfut9ep4t1Ydev73Fnw6ZE1ZR5LVXn41SL4eBWG0s5A3RFg=="}
+Parameter:null
+Exception:ExecuteReader requires an open and available Connection. The connection's current state is open.|   at System.Data.SqlClient.SqlConnection.GetOpenTdsConnection(String method)
+   at System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(Boolean async, String method)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at PetaPoco.NetCore.Database.<Query>d__63`1.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at PetaPoco.NetCore.Database.SingleOrDefault[T](String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.Cgt.InterfaceAccountRep.GetInterfaceAccount(InterfaceAccount model) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\Cgt\InterfaceAccountRep.cs:line 35
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 85
+   at CGT.Api.Service.Boss.Enterprise.EnterpriseMonthlyLimitService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\EnterpriseMonthlyLimitService.cs:line 29
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 142 
+                        
+LoggerDateTime:2017/7/18 15:16:38  
+ID:[ThreadID:342]
+Message:Debug:Model:{"GuidKey":"367e74a4-c305-434d-9871-37a194cea613","MerchantId":"CS01","Data":"K4AwXKQ/Mimn92Uh4DQ/o47gkiU7B97CiQfOjTzjr4HmEZNqpGg5wwHWG6TG9vcwkZBHEpu0WjILah0GUws7v4Nz0f8doY3EHjiy8W1P+Bmkyhtai5hr7B7XfWsNaSKL9QtV2cneFgnBJRVKrF7D417ss/7sOMyv02k7XcqBA/p5ltTVnvyqHmIVzgBPVFq5nxGu/BuJkUlzeWJTg3S2kLnkM6YBl+9hEfMqWUJhk3Dgs5k+/e716w29ZXGZ7bZzA/rAauc8Sbu6aOe7iWrj8PtL1QYnZk8uU8ZD8/NUJl16LMp0Pv6sJXdQp3O9PIBZacKlp6c1LOQsDrOIwNKAVjmkpqyRv0Pc3ruvK/c7UMjzW3rENxINuiz6YU1xHClA8wZUDpxCZSkCm8ONzrjeMM07ucnu00CK8dBCA+SurD4=","EncryptKey":"Z2zrW30m2lVNqLl4HTB+nFMK515I4LTiCVZSKMmAq9AaHGG8dzMZneHsSWM7fOlluJkM+VsPwA5irZvgvVsK69yoVgSoM5D2TMZufkziUmlXhSbEIqZt8mEtoNpR5Y5anMu0F+/7EmDwj4eSMPeAsiUDM+b8U7W7T4F5mk5tvgYMihsiO/FdlbP/UkqaY7Vqn8NZaRS5iZyyp1YNAr2eWkYpmyUWcSVCcOiSpjFJPREtQZgl20AXI4chbXZMOYNiNvW4Yili2hMFMjVpAfb0HcKm8ysh8ZxPfakx0WV9dwZqamE/SA09hhzrkSe1C6o7myResgFKqyF02ph009JViA=="}
+Parameter:null
+Exception:A transport-level error has occurred when sending the request to the server. (provider: Session Provider, error: 19 - Physical connection is not usable)|   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at PetaPoco.NetCore.Database.<Query>d__63`1.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at PetaPoco.NetCore.Database.SingleOrDefault[T](String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.Cgt.InterfaceAccountRep.GetInterfaceAccount(InterfaceAccount model) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\Cgt\InterfaceAccountRep.cs:line 35
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 85
+   at CGT.Api.Service.Boss.TravelBill.GetTravelBillService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBill\GetTravelBillService.cs:line 27
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 142 
+                        
+LoggerDateTime:2017/7/18 15:16:38  
+ID:[ThreadID:340]
+Message:Debug:Model:{"GuidKey":"9e16ca04-99ca-4c21-a75a-696ebcd15a12","MerchantId":"CS01","Data":"izIY7eO2ADg4fyQekEUKRFes0GaG0kcOzWwW8S8/AkEuuiD1soSHNyLAS+QuNmBCSY39Yqap2Cf5ZXtPKFw/cP6g6RVSVYkKVNRLWEcOE+alS5it38jSoXggBPig4UnN+Nnuxx1wURqD7MyHk4v9MKLR08NsKgZvjIiM2ZsTmo+W7EKYu2VKGfiEcXe68UmdSU9eDevsLD5zPfdiNbLVnLn4nPvnevBmSyXd+/wXdrCJjc+miu+JF+youEqw8Y8LoTAmmHAnUsVojkJGt/InfPBgs3jmQPltnG4NVHqSKsI0Le91WOMMUOO0hP/ee557Y19xNr2UQv3+hc/aPbhv9JCyn+Ddkr/zF6yPTVLzL4wlwS/hWpWTaLfXLBpOwlXcVrotk8LU9TETpxzZPcVGr152T+tZCwoY/xQ3/0c+Qp4=","EncryptKey":"GtUVgU6OS4JrdEKcE8x06G5hpTZASjzirYlC3j0UR+asg9ym9a50D5snkc7xSnYBLEhJFxaNVHYbHPbFVwnW7NskEChOw0vus8MRy+0mmBfNYxO9N36lNTzrPVNP90C5g4keHohdynituYg+0Ui+sCitgycvoGyNPwLl6uXKyrHLTEhABrSBIJ+FT4vattHA3FpXzgNt3qtIA35IhT1fUn+s9LO7Q9iUfEx3Ke8zavKsnqxBfd6PUFcOS/l0K/Z2aHl7cxazSGRgiFvbf2Ew8PW6khkc8qEy/++IaQ1VY3bDfLU4iNytKzqtfG/IsiCsfRMJHIJSPGVIxbP5zVu1NQ=="}
+Parameter:null
+Exception:Failed to establish a MARS session in preparation to send the request to the server. (provider: SMux Provider, error: 19 - Physical connection is not usable)|   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject..ctor(TdsParser parser, SNIHandle physicalConnection, Boolean async)
+   at System.Data.SqlClient.TdsParser.CreateSession()
+   at System.Data.SqlClient.TdsParserSessionPool.GetSession(Object owner)
+   at System.Data.SqlClient.TdsParser.GetSession(Object owner)
+   at System.Data.SqlClient.SqlCommand.GetStateObject(TdsParser parser)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at PetaPoco.NetCore.Database.<Query>d__63`1.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at PetaPoco.NetCore.Database.SingleOrDefault[T](String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.Cgt.InterfaceAccountRep.GetInterfaceAccount(InterfaceAccount model) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\Cgt\InterfaceAccountRep.cs:line 35
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 85
+   at CGT.Api.Service.Boss.TravelBill.GetTravelBillService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBill\GetTravelBillService.cs:line 27
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 142 
+                        
+LoggerDateTime:2017/7/18 15:17:32  
+ID:[ThreadID:347]
+Message:Debug:Model:{"GuidKey":"28c26438-56f1-44f1-b89a-cf6c10d90e28","MerchantId":"CS01","Data":"yglyUSmXSIA8uJ1ZJ5keYnY20RFnpXOGRAf2/gf+U89xxqluXe946pxUk1Ojuv32iHmXWR9jglcwN+u3dLydHe7uEm1DVyWGA6KuMZZNr0++R5fxdEqt3+3Njqf5Iu3jLCuY7kmgeNxE0+K0MtXme+OnBqARkObTCqzIYQ0NjWffGMIL0zWoqpT5uOa1zrQtFP3ZOIGi5dy54KW4q4tanCNQvqXQIQYyC0OnsT1bMry2l6usn+TZ/6R4sBJ+47Q8lSaDlBnIQ+Osi4PHWHE6s+xHVsiyUJqsO71RH0Q3mWNC+DCX3I0rbXt8AdSEi4+U","EncryptKey":"JAkM+onk5kISRwSaH0HNB0QH3x0ZcQSDM4f2EtBlLMCKoBY8NF1elBr5P0GdPraLrLijakffE1f0OIkOgs1lD+9ldQ1em8sViqIAHYwiAU1V5/Lg5lsG8PgTIz9zrobGGfFnPJYn7qAN7DzOEivn19xijKEBB/Ep8fy6yb6oESXabojmOdrqNtpfMccMsk6CPqHykIE+kaVF59uvFUQpWKEbyZ7kU00IkGA/HFiyrtiJzWfAx1E1sLbUsiWdpxNtW2g799Qjk0M8uwnJ4uvJ0xeH0HD9qdwa2Ifx/JiEOp5/snOLbb3Rnob+R8sD3+pf+OaY115XUG8Rzxw7nMNM1w=="}
+Parameter:{"PayCenterCode":"CS0180210","EnterpriseId":null,"TravelRiskType":null,"TranslationState":-1,"TravelBatchId":null,"StartDate":null,"EndDate":null,"PageIndex":1,"PageSize":10,"TimesTamp":"1500391052059","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"6D499377F7D6324FA26ACEE5730CC478","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:A transport-level error has occurred when sending the request to the server. (provider: Session Provider, error: 19 - Physical connection is not usable)|   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.TravelBatchRep.GetTravelBatchPageList(String PayCenterCode, Nullable`1 EnterpriseId, String StartDate, String EndDate, Nullable`1 TravelRiskType, String TravelBatchId, Nullable`1 TranslationState, Int32 PageIndex, Int32 PageSize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\TravelBatchRep.cs:line 51
+   at CGT.Api.Service.Boss.TravelBatch.GetTravelBatchService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBatch\GetTravelBatchService.cs:line 34
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 146 
+                        
+LoggerDateTime:2017/7/18 16:01:23  
+ID:[ThreadID:411]
+Message:Debug:Model:{"GuidKey":"99a00050-6d56-4ee1-a458-b05c4c72c688","MerchantId":"CS01","Data":"dMEkqaL5J6mW21EIP2igMCgZLB9roACpHj2AQfz/0MWFcPeBe/z94Ry0mS4guMCEY+uEM1Oh7lThkdp5l8giBpB23mzyX03cc4/kOv6chevDnADhCI1A14KgU674FG1Gyg82PLiPTYlvtu4RsB2EBMRhMqcxRiNzW0UGxtAOC4mfJPzTGu4mm5eEdtY3INijFER2wR+b8wwbqSVHcRKAugm5ItHz7iG2vjSFP9Zyf3+8yyco3+oR/ORbuDqfGLOr4Z3wfy1pqSmFYpO2hv2IijyQFewibN9WqrsQpDks0gKppE8rsnef1R48dH6gXoJjeAkcK85QdLQW7mSGVZHOtN49VKxrh+uCDsp1l3cPYjF9Lk+g5EfiWXF/H2KQtOytL4G63mYG3uNb5TRPCmr1EK9jOh17z3WRICUOW95RLHs=","EncryptKey":"A7EjsGgkoqPsFAwPWPyDdiiVpgkDrnkg1wBzdm+p0SeyNzTPm6fpIPR0ekuhjoCuUtddhY1p3pdQdkHJWrPKU66s3+kjkD79Iy0uLUZf3IBgJ5fJ0wQUoMC/0vqUXE6LbSLKai9eTY0i63MsM/MsxOtHmzJE+hoatR/d7lTYEC7/YOghj27JkiSE9CpzGEFqdD4T8Rz6mFu0WRK9ULuQLs20opC9CTC2405lEsOmYOHNX9mpZmsmsNV5D3UFKgpaNp5nK8CRIqscsifos7+zHSuqlm/bYIQzpF3dvdv4gYlS0QS17b/oNRe9r9le0Gkyw+rmVQPPrEIriT+rUO21Bg=="}
+Parameter:{"PayCenterName":null,"PayCenterCode":"CS0180210","EnterpriseId":null,"EnterpriseName":null,"MerchantType":0,"StartBillDate":"2017-06-30T16:00:01.475Z","EndBillDate":"2017-07-30T16:00:00Z","Status":-1,"BillType":"0","PageIndex":1,"PageSize":1,"TimesTamp":"1500393683475","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"B819CE973F525B5069A7FDBD6ED7E39B","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:ExecuteScalar requires an open and available Connection. The connection's current state is connecting.|   at CGT.Api.Service.Boss.TravelBill.GetTravelBillService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBill\GetTravelBillService.cs:line 47
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 146 
+                        
+LoggerDateTime:2017/7/18 16:01:23  
+ID:[ThreadID:414]
+Message:Debug:Model:{"GuidKey":"b4ac5206-8e1f-4a4d-bc28-a5be5a14bb93","MerchantId":"CS01","Data":"4gfFTiEqgh67AjPrVyrP52QkApP2TjjQd1a83ynGriJuaHN5Lrvy8oC0CSyWtpPEBEn5a//k/xFKGANGGi7VQyEzIue75ji56wWQkYhCBEfQhtjN3Pb1BgpfKN0j/V+x5ggc/MNMh3ICcjVmxEI8xmsvRNJkR0mxkNVy/PfGhszsplZ8MEbdmeA7HUx/dRZ6aOC0uB5TbXU0RLzV8yIKVP6kuV1GCEdw1kM2Pr0hxf/YJcu//+H02GnAJL1WV5vt","EncryptKey":"O7baUl78yTzGoIzV/sAsg+Mow5zaS3T15iSB9No1NPFnTO+GRnXhzrtsQFB3W5n5hDbcVOLkizezb66lOXXx+hy+hlU+SHs64Y6U6nzZLEezJaJNoseVu6jfvSrgXpkvTY4BIsHzCVFpykVAYi1uEBzOl8GS+2X2isgQHA4D5eiC8q/FOzxanBpsp8oM9tICeoCtM0k9QiV7GSJd21E2n0eR53WJWGmFMcvXRwCYeUwdYNhgA7kNO+97ayPIzICNRaNmKSsy7uB3kKUfLuYWMpBPAaMdqb+zTNG8p1A+dKNuoX5ePGrvajLpnQc9/4oezhZtbbybRQ+zNlS3DNV02Q=="}
+Parameter:{"Pageindex":0,"Pagesize":0,"EndDate":null,"StartDate":null,"MonthStatue":null,"EnterpriseWhiteListID":null,"EnterpriseStatue":null,"PayCenterCode":"CS0180210","MerchantNo":null,"IsPage":"1","TimesTamp":"1500393683466","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"16BCBDA121C2FD0A367B39B7F443975F","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:ExecuteReader requires an open and available Connection. The connection's current state is connecting.|   at System.Data.SqlClient.SqlConnection.GetOpenTdsConnection(String method)
+   at System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(Boolean async, String method)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at PetaPoco.NetCore.Database.<Query>d__63`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at PetaPoco.NetCore.Database.Fetch[T](String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseWhiteRep.GetEnterpriseWhiteAndBackMoneyList(EnterpriseWhiteList model) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseWhiteRep.cs:line 131
+   at CGT.Api.Service.Boss.Enterprise.EnterpriseMonthlyLimitService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\EnterpriseMonthlyLimitService.cs:line 45
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 146 
+                        

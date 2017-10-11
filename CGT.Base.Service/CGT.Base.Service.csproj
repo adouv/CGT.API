@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Boss\" />
+    <Folder Include="Cgt\" />
+    <Folder Include="Common\" />
+    <Folder Include="Manage\" />
+    <Folder Include="Platform\" />
+    <Folder Include="Sid\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CGT.Api.DTO\CGT.Api.DTO.csproj" />
+    <ProjectReference Include="..\CGT.DDD\CGT.DDD.csproj" />
+    <ProjectReference Include="..\CGT.Event.Model\CGT.Event.Model.csproj" />
+    <ProjectReference Include="..\CGT.Mongo.Repositories\CGT.Mongo.Repositories.csproj" />
+    <ProjectReference Include="..\CGT.PetaPoco.Repositories\CGT.PetaPoco.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,64 @@
+LoggerDateTime:2017/6/29 10:16:31  
+ID:[ThreadID:4]  
+Message:Debug:Model:{"GuidKey":"a81ca052-97ce-42f1-81c9-10e0210a6ee7","MerchantId":"CS01","Data":"REY3Y+NwcPOFyyZBWu1gKOWVtSH1rpe0e8Opg0UGCvaD2rJJQ4wwo8lcguNkSlQbIO/1fldvQF/GP7X0XqVKz7S2ZSE2nuzeQ6fW6EFkWGyVQt4slXOyVTHlmRxfyEpAdS5+QsQUdQLuaESAM8Zz1K6vKjhF9ajaNdv5X7m/E3P3cAyJmNn6GpYg3XwWouxqd2MnXn54aT9BG29wwhnceQfSAQiKoYqATffAv5CpNxwrvN1hf/+dU5ALzvSU1YtyKwm9dbjyR868W/l8dvP1flNu1H/WUCxqiSk9Hi31fMXBOr6w8xNe5YP3GEE9iGlBGNvgd6MNeq6shVm14Om9JmBBiRNtyu92CRvJQe1eewz2QIEflSDTz7pLTsBP8oI4","EncryptKey":"WlXTAY4+hmbM8YT4eiEVaS1rG8sVR4G6mg70RRzJzb1oV9nzeb0h8nIuf8YppDmU/5+0hZ0RlhbIC7Ra1UH3EnapdF1axMkyoqqrWr8BbdSEk8LTedraO7/9DUitjPthjMKRWIdI2M7DJyn/UiI32t7MT2e7L/lbyYoGa6BEk3rRQV0+Ouc5bUkoXSVH9s7j1vk5m1cOuwDtyTIrrc2UrLavZsQtzttZ7ewd2MwTbyT3GC3dRMFHPvwxho1YlnERbWcKOBp8EJjgSZ/I3bKf4XOH8JSm/1vSjvQku9i6HPzrmduAwH+U904z4ztSoSRWnqckKyVEIeRyTvX8HfO1nQ=="}
+Parameter:{"PayCenterCode":"CS0180210","EnterpriseId":null,"TravelRiskType":null,"StartDate":"2017-06-29","TranslationState":-1,"EndDate":"2017-06-29","PageIndex":1,"PageSize":10,"TimesTamp":"1498731389398","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"240DAB9B3ED3E88E454F2927E578E263","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:0003|签名验证失败！|   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 105
+   at CGT.Api.Service.Boss.TravelBatch.GetTravelBatchService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBatch\GetTravelBatchService.cs:line 27
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/6/29 10:16:36  
+ID:[ThreadID:11] 
+Message:Debug:Model:{"GuidKey":"0c69f41c-c5a4-4368-bbfa-9be7171f8d3b","MerchantId":"CS01","Data":"kvdek61eZONt+SKZ0ro0a+7YFz66Zg87t+3p2Jp1FGwZSp5ZNt+SIV1S7/0xvhcbv+ec4sMIteGWf0iHpqO6gQnPGa3Cvnvt0fqlFafDg9NEJESpd91K2fOYsIog1493oEXpqmSMXPfgv9NlnapkALOr11ybwr/ACCkOcBcDciLuatbZiIWz+ImrbyhdNf/l1sIYjZG2fIchZ2AybnT5lq9At1kBtqE0zHkCdewjFcEdXcfZTxV//YFXr8Rq/BsetoWS+auFyXhfnkT3LDpDfo+gPkmiORLoR5ct4pquvn7RWY5acs0oHG36JJGZffS/Xzv5DQBvIhKjOFduBBAsRxCKRUYwK1sXUunAK3MbHSQvAkYIFkYjorD9Tt85PRAa","EncryptKey":"ZIJDIyLuhJxyz+KkqO8vr2zOa/OWlwsFBJRs547QiJLW6pTnXh/k6zWB817xMac0un2kced1Tk23lyMub8MrjRt7RhvmiS8awlOKsq8vfMqpgcLn6bPNj9bD2EEgXVy4tOtUNmnomiic8n8Vh+j86+8EwXt8k5cJvOS1Zn8ePAU7P/bP6JtFGPlN57f3poTyMFEq0nPP5OxNgYj/kDtBRm3UKVFRpWuw7aQBpIZ+44UqqYoTUECqv3Nfcm8UNC2bpy87+pD8VwUEQsjaHFszy1vQI0bclg3o8JopyYHszefzUebww5L0Fmgzs6trDd31/MX0GOjLEQHf1JzCnzNQbQ=="}
+Parameter:{"PayCenterCode":"CS0180210","EnterpriseId":null,"TravelRiskType":null,"StartDate":"2017-06-29","TranslationState":-1,"EndDate":"2017-06-29","PageIndex":1,"PageSize":10,"TimesTamp":"1498731396459","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"B490FDFF6E21951D188211E40B2D8969","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:0003|签名验证失败！|   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 105
+   at CGT.Api.Service.Boss.TravelBatch.GetTravelBatchService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBatch\GetTravelBatchService.cs:line 27
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/6/29 10:17:15  
+ID:[ThreadID:11] 
+Message:Debug:Model:{"GuidKey":"29742321-130d-4ae7-aacd-f9e6d7f7d891","MerchantId":"CS01","Data":"Nq0kFilvherWQy+HBXdD/ZJoD8N7JBp/Cu7hf2iUnyCuZU40IHdJmSTfNoFrRvMh5gEzR1n/4lAkqfv9iTiPtJVtcX/5z3daBMcEul3/Ekt1OjXLSqSqgGb+qV+TLxtyGx1mQhAPzGlM4xlTOyTE/vDSWaH2SUuWmNgx3MQgeRd/gJ4Y4yq7v1gzddwJTfQfzETtPfeF3fxM7OEcn+lRatVfAnw4iPVJc96bezXq22liyGanrPj/lyFVoet87KZ37PHQEAZaXofYAkzIw5pMl+HveleA1XyoDbzIq+/AgyNlckr19frEVQN0Lez6g7VM39JRRdimlG040+XnlROn6z0tuhUChn2TKuMlJGECgqe/GHtYLvdUbR0u5v2597mI","EncryptKey":"MpLORzMTh7xmcU0e9A0I0CKfOLF8FHKRULOrdZEzb7e+huMgP/vmiQ2/QbMHXNTrzRxryQylQ4xMWKX6cSms3AQTH+2qqDSxyHPAHoQpQkuC5W6cM/C8z+3AHW01kINiSyBkGqq3mI/WrUSjZLv8ObvHeEtyndohw2SGvDKQBrH8tKVAFNQtziqqM6jWYWzSmE63PGaPaNv16HkdTovyt+xbzg+qwEM9Bj8CQLL4cI209GXKPmvdNe61oH0L2XxBlD3e6m2cR4S0GHcuSY64xlxsulbHqrmbof/Galecv2Mv9iOd1Pm4sP7HV8WjIPcMLrxAdnRjYsixT0qqrDBtfg=="}
+Parameter:{"PayCenterCode":"CS0180210","EnterpriseId":null,"TravelRiskType":null,"StartDate":"2017-06-29","TranslationState":-1,"EndDate":"2017-06-29","PageIndex":1,"PageSize":10,"TimesTamp":"1498731435218","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"A347E910B6D9499D4A82A8C1E111AE11","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:0003|签名验证失败！|   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 105
+   at CGT.Api.Service.Boss.TravelBatch.GetTravelBatchService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBatch\GetTravelBatchService.cs:line 27
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/6/29 13:22:28  
+ID:[ThreadID:194]
+Message:Debug:Model:{"GuidKey":"14e788d0-3b9a-4ae6-a424-189ff50926a9","MerchantId":"CS01","Data":"hVlPCc0zDCnayZkIIW6f8M3dgIIt1rsAKm7kTeneR5mA/KqaNQVFqX4oSM+Yrm/NgJx96Ppyh1+aWnEczqAYrU3ZgXHDS97ohThGCEcDevCVTytYW1ur7zg6B/JQmyBrOMvGWQHhqatWK5TB80AHRzkVuL3IGUFZg91YX89AIDEBbUHnVTttu3I3LLxLYWGEIePGAnFeu+1cf6LPCFR5KiVLwL6WlB68WvQwLCyeCgxMgxTwHfglFGu+aDM/BfYeOutpm8Wlxw++71qODUxW4xGB0zgVcjTiVTrdakCMpvmzcule1bwm1LiDIVH6aoRNHGqRRBO90tWokX2Hhp/n0dqxdtDJk75dQUFwTGRIWt84ynn4A/hukpkxe44B3p2L","EncryptKey":"fsvfiWt+h2U03sUn7BH596P86BQbO3+mwhFBfFJdGLSV4WVfcN+e9h792T1LXTLe+Ncz8IZlF9DZjOOisApajHSZHTQHchfayhB1NVN7Wu7b+EO2TiGE5zeG2pW82UkB/X4D78VpYvZy97+oWZWAmLxQkq35bfSFTD68cwtEdgVmw9jqMuzwQxYYIP1++xG/d14RvULTfz+YBUtXf4ZqbHDw8Df8+9Shtx7ovomZn7XV4NF0tOY6wzrOgH4d1qjXKddP9EFDmPVGYeJZow1/sst/Wqp21ljFIfR7MpzYssvh5R5wslWePvu+HFJEJ/WLGF3GXlQy0rR/j4JKqL8eQg=="}
+Parameter:null
+Exception:A transport-level error has occurred when sending the request to the server. (provider: Session Provider, error: 19 - Physical connection is not usable)|   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at PetaPoco.NetCore.Database.<Query>d__63`1.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at PetaPoco.NetCore.Database.SingleOrDefault[T](String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.Cgt.InterfaceAccountRep.GetInterfaceAccount(InterfaceAccount model) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\Cgt\InterfaceAccountRep.cs:line 35
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 84
+   at CGT.Api.Service.Boss.TravelBatch.GetTravelBatchService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBatch\GetTravelBatchService.cs:line 27
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/6/29 13:22:35  
+ID:[ThreadID:210]
+Message:Debug:Model:{"GuidKey":"9052587d-1b60-49d1-9d54-2b2781c24da1","MerchantId":"CS01","Data":"gJ6gXiST07wDRytNf8OHtFALeGNiwzAE/xnS3uxRXMROuMHYWPUEXDM3Y2UVi+1h9/Z6EODH7dcmyUKDly1T+uDY+DFc3zzdNAOq0Zg8bKjyNcaHmKml8r3YXeVhrrUpDlN2zJJn8hsqSAMtgW8Io8WBVyQR+pLNAZ5b7CAsgLrVOn0PEdL4LtqCWJyMBWBpnNdHWvCz7HmKD93dSKhdzLlDUZl88Jp3OPcZd4TMoPn2cO3vwuJBx1wuvvFqEOU2A8H9w6Yp+FhvXPnwP7DaaNqOetomLkO+XBpam74Ix5VFBX6WsncesjxdU2PXnMBRMyxInetyNxAg1xq2mmfaxHwEnYYes4DuzxuVl9tkjgUELMIJ+ZjHEUb89FWhq/7H","EncryptKey":"fZWVmhk5oG+Cx095u7vxkwfsvoJeUbVdUuDHSQoVSf6tBQd6T/4HyFWFtMKsJyfV/yARjqh1+Vbu1B95sjYXO1Q2FX0JdoOHR2OjiVilP5UkIQcrzqnG79wVns/nTyYzAVWcrdzEfb+/Go3HkPYlaR91qObkcPZkcbnGF8usUINmOrF47wN65g5STEvy8NtfwsDRafyuSxsLN+nKKzIS8BGImDTZazTnYwsyU2QlGu6YoCQhTF3Q9Yw9uBb+IN0uiUj49y5RiuZNdjZi2mqyVbS75R6/yMzcemQ72q0ZqmvAQf1S+0dI7fARsn+P/YNttsHnNwCKwbFjqXaAH5oPsw=="}
+Parameter:{"PayCenterCode":"CS0180210","EnterpriseId":null,"TravelRiskType":null,"StartDate":"2017-06-01","TranslationState":-1,"EndDate":"2017-06-29","PageIndex":1,"PageSize":10,"TimesTamp":"1498742555557","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"087EFCBF832CCB211322FC0721718FC3","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:A transport-level error has occurred when sending the request to the server. (provider: Session Provider, error: 19 - Physical connection is not usable)|   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.TravelBatchRep.GetTravelBatchPageList(String PayCenterCode, Nullable`1 EnterpriseId, String StartDate, String EndDate, Nullable`1 TravelRiskType, Int32 PageIndex, Int32 PageSize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\TravelBatchRep.cs:line 56
+   at CGT.Api.Service.Boss.TravelBatch.GetTravelBatchService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBatch\GetTravelBatchService.cs:line 34
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 137 
+                        
+LoggerDateTime:2017/6/29 14:00:40  
+ID:[ThreadID:34] 
+Message:Debug:Model:{"GuidKey":"f7ce03c5-82bc-4243-ba29-286e9487bd01","MerchantId":"CS01","Data":"Oz0vBj4Ys3wuB2n3Qmlb6cerOyj3RCkUp301g8jo93RGd3h09caDXUR8PvdilWYb+FLU7Xhj1Xh3+dgKzuR60vMCjOCug7B10izYGHHUc/PX9Ez7q3Dqv58RNeLc+ooMMTsrD+pPQqf8Pb2h0tB9DlylRhLF3Hwv9IL4MIGwEk6ahE0nuOZiZgL4yBVoUkRatHgR457wh7M4+jzAU6FlLidmOuI+53dWYy2MIP7jvijomAsCrlEvglsEud3G3xbi0yGZeRwE5tB3lQo4BHLy8nJWMvO3Xk+JcifcR5qclNTSOcvmpeRao1jpZbmgl+/2FesEVDWr3NJckWLpI6cR4yXrtt0qteuZ8mrQgQVmye0fFNJ11730elUJUk24l9g5","EncryptKey":"gs6JnSKmEdoQVibI42D34b58KPRSC10JRixmoy3mEJMAuAJBzN7xfHcpo2p1fnznt5iYSoDF9UBhod4aDFPfrsqoHxRM5NKJzMSuF6yfrmalln/oE0W31T2O3Tj1ua5Sn7SITLwRTO077Zaz+xsyrOFynYcIAHWKKXQAnLYMx7Ux+spe9/zAhfkUqXGEV+cdLbkwwKOp+d4JeqH8dlsCD9pdPDzRd2F80UZdHoei6waJihQ2M6Zyb82vwtucv4YujmSDUNw1BwrHoHlEll7ucHTG7Ym3ZZrrzqwrhInTCT++7NwExMrqFo1OBei7A7Cu5MBWwH6aJ6kTxf5z8E5K"}
+Parameter:null
+Exception:参数错误。|   at System.Security.Cryptography.RSACng.EncryptOrDecrypt(SafeNCryptKeyHandle key, Byte[] input, AsymmetricPaddingMode paddingMode, Void* paddingInfo, EncryptOrDecryptAction encryptOrDecrypt)
+   at System.Security.Cryptography.RSACng.EncryptOrDecrypt(Byte[] data, RSAEncryptionPadding padding, EncryptOrDecryptAction encryptOrDecrypt)
+   at System.Security.Cryptography.RSACng.Decrypt(Byte[] data, RSAEncryptionPadding padding)
+   at CGT.DDD.Encrpty.Encrpty.RSADecrypt(String data, String address, String pwd) in C:\code\cgt_api\CGT.ApiCode\CGT.DDD\Encrpty\Encrpty.cs:line 87
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 89
+   at CGT.Api.Service.Boss.TravelBatch.GetTravelBatchService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBatch\GetTravelBatchService.cs:line 27
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        

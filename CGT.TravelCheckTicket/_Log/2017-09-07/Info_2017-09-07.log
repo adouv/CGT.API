@@ -1,0 +1,63 @@
+LoggerDateTime:2017/9/7 9:56:50    
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-07 09:56:50.474
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995783618889","PassengerName":null}}
+resTime:2017-09-07 09:56:50.475
+response:
+ 
+                        
+LoggerDateTime:2017/9/7 9:57:19    
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-07 09:57:19.723
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995783618889","PassengerName":null}}
+resTime:2017-09-07 09:57:19.724
+response:
+ 
+                        
+LoggerDateTime:2017/9/7 9:57:56    
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-07 09:57:43.184
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995783618889","PassengerName":null}}
+resTime:2017-09-07 09:57:53.959
+response:{"Success":true,"Message":null,"ticketData":{"Price":"1180.00","TotalPrice":"1230.00","StartDate":"09-16","TicketState":"OPEN FOR USE","FlightNo":"CA1651","Name":" 朱明"}}
+ 
+                        
+LoggerDateTime:2017/9/7 10:30:49   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-07 10:30:49.631
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995783618889","PassengerName":null}}
+resTime:2017-09-07 10:30:49.632
+response:
+ 
+                        
+LoggerDateTime:2017/9/7 10:31:01   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-07 10:31:01.757
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995783618889","PassengerName":null}}
+resTime:2017-09-07 10:31:01.757
+response:
+ 
+                        
+LoggerDateTime:2017/9/7 10:31:10   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-07 10:31:09.990
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995783618889","PassengerName":null}}
+resTime:2017-09-07 10:31:09.990
+response:
+ 
+                        
+LoggerDateTime:2017/9/7 10:31:36   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-07 10:31:27.677
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995783618889","PassengerName":null}}
+resTime:2017-09-07 10:31:31.809
+response:{"Success":true,"Message":null,"ticketData":{"Price":"1180.00","TotalPrice":"1230.00","StartDate":"09-16","TicketState":"OPEN FOR USE","FlightNo":"CA1651","Name":" 朱明"}}
+ 
+                        

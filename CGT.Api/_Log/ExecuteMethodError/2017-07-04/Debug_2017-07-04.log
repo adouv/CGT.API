@@ -1,0 +1,42 @@
+LoggerDateTime:2017/7/4 13:15:46   
+ID:[ThreadID:6]  
+Message:Debug:Model:{"GuidKey":"d3d22dc0-5709-4b72-a163-d2adf780aa83","MerchantId":"CS01","Data":"cqwm+bobDyfTWn0DFwalMhBZEUN55Rd5po4aTRd7Mf3nou+Jh0NZWWGQqhyx/QTIIs8PVRhk2ewuLCyz4GER+6BfQ7lSZk2lc1g3gNJsBI0NYEkRS/Kxq01tecQi1TG7TsMjimiQJs9r+Xu2Kua4fNcFgQ+DXF8rJz9sYRz0Xgu3xnQ+T9R3Mp2OJSXhMtbkaGMBYXu2pazHLv9sA3yR8kEd9A7MT/RYdbtitw6MwYLiJwVJQVgAKMYnYb1Fpi7TENb4ytTPxMbuU0BXB160CSy922MhgEFoaRs5cNGoaklGSiiiPZdt0oATu4F6XtvSY1jCPrdCT6K2r809QoAx9OKE34H3jzgztvjr+SyChadbzZDuKWpFDCYMv39by4+icmVsDmrkYjYkZNcff5rDB3tH5BQjVeFX0Ro8nT86usGzD36Tt4FB4X2/IiVVqrbFQ+b280M7TjFhlYQUXcCNBilb92B1IBXb8G0EWUhg1COVHPUqLqLiukT+MxxVP+pdkXXNfxxA5Ua/qFuCzWctprYKVtNms33vDdS98XNeGHaHsNqCVZSLTaTLtMUquf/f1o8bhi7IE6LqjpdbYtphYUqjtbXtLBQkmWjrmQIKny73Otk3SKKI7ipTGpb+OwPw","EncryptKey":"XlcTxWeTEJcJGUxiJQhaNGPVBDoF/eu18tbRecuBVwR+nmWgNeWuomLnOwunUgWwnDJkQZqzAICY1yskEUcxi2lzLj3K5gYIgTRkCMeGaCT7cUCMPdJ49RtOwuOt+2YjF9oeMFCg4JovtuG0AeJqMAhJtjJw0UzaXyPd6BuCpzZDvg3k3h7n4rQ/W7E420dpGafHjA/RdszTZ6yLPgCCq/C70knrcDUr1ad2RqGw91ZGyy5ncayXPXjmqSJyLJQ6UV6wlOYsO66jIHRThRyjl0k4hZdqazs/xY/L/GrfjdJKRpf6NrNbgQ5j7PH9hsY+1P5ULU1QsGIQbYdR6g79PQ=="}
+Parameter:{"EnterpriseID":null,"PayCenterCode":null,"BackStatus":null,"OrderId":null,"TravelBatchId":null,"TicketTimeBegion":null,"TicketTimeEnd":null,"BackTimeBegion":"2017-07-01T00:00:00","BackTimeEnd":"2017-07-04T00:00:00","ReviewState":null,"ReviewTimeBegion":null,"ReviewTimeEnd":null,"TravelRiskState":-1,"TravelRiskType":-1,"Pageindex":1,"Pagesize":10,"TimesTamp":"1499174142802","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"22EBF5713481D7FD557643278C0DA5A8","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:多次为 'peta_paged' 指定了列 'TravelBatchId'。|   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at PetaPoco.NetCore.Database.<Query>d__63`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at PetaPoco.NetCore.Database.Fetch[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseOrderRep.GetEnterpriseOrderAndRiskList(Nullable`1 EnterpriseID, String PayCenterCode, String OrderId, String TravelBatchId, Nullable`1 TicketTimeBegion, Nullable`1 TicketTimeEnd, Nullable`1 BackTimeBegion, Nullable`1 BackTimeEnd, String ReviewState, Nullable`1 ReviewTimeBegion, Nullable`1 ReviewTimeEnd, Nullable`1 TravelRiskState, Nullable`1 TravelRiskType, Nullable`1 BackStatus, Int32 pageindex, Int32 pagesize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseOrderRep.cs:line 81
+   at CGT.Api.Service.Boss.TravelOrder.GetTravelOrderListService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelOrder\GetTravelOrderListService.cs:line 31
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 137 
+                        
+LoggerDateTime:2017/7/4 13:17:08   
+ID:[ThreadID:6]  
+Message:Debug:Model:{"GuidKey":"37dcf4dd-218d-4750-ab5b-92bdb7a4fd33","MerchantId":"CS01","Data":"t0D4+XInA653empMV2S+12aoTsZo6LkhW9ZrADSrOvUfG4qrP9FTt2c967ITHRelpsigdP/9IZdEMeRWzYzvwODt5ZCQJGIlfkYWpgKi671HU98V2b1tpl8c67uxsjG8g6iXvn9f5bBnzLUivYQjhu8OvzaZpaVbAu6cP42T9a2HsYcVHEkP1XPU/BA3r8deETSQhfhIxbM4NwuLyFTTGgbR9oueha0nzosI1/XMT73Zhz9N1g8X0Mg5y17ErFrWtZtYL7woFx7ZhTyhBplUhc7e4dBjr56/WdBX86dB/jkJP7WEIweWks8U8KNZDPt8WY1OyxzARFflf1qFlVFiQo0b1cC3prM+1iA0fFpV4H2j5YAWoEDvJxfdPrmShGt2o2YljnPy/nNKbwVxNXOtt9pby3mirHsH00M+cXeMCowBN49sk9Xaoieq2eYAzSKSJGyZQYyGP9u1RxAdZ8NdT4+hHaDL1HcPtiI2gdtW9mXDXOEN1LPfsANYbTkB3L3tcjchKJKYrCm0CGMxFzxkSiCo5Yy3auFUauHyNqVKlpKWrpqWXxq+TrExKRT29ooeFssUUDyEgKmIx9GmtQjvGgubxqT733MWRGpYM3NSF9oGON0l3Ua4PY5jX2IrkBuM","EncryptKey":"GvRwwBGsh10vvG9Xj9qWHqlOEqp94iccycvWa6lIuP6+qMLLzsoGl2z+gWDhBFd5kKP1X77wlqi7ZVUemoK++fgvFvg3hXbtp6jCn0sdOYBh5lPOs8AohcHy5AUJzsWdPYqh9CSt1a3QnTTMDVYvspS13ORO6bpht5vaiqJLjMpKLqd/9uTLE8UyNvnYv+jAoa+HkHwglTGHHqmNHESM2BDrLcUzhPXZFoiyd6RVONeJBOi4fJ2FsNnWtDeNc7Tf6szLDAJDL2l5qhPbx6ScAYmscc1EFZraz/AkqcmuAXW/KAoDw8Y0YaT01NMiWavABItDc/oNXr1uMxkH0gpkLQ=="}
+Parameter:{"EnterpriseID":null,"PayCenterCode":null,"BackStatus":null,"OrderId":null,"TravelBatchId":null,"TicketTimeBegion":null,"TicketTimeEnd":null,"BackTimeBegion":"2017-07-01T00:00:00","BackTimeEnd":"2017-07-04T00:00:00","ReviewState":null,"ReviewTimeBegion":null,"ReviewTimeEnd":null,"TravelRiskState":-1,"TravelRiskType":-1,"Pageindex":1,"Pagesize":10,"TimesTamp":"1499174207573","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"2920225B5AA95BF29AAEF369C40CCA7C","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:多次为 'peta_paged' 指定了列 'TravelBatchId'。|   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at PetaPoco.NetCore.Database.<Query>d__63`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at PetaPoco.NetCore.Database.Fetch[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseOrderRep.GetEnterpriseOrderAndRiskList(Nullable`1 EnterpriseID, String PayCenterCode, String OrderId, String TravelBatchId, Nullable`1 TicketTimeBegion, Nullable`1 TicketTimeEnd, Nullable`1 BackTimeBegion, Nullable`1 BackTimeEnd, String ReviewState, Nullable`1 ReviewTimeBegion, Nullable`1 ReviewTimeEnd, Nullable`1 TravelRiskState, Nullable`1 TravelRiskType, Nullable`1 BackStatus, Int32 pageindex, Int32 pagesize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseOrderRep.cs:line 81
+   at CGT.Api.Service.Boss.TravelOrder.GetTravelOrderListService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelOrder\GetTravelOrderListService.cs:line 31
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 137 
+                        

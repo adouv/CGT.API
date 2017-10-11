@@ -1,0 +1,25 @@
+LoggerDateTime:2017/9/7 9:56:50    
+ID:[ThreadID:2]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 85
+   at CGT.SuspendedService.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        
+LoggerDateTime:2017/9/7 9:57:19    
+ID:[ThreadID:2]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 85
+   at CGT.SuspendedService.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        
+LoggerDateTime:2017/9/7 10:30:49   
+ID:[ThreadID:2]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 85
+   at CGT.SuspendedService.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        
+LoggerDateTime:2017/9/7 10:31:01   
+ID:[ThreadID:2]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 85
+   at CGT.SuspendedService.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        
+LoggerDateTime:2017/9/7 10:31:10   
+ID:[ThreadID:2]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 85
+   at CGT.SuspendedService.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        

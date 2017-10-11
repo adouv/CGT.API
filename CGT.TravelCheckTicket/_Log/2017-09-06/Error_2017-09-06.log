@@ -1,0 +1,151 @@
+LoggerDateTime:2017/9/6 10:34:56   
+ID:[ThreadID:2]  
+Message:Error:Offset and length were out of bounds for the array or count is greater than the number of elements from index to the end of the source collection.|   at System.Buffer.BlockCopy(Array src, Int32 srcOffset, Array dst, Int32 dstOffset, Int32 count)
+   at Internal.NativeCrypto.CapiHelper.DecryptData(SafeKeyHandle hKey, Byte[] input, Int32 inputOffset, Int32 inputCount, Byte[] output, Int32 outputOffset, Int32 outputCount)
+   at Internal.Cryptography.BasicSymmetricCipherCsp.Transform(Byte[] input, Int32 inputOffset, Int32 count, Byte[] output, Int32 outputOffset, Boolean isFinal)
+   at Internal.Cryptography.BasicSymmetricCipherCsp.Transform(Byte[] input, Int32 inputOffset, Int32 count, Byte[] output, Int32 outputOffset)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount, Byte[] outputBuffer, Int32 outputOffset)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount, Byte[] outputBuffer, Int32 outputOffset)
+   at System.Security.Cryptography.CryptoStream.<WriteAsyncCore>d__49.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Security.Cryptography.CryptoStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at CGT.Suspended.Service.DESCrypto.Decrypt(String content) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\Crypto.cs:line 61
+   at CGT.SuspendedService.Common.ReceiveResponse(TcpClient client) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\Common.cs:line 86 
+                        
+LoggerDateTime:2017/9/6 10:38:33   
+ID:[ThreadID:2]  
+Message:Error:Offset and length were out of bounds for the array or count is greater than the number of elements from index to the end of the source collection.|   at System.Buffer.BlockCopy(Array src, Int32 srcOffset, Array dst, Int32 dstOffset, Int32 count)
+   at Internal.NativeCrypto.CapiHelper.DecryptData(SafeKeyHandle hKey, Byte[] input, Int32 inputOffset, Int32 inputCount, Byte[] output, Int32 outputOffset, Int32 outputCount)
+   at Internal.Cryptography.BasicSymmetricCipherCsp.Transform(Byte[] input, Int32 inputOffset, Int32 count, Byte[] output, Int32 outputOffset, Boolean isFinal)
+   at Internal.Cryptography.BasicSymmetricCipherCsp.Transform(Byte[] input, Int32 inputOffset, Int32 count, Byte[] output, Int32 outputOffset)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount, Byte[] outputBuffer, Int32 outputOffset)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount, Byte[] outputBuffer, Int32 outputOffset)
+   at System.Security.Cryptography.CryptoStream.<WriteAsyncCore>d__49.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Security.Cryptography.CryptoStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at CGT.Suspended.Service.DESCrypto.Decrypt(String content) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\Crypto.cs:line 61
+   at CGT.SuspendedService.Common.ReceiveResponse(TcpClient client) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\Common.cs:line 86 
+                        
+LoggerDateTime:2017/9/6 10:38:53   
+ID:[ThreadID:2]  
+Message:Error:Value cannot be null.
+Parameter name: value|   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 84
+   at CGT.SuspendedService.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        
+LoggerDateTime:2017/9/6 10:40:25   
+ID:[ThreadID:2]  
+Message:Error:Offset and length were out of bounds for the array or count is greater than the number of elements from index to the end of the source collection.|   at System.Buffer.BlockCopy(Array src, Int32 srcOffset, Array dst, Int32 dstOffset, Int32 count)
+   at Internal.NativeCrypto.CapiHelper.DecryptData(SafeKeyHandle hKey, Byte[] input, Int32 inputOffset, Int32 inputCount, Byte[] output, Int32 outputOffset, Int32 outputCount)
+   at Internal.Cryptography.BasicSymmetricCipherCsp.Transform(Byte[] input, Int32 inputOffset, Int32 count, Byte[] output, Int32 outputOffset, Boolean isFinal)
+   at Internal.Cryptography.BasicSymmetricCipherCsp.Transform(Byte[] input, Int32 inputOffset, Int32 count, Byte[] output, Int32 outputOffset)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount, Byte[] outputBuffer, Int32 outputOffset)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount, Byte[] outputBuffer, Int32 outputOffset)
+   at System.Security.Cryptography.CryptoStream.<WriteAsyncCore>d__49.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Security.Cryptography.CryptoStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at CGT.Suspended.Service.DESCrypto.Decrypt(String content) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\Crypto.cs:line 61
+   at CGT.SuspendedService.Common.ReceiveResponse(TcpClient client) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\Common.cs:line 86 
+                        
+LoggerDateTime:2017/9/6 10:40:30   
+ID:[ThreadID:2]  
+Message:Error:Value cannot be null.
+Parameter name: value|   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 84
+   at CGT.SuspendedService.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        
+LoggerDateTime:2017/9/6 10:45:16   
+ID:[ThreadID:2]  
+Message:Error:The type initializer for 'CGT.SuspendedService.Common' threw an exception.|   at CGT.SuspendedService.Common.SendRequest(TcpClient client, String request) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\Common.cs:line 48 
+                        
+LoggerDateTime:2017/9/6 10:45:38   
+ID:[ThreadID:2]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 85
+   at CGT.SuspendedService.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        
+LoggerDateTime:2017/9/6 10:45:59   
+ID:[ThreadID:2]  
+Message:Error:The type initializer for 'CGT.SuspendedService.Common' threw an exception.|   at CGT.SuspendedService.Common.SendRequest(TcpClient client, String request) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\Common.cs:line 48 
+                        
+LoggerDateTime:2017/9/6 10:46:01   
+ID:[ThreadID:2]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 85
+   at CGT.SuspendedService.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        
+LoggerDateTime:2017/9/6 10:46:26   
+ID:[ThreadID:2]  
+Message:Error:The type initializer for 'CGT.SuspendedService.Common' threw an exception.|   at CGT.SuspendedService.Common.SendRequest(TcpClient client, String request) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\Common.cs:line 48 
+                        
+LoggerDateTime:2017/9/6 10:46:33   
+ID:[ThreadID:2]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 85
+   at CGT.SuspendedService.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        
+LoggerDateTime:2017/9/6 10:48:36   
+ID:[ThreadID:2]  
+Message:Error:The type initializer for 'CGT.SuspendedService.Common' threw an exception.|   at CGT.SuspendedService.Common.SendRequest(TcpClient client, String request) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\Common.cs:line 48 
+                        
+LoggerDateTime:2017/9/6 10:48:38   
+ID:[ThreadID:2]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 85
+   at CGT.SuspendedService.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        
+LoggerDateTime:2017/9/6 10:58:44   
+ID:[ThreadID:2]  
+Message:Error:Offset and length were out of bounds for the array or count is greater than the number of elements from index to the end of the source collection.|   at System.Buffer.BlockCopy(Array src, Int32 srcOffset, Array dst, Int32 dstOffset, Int32 count)
+   at Internal.NativeCrypto.CapiHelper.DecryptData(SafeKeyHandle hKey, Byte[] input, Int32 inputOffset, Int32 inputCount, Byte[] output, Int32 outputOffset, Int32 outputCount)
+   at Internal.Cryptography.BasicSymmetricCipherCsp.Transform(Byte[] input, Int32 inputOffset, Int32 count, Byte[] output, Int32 outputOffset, Boolean isFinal)
+   at Internal.Cryptography.BasicSymmetricCipherCsp.Transform(Byte[] input, Int32 inputOffset, Int32 count, Byte[] output, Int32 outputOffset)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount, Byte[] outputBuffer, Int32 outputOffset)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount, Byte[] outputBuffer, Int32 outputOffset)
+   at System.Security.Cryptography.CryptoStream.<WriteAsyncCore>d__49.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Security.Cryptography.CryptoStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at CGT.Suspended.Service.DESCrypto.Decrypt(String content) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\Crypto.cs:line 64
+   at CGT.SuspendedService.Common.ReceiveResponse(TcpClient client) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\Common.cs:line 86 
+                        
+LoggerDateTime:2017/9/6 11:45:58   
+ID:[ThreadID:2]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 85
+   at CGT.SuspendedService.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        
+LoggerDateTime:2017/9/6 11:51:21   
+ID:[ThreadID:2]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 85
+   at CGT.SuspendedService.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        
+LoggerDateTime:2017/9/6 13:14:45   
+ID:[ThreadID:2]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 85
+   at CGT.SuspendedService.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        
+LoggerDateTime:2017/9/6 13:20:01   
+ID:[ThreadID:2]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 85
+   at CGT.SuspendedService.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        
+LoggerDateTime:2017/9/6 13:24:37   
+ID:[ThreadID:2]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 85
+   at CGT.SuspendedService.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        
+LoggerDateTime:2017/9/6 13:27:17   
+ID:[ThreadID:2]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 85
+   at CGT.SuspendedService.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        
+LoggerDateTime:2017/9/6 13:28:06   
+ID:[ThreadID:2]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 85
+   at CGT.SuspendedService.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        

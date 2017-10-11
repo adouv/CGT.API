@@ -1,0 +1,7 @@
+LoggerDateTime:2017/6/8 11:56:33   
+ID:[ThreadID:12] 
+Message:Debug:Model:{"GuidKey":"1c3abb0a-87a0-477d-be97-8abe68736f4e","MerchantId":"CS01","Data":"28IzaC3Ar5jJAbsNXt872UHQDzKXZCCgQ9nw3iaiGW9juI4bvOFbfO/xXzh0vclZqDTwNMYUr5XOSVb3UehSO6ATFkO1b6gs5dwB6S/QVLz8a6YGXpWRXsIaWWWNgK7O1RViaLzsooeMD3ST4TDUmCMXqaoo1BKxN6RChiRej42gD1O2V5pToSkXCBiVDWWRy87luY9I86l4a7ZlZb2VyUyUG/MBmbj2Rx1hhpb0znSu+5cjiS7CSqQCcBrmpSlCRz6tULryaAPnAafHCf4+jjVP3vUJbVC8sUZem/h4g0I=","EncryptKey":"WmgXMpxhEiS+A7OREQCXigRGnv0Hykw4v9l8tC4njanxfCjGhnkB/en6xQ6EKWrnjp0mq7TcrSzEqWiQB9lQJ+AT2KQBcb9Ogz4NGR39SIWJ8twNVv9Wmip5vma+ais9MHtc8CRYX3Ne7pXNCxbS7PXM+23utrEkdMGOW9FLmAojIAqtNKKqIOfwIplmP+ux6ocXBWwqb7yF3WwBebHIb5PxHIlb9NbWCPqe0yEyRt49JYe8VwxDB6yNEE7hoNEMMCoYOte9K9n7QC67/dx/e+CQ+xYGAEIEyPwflZmk9WLeZ3H+zU4SNEWPMLfM032mXFCIKymjnM5uqAyUHEIMqg=="}
+Parameter:{"PayCenterCode":null,"GraceDay":0,"ModifyName":null,"GraceBate":3.0,"OverdueBate":3.0,"MerchantCode":"CSCSCS908","TimesTamp":"1496923004196","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"AED4847290B2A5400B3695714475B094","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:分销Code不能为空！|   at CGT.Api.Service.Boss.User.UpdateUserAccountService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\UpdateUserAccountService..cs:line 31
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        

@@ -1,0 +1,12 @@
+{
+  "name": "node-encrpty",
+  "version": "0.0.0",
+  "description": "NodeEncrpty",
+  "main": "app.js",
+  "author": {
+    "name": "tl"
+  },
+  "dependencies": {
+    "crypto": "0.0.3"
+  }
+}

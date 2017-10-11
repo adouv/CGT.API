@@ -1,0 +1,28 @@
+LoggerDateTime:2017/7/25 11:33:39  
+ID:[ThreadID:5]  
+Message:Info:请求花费618.818ms 
+                        
+LoggerDateTime:2017/7/25 11:33:39  
+ID:[ThreadID:12] 
+Message:Info:请求花费651.8245ms 
+                        
+LoggerDateTime:2017/7/25 11:33:39  
+ID:[ThreadID:6]  
+Message:Info:请求花费682.6566ms 
+                        
+LoggerDateTime:2017/7/25 11:36:12  
+ID:[ThreadID:5]  
+Message:Info:请求花费58.1392ms 
+                        
+LoggerDateTime:2017/7/25 11:36:12  
+ID:[ThreadID:17] 
+Message:Info:请求花费76.5157ms 
+                        
+LoggerDateTime:2017/7/25 11:36:12  
+ID:[ThreadID:18] 
+Message:Info:请求花费40.6787ms 
+                        
+LoggerDateTime:2017/7/25 11:36:49  
+ID:[ThreadID:18] 
+Message:Info:请求花费103.3355ms 
+                        

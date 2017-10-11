@@ -1,0 +1,35 @@
+LoggerDateTime:2017/8/14 13:06:52  
+ID:[ThreadID:35] 
+Message:Debug:Model:{"GuidKey":"9d56bea6-eb75-45c2-a2e0-bde0727d5268","MerchantId":"CS01","Data":"zmOEYSYz+Hxg2B2EgvWfHFSsaTowCGY48+ePbZqdXq265QmR3m29C/iyTn2LyARbkicUte38Y6TZ4nQMn1u5Rc9pXrfYzUR7bitsarO5G9wrPTP7pVVL7f8dRNDENd90n690bCV4b4odK2C1azwNbU8P4tcgoY3JpBwqWnr8mQnPMETJLCtn8P1LR1eb5XKz5epIB7hWFZT2UKa4GBNo9A==","EncryptKey":"V7rSScBVYeUQPf6gd3WgFBu5FVOoArrvvEGpJZX73zp9yJKRdgGgTZRV48lSw/QczIVws4svMt6KdSUZe0vDpDrI1ipC/37ClHzZYmVjGrztkt8kqa0HYx1+oNfXOhIYjBmEl9teHygejuxuLlnlU9xPy62yR8Bq5DGgWZ3ViF7qIdHqkJRGBheWG7LxRYRZjMQJ2oY5cbcL7aTSjxOdJNdE4ev5YDffEDE+yRzn7/fX+HK6StzjQbJqG8AyHRiQ6EuX1LNgWJHjSoD0vCtJ87F756rCr2IbSNGhIoI8ZKoNpRFA9XUuhYnh01WKsQSEbDmMBxtdH9PhpjHeKbVJLw=="}
+Parameter:null
+Exception:A transport-level error has occurred when sending the request to the server. (provider: Session Provider, error: 19 - Physical connection is not usable)|   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at PetaPoco.NetCore.Database.<Query>d__63`1.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at PetaPoco.NetCore.Database.SingleOrDefault[T](String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.Cgt.InterfaceAccountRep.GetInterfaceAccount(InterfaceAccount model) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\Cgt\InterfaceAccountRep.cs:line 35
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 85
+   at CGT.Api.Service.Boss.Enterprise.DistributionEnterpriseService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\DistributionEnterpriseService.cs:line 35
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 142 
+                        
+LoggerDateTime:2017/8/14 13:06:57  
+ID:[ThreadID:35] 
+Message:Debug:Model:{"GuidKey":"caf3d474-99c3-4a54-a312-eda3822dc627","MerchantId":"CS01","Data":"tof4rPJJQMRAlo4soaytbG4uRqPzb3Bu6shRdUIE+tZnZpq92GZwV3u4HwxMwXb+POtg7D3THEvTyj0q+68EVZb06lCdw+7FgzibD4Ex0QkxnMesUPHf5RNIj5eliSIH7ET0o2w/BE1pVDMDfcYS5y1lqkv7PuLQLNel1zCYXmXUrZgQFNIiRrW/0kkg+XGIvviHQheApyB6Z1YKIi9+1QCntHvESnid2pdTdR07ESiVfS3BVzvaIJKf79XPvurmx4Hnbxui59DlTg06RmwCN4BVqVKaAC89KXwREf43BHyYCHSTQ7LY0Yw6yuUYUupbGfFkWWUz4sl4ZR2/ZALoh/AGatSq27Xh6U5/p2AK49o7aLd30laFCklU46e30qs2dDItThuaKypesdHEbefy35JCkVvAU4yhn/4FzQQGe72jjgGb1V1Xt5FR5pbPnpNIVZippMVrCTrJ46aaG9hX1cE+/jIcqxLx35jKVH3SkzoNn27oqNqSFKXaMi5STvrYjrjOpKXSOMyDnvquXiB1KJQpGkvgyUGuKdvr/+b1Bb0rn9PsjW1E9lZ/0JVd3sUACxOUFzdisYlnj0uSI5O9VPIqofeQl4OIa+kwR6ojxHo=","EncryptKey":"g6m+Kqcy4N34sCnxLGSCBW4LF25U1lqkZzISP94GewLZ5hEeupJzWTKIIA1j6uH8vVgCxDOJR2k6ffHFe7e68PJz0ERTN0wAYOu1YDNb8grpq9QK3BNFFAwkMWDyPAmm5rzODE629QOBX34X8mUUEj3GLH1B46ZudELk4bCqx7xv0YdU0ZmsHH6A9ntLWjnNSje8LKOFrDhwi3JRGV8GvLinq92gzLBBl6YVhWHfPQuZZt17vN03dcVgX1837WWWdJRfmosNlpU5TEMykK1qvp73xMmJGVTK/8CZd0TOuyY9OB9VnodXuVLmQaPZF7mzrGsYwVO1POz9WPnIuyrSEw=="}
+Parameter:{"EnterpriseID":null,"PayCenterCode":null,"BackStatus":null,"OrderId":null,"TravelBatchId":null,"TicketTimeBegion":null,"TicketTimeEnd":null,"BackTimeBegion":null,"BackTimeEnd":null,"ReviewState":"3","ReviewTimeBegion":null,"ReviewTimeEnd":null,"TravelRiskState":-1,"TravelRiskType":-1,"Pageindex":1,"Pagesize":10,"TimesTamp":"1502716012501","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"3EC14BD259EA09BB80007413D2A52A84","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:A transport-level error has occurred when sending the request to the server. (provider: Session Provider, error: 19 - Physical connection is not usable)|   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.SNIWritePacket(SNIHandle handle, SNIPacket packet, UInt32& sniError, Boolean canAccumulate, Boolean callerHasConnectionLock)
+   at System.Data.SqlClient.TdsParserStateObject.WriteSni(Boolean canAccumulate)
+   at System.Data.SqlClient.TdsParserStateObject.WritePacket(Byte flushMode, Boolean canAccumulate)
+   at System.Data.SqlClient.TdsParserStateObject.ExecuteFlush()
+   at System.Data.SqlClient.TdsParser.TdsExecuteSQLBatch(String text, Int32 timeout, TdsParserStateObject stateObj, Boolean sync, Boolean callerHasConnectionLock)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at PetaPoco.NetCore.Database.<Query>d__63`1.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Enumerable.Sum[TSource](IEnumerable`1 source, Func`2 selector)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseOrderRep.GetEnterpriseOrderAndRiskList(Nullable`1 EnterpriseID, String PayCenterCode, String OrderId, String TravelBatchId, Nullable`1 TicketTimeBegion, Nullable`1 TicketTimeEnd, Nullable`1 BackTimeBegion, Nullable`1 BackTimeEnd, String ReviewState, Nullable`1 ReviewTimeBegion, Nullable`1 ReviewTimeEnd, Nullable`1 TravelRiskState, Nullable`1 TravelRiskType, Nullable`1 BackStatus, Int32 pageindex, Int32 pagesize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseOrderRep.cs:line 133
+   at CGT.Api.Service.Boss.TravelOrder.GetTravelOrderListService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelOrder\GetTravelOrderListService.cs:line 31
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 146 
+                        

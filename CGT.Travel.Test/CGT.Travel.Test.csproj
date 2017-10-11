@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CGT.DDD\CGT.DDD.csproj" />
+    <ProjectReference Include="..\CGT.Entity\CGT.Entity.csproj" />
+    <ProjectReference Include="..\CGT.PetaPoco.Repositories\CGT.PetaPoco.Repositories.csproj" />
+    <ProjectReference Include="..\CGT.Travel.Test.Service\CGT.Travel.Test.Service.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,144 @@
+LoggerDateTime:2017/7/5 11:41:07   
+ID:[ThreadID:4]  
+Message:Debug:Model:{"GuidKey":"6d59b141-75d2-40f8-8b43-d7feed14e694","MerchantId":"CS01","Data":"JahRDSezG9urfnuxw3j8OGYf5Wk1zAvpe/C+W8Sv0mJdEJZaPLoAGGOzi0Ybk3u/g/Wb6Nk9kLmXLNTNZketsC5nyrtMEAFbIOckgi89rovyKEnngQEF/P3CSST3zYZY98H3Ip2fGI7vrD8yjw1uokmLt0oMct0Rg3VsKuYV57ToYiDCPpgb+Cr1Oco7MqVwhvJr9iQNCkHfoivEufd8vfMx/ESD0XF8q+8Mpbe5cKKEyzh9nayK2WBsXJUJmEUypmao5hr7VHKwyzVPWlN+NhEf9fw7ZnrDUsj0vPAJFAxH/vXO/6rxcjlVwghLY6W6tOOFsBoetcmTvmJFsyWfttxtePllLR8FBwCm9fY2Tr0=","EncryptKey":"lgKeeCwfRF8Z6tz6V2wxdQ9gBtuaPAdefEgpc8uYvTufjc5tQ573AAd2FR/fY2JnYQOS5UQmEOdT4IHsjYdSZvtcKPJuF0XBJcwcp3wBmRtM53uDJGIKOfSQOfwo94EzTwEKvoTwG2Lv1Jw3JyTE2FyowzsojhO9bzzizNRf6gQit531uZlxWqg5+f7A/CW1B6Vk9gxffNk5VPgpZO4+fYKmTd1P7DmZfHjRptr+CjKwUfTAFVW1aBRrzyYTESeGejN9j8XxgkzdaF26fCV21eO7yL832MMKOPPWOdVZjTTQodWuNMQp98JD64cvLmokXxpR+C26LCDyOilmSsXrLQ=="}
+Parameter:null
+Exception:0009|RSA解密失败！|   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 95
+   at CGT.Api.Service.Boss.TravelBatch.GetTravelBatchService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBatch\GetTravelBatchService.cs:line 27
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 141 
+                        
+LoggerDateTime:2017/7/5 11:42:43   
+ID:[ThreadID:4]  
+Message:Debug:Model:{"GuidKey":"71d32dfb-6862-40da-b4cf-65519f7ddfe9","MerchantId":"CS01","Data":"ZwbpWUNNhrEZOzjz4jzcmjmBJV5obaIvrmRfdaQkhWrAR2d1o3x+4REnKEwqjfjCP0SooLfpXygzke2WhY0GEMciNH+A3Ex6KsQB6WNRmgAs+4LC74eunzv6LA9QfRWk6jH94XumcCfl/YSr8mjAZ7CJQ2Qc/kf+d68B5KdzSfs9Q19d/LZ2+IZMq3QVbSGtE+ucas+MBZg7ZQ6+1tbJcWVh5+qjA+bBZJ8JPtJTutHzETNJdYUWQw628iQaQf0WudFfnfABuUGQhQFJoVoXw+mu4IvBdBn/mUWrdOOQMJADYWZI+gMon+W+neRfOYzSH7slCQnO8TIQqN4qWakVJ3iCp4JJKk8hBO5gZZ/nkTE=","EncryptKey":"M3gfHb32OhQ5NzGpS8HfqEGNs/4GeA3PE8/3ThcDVjzGZHKyD6fczaYwjcJ8BUybiMaJgfhu/49rTwnA8FTRnhB6FMuO71fAgudS/E4kJuBlc8brsctBMloyYNYncRvP/wrN9OpJGIHxPR5VuLygLpqHFudfXN5/2tj1tK18FgnDPgS2Wsv4hCwUMfQt+IQOgny/7sYFF8ABDKHmBzsDjicHv6TUsxNr/j9UsM7N3DWT4F5x+v0jobm4ubWHLVA0Y6Uf9H+GTGEwIsASwhMYPEIxp5wf7TOZv41GRGTim5mmtv3j7ZVSHWfSi+g7Vy5Wn2oD+IiEDDOglZC43rPW7A=="}
+Parameter:null
+Exception:0009|RSA解密失败！|   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 95
+   at CGT.Api.Service.Boss.TravelBatch.GetTravelBatchService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBatch\GetTravelBatchService.cs:line 27
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 141 
+                        
+LoggerDateTime:2017/7/5 11:43:38   
+ID:[ThreadID:4]  
+Message:Debug:Model:{"GuidKey":"04418a34-b775-4cbf-9641-583090a2a014","MerchantId":"CS01","Data":"rqDqfq89QdkhUALcuSCbrfuxA4w+VcXtHMlPe9Et6ypZBLMSyhQ0D2ZRXgklDB1sSHqlD+Fw3KhGCbzMIZDCqQCP7HeOr7dzgWpqwUuDZKeFu/N+f2inr1/GSnHIfbK7SJFGSBCKokAbX0jp2WCFLve/PZoM8HkQOg6hiDQawLxrEZ8499GvzsgmS9C6KvekR85idXkBqC/ZWKcdVLzhIOqlPpeVfI0sDv7/SU1DFMSX2Y+btZbIu1NxhyPMIl1F0KyT3U2vNoJ3bizrTHw/VZ7zycpfATPjhg9miBXsGwrOpICsfBM0L9PQP7zk2gOTX4ld0bvVcZQx7YuLfozRXItdY/q5DghlI9FZusO5SQs=","EncryptKey":"JD1aBB3JY8XJw2S3A9di5fYI/QfR+G+3L7ABqeoY1IcJeuL0WcwHcXVYtjd/ayvloLQLP3xk7KGEfyU8bcSwMI88AUKppwKo6RdGQo9tSFmseOXpzm+4gkpYpl59FKoGhG3I2YC2TKhj1kzTHPxdWyxo2tp6SV8VsFOo9ELrfeI0dV5n5O756BPI+uKD3bpF9RxJE/+zQqwti9v+2Glphyi3ClGI0z1C165nh1WF4g8eT/OU4FHmdNqaVE+ouGvHgzXdfnYY/7YPptNEJeSBkLLzGyCiTcYFwsPZXVfnScBKm9DRtSEalkc6JTin1hePYAeRUCoa4fL5Bh1z2WVK9g=="}
+Parameter:{"PayCenterCode":null,"EnterpriseId":null,"TravelRiskType":null,"TranslationState":null,"TravelBatchId":null,"StartDate":null,"EndDate":null,"PageIndex":1,"PageSize":10,"TimesTamp":"1499255017237","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"6C1E70C2CA944DAAFC4373C2AAE7136E","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:ExecuteScalar requires an open and available Connection. The connection's current state is connecting.|   at System.Data.SqlClient.SqlConnection.GetOpenTdsConnection(String method)
+   at System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(Boolean async, String method)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.TravelBatchRep.GetTravelBatchPageList(String PayCenterCode, Nullable`1 EnterpriseId, String StartDate, String EndDate, Nullable`1 TravelRiskType, String TravelBatchId, Nullable`1 TranslationState, Int32 PageIndex, Int32 PageSize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\TravelBatchRep.cs:line 51
+   at CGT.Api.Service.Boss.TravelBatch.GetTravelBatchService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBatch\GetTravelBatchService.cs:line 34
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 143 
+                        
+LoggerDateTime:2017/7/5 11:44:10   
+ID:[ThreadID:4]  
+Message:Debug:Model:{"GuidKey":"1cfebc3a-feee-4b39-9bec-52af4095aa9e","MerchantId":"CS01","Data":"6GHl28I6Dv1M73HUdTBFp5PSq62gkWCvOIEgVXB43Synr9Rht6wkbv0IwDN8OHbLbPbhzPsVK7gY7vr8ng3pq1urZJ4E7iLgUO783Z9VOlcXkm+gGiPfWqNh+iag2ywQl0y8k6t/hY64KvCLfNoNixbjpljQUT8prAU8xhGsPQKqpx9z7oZZ0RkKmHimyUu3ImvHvBJuPvyFi/XONFF9reOxQYNh3nA9YTN7jRGPSIFGAvhgon/b1stirQN+ylniBNLCpMc8xc3voENSqfQZn+zd+FwCFV8rfT+4xqCVYWzbswlCI6azd5u6eAGbstqde/aN49tEErakcuVv/rPMcCy9OKN+X06o4HFJwXXhW6f9SkcUlmiVLm8k2kOpqM1k6qzan8mT+Ht+A43kcUUyJ1x5s2C6vweprd2l2m3WpKHldbB4SroVjcC2roH+Chb9","EncryptKey":"ph/nPAvb4zs/6IeMt/muckvZr6FsFQOP3svVXoRCHzkHL4KS1C63piVidLnTFktAQBzdQzjbSpr97f8jJgjp+sCRjY39jZLi9+VJIeo7E4+Ux1rpVrVxyQtSlzWjiokt+STEiLyTRUPndpWFP3pkM6gtgKbKA04JOKgN2FDX+Sv7GBX5+prt0OLSHOqFj+TvHn+Kn8cveW061veQB66UXSWmxhcqaXMuaWiLijBSDpYTsWUzjazfArshAKNMSFBzW+p87TRmLrfsg192Njq0vus9Yu05+CqCRmOdxSXWqJL9jSmJ+CpX6bHONwu1KCOnBHFd6RtPPaRNpNgndR/h"}
+Parameter:null
+Exception:0009|RSA解密失败！|   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 95
+   at CGT.Api.Service.Boss.TravelBill.GetTravelBillService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBill\GetTravelBillService.cs:line 27
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 141 
+                        
+LoggerDateTime:2017/7/5 11:45:02   
+ID:[ThreadID:5]  
+Message:Debug:Model:{"GuidKey":"bca1794e-2408-4219-b196-a223cee8043d","MerchantId":"CS01","Data":"hYb1MmUdTti8x2NsSOCpvz0gAYTljJczsarCTnkc3hiGTJHhVUxU4jF9OJmZHogztmIBjOZCYrjVkOpcX9jsSKDHdrlax64q+QkTZjwW0iK5qXIeJHq5iJ049sUPD7zGh1CBYuqMFSFb2Z2/x2EmZ+a0Go1xXqpEZ+hjCCmrWyDaC/hV3bj2j6XV6M1uJgPkA/Rro3qUeKVRKVsWmNRxaDn1bsFMWKkJ8H2B+h1ZMSuCi812S4LnCGFbDevUzV+C3ueKv3HZ7Pl5HGkDjx0OOQ==","EncryptKey":"ylWlxZju155EZHYZ7IFo+E6JvRTfZ1f8y68oRADXhLiTzky3GxEnk4BunfMPzVa0N9chymUlfMWic+baM4tyytcpsjW0QqSRWuOmk7oXDE2IXOoLMgokomxCblbE4MDLngEF83Y6aypvoZNQJYN93o56+y8tikr5q/S3g36WE3fzFpnJTG3paqlDv9B/fUsOmA54RrnoGjrTpMTlSHAudfGXOHR4lNKMIR7CMdLt6jzrUP6+7igmUof8rf9+6V5oYeUSjN1ILHit25kRhA3WK0QOmZd4rdK8lngpE9WH5gIp+FnoV0qXO20Oz2b37e3RWtRnwWEQE2BcWk0lwcHA"}
+Parameter:null
+Exception:0009|RSA解密失败！|   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 95
+   at CGT.Api.Service.Boss.TravelBill.GetTravelBillEveryDayDownloadService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBill\GetTravelBillEveryDayDownloadService.cs:line 33
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 141 
+                        
+LoggerDateTime:2017/7/5 13:34:34   
+ID:[ThreadID:21] 
+Message:Debug:Model:{"GuidKey":"12fbfd13-fec0-43f8-bee4-971bdc3ac1f8","MerchantId":"CS01","Data":"8RnO9bIsbU6Rcve61c4BZieb2Dv1WWu7rrXlN5hKUSqEuD+G/nsN+2mO3+30zbBrZLpaAydbiKsVP8cVbAPRqgP8yufFYK6oJ3u5fopx95l94yqITcreTMLthUxmcNDz8W1rEIEx+8J1myMn14mAsdt0REtU2uYxPY0lN2omS6Vp+ZR0dvZIKLOAA4cRSWzTx3/vWxVXBDqVSVGrnnqcSV5wd+VR8mjUSX9GPwixkfmQ8TrwQlLRhjiZU6undb1Mzbdos8+ZOf2ulqUmZLhYYiCs1zKOrhvkHZx2g89fcOkrueU+KrnOllKo2sKz+1JxR3eN63udEewBpVERcbzorOhzSeXWarna96PHou2v8Jd1leHxTWfwWUWbG3TvNurbQ+jH76HWbn9uGGLP4KwdTZ3T2bz8L3FIm7y5uHE/wyLimGD+uRk1TrU/fJZFy3xfDQYER7WhfvVOfkIo2HsLkQ==","EncryptKey":"y7K/iwm3bwWstB/a4BOw2Uk2kVIN8Syd8PUrS13pMtvFL7Y+nNiFfdBKNsSm0HDrDHeyTptRKQdJDhszOo2hVWtVw0kzdAdtLwVrJ/3SXX4pX/p+SAGvdQaHevssSiHCWGpf0KBMPgo9PlDS23jYV217P03kMI1H8x311wD/P4fQXn0l4svnHR1O7ig/dDx1ynryVtq3nW8ponISIBzqE6XSkwwASZ4siWKGL+fLMKV4UocCwfInCXm51nib6lehoXBh4eafCaMh6jQIAcL4NVf+SsubB3u7tRsEbVGFwcCNa8MYg0kjPQp75/ZKPEBFHvtZItcQ5u82rG5FK/ky"}
+Parameter:null
+Exception:One or more errors occurred. (0009|RSA解密失败！)|   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 147 
+                        
+LoggerDateTime:2017/7/5 13:39:12   
+ID:[ThreadID:6]  
+Message:Debug:Model:{"GuidKey":"1ad50fb3-e1b7-476f-9be3-5c52ceea1bca","MerchantId":"CS01","Data":"UJdUQnnkb7mmsQJWLMMNNhP/Buhw1wAOZVCLfn4vUiUfZC1YP51n3ZGPtLwxc2vOBBzi2iwikyRsUfmXITV/rc5pE2XIhM0K09uTPqhlXBebi7T7bGMvL3JuUqjdKQ6BnXJVmsfkdWb8WvLeWipkbkF8YaNathmJSTuyFSzBwP/NZVTM6gCKdX5B+2Ije+WPDJEXMhiAoNl4jrn3amCx1alCYUMyPmdcLF+7wJDsg2ZaWeYQ9Nj1KkakgkadpPSomuHyums0HC4RpUDzlh6gQh6asXqB8YyOw7yAVJwHGatecOX26HCAALIcm2fde0XxGoKwIvEE/ZJCBwNFG24s/aGHYMV+s+/jJm0OS7oDWgpNkoDlEYexLFbVZRvvV94myTPRB6UkCFvFjlOwuLcng2YNgPnpiElH6QpMAJsZgBMDE+NZSipSKw0fcPx8191tC3BASc/mp4vWxd8aLoLlSg==","EncryptKey":"CtNVoF/CXI4b5NzUV/jLAINS9pRgX/eJ+xqT5UxfzrpsHmzXC0X+Mk1KjOO0mnKl5iPdJvx7SLScymuuyOZR8sdXRtKJhTkJUByc+Ym4xEKfQ3IMbIuE2Ko3ltWEnJE9WXHcvJXpC0eUbV6h/8nxMT3gk2VL6U8UGrYGRRsMW7ucGfMMyCWciymu7LWYoTNJtLjMFG4zZL/crh2hxNItaDiEDXDrBaaMtCA0DErAUtPG75GMQS/PFBPOeU6b83F8UbHtlLFlhu5WknQ7Cn/JE6hZbWaqGSGxdDoVKvuU1SNX75MVWHY3La2TayksXyvXCMActWXjs9LzlMrxs6YG"}
+Parameter:null
+Exception:One or more errors occurred. (0009|RSA解密失败！)|   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 147 
+                        
+LoggerDateTime:2017/7/5 13:43:25   
+ID:[ThreadID:6]  
+Message:Debug:Model:{"GuidKey":"8531cec7-b190-4382-a69b-86f49d158034","MerchantId":"CS01","Data":"TW1tmoplqLXNFcMubvWds/c7vCHZrCluxYPde+sEF9l7vMLAnxmkWH6HwqW+Hj3EZooepCag/LS9npX2bMP/hPt7/bJ0sRwo1zIq9lZ79xePaQ63IbD1Ffjj+5+Kc20piK2BjA9B3svSFZUJwNzWVR17R1hTGmSyN8GYJlVQC4YOlXY+kQM7SSnhTReqZQjXGPfMshSSsiFasQmzMh6AAEZrOoXpTnXEE+1bJRA/RtZ+rWgkjkY/UW3jXsLVdv/LXS2qtVCL63WG1gyC4z30u5v0ouy6r8aScrbuha0pCDV1Jlc94E74VIzGzCv062Np2k6hpuvBWjh6WM00eWwDDzmQAx5RuNPifeiydwhCzUoJzmo12SbLxXrM+XYYmKKMkrzHuvXXyNgrwA15lAum/NGh08El9kL5Bwz3UXB8rz4DskOFS6pVVImQykVTbAaLz6eT1QxlJQm1ngpqbPvAQQ==","EncryptKey":"d+4Xf04d2qK5SnB8MB1lW0kMmAXz9owEu5vwoCksAWI8/XC3jKOodus057GHnHN4cG4/5k1DxT0V82IqurxJC9j4ViRiV2cgdbplBCO+eGwvKY28yVNWlVFul9B5SA4vkGEi3fUj7tOvT5q0usaZ8axfn91vYtDvKzOFRQwFlEjsLpeJrUiKH+pUkUD++LV8OP6Dx4mm/R2yqzoi6reTVmRVf35ry27aPdGNeIKchSXHF3tmg+KnWB69rM2A3h3scG0XVIDmQDTjTxd5rri4KbdIyuebRQWI+wqN74PN9ZClQrpZkNyQy9t08IQpYMWleLIz/Uy7WIfCkQsFGNU8"}
+Parameter:null
+Exception:One or more errors occurred. (0009|RSA解密失败！)|   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 149 
+                        
+LoggerDateTime:2017/7/5 14:12:33   
+ID:[ThreadID:11] 
+Message:Debug:Model:{"GuidKey":"d72515a6-86f9-46cb-b2d9-640be2722704","MerchantId":"CS01","Data":"JhhXUo64gYOoKbkwItVhBc21tcLV7sNrGhDDo/N7O18Hjn624qQ8/w+eNUna2PWE5/6VgFB/74Kxg5lpMQAnd4ydr6h6KhHPZs8spQQ7bfMH7OoZudZpSKhTYrNT8z8S1GS4HFXJ0+wIPqb/kljDp0xRB0wwSw29fPbTvraw0QxtVKT+l3cpZwerfOQMZJKkeRCvHtE4ih9nZ5W3N9ArbxSyWpo/dYhXNmE1fGBWp4QoZmN5c3ZZbB97rIqFbDHsyWZvb0N1jiBk+nkzz7elHbaIMZR2opA8a4TnVoriX/qobyxM7Y37vRGQrJSjMVqG1GLKFSGvpemIjpDzfOvx/9HWX5LonLHql0pUIo1HLNwx8ahLL1h5OVBH1fh8len7BtUdyG/5BzeyjhYB6LSQZVIuTvhWHra0VwhYdhBA+syutSmIHWrWIhEv9FPXjvJN","EncryptKey":"L02Zk5Kmx3GqfCLks/nJXtoGv3lM6Ko0V1/RbnzqZxZF68tViL317zAHZgg01dxl5fPMDvbYX2xRiUgUJEtR4C91qh0FlCYIvD2/QMQwsSVugduSY5Bgi2GlBVLNIZLsKgPkb7MSRe+UKs3Czt8D8o3h5V58Gu9BmR7ZijKjSAlekxNhZTtSLpwSfc42ywxqlO3ir5AJpZX51pzjpTHaTWyvSmew//+tmMkRIYlbVyavUFRmu8+L1hrT/3u9NWqWIaHSALvEI7jFXm/5+DuWIRlcVXyacz+29xhx+e7uXVKcSupWWb95cb0KH4m7uXGUu1g32Gv70ZeNy2EeS/kM"}
+Parameter:null
+Exception:One or more errors occurred. (Specified key is not a valid size for this algorithm.
+Parameter name: rgbKey)|   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 147 
+                        
+LoggerDateTime:2017/7/5 14:22:37   
+ID:[ThreadID:12] 
+Message:Debug:Model:{"GuidKey":"7ec7c6c4-b5b8-459c-8ca9-29f1ebb4d46f","MerchantId":"CS01","Data":"fBuD94JFMjI4Sks2yEsR3M4KatObKerQpMKFKXSICcKhQ6m2zugoLuLrCtsRNc6lsIwI+7LvNxH9KX2gw/jvA8Pzb/WYZRMDrdA6K4DvMIbGjQhB28XjTmtUPd8j2Ws4HpTvcu2C3wOR3okLPTZV9wkaWqE+TajGh0ueuX8VQfstJuXgpT856OZoChO41p517vfzm3Cn2rZ/bBOp31FsWdriwichxxkL1OeeerA8IYrf9/8/vSlK6+5vbMFEDwzNkUSuep/IwLrVmNOBQOhAG5uy7fBPxbU1abHwb1q9UDsDN33OwvcTlQLBnusEga7TWMt4yhUVcySD3tDrRAONZ2WhcVQg6h5F1Ayvc2CVM8XYsRJTDJlpo6vgBgL4viYm0AAeufTvX4wJlRIFkjZnebtWHL7b8pCzSuuCIT8WA9mRDTMM4Zd6AvhPkgaUnc1U","EncryptKey":"k2wMmBdqfaBWAYvmmS8vQjGP1sKwMtIUMjs8gg7uNDD4+pt7Na5kVLXGKuSngWRkeKY8uFtR8AvzWz5enEI8/jWFvMNP26KNmNYbcoNX1m4gxn/qYj8NrwUOfeOUSa7FhaTFCwIHnzyGeBk1xAamUf4qScMi1GS6YaeyF2a2NUSA2oiFPAlw9XrtbWBhyiTr8kMUgPETdWilouFOPQLxCKeFRgOW/8e+GfVJvH2RzzbRSCZU0wisZRWbcC3IECMEm7Sa4hoepPQ3YiKUW/rC/GG7MdCT+4JqJllmKuSySbCgBsDJ5XVuzfXatT8CPFlwDPlRE6Q54VIjXNf2ZqKh"}
+Parameter:null
+Exception:One or more errors occurred. (Specified key is not a valid size for this algorithm.
+Parameter name: rgbKey)|   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 147 
+                        
+LoggerDateTime:2017/7/5 14:31:23   
+ID:[ThreadID:13] 
+Message:Debug:Model:{"GuidKey":"b57f8bfe-0b9f-4f83-aa9d-4987024b6f33","MerchantId":"CS01","Data":"CcTw3i5duP7PIbz8BTeHgYrv+bcpz5J1NaGV165hwhsN8YSr5jfwbjtIPAAlItByRf6jtfww5Q4onhtaAjbIm8tBJLW6dFCqA3M5yVh84vWNTzztjOnlORUY5b/RUv8yx+ahyASsw741BRz/ltg8uxup4UWVgvaRO9/mjRkJqrPdCzbBWWfFekbLM1YtjWeY69p69PSK9i2ljCG/45EyFaXVOxWoL93+6KrNILVkjDCe0TqrVUq1nlllQMtTL/PYLfdfr0/vDMFix5oAjBmQ/Iob2Mz3rj91GcoAoJviuzQvd4wNbsauz9cWM3NeBp7uxYX3ks2TFrIwhdicYLKbyh03D8h2AQlNA3b2fMmTtf4F9jyxGA13R27/r1LiQNY0xkoGV4Zk6E0PAUSe7H5qYW7h9eKweDCijc2+sIQrAY6uPXBtpErOKUCZ7e58oTqD","EncryptKey":"Yf8FhUKgX3FjY3Y3K+gQuvGE/+S4209HSXP06p9b/+DOdBwT8kdAJo4k4vfvnVWZvUfuBt0vzaG52a3OMEA8T4uTRxJQ7sMetLvy+hL99g+brveJMDZgw5xNMaLh77LxqyekNu7v5mcob+LQWPh31D7Qo9vxfXjW2PPvdNYzcp0KjVCxDcVQQSkrKYKcbSHB+eE0e83OeHExIbP65ikobvf4I4VR4O4Tq6tWKAmZlwnravydd0Vo4oM+cjYiPHhbJ6nSXDoT5L/QneP/N1DXCYT0gNrqAObaiNNBRMjVs8K8gz0vDGbZO9uHE76p3Sf4KDMEffmMuMfJ3mPNmmxa"}
+Parameter:null
+Exception:One or more errors occurred. (Specified key is not a valid size for this algorithm.
+Parameter name: rgbKey)|   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 147 
+                        
+LoggerDateTime:2017/7/5 14:40:01   
+ID:[ThreadID:11] 
+Message:Debug:Model:{"GuidKey":"d0dbc39e-dc0e-4a46-91f9-ae37412e68d9","MerchantId":"CS01","Data":"asOOuPvTvxcaC0QnMnK1oREtHqNhS1odR+xETb7aJ1FGEgwac08UYlhgy8lhnR88YUskR0Vi6FOrAbJl8PuyzaskdVXy2WOn0QAsxqTjuJrIB9Q8r/56PJ3nVEgMVe++ELty9azDLaXDeYYTPL99uQ25C12EqEUWzrL/zn+KCvhTCIPLkUvs7isQqzQEwmgTIA0DvbxkoUah/DkO8Nt/5QC1vLt9EH6zft/te+hCdblEEjiioiEyacdIBohX1gtTWRZ2bX5KXJs3a0YQBNZTIjLIlCW6EmImO3AfVS1LMDEsZrqhEmRMnUIaFP/RbKbPdDoZNQad9Znx7Ow/ekCnf67S98/M0KMLL2ahgiQnCtIFNhyHb3+3bt5SZ76PMFZUhLT/jsy7kVk2b3wXK5DecNgAwTraoypcGLGrD/2GEZspn9FE1P4IdaLYOyPKGWwt","EncryptKey":"UmSUWv6tyCtczeUoHuwT4I6u13rt+QqwlHeGlBaB4hLg//gIg2wqtH25LHdV1zETpBgzDVfnEgkuFswatUI42rViEKc/sHp3klzIr71roatKnyhuIzGDPuxepVsFU+f8f6ZTjyyO82Mg19nvpyxL1QFxeIQOfH98a503HZI4GeNR5Ssp8p5lOrWsUyNAPG2cwgx/jZFrzdGik+lkSacnaKHnJAG82Zq2XgvjgoCKjHEUEJJRTAGNgf+uSdoQ0qOuFqJnAEdkkrvv91H/zZsZJPUNLjtIRdfFLmbsljtNkUOnb5YNpHZLHuK+QueWHvCNalFqGadfb8avGTWBFJ8+3A=="}
+Parameter:null
+Exception:One or more errors occurred. (Specified key is not a valid size for this algorithm.
+Parameter name: rgbKey)|   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 147 
+                        
+LoggerDateTime:2017/7/5 14:50:40   
+ID:[ThreadID:11] 
+Message:Debug:Model:{"GuidKey":"0c67a353-dc25-4525-928e-d492e66c8fae","MerchantId":"CS01","Data":"QXm6FmiB/FNWuqtlAi9my9MaiQM1V2m+F0A5IqYEpb+EAmT3KgblDsoc3er8hbjuXXX249Hqa/s7DfbqS9qxEBwAxWp/RCIuXGHuDXqg2IEE70Sb55IClcEUpF3gyq3vGjN1rKOaE6jnVEumDuNFAYAmIlWI5dtUyTuv5oGk+4Sh5W9FF6FxgTvITMZ6geczwO4IeAW3PESYD0P/zrudsRCLfB5jVOCg4nNgRvEyRxUQt0OARqXchk1ror/nHJE45mhV7mCsX50AMri0PP1m4bCe91rGuxLEcrByPdtwnJJrIgBKhMs91vRREGwHisgxYheY3ny00QBvH+FZXGlh7WHIjwz2pww78robvBi81OgTIQMoO4L064QhgSxkx96TxmG+1oucChjM9j4G5GaUWieccNNPMCAq2wjLhH5lZfDYDFU3Twu6zcaNJhpIzHdj","EncryptKey":"QH9VO4QPNyDM/vEQ07LAgxIWRcq1Q3km2T2NR9ZebUUk9JCM+9wBVkI0VQZJXRnyEXFZ0aDAdMtCNVPHsyZUMcH+wvqOm7unoYFaBa73bKxblGrKA+9i/rUF4el4BYYhuZ35aNelEDB5mRzgfQSn++x7iverzwH0kCwQ+AqyNAeLjSoszkESTP5UKo/mVW+p131/2N+Wq8J3aryc4VQEOIv5p8FXwqsa0/6s0am9q7ICTpd6OUJzOd2/WHpUwSIDDPsWJAj7sB+oNj5bAizk+xlEIkVuFYe/jDCyYESofYc3Kgf2vLtmgBIL0snVNgVDwZKs+9igNSEhIWpFsF1g"}
+Parameter:null
+Exception:One or more errors occurred. (Specified key is not a valid size for this algorithm.
+Parameter name: rgbKey)|   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 147 
+                        
+LoggerDateTime:2017/7/5 14:50:50   
+ID:[ThreadID:12] 
+Message:Debug:Model:{"GuidKey":"653ac924-79bb-48af-8a54-d038a40f0dac","MerchantId":"CS01","Data":"C5xrEntA4bcX27hWlg2DfkL7gptUZvuygTrI1teVPcykMoVB27Yq0D9rCmeNe48FUFCeunZBUXC8Qrct2yl9Pa1BpFuXL9iTAIVHR4c8EgnfY2o57Nqh4q1uLXH8B1iK2vLhb5R6gzUStMc7bDqgSVsELRrl8INdF0FzGysIDwZGFpIn70qBNxKYjb5DqBR3M+tlBxOJzBxMIiPBaXww3zmMwmxxhLXNYFC0hQ09mL8ZhvLwD5e3QpEmDfBcbqN0mn1aCUh8YMKAfMNzSgr3UtQRyCG1gdXwDD02SZgJqOuHQ8AlOgJiz+TVKrpEc0N4mLOEyA6y4y1hBlSBqaBI9B5AqPqlyhqzHzYFEDAuLVsEkKoo1QQQJB0RbIFs7Z3WqNzDvhp4nDmKiTN5uL0Q6eJUWXkVljwGi0cCDyBfwYk8psIx/71WkopbPJSAOzHdTegfUBx0ZRpfrvgouIjtdg==","EncryptKey":"2ESf/gnBXgjUdEXg1T9eS1D/oLE3Lrm0qygQA32JdiIpdzFathve2JbD4uW/J3F7PcPSwe+T0CVRQj5DqqpciZJtUIrCuYg1wruKpNuX+blG/UfWj3Fj4TZbq1fTvyBrWcpjAWpqChTAXk7IiuuEifyQlirLaspa6HjoZx19SHdNa8zi0jalFoHPZJQ7wXiFgpryzUMogcJrgyGJz0qL/P1Cq4/rrCRCwOkwqkosiBC78dULMJZlZkNApEG6kMFnkyELaMUHYj4V2dBWKGziJ8AZ3/Rs4O87g1BMcWVEX2ao2+nRgdxc+LVu9AGFPAZ5I1ek4u5rn4uxUmNYp13H"}
+Parameter:null
+Exception:One or more errors occurred. (Specified key is not a valid size for this algorithm.
+Parameter name: rgbKey)|   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 147 
+                        
+LoggerDateTime:2017/7/5 15:57:07   
+ID:[ThreadID:16] 
+Message:Debug:Model:{"GuidKey":"581567d9-2bd7-4363-8464-dfd37932bbc5","MerchantId":"CS01","Data":"k0WADRAWccxGgfiOifK8N+GrdbIPs8TTO0UlICWMVDHlMD9/tLMJteRx9kgIFaN2Fc2zfPwSeU1dd/YG8ICqOBmxUxvF1rOV6sehWZ91K7QeKnoamieO9Rw8mdkNiMrcKa629jBDlb3Iwq8Wb42dyK1Bc8dOoScmgZtEpC8IAJwdTnDxeTKViVc4aGOeBTlPLKv2CO7WjClR+xwypHfcoTjiGP2VpwfBD3SxkMrhAKJ42Z9Tkb3MAV8/H3nCq0uBqsaKyz8noVGjZv1JXGDS5VoW4TW+jomQkel4x0wi5B+2D2/ph17NMGWiJBVN1cF7GkedS+8m1efsjSmqCwEoT4MAxz8Ih3MKTS+cH0kBisd3eFFm9BcqB8acd0/xVEDl7tEra06oOjNCsqie/v3FfpsdLTzjZq+v01AQGcWyJ4C9E8EOSPRCh82Gy15hAFbl","EncryptKey":"ULmQ9Z69PM2GzcYdY9CaHoxddQFwSk92WuTR6pMaJzjyjaagPKhz+Dx93pRP/gTUzJymERHgsX4GRlE6tfFIZTPenobX6JhCciKx8bggg6UWHIgClJ4rcA8Pb24umsZ0OJflzxujitPCR9Yjr3di0zj4/7qBkeEnkeShZZt/4RsZsvdJvOqUjuGfcGFR/bbtfyuYfEtHNUh5vyGL4o+Ul4mBD/o8Neh1KiOMsB3QIWmypNiHU3T5bWYjRqD1cBRPotpMeC/kJl3e1vdIHR8aXt+XMMLIAQKR41o/JqCSsj4lTXiZboF3FYSDhw9rObO/ApbFEp/EyH1ozoiUynR6"}
+Parameter:null
+Exception:One or more errors occurred. (Specified key is not a valid size for this algorithm.
+Parameter name: rgbKey)|   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 147 
+                        

@@ -1,0 +1,16 @@
+LoggerDateTime:2017/6/12 23:09:48  
+ID:[ThreadID:6]  
+Message:Info:{"EnterpriseName":null,"ModifyName":null,"TravelRiskId":21,"EnterpriseID":1054,"TravelRiskType":0,"EtermSuccessRate":0.8,"EtermFailRate":0.3,"WhiteSuccessRate":0.0,"WhiteFailRate":0.0,"TravelRiskState":1,"CreateTime":null,"CreateUserId":null,"ModifyTime":"2017-06-12T23:09:31.7440405+08:00","ModifyUserId":1,"PayCenterCode":null,"PayCenterName":null,"UploadLowCount":10,"EtermType":null,"TicketMultiple":2} 
+                        
+LoggerDateTime:2017/6/12 23:14:23  
+ID:[ThreadID:14] 
+Message:Info:{"EnterpriseName":null,"ModifyName":null,"TravelRiskId":21,"EnterpriseID":1054,"TravelRiskType":0,"EtermSuccessRate":0.8,"EtermFailRate":0.3,"WhiteSuccessRate":0.0,"WhiteFailRate":0.0,"TravelRiskState":1,"CreateTime":null,"CreateUserId":null,"ModifyTime":"2017-06-12T23:14:16.6174855+08:00","ModifyUserId":1,"PayCenterCode":null,"PayCenterName":null,"UploadLowCount":10,"EtermType":null,"TicketMultiple":2} 
+                        
+LoggerDateTime:2017/6/12 23:14:23  
+ID:[ThreadID:12] 
+Message:Info:{"EnterpriseName":null,"ModifyName":null,"TravelRiskId":21,"EnterpriseID":1054,"TravelRiskType":0,"EtermSuccessRate":0.8,"EtermFailRate":0.3,"WhiteSuccessRate":0.0,"WhiteFailRate":0.0,"TravelRiskState":1,"CreateTime":null,"CreateUserId":null,"ModifyTime":"2017-06-12T23:14:03.0018437+08:00","ModifyUserId":1,"PayCenterCode":null,"PayCenterName":null,"UploadLowCount":10,"EtermType":null,"TicketMultiple":2} 
+                        
+LoggerDateTime:2017/6/12 23:15:04  
+ID:[ThreadID:12] 
+Message:Info:{"EnterpriseName":null,"ModifyName":null,"TravelRiskId":21,"EnterpriseID":1054,"TravelRiskType":0,"EtermSuccessRate":0.8,"EtermFailRate":0.3,"WhiteSuccessRate":0.0,"WhiteFailRate":0.0,"TravelRiskState":1,"CreateTime":null,"CreateUserId":null,"ModifyTime":"2017-06-12T23:15:01.9336319+08:00","ModifyUserId":1,"PayCenterCode":null,"PayCenterName":null,"UploadLowCount":10,"EtermType":null,"TicketMultiple":3} 
+                        

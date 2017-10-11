@@ -1,0 +1,36 @@
+LoggerDateTime:2017/7/14 14:57:55  
+ID:[ThreadID:26] 
+Message:Error:系统找不到指定的路径。|   at Internal.Cryptography.Pal.CertificatePal.FromBlobOrFile(Byte[] rawData, String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   at System.Security.Cryptography.X509Certificates.X509Certificate..ctor(String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   at System.Security.Cryptography.X509Certificates.X509Certificate2..ctor(String fileName)
+   at CGT.DDD.Encrpty.Encrpty.RSAEcrypt(String data, String address) in C:\code\cgt_api\CGT.ApiCode\CGT.DDD\Encrpty\Encrpty.cs:line 70
+   at CGT.Api.Service.Boss.TravelOrder.ReviewTravelOrderService.apiResult[T](T model, String Path, String Pwd, String MerchantId, String UserKey) in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelOrder\ReviewTravelOrderService.cs:line 274
+   at CGT.Api.Service.Boss.TravelOrder.ReviewTravelOrderService.BaoLiOrderPayMoney(PayRemoneyImportModel payRemony, UserAccount userAccount, String BaoLiServiceUrl, String Path, String Pwd, String MerchantId, String UserKey, ResponsePayModel& respons) in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelOrder\ReviewTravelOrderService.cs:line 223 
+                        
+LoggerDateTime:2017/7/14 14:58:54  
+ID:[ThreadID:23] 
+Message:Error:系统找不到指定的路径。|   at Internal.Cryptography.Pal.CertificatePal.FromBlobOrFile(Byte[] rawData, String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   at System.Security.Cryptography.X509Certificates.X509Certificate..ctor(String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   at System.Security.Cryptography.X509Certificates.X509Certificate2..ctor(String fileName)
+   at CGT.DDD.Encrpty.Encrpty.RSAEcrypt(String data, String address) in C:\code\cgt_api\CGT.ApiCode\CGT.DDD\Encrpty\Encrpty.cs:line 70
+   at CGT.Api.Service.Boss.TravelOrder.ReviewTravelOrderService.apiResult[T](T model, String Path, String Pwd, String MerchantId, String UserKey) in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelOrder\ReviewTravelOrderService.cs:line 274
+   at CGT.Api.Service.Boss.TravelOrder.ReviewTravelOrderService.BaoLiOrderPayMoney(PayRemoneyImportModel payRemony, UserAccount userAccount, String BaoLiServiceUrl, String Path, String Pwd, String MerchantId, String UserKey, ResponsePayModel& respons) in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelOrder\ReviewTravelOrderService.cs:line 223 
+                        
+LoggerDateTime:2017/7/14 14:59:14  
+ID:[ThreadID:23] 
+Message:Error:系统找不到指定的路径。|   at Internal.Cryptography.Pal.CertificatePal.FromBlobOrFile(Byte[] rawData, String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   at System.Security.Cryptography.X509Certificates.X509Certificate..ctor(String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   at System.Security.Cryptography.X509Certificates.X509Certificate2..ctor(String fileName)
+   at CGT.DDD.Encrpty.Encrpty.RSAEcrypt(String data, String address) in C:\code\cgt_api\CGT.ApiCode\CGT.DDD\Encrpty\Encrpty.cs:line 70
+   at CGT.Api.Service.Boss.TravelOrder.ReviewTravelOrderService.apiResult[T](T model, String Path, String Pwd, String MerchantId, String UserKey) in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelOrder\ReviewTravelOrderService.cs:line 274
+   at CGT.Api.Service.Boss.TravelOrder.ReviewTravelOrderService.BaoLiOrderPayMoney(PayRemoneyImportModel payRemony, UserAccount userAccount, String BaoLiServiceUrl, String Path, String Pwd, String MerchantId, String UserKey, ResponsePayModel& respons) in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelOrder\ReviewTravelOrderService.cs:line 223 
+                        
+LoggerDateTime:2017/7/14 15:01:54  
+ID:[ThreadID:23] 
+Message:Error:系统找不到指定的路径。|   at Internal.Cryptography.Pal.CertificatePal.FromBlobOrFile(Byte[] rawData, String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   at System.Security.Cryptography.X509Certificates.X509Certificate..ctor(String fileName, String password, X509KeyStorageFlags keyStorageFlags)
+   at System.Security.Cryptography.X509Certificates.X509Certificate2..ctor(String fileName)
+   at CGT.DDD.Encrpty.Encrpty.RSAEcrypt(String data, String address) in C:\code\cgt_api\CGT.ApiCode\CGT.DDD\Encrpty\Encrpty.cs:line 70
+   at CGT.Api.Service.Boss.TravelOrder.ReviewTravelOrderService.apiResult[T](T model, String Path, String Pwd, String MerchantId, String UserKey) in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelOrder\ReviewTravelOrderService.cs:line 274
+   at CGT.Api.Service.Boss.TravelOrder.ReviewTravelOrderService.BaoLiOrderPayMoney(PayRemoneyImportModel payRemony, UserAccount userAccount, String BaoLiServiceUrl, String Path, String Pwd, String MerchantId, String UserKey, ResponsePayModel& respons) in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelOrder\ReviewTravelOrderService.cs:line 223 
+                        

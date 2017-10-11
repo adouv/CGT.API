@@ -1,0 +1,95 @@
+LoggerDateTime:2017/9/5 14:03:42   
+ID:[ThreadID:8]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 87
+   at CGT.SuspendedService.ProcessorBase`2.<>c__DisplayClass5_0.<Execute>b__0() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 56 
+                        
+LoggerDateTime:2017/9/5 14:03:42   
+ID:[ThreadID:8]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 87
+   at CGT.SuspendedService.ProcessorBase`2.<>c__DisplayClass5_0.<Execute>b__0() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 56 
+                        
+LoggerDateTime:2017/9/5 14:03:42   
+ID:[ThreadID:8]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 87
+   at CGT.SuspendedService.ProcessorBase`2.<>c__DisplayClass5_0.<Execute>b__0() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 56 
+                        
+LoggerDateTime:2017/9/5 14:03:42   
+ID:[ThreadID:8]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 87
+   at CGT.SuspendedService.ProcessorBase`2.<>c__DisplayClass5_0.<Execute>b__0() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 56 
+                        
+LoggerDateTime:2017/9/5 14:03:42   
+ID:[ThreadID:8]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 87
+   at CGT.SuspendedService.ProcessorBase`2.<>c__DisplayClass5_0.<Execute>b__0() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 56 
+                        
+LoggerDateTime:2017/9/5 14:03:42   
+ID:[ThreadID:8]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 87
+   at CGT.SuspendedService.ProcessorBase`2.<>c__DisplayClass5_0.<Execute>b__0() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 56 
+                        
+LoggerDateTime:2017/9/5 14:05:03   
+ID:[ThreadID:8]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 87
+   at CGT.SuspendedService.ProcessorBase`2.<>c__DisplayClass5_0.<Execute>b__0() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 56 
+                        
+LoggerDateTime:2017/9/5 14:05:03   
+ID:[ThreadID:8]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 87
+   at CGT.SuspendedService.ProcessorBase`2.<>c__DisplayClass5_0.<Execute>b__0() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 56 
+                        
+LoggerDateTime:2017/9/5 14:05:03   
+ID:[ThreadID:8]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 87
+   at CGT.SuspendedService.ProcessorBase`2.<>c__DisplayClass5_0.<Execute>b__0() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 56 
+                        
+LoggerDateTime:2017/9/5 14:05:03   
+ID:[ThreadID:9]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 87
+   at CGT.SuspendedService.ProcessorBase`2.<>c__DisplayClass5_0.<Execute>b__0() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 56 
+                        
+LoggerDateTime:2017/9/5 14:05:03   
+ID:[ThreadID:8]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 87
+   at CGT.SuspendedService.ProcessorBase`2.<>c__DisplayClass5_0.<Execute>b__0() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 56 
+                        
+LoggerDateTime:2017/9/5 14:05:03   
+ID:[ThreadID:8]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 87
+   at CGT.SuspendedService.ProcessorBase`2.<>c__DisplayClass5_0.<Execute>b__0() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 56 
+                        
+LoggerDateTime:2017/9/5 15:54:55   
+ID:[ThreadID:9]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 87
+   at CGT.SuspendedService.ProcessorBase`2.<>c__DisplayClass5_0.<Execute>b__0() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 56 
+                        
+LoggerDateTime:2017/9/5 15:57:00   
+ID:[ThreadID:12] 
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 87
+   at CGT.SuspendedService.ProcessorBase`2.<>c__DisplayClass5_0.<Execute>b__0() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        
+LoggerDateTime:2017/9/5 16:09:16   
+ID:[ThreadID:2]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 87
+   at CGT.SuspendedService.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        
+LoggerDateTime:2017/9/5 16:09:47   
+ID:[ThreadID:2]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 87
+   at CGT.SuspendedService.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        
+LoggerDateTime:2017/9/5 16:10:11   
+ID:[ThreadID:2]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 87
+   at CGT.SuspendedService.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        
+LoggerDateTime:2017/9/5 16:10:52   
+ID:[ThreadID:2]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 87
+   at CGT.SuspendedService.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        
+LoggerDateTime:2017/9/5 16:14:47   
+ID:[ThreadID:2]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 85
+   at CGT.SuspendedService.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        

@@ -1,0 +1,19 @@
+LoggerDateTime:2017/8/16 13:22:41  
+ID:[ThreadID:6]  
+Message:Debug:Model:{"GuidKey":"f3031a55-1afb-492b-95f5-20f2532e644b","MerchantId":"CS01","Data":"ent7Sfrskn8QF/ASOEyGi1g+fCjngPMeGRjEeQ9LHO7EpKleqRE1iFx7mXA7SfPQ5RKvFQbuRXMa3uKc1MNu+7hlxhVPUQfoeH4CA2pMReL2UX+sey0F3G3GCp4EnIZGye7tYbzgxhKIxsfGcO3Qx5WX+ox5PTBQ2zbgJloL/qntkdr6dNuBHDdtAi2HWccMmdCje71SdfQMPtgCkUjhMl67EQVlwi2Pj+Epd+kp3U8Jsp7bF8GNbNU87TxbUF9YnXgJJJHuu1EfbKHCOpmvDAzq9l2fo5+8AHP0CGQ8O6YCNboXc+qf2vfY68RN24NMxjgagDojZ4eUQ0g0yymzEGHB4EFHpUhAlsQcz+ZzxsEesE56pIgrDlCodjiD5/oaH4GFEZfNqvE/nIm9M6JwpROuhiFkPh8EHbM3f28wnso=","EncryptKey":"hxdRXDWOypjrrsplJf6LMPxP8+Sv1gncwE4oKJMGB+cP6N8rwkvUqp7h07sBa8XbLIn9p3mswwm+GSiUOgy9bWWohueWK8PZddawa6z9YwgXSrWLCphtrkP6h9BsSy4YqJuQr7HOH4torEU7r/Fwwep5hWGVfIEoUpzX6AaTcY0YCnoAM5wSscae7mXjA5uD81bm5ifkBQT6PzbITtREkMiNM36/Futv2rfMzAXBJMKgJ/wyNOS3QZQKU9ts0iewd9nKs5yvBq0jyU9HLjdKPSXcepLZWb/A0VZXat96RL24J0QuEZF2/9RsQSdtHNWwGfL62coom5X0d8sezBtNQA=="}
+Parameter:{"PayCenterName":null,"PayCenterCode":"CS0180210","EnterpriseId":null,"EnterpriseName":null,"MerchantType":0,"StartBillDate":"1990-01-31T16:00:00Z","EndBillDate":"2017-09-01T05:22:38.472Z","Status":0,"BillType":"2","PageIndex":1,"PageSize":10,"TimesTamp":"1502889758472","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"41745F3D87A67E63CEE0DAA9644700D3","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:ExecuteScalar requires an open and available Connection. The connection's current state is connecting.|   at CGT.Api.Service.Boss.TravelBill.GetTravelBillService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBill\GetTravelBillService.cs:line 47
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 146 
+                        
+LoggerDateTime:2017/8/16 13:22:53  
+ID:[ThreadID:6]  
+Message:Debug:Model:{"GuidKey":"3b582ca7-dc52-4bfa-b792-c8cc7db3673e","MerchantId":"CS01","Data":"Ofx9dSdo6nPNXad46Ev9GALsRb86g4rihKCTxFZ68IjRTcMNrxl2zADsR5Svod/VjzntDwqQQQ1c7Ok4D2X3ZW7NHSV8xeTIxSwF6CVOa5viSGnj6zcGwVKoqKQ1tsOBBC1eifbOOfh8GNaaNc27vdsGha7QtX3eXeclKPUdFgjvWXjNSYnTGWq83GbIF7Egmxj32JileDn534Edj3Fzl9/5RGnzA9khdpbXZrWe5QThN7MLk3k9qUjeK63+E1yDsvKdRJV2ptIe6JmQL/ekxDJR36/LQsCn1Fo9vN7/j6OZK8zwLBJrOfW3cFyyQyZw2jtCaCTUxMTdvftw8YNpP1sargWCGUC9QTX4l50yc18Gm0smDqq8uo0W6MkpY7x57jxoFaoTMATcEoahOaPHqZB1bRZ9AlmgzMJ9mlT6+hR1mHKT5zobnFYMvdTzazk5","EncryptKey":"NmIB0E5JRhrXI5SWBej1lB4F2JiJ370FY7f57zMpC4M/9cXgKETcZnVGLmlq2NHu7XHVMr5wUKS3S72T1Zk0JC9K1zAoGOczlxQb8KJgLh4MMQzfaMfxwphCeqBL4FfKdxcODzwnyuo18k2vyOenrMAuI5BbtEZMX4pBDRCbMKYeVUWcsTqLMUEHdlOnSGhuH+gAcGzgrkCkMzbAOkuSb5wpOhqcljgo+dISmFno49iGJQBzmHMHr2rIgSVFHMdwJ2YH0p1T6BzXppD3zWUXQH4R6Bd5dquUJ/APqsugXqsv+JWHsGM7Sccc/WQ/sHs0uY9jlBIoPjaAFkzlMME="}
+Parameter:null
+Exception:Specified key is not a valid size for this algorithm.
+Parameter name: rgbKey|   at Internal.Cryptography.AesImplementation.CreateTransform(Byte[] rgbKey, Byte[] rgbIV, Boolean encrypting)
+   at Internal.Cryptography.AesImplementation.CreateDecryptor(Byte[] rgbKey, Byte[] rgbIV)
+   at CGT.DDD.Encrpty.Encrpty.AESDecrypt(String data, String key) in C:\code\cgt_api\CGT.ApiCode\CGT.DDD\Encrpty\Encrpty.cs:line 55
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 98
+   at CGT.Api.Service.Boss.TravelOrder.DownLoadDistriPaltFormTravelOrderService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelOrder\DownLoadDistriPaltFormTravelOrderService.cs:line 31
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 142 
+                        

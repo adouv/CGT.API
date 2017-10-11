@@ -1,0 +1,80 @@
+LoggerDateTime:2017/6/22 16:12:15  
+ID:[ThreadID:14] 
+Message:Debug:Model:{"GuidKey":"ba8d9716-ed37-4c62-82b0-f2ba3eeae2ca","MerchantId":"CS01","Data":"spxXvpK8NARHjVMVfwrxMphZcnVue+CIe3n4OLiieW61ESE9kle5d2VqG21cTXlAxu8rah7gmlfYWhKJnU5SqIe6RjKpEx3fU6cAyX1gn6SeHVgE5naAVd2Ggg0wyVJtj8eW7oeXE5GbtsN0SR+HrPLmMm6x2rEqY1oJQM2JhSRpfCH5+JKmLM2xKRJZ3C6Y5BdCtQaBCBX2f5lnS5PcIcBeq9Sbcv4PxuMUfZuYXihRXhoOX2sBZmdhRHfWEG55QguJIhXFMjNFPd/GKn8Isp2JgiIRa5q0oj8gt0AFCyqgJ4r/9uZitoiHViLNEuY8ksKa+E8yAN8XqjlPUz8feCpydlYK4N+tDo4ymffexN/pcKX0Fx59Qe6ZCC1BkoIDF6k0D9g4kFTxKOmkZPbrZZ+385Rk9CXsLisA42Lv605QlHhKfksBt6QRiOgUq+np","EncryptKey":"fI8Wvf0P2syXk7/fHD1GL3KhYTasbwPZLbyy3RDzSmQSVaZXnRtC6zkF3CZfqP9c6PsMW90ek5HT5g+EwuMyygGMR/pmrjeyObUU0tT2oyJ/5QY+0kRtxsq+x0zyXvygZ2lo/WJy/tm5YJpHh0Kzey90WDoj3++IneU8p7ENkOcUmCZsIxU2PS8HZxaZtBr9LAjWsZCw16BHvStfXssNAPMnaFlcLCOBoomEZisQuOgvSRY5ZGoLXZCWa/9ILAi8m+i+QQ0+9f2V7lNy/IBVITtgh5EJZ6CZmyyFfDTdRNI3rhGA5t9VWuehdUFmqBXw3FYz1OeNlaQECYfGheduxA=="}
+Parameter:{"PayCenterName":null,"PayCenterCode":null,"EnterpriseId":null,"EnterpriseName":null,"MerchantType":0,"StartBillDate":null,"EndBillDate":null,"Status":-1,"BillType":null,"PageIndex":1,"PageSize":10,"TimesTamp":"1498147935486","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"97A9410104B6AE2E56DE31AD5FEE9590","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:'B' 附近有语法错误。
+关键字 'with' 附近有语法错误。如果此语句是公用表表达式、xmlnamespaces 子句或者更改跟踪上下文子句，那么前一个语句必须以分号结尾。
+关键字 'with' 附近有语法错误。如果此语句是公用表表达式、xmlnamespaces 子句或者更改跟踪上下文子句，那么前一个语句必须以分号结尾。
+关键字 'AND' 附近有语法错误。|   at CGT.Api.Service.Boss.TravelBill.GetTravelBillDownloadService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBill\GetTravelBillDownloadService.cs:line 115
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/6/22 16:13:11  
+ID:[ThreadID:16] 
+Message:Debug:Model:{"GuidKey":"aa8c1f64-0e0f-47eb-bccb-a01261d3e27e","MerchantId":"CS01","Data":"4Y/jSyqEtkBA0GKF0Z59gKwtNdpKlgAFivXJuiKiCzuwZOxf90508f13wlvUGpemkZLWXnNDq6EDvc3PhZ1OxUx83FrJT6xcqdGWRfAGfxMpW0wfLOVswYVn46pJYtfiK9N5sF1lQG4qjiPcsVvz8sBwQdVRmEu4PdxtCk792rF4WZcorJeae9xfd+VVac//8enRkPZWfgACL4GQ/I2v8Ja17/StD0FJFuOVnDXoH67PVqvh2wZHtc8Di9wE+jLn2c7YwUXAf5yLFpDbNwkJv3QbFi+hH8xD21PJE7EYova9pMT+NAMwGjQM8U6YbDt3iWQGtkdsF32U10Sc38Nb0D3p13AbKhAYdzntOu04WvgvSqcqQDWp9UASvV2cfrtamvCxISoUB+c6yjIt3xzQoG6QiMDm4KcuLsoRJdS+uRP6kJSNZmoQ0+4i326/wIAlmCRaNrdgJwGmPR1jVPrOiQ==","EncryptKey":"bfNF4xG3olEztVOFAgaXoydbzMtSiB2dL+rbtUea27fvXIB9NB66sTrOXHhkDFdVsRYjJVzMc5qHDdvaKAc6aLfSXdblxCqs9l5J6mTHEWGISZ7HfrJK9487xG4wTaArn8Y4S2or4hyXhykSrmG50cmH/ERWABmQ21+9djRUT6vLke7yh69HMPp6BznkFs2iy/4ZPZ2WSSImC0p5G4RgQIRRYE+VZVnsKyQlvRwsdDd7A61FG9ikcC0yyit3cvZ3w8j4v7xjPfpw7qfxHeNiRMjJhAXqnhHYMEOjKWb4dmpghcESIsh2E5vVwz4BMbhSXTxjKjfk0esoIHdvjciufQ=="}
+Parameter:{"PayCenterName":null,"PayCenterCode":null,"EnterpriseId":null,"EnterpriseName":null,"MerchantType":0,"StartBillDate":"2017-06-22T00:00:00","EndBillDate":"2017-06-22T00:00:00","Status":-1,"BillType":null,"PageIndex":1,"PageSize":10,"TimesTamp":"1498147991588","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"16A4F94CED83556E54B76C7138895499","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:'B' 附近有语法错误。
+关键字 'with' 附近有语法错误。如果此语句是公用表表达式、xmlnamespaces 子句或者更改跟踪上下文子句，那么前一个语句必须以分号结尾。
+关键字 'with' 附近有语法错误。如果此语句是公用表表达式、xmlnamespaces 子句或者更改跟踪上下文子句，那么前一个语句必须以分号结尾。
+关键字 'AND' 附近有语法错误。|   at CGT.Api.Service.Boss.TravelBill.GetTravelBillDownloadService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBill\GetTravelBillDownloadService.cs:line 115
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/6/22 16:13:16  
+ID:[ThreadID:15] 
+Message:Debug:Model:{"GuidKey":"9583bbcc-e3c4-4d17-a56e-cafe9d68ecb2","MerchantId":"CS01","Data":"8L5ZSXOB3m955y1E39C7+GE8zm3JJ5ABUDN4vdopCIgTQVrx2XJWfpbBjUl1flDTcFY5hjPmYtMo3TEw2zz0JNeYW2sPrBxbpgvbfRSL+vDHCx8Xp2Da71+6GNS29P5jNmwwdKEMhG3NtEvS/P2EkVu8/fGOM0wSvKexV3yApft64JyKkyghKBM0+1BTFJbvXYqoLvePt1HsCySTKtQmgzadIILjfJ2pJwDhfvTFNUdrCM6dCjhsup2YEv/BxmKYqJ/9ZcUOE8oKMnaLb86FFRqGbgqOE+LV6YPiLqKUvg0FKWjl3b3PIzk112/nkOct9qz4mye8a7eXZn3flmBvhhdkb7q67nYeNMZoDgt8KxKE9w53TazLpyn84y+1AgzZGDU2R89avNoL9OAVwcXWemOb7KSyeJKUlv0IPTp8Qj/zzG5n79QeCQ3ExlnO2lfswmn9hLUu7pQemex7M3Lr3w==","EncryptKey":"eCz1hPGqfmXE+lGko0io2ghxs/wSoQNBIqdxJhRdtCF9G2XCTVlqaiQKr+uQqNdGXF7/y6xz1hpnMSNbRQjeuuGwg3u9CI2PVTLlviWSF/930qhJNB6pUOQQyPtb76yhIzDMto7mvLRUj3t2UZhjd5EC0Z9cZlaKPevMjaTM6DXZ4YMeiEfWzn/xmeq1u9OnfjyXAD0NrKk8N4urrdH6vk92O427GyM3MRgRTeSIekyErLu5+7/gHfopjQIBS6zSbVJZdUZUV63hUt9nR7PbuZYHYG/PzBnAWBd0Dew/y+vQb2OU4+3Yo6eyLZ+MUFwGUpd9kFv1HBAjbVger4XeSg=="}
+Parameter:{"PayCenterName":null,"PayCenterCode":null,"EnterpriseId":null,"EnterpriseName":null,"MerchantType":0,"StartBillDate":"2017-06-22T00:00:00","EndBillDate":"2017-06-22T00:00:00","Status":-1,"BillType":null,"PageIndex":1,"PageSize":10,"TimesTamp":"1498147996909","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"8BB2527211262E4098E8E15EA922A8F1","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:'B' 附近有语法错误。
+关键字 'with' 附近有语法错误。如果此语句是公用表表达式、xmlnamespaces 子句或者更改跟踪上下文子句，那么前一个语句必须以分号结尾。
+关键字 'with' 附近有语法错误。如果此语句是公用表表达式、xmlnamespaces 子句或者更改跟踪上下文子句，那么前一个语句必须以分号结尾。
+关键字 'AND' 附近有语法错误。|   at CGT.Api.Service.Boss.TravelBill.GetTravelBillDownloadService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBill\GetTravelBillDownloadService.cs:line 115
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/6/22 16:16:25  
+ID:[ThreadID:26] 
+Message:Debug:Model:{"GuidKey":"6943f32b-40f3-4dc2-b277-f085c874dc2d","MerchantId":"CS01","Data":"nKDSJ+aSs6tgZOGG+H2PtTTomSS38vvN4DZjuwCY6Q6Lk2cIXwdCFjH3SON7Hm/uMoebB7hztNssiO6kzunVz4mHSrdhTB7/gY5dXXoJdG3hygSglQPqPKiHlC9Q+7OnAtyhHEVOcvMbf+ckLdD5eNrYCF78y79N/SpBxvnP28ew/E1bJt7QMiQY8PkUgTztZ4Cy1JkxpzWLSgU4Ulkr2Cf4xR5UOaFBgx4KRBRZoVqZExEppByfBYLVSdejd/IOvfH3dCk7vDFEBgY8+xO9WvoBhG6NlKZQy1/CuJiXKwApqEzf8bVXx/r7NLfgpkLvSSG9MDKy3gFv+OSe4p6viRtk1VsbEplHcpUbhEccpa9l+F8YGYFd4jn4moxicOEGxIxd40QLGNRQzGy3aK2o4zc3RNm/7klZ40RkIvALbb8f7cudbwtCQ6pPHXRKL/V8vgz7DDz2MyUT7nxUHAvBgA==","EncryptKey":"iEy3WeV6zm2KG6kcERPkFnWNJpjPqaB4mUfCEHW2Y0gFomQABK/F4XvOO5rVt3o4BJx42I4G/AXOsaCY3Y1LdaxBR2ajKtIHwvRXdcRQJiN9g4Za8+gJpfzzxcIO52Yd8oWlRwykirdeCvDIoR4BqhOwf4Rmm+BdJMvme0bJGRsFdLO5CAVQpEHJAimjqz+HZmEKh6y6PX4HmUaSlviXHOg9xN2skAFqXf06rGzXVH5G6dwuLL4zoBYUQdfOCAenZPbAqNTzlfd0Q47NkiYGu7yoATFZ9ruJ36ObuC/0o04kALFeCnhEkPl9KAtkVH97a2LluRYMU+UMufnSVoTbsg=="}
+Parameter:{"PayCenterName":null,"PayCenterCode":null,"EnterpriseId":null,"EnterpriseName":null,"MerchantType":0,"StartBillDate":"2017-06-22T00:00:00","EndBillDate":"2017-06-22T00:00:00","Status":-1,"BillType":null,"PageIndex":1,"PageSize":10,"TimesTamp":"1498148114189","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"84ED462A4D526DE4F50988F997DB6B15","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:'B' 附近有语法错误。
+关键字 'with' 附近有语法错误。如果此语句是公用表表达式、xmlnamespaces 子句或者更改跟踪上下文子句，那么前一个语句必须以分号结尾。
+关键字 'with' 附近有语法错误。如果此语句是公用表表达式、xmlnamespaces 子句或者更改跟踪上下文子句，那么前一个语句必须以分号结尾。
+关键字 'AND' 附近有语法错误。|   at CGT.Api.Service.Boss.TravelBill.GetTravelBillDownloadService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBill\GetTravelBillDownloadService.cs:line 115
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/6/22 16:16:49  
+ID:[ThreadID:28] 
+Message:Debug:Model:{"GuidKey":"b9f3d9ef-fdc2-42d5-b45b-3aab13cc2dfc","MerchantId":"CS01","Data":"/THTv7rw0jk0cRmhgY9BQkppXQku4EOtM+0jKg20/ZhecN862d5Mz99px17qJ7PHbmSIyd8w1k5FhDgHsv02Y2NWwy4wnjx38w2QcoKcMdpV1eEAdHQoZJtY/+BYJwaqwNXazKCLYcIxvgd2h5WqLklFROjl77jCKll4WvDeL2R82R1c2oUUiFE2csdiECGkddqqnUI7k1CeYMkbMaRPYqRq8UuZhqDiWdiD7xa5vBo9NcQ85m6G5bstTHeooelUiqmkqVe2+dnq89GEEkO3r2rnIrGhSBgT0eVVK+Hp8pEqGUP9sDI7zAEJ7FDJOxFieLhne2LYqrm5TNBf0JCMHonkwW5tn5rnMXtrMaCW9dYBiw5aW2XP5REqiK2P50gCyQneCX8YaOxaUylwdQDbszDHb4a582eU0dA6/C5PCiM59w+ERoIFdV1Cjq1JrrAB","EncryptKey":"lElplfq7kiKWnbW1tHOhFM+qTWroqGenjGst8zYyk4Jzo16RoNjt9gCGwdncsQeitpV8dp+sFZ20o7OC+Ba6C3pcuSpKMA4aDocmcAz0xFCCgeLCHPy4FlayYcP5+yzu3MWOmGaQ5W6xwQyvJ6U3BokNmFnae+jp000AvBDAZ0O6wKDE+0V4XUusb5urwrXETC/iycdFiHl/PaRpgdHq1ITFdx0dXrw5aJFxRDqT++xo5j7pzB+tgTwimWfVDGCEmJIqE60hT6bAI34HfGJpl56r8TqMNu6wc68OJjRQ+wgXjzIHF5IZNvcTbxOKCKxNghoVI3A02Fmhx1d72juejg=="}
+Parameter:{"PayCenterName":null,"PayCenterCode":null,"EnterpriseId":null,"EnterpriseName":null,"MerchantType":0,"StartBillDate":null,"EndBillDate":null,"Status":-1,"BillType":null,"PageIndex":1,"PageSize":10,"TimesTamp":"1498148203003","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"E9CFB3749BA544C26DEE55D11E4D95F0","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:'B' 附近有语法错误。
+关键字 'with' 附近有语法错误。如果此语句是公用表表达式、xmlnamespaces 子句或者更改跟踪上下文子句，那么前一个语句必须以分号结尾。
+关键字 'with' 附近有语法错误。如果此语句是公用表表达式、xmlnamespaces 子句或者更改跟踪上下文子句，那么前一个语句必须以分号结尾。
+关键字 'AND' 附近有语法错误。|   at CGT.Api.Service.Boss.TravelBill.GetTravelBillDownloadService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBill\GetTravelBillDownloadService.cs:line 115
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/6/22 16:17:20  
+ID:[ThreadID:27] 
+Message:Debug:Model:{"GuidKey":"f362643b-1f16-47c0-ab6e-47f18860a434","MerchantId":"CS01","Data":"JVgUE0TIZMtixsY6AUsbZIUvqdStNwtOCXHQ/ctrOlcOfTmtjLJkn0NlGvImgI3zynocKUnBAtZ3aBl6PHrcep+f6ij1w4SKmgS8800pYt1LwOfwzxK+IJ1+FHWZW5u7yWdyQtCU+UtCIKS9yYDkkprpaqlWua0m2JL00vc2ZQuGmA14hw+nt0p6xJnEed/Vv/O5TLO1GCvODth3AZQRrVYKOOu3s2hAPwmJCIs4EKaG1vB2dC7jez19lJ7nRSREz5scUkQw9P7biq8q6ANhzNIM0Wvu3/MnV63t3mohhzb3wYy+10Wv2wwK5ysVFtPbiZmRhTSXa1KBV7ySy3GYhj8PUgktdw41LY8G0CCQuuCliV05W+n3imi8kiT9WSKq6OZxrvqrHm9my4mfEpW4wMNJUygtV5oPO+I6Mnh82v+Jru2I/uv3SD0rpTq8zUrGqpulpPjx9UjE2+AI8dsDSA==","EncryptKey":"PDzuESs7Wf9nLbXjY4jolFW2IXFjiANu67hwLWsQM9fcebpy+qkWh5+R8+9r7v93wt7Ap3awxRUttEvXNxBwAX81GqAo/E5S2SiONF/QalsrOR2/IDdpDVhVYZHYWkQoU4FwXbfrKWGI/iZGE2Pn4m9vZeyJe/4teVMDzCYUsdV2JDc7fHaqutheNSZ+H8fONGF5r8fr813cYkbDCzRO8UZtHFcd96WBiYWMrfnEZqSjRv8bb35Zq3GDBEQT3zhERrhSjN8sXiC3Z3xTNxHCL8LqOmeBsYe8UaY8p5/56RqZT7SyVWg5U4bwrTVj/MRw9IPKV1FsWPU4jIDjKi4JyA=="}
+Parameter:{"PayCenterName":null,"PayCenterCode":null,"EnterpriseId":null,"EnterpriseName":null,"MerchantType":0,"StartBillDate":"2017-06-22T00:00:00","EndBillDate":"2017-06-22T00:00:00","Status":-1,"BillType":null,"PageIndex":1,"PageSize":10,"TimesTamp":"1498148236213","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"B18684AC463094A5102C76A1143ECAB6","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:'B' 附近有语法错误。
+关键字 'with' 附近有语法错误。如果此语句是公用表表达式、xmlnamespaces 子句或者更改跟踪上下文子句，那么前一个语句必须以分号结尾。
+关键字 'with' 附近有语法错误。如果此语句是公用表表达式、xmlnamespaces 子句或者更改跟踪上下文子句，那么前一个语句必须以分号结尾。
+关键字 'AND' 附近有语法错误。|   at CGT.Api.Service.Boss.TravelBill.GetTravelBillDownloadService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBill\GetTravelBillDownloadService.cs:line 115
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/6/22 16:17:52  
+ID:[ThreadID:26] 
+Message:Debug:Model:{"GuidKey":"468e560a-6823-4315-bc7f-d694ea527569","MerchantId":"CS01","Data":"tWOurjTyXHtYDjYCIegSEuq/gMsNGYEx9gXG3fBaMedSOylk26aqtU41c74/hf0nQ8gwAamAELM2YHnIv7TG59rpKEhh1w3TLI5sdwqgxLM4JNwSzLwIAxrjtwqrTDlJNW1mR7I59ebrFKBmdZwTIKZmHgQvTkK4w4SCB9hh0INQzoT0kkQHM+ym6IQDMrH7X2yGFLpjSDXtVvNLwW01j9ywcgh6cTVQh7WL+OdB5/sEZpdsUhNEa6Vvg1F1ponW7YfK80ulMWqcgRuyaWK3bIMSPcMkukS3mx8RK9BMBvbKlIO5P3/siU70JuGfwqduJcruDggwF3rzbTluf2pPhiasPZkGAZTPBuQr6JiU6AoY3tuWaFg4tzJaSST/E6JPNhp8RSmvD3a6wbwN4+LJHIQL36evxKhEK+R4GxaEu1RHvSrJdBufyPZQ1rE/Cch8tINYNlQMOD4pGX6GBkjbMA==","EncryptKey":"Xhc4oshX0in8OM/Rfqpsf2Y3ac6QsXZxHT++pk30SCb7R9wFPgx/hmoK4hDauA+LhG2hxcKBmb8WW8fxl919BhhvLYudgxYnyot1Qbq18pvAOfE4xpQGqfgOr1wBKRwILwrxfhI6OQtM2lhI0eEF7SYZ4flwaqflKCurfjQSXbhE/82wXbsWorcnUVONCudFQGcXGmjYIGAYmKZxrK3emT5GMyCqUMIXeFJayWdRt3R8nw7nS+siolqWwE3WMQWpbmURNTBRgRzp37YK3DAPwKUuUP2+nMhhqu8US9yL0JZTzquWZYqxaX9SaebZ0mWEwG+C9ybp1tudfPbHqHNuCQ=="}
+Parameter:{"PayCenterName":null,"PayCenterCode":null,"EnterpriseId":null,"EnterpriseName":null,"MerchantType":0,"StartBillDate":"2017-06-22T00:00:00","EndBillDate":"2017-06-22T00:00:00","Status":-1,"BillType":null,"PageIndex":1,"PageSize":10,"TimesTamp":"1498148243071","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"A1DBE415451D29BDDAFD484F5D07C964","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:'B' 附近有语法错误。
+关键字 'with' 附近有语法错误。如果此语句是公用表表达式、xmlnamespaces 子句或者更改跟踪上下文子句，那么前一个语句必须以分号结尾。
+关键字 'with' 附近有语法错误。如果此语句是公用表表达式、xmlnamespaces 子句或者更改跟踪上下文子句，那么前一个语句必须以分号结尾。
+关键字 'AND' 附近有语法错误。|   at CGT.Api.Service.Boss.TravelBill.GetTravelBillDownloadService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBill\GetTravelBillDownloadService.cs:line 115
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/6/22 16:22:08  
+ID:[ThreadID:28] 
+Message:Debug:Model:{"GuidKey":"d56ab73e-3728-4541-a305-d35b4eb73eb6","MerchantId":"CS01","Data":"SAQcnCHL06HXTyNB4c7pt1v612ndYL93OmHpXNdrL4Wb6GDZhsnUGVJs6Wi2QpQAfGUnoC0bn08p/IdqsQCZc35Xd3RvdDeRqJhro7/fciHrhcKmGticz7egJ16BaF0gKOJfpLBtybJnxI1MpR0Fp7yX5VpoJfCk1yyJCwi5tugyqGO78DyZFa1vF2seSMHjBsxUzRHvh/sk1LpSRvuUZtt7htnW4BPNO+OuZYIpyflDbt6yOAyWgUYa8hCivvB1QIP3I7OO6yfl5sAZv6izR/5l8UYfra6IoK+jKBXVsJdkauSEc8wfggiZI1xrhNb40PJ/+XoztmpTYALdqKK12kqkQAY5z9lnAy0L5hro+dX7qGszWO6VMX3MSjXiLrRcH/z1RXY8S/S7WTn0Vg5V2AeSUccgzoN28zrdervyBQYE/XcHo79eTPUnhQgCiJ4ubfEy2f8s3CIGg06zgxuV3Q==","EncryptKey":"T90SQx0OLel7cRA6cz+5APwUxcyd+X5AeuMuU2gXhllITUB3NNsXBCB8uR7DT0Uv+uP2jJ/rogkIO8u1et54/Lw6ScjPWZlkFeEcS+yTujSIueJfqr4nZzB1OLmA/EyUsUWNUe+V8bltEjSEEutG5M/Gke6AZqEVpXq4tCg3PkK/rRYscJ3vvbzzDvWo8nwr25yb8YsSt0SaDldlr3tYpajtFpQsoAzXfzFvRb3zEv2SEABAp8OyivMaOw+8q8FM0yr4gHxerHn2HlfpiuYXLklZbXSYPiJAvjl0sizxTyxGv2LzEifuKZlEgyatAHfbV/jhnCvOe4wI3Z8yfX/xQg=="}
+Parameter:{"PayCenterName":null,"PayCenterCode":null,"EnterpriseId":null,"EnterpriseName":null,"MerchantType":0,"StartBillDate":"2017-06-22T00:00:00","EndBillDate":"2017-06-22T00:00:00","Status":-1,"BillType":null,"PageIndex":1,"PageSize":10,"TimesTamp":"1498148326587","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"ECB615925F07ABC5D2B392772D606128","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:'B' 附近有语法错误。
+关键字 'with' 附近有语法错误。如果此语句是公用表表达式、xmlnamespaces 子句或者更改跟踪上下文子句，那么前一个语句必须以分号结尾。
+关键字 'with' 附近有语法错误。如果此语句是公用表表达式、xmlnamespaces 子句或者更改跟踪上下文子句，那么前一个语句必须以分号结尾。
+关键字 'AND' 附近有语法错误。|   at CGT.Api.Service.Boss.TravelBill.GetTravelBillDownloadService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBill\GetTravelBillDownloadService.cs:line 115
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        

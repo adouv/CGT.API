@@ -1,0 +1,477 @@
+LoggerDateTime:2017/9/8 10:55:25   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 10:55:25.545
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995783629889","PassengerName":null}}
+resTime:2017-09-08 10:55:25.546
+response:
+ 
+                        
+LoggerDateTime:2017/9/8 10:57:38   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 10:57:38.187
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995783629889","PassengerName":null}}
+resTime:2017-09-08 10:57:38.188
+response:
+ 
+                        
+LoggerDateTime:2017/9/8 10:58:19   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 10:58:01.495
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995783629889","PassengerName":null}}
+resTime:2017-09-08 10:58:06.447
+response:{"Success":false,"Message":"票号解析失败AUTHORITY\r\u001e","ticketData":null}
+ 
+                        
+LoggerDateTime:2017/9/8 10:58:26   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 10:58:26.651
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995783629889","PassengerName":null}}
+resTime:2017-09-08 10:58:26.651
+response:
+ 
+                        
+LoggerDateTime:2017/9/8 10:59:40   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 10:59:30.569
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995783629889","PassengerName":null}}
+resTime:2017-09-08 10:59:38.246
+response:{"Success":false,"Message":"票号解析失败AUTHORITY\r\u001e","ticketData":null}
+ 
+                        
+LoggerDateTime:2017/9/8 11:01:14   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:01:14.308
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995783629889","PassengerName":null}}
+resTime:2017-09-08 11:01:14.308
+response:
+ 
+                        
+LoggerDateTime:2017/9/8 11:01:53   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:01:32.870
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995783629889","PassengerName":null}}
+resTime:2017-09-08 11:01:40.638
+response:
+ 
+                        
+LoggerDateTime:2017/9/8 11:02:15   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:02:07.133
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995783629889","PassengerName":null}}
+resTime:2017-09-08 11:02:13.577
+response:{"Success":false,"Message":"票号解析失败AUTHORITY\r\u001e","ticketData":null}
+ 
+                        
+LoggerDateTime:2017/9/8 11:02:20   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:02:20.462
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995783629889","PassengerName":null}}
+resTime:2017-09-08 11:02:20.462
+response:
+ 
+                        
+LoggerDateTime:2017/9/8 11:02:46   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:02:34.863
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995783629889","PassengerName":null}}
+resTime:2017-09-08 11:02:43.496
+response:{"Success":false,"Message":"票号解析失败AUTHORITY\r\u001e","ticketData":null}
+ 
+                        
+LoggerDateTime:2017/9/8 11:03:11   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:03:01.909
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995783629889","PassengerName":null}}
+resTime:2017-09-08 11:03:09.180
+response:{"Success":false,"Message":"票号解析失败AUTHORITY\r\u001e","ticketData":null}
+ 
+                        
+LoggerDateTime:2017/9/8 11:03:25   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:03:25.901
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995783629889","PassengerName":null}}
+resTime:2017-09-08 11:03:25.901
+response:
+ 
+                        
+LoggerDateTime:2017/9/8 11:05:42   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:05:38.737
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995783629889","PassengerName":null}}
+resTime:2017-09-08 11:05:42.330
+response:{"Success":false,"Message":"票号解析失败AUTHORITY\r\u001e","ticketData":null}
+ 
+                        
+LoggerDateTime:2017/9/8 11:06:39   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:06:35.830
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995783629889","PassengerName":null}}
+resTime:2017-09-08 11:06:39.346
+response:{"Success":false,"Message":"票号解析失败AUTHORITY\r\u001e","ticketData":null}
+ 
+                        
+LoggerDateTime:2017/9/8 11:06:46   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:06:43.596
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995789638889","PassengerName":null}}
+resTime:2017-09-08 11:06:46.106
+response:{"Success":false,"Message":"票号解析失败    \rET TICKET NUMBER IS NOT EXIST   \r\u001e","ticketData":null}
+ 
+                        
+LoggerDateTime:2017/9/8 11:06:58   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:06:56.024
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995715635002","PassengerName":null}}
+resTime:2017-09-08 11:06:58.925
+response:{"Success":false,"Message":"票号解析失败\u001eDETR:TN/9995715635002\rISSUED BY: AIR CHINA                 ORG/DST: BJS/CTU                 BSP-D\rE/R: 不得签转/改期退票收费\rTOUR CODE:                                                   \rPASSENGER: 丁琨\rEXCH:                               CONJ TKT: \rO FM:1PEK CA    OPEN  H OPEN          H                /08AUG8 20K REFUNDED\r     T3-- RL:                  \r  TO: CTU\rFARE:           CNY 1340.00|FOP:CASH\rTAX:            CNY 50.00CN|OI: \rTAX:               EXEMPTYQ|\rTOTAL:          CNY 1390.00|TKTN: 999-5715635002\r\u001e","ticketData":null}
+ 
+                        
+LoggerDateTime:2017/9/8 11:07:01   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:06:58.932
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9999783618889","PassengerName":null}}
+resTime:2017-09-08 11:07:01.871
+response:{"Success":false,"Message":"票号解析失败    \rET TICKET NUMBER IS NOT EXIST   \r\u001e","ticketData":null}
+ 
+                        
+LoggerDateTime:2017/9/8 11:07:04   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:07:01.878
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995783619889","PassengerName":null}}
+resTime:2017-09-08 11:07:04.532
+response:{"Success":false,"Message":"票号解析失败    \rET TICKET NUMBER IS NOT EXIST   \r\u001e","ticketData":null}
+ 
+                        
+LoggerDateTime:2017/9/8 11:07:23   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:07:20.966
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995789638889","PassengerName":null}}
+resTime:2017-09-08 11:07:23.778
+response:{"Success":false,"Message":"票号解析失败    \rET TICKET NUMBER IS NOT EXIST   \r\u001e","ticketData":null}
+ 
+                        
+LoggerDateTime:2017/9/8 11:07:34   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:07:32.083
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995783629889","PassengerName":null}}
+resTime:2017-09-08 11:07:34.856
+response:{"Success":false,"Message":"票号解析失败AUTHORITY\r\u001e","ticketData":null}
+ 
+                        
+LoggerDateTime:2017/9/8 11:07:50   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:07:47.795
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995783619889","PassengerName":null}}
+resTime:2017-09-08 11:07:50.622
+response:{"Success":false,"Message":"票号解析失败    \rET TICKET NUMBER IS NOT EXIST   \r\u001e","ticketData":null}
+ 
+                        
+LoggerDateTime:2017/9/8 11:07:59   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:07:56.765
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995715635002","PassengerName":null}}
+resTime:2017-09-08 11:07:59.535
+response:{"Success":false,"Message":"票号解析失败\u001eDETR:TN/9995715635002\rISSUED BY: AIR CHINA                 ORG/DST: BJS/CTU                 BSP-D\rE/R: 不得签转/改期退票收费\rTOUR CODE:                                                   \rPASSENGER: 丁琨\rEXCH:                               CONJ TKT: \rO FM:1PEK CA    OPEN  H OPEN          H                /08AUG8 20K REFUNDED\r     T3-- RL:                  \r  TO: CTU\rFARE:           CNY 1340.00|FOP:CASH\rTAX:            CNY 50.00CN|OI: \rTAX:               EXEMPTYQ|\rTOTAL:          CNY 1390.00|TKTN: 999-5715635002\r\u001e","ticketData":null}
+ 
+                        
+LoggerDateTime:2017/9/8 11:09:28   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:09:24.540
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9999783618889","PassengerName":null}}
+resTime:2017-09-08 11:09:28.213
+response:{"Success":false,"Message":"票号解析失败    \rET TICKET NUMBER IS NOT EXIST   \r\u001e","ticketData":null}
+ 
+                        
+LoggerDateTime:2017/9/8 11:09:39   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:09:36.457
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995783629889","PassengerName":null}}
+resTime:2017-09-08 11:09:39.377
+response:{"Success":false,"Message":"票号解析失败AUTHORITY\r\u001e","ticketData":null}
+ 
+                        
+LoggerDateTime:2017/9/8 11:09:43   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:09:40.970
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995789638889","PassengerName":null}}
+resTime:2017-09-08 11:09:43.958
+response:{"Success":false,"Message":"票号解析失败    \rET TICKET NUMBER IS NOT EXIST   \r\u001e","ticketData":null}
+ 
+                        
+LoggerDateTime:2017/9/8 11:09:58   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:09:55.708
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995715635002","PassengerName":null}}
+resTime:2017-09-08 11:09:58.604
+response:{"Success":false,"Message":"票号解析失败\u001eDETR:TN/9995715635002\rISSUED BY: AIR CHINA                 ORG/DST: BJS/CTU                 BSP-D\rE/R: 不得签转/改期退票收费\rTOUR CODE:                                                   \rPASSENGER: 丁琨\rEXCH:                               CONJ TKT: \rO FM:1PEK CA    OPEN  H OPEN          H                /08AUG8 20K REFUNDED\r     T3-- RL:                  \r  TO: CTU\rFARE:           CNY 1340.00|FOP:CASH\rTAX:            CNY 50.00CN|OI: \rTAX:               EXEMPTYQ|\rTOTAL:          CNY 1390.00|TKTN: 999-5715635002\r\u001e","ticketData":null}
+ 
+                        
+LoggerDateTime:2017/9/8 11:10:03   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:10:00.541
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9999783618889","PassengerName":null}}
+resTime:2017-09-08 11:10:03.545
+response:{"Success":false,"Message":"票号解析失败    \rET TICKET NUMBER IS NOT EXIST   \r\u001e","ticketData":null}
+ 
+                        
+LoggerDateTime:2017/9/8 11:10:10   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:10:07.534
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995783619889","PassengerName":null}}
+resTime:2017-09-08 11:10:10.267
+response:{"Success":false,"Message":"票号解析失败    \rET TICKET NUMBER IS NOT EXIST   \r\u001e","ticketData":null}
+ 
+                        
+LoggerDateTime:2017/9/8 11:10:33   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:10:30.591
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995789638889","PassengerName":null}}
+resTime:2017-09-08 11:10:33.420
+response:{"Success":false,"Message":"票号解析失败    \rET TICKET NUMBER IS NOT EXIST   \r\u001e","ticketData":null}
+ 
+                        
+LoggerDateTime:2017/9/8 11:10:48   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:10:45.789
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995783629889","PassengerName":null}}
+resTime:2017-09-08 11:10:48.593
+response:{"Success":false,"Message":"票号解析失败AUTHORITY\r\u001e","ticketData":null}
+ 
+                        
+LoggerDateTime:2017/9/8 11:15:25   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:15:21.640
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995715635002","PassengerName":null}}
+resTime:2017-09-08 11:15:25.287
+response:{"Success":false,"Message":"票号解析失败\u001eDETR:TN/9995715635002\rISSUED BY: AIR CHINA                 ORG/DST: BJS/CTU                 BSP-D\rE/R: 不得签转/改期退票收费\rTOUR CODE:                                                   \rPASSENGER: 丁琨\rEXCH:                               CONJ TKT: \rO FM:1PEK CA    OPEN  H OPEN          H                /08AUG8 20K REFUNDED\r     T3-- RL:                  \r  TO: CTU\rFARE:           CNY 1340.00|FOP:CASH\rTAX:            CNY 50.00CN|OI: \rTAX:               EXEMPTYQ|\rTOTAL:          CNY 1390.00|TKTN: 999-5715635002\r\u001e","ticketData":null}
+ 
+                        
+LoggerDateTime:2017/9/8 11:17:36   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:17:32.708
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995715635002","PassengerName":null}}
+resTime:2017-09-08 11:17:36.696
+response:{"Success":false,"Message":"票号解析失败\u001eDETR:TN/9995715635002\rISSUED BY: AIR CHINA                 ORG/DST: BJS/CTU                 BSP-D\rE/R: 不得签转/改期退票收费\rTOUR CODE:                                                   \rPASSENGER: 丁琨\rEXCH:                               CONJ TKT: \rO FM:1PEK CA    OPEN  H OPEN          H                /08AUG8 20K REFUNDED\r     T3-- RL:                  \r  TO: CTU\rFARE:           CNY 1340.00|FOP:CASH\rTAX:            CNY 50.00CN|OI: \rTAX:               EXEMPTYQ|\rTOTAL:          CNY 1390.00|TKTN: 999-5715635002\r\u001e","ticketData":null}
+ 
+                        
+LoggerDateTime:2017/9/8 11:22:26   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:22:22.738
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"9995715635002","PassengerName":null}}
+resTime:2017-09-08 11:22:26.438
+response:{"Success":false,"Message":"票号解析失败\u001eDETR:TN/9995715635002\rISSUED BY: AIR CHINA                 ORG/DST: BJS/CTU                 BSP-D\rE/R: 不得签转/改期退票收费\rTOUR CODE:                                                   \rPASSENGER: 丁琨\rEXCH:                               CONJ TKT: \rO FM:1PEK CA    OPEN  H OPEN          H                /08AUG8 20K REFUNDED\r     T3-- RL:                  \r  TO: CTU\rFARE:           CNY 1340.00|FOP:CASH\rTAX:            CNY 50.00CN|OI: \rTAX:               EXEMPTYQ|\rTOTAL:          CNY 1390.00|TKTN: 999-5715635002\r\u001e","ticketData":null}
+ 
+                        
+LoggerDateTime:2017/9/8 11:22:44   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:22:41.723
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"7815783453373","PassengerName":null}}
+resTime:2017-09-08 11:22:44.582
+response:{"Success":true,"Message":null,"ticketData":{"Price":"1830.00","TotalPrice":"1880.00","StartDate":"09-16","TicketState":"OPEN FOR USE","FlightNo":"MU2443","Name":" 何京东"}}
+ 
+                        
+LoggerDateTime:2017/9/8 11:30:48   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:30:44.940
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"7815783453373","PassengerName":null}}
+resTime:2017-09-08 11:30:48.515
+response:{"Success":true,"Message":null,"ticketData":{"Price":"1830.00","TotalPrice":"1880.00","StartDate":"09-16","TicketState":"OPEN FOR USE","FlightNo":"MU2443","Name":" 何京东"}}
+ 
+                        
+LoggerDateTime:2017/9/8 11:31:45   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:31:42.029
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"7815783453373","PassengerName":null}}
+resTime:2017-09-08 11:31:45.541
+response:{"Success":true,"Message":null,"ticketData":{"Price":"1830.00","TotalPrice":"1880.00","StartDate":"09-16","TicketState":"OPEN FOR USE","FlightNo":"MU2443","Name":" 何京东"}}
+ 
+                        
+LoggerDateTime:2017/9/8 11:33:40   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:33:36.935
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"7815783453373","PassengerName":null}}
+resTime:2017-09-08 11:33:40.560
+response:{"Success":true,"Message":null,"ticketData":{"Price":"1830.00","TotalPrice":"1880.00","StartDate":"09-16","TicketState":"OPEN FOR USE","FlightNo":"MU2443","Name":" 何京东"}}
+ 
+                        
+LoggerDateTime:2017/9/8 11:44:47   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:44:43.396
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"7815783453373","PassengerName":null}}
+resTime:2017-09-08 11:44:47.050
+response:{"Success":true,"Message":null,"ticketData":{"Price":"1830.00","TotalPrice":"1880.00","StartDate":"09-16","TicketState":"OPEN FOR USE","FlightNo":"MU2443","Name":" 何京东"}}
+ 
+                        
+LoggerDateTime:2017/9/8 11:46:23   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:46:19.769
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"7815783453373","PassengerName":null}}
+resTime:2017-09-08 11:46:23.517
+response:{"Success":true,"Message":null,"ticketData":{"Price":"1830.00","TotalPrice":"1880.00","StartDate":"09-16","TicketState":"OPEN FOR USE","FlightNo":"MU2443","Name":" 何京东"}}
+ 
+                        
+LoggerDateTime:2017/9/8 11:48:49   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 11:48:45.935
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"7815783453373","PassengerName":null}}
+resTime:2017-09-08 11:48:49.470
+response:{"Success":true,"Message":null,"ticketData":{"Price":"1830.00","TotalPrice":"1880.00","StartDate":"09-16","TicketState":"OPEN FOR USE","FlightNo":"MU2443","Name":" 何京东"}}
+ 
+                        
+LoggerDateTime:2017/9/8 13:47:17   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 13:47:13.247
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"7815783453373","PassengerName":null}}
+resTime:2017-09-08 13:47:17.075
+response:{"Success":true,"Message":null,"ticketData":{"Price":"1830.00","TotalPrice":"1880.00","StartDate":"09-16","TicketState":"OPEN FOR USE","FlightNo":"MU2443","Name":" 何京东"}}
+ 
+                        
+LoggerDateTime:2017/9/8 13:47:22   
+ID:[ThreadID:2]  
+Message:Info:PayCenterService----target:http://182.92.5.99:8083/pay-web/factoring/account/batchTransferAccount
+reqTime:2017-09-08 13:47:21.664
+request:requestJson={"companyCode":"1","companyEmail":"fukh@reapal.com","companyReapalNo":"100000000001024","cashBackCode":"CSSX41080209","cashBackEmial":"3224132821@qq.com","cashBackReapalNo":"100000000001678","remark":"企业批量返现订单","ip":"1.1.1.1","billDateTime":"2017-10-31","corporateCode":"1093","billDays":"61","accountName":"测试保理","companyName":"苏测试分销一","firmName":"新测试企业九","batchNum":"636404670074446684","returnUrl":"/api/manage/remoney/notify","financingOrder":"[{\"orderId\":\"7815783453373\",\"ticketNo\":\"7815783453373\",\"passengerName\":\"何京东\",\"departureTime\":\"2017/8/30 0:00:00\",\"departureCity\":\"PEK\",\"reachCity\":\"SHA\",\"pnr\":\"QWERTY\",\"airline\":\"CA\",\"flightNo\":\"CA1234\",\"passengerNo\":\"\",\"orderPrice\":\"1880\"}]","transTime":"2017-09-08 13:47:21","sign":"2d61fb08c9173a3fe4d648d4e419b674"}
+resTime:2017-09-08 13:47:22.080
+response:One or more errors occurred. (The remote server returned an error: (404) Not Found.)
+ 
+                        
+LoggerDateTime:2017/9/8 13:47:27   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 13:47:24.905
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"7815783453374","PassengerName":null}}
+resTime:2017-09-08 13:47:27.619
+response:{"Success":false,"Message":"票号解析失败    \rET TICKET NUMBER IS NOT EXIST   \r\u001e","ticketData":null}
+ 
+                        
+LoggerDateTime:2017/9/8 13:47:33   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 13:47:31.608
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"7815783453374","PassengerName":null}}
+resTime:2017-09-08 13:47:33.992
+response:{"Success":false,"Message":"票号解析失败    \rET TICKET NUMBER IS NOT EXIST   \r\u001e","ticketData":null}
+ 
+                        
+LoggerDateTime:2017/9/8 13:50:32   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 13:50:29.100
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"7815783453373","PassengerName":null}}
+resTime:2017-09-08 13:50:32.635
+response:{"Success":true,"Message":null,"ticketData":{"Price":"1830.00","TotalPrice":"1880.00","StartDate":"09-16","TicketState":"OPEN FOR USE","FlightNo":"MU2443","Name":" 何京东"}}
+ 
+                        
+LoggerDateTime:2017/9/8 13:59:26   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 13:59:23.114
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"7815783453373","PassengerName":null}}
+resTime:2017-09-08 13:59:26.981
+response:{"Success":true,"Message":null,"ticketData":{"Price":"1830.00","TotalPrice":"1880.00","StartDate":"09-16","TicketState":"OPEN FOR USE","FlightNo":"MU2443","Name":" 何京东"}}
+ 
+                        
+LoggerDateTime:2017/9/8 14:00:26   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 14:00:23.138
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"7815783453373","PassengerName":null}}
+resTime:2017-09-08 14:00:26.754
+response:{"Success":true,"Message":null,"ticketData":{"Price":"1830.00","TotalPrice":"1880.00","StartDate":"09-16","TicketState":"OPEN FOR USE","FlightNo":"MU2443","Name":" 何京东"}}
+ 
+                        
+LoggerDateTime:2017/9/8 14:09:12   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 14:09:08.957
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"7815783453373","PassengerName":null}}
+resTime:2017-09-08 14:09:12.612
+response:{"Success":true,"Message":null,"ticketData":{"Price":"1830.00","TotalPrice":"1880.00","StartDate":"09-16","TicketState":"OPEN FOR USE","FlightNo":"MU2443","Name":" 何京东"}}
+ 
+                        
+LoggerDateTime:2017/9/8 14:16:42   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 14:16:38.799
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"7815783453373","PassengerName":null}}
+resTime:2017-09-08 14:16:42.524
+response:{"Success":true,"Message":null,"ticketData":{"Price":"1830.00","TotalPrice":"1880.00","StartDate":"09-16","TicketState":"OPEN FOR USE","FlightNo":"MU2443","Name":" 何京东"}}
+ 
+                        
+LoggerDateTime:2017/9/8 14:24:04   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 14:24:00.616
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"7815783453373","PassengerName":null}}
+resTime:2017-09-08 14:24:04.242
+response:{"Success":true,"Message":null,"ticketData":{"Price":"1830.00","TotalPrice":"1880.00","StartDate":"09-16","TicketState":"OPEN FOR USE","FlightNo":"MU2443","Name":" 何京东"}}
+ 
+                        
+LoggerDateTime:2017/9/8 14:24:11   
+ID:[ThreadID:2]  
+Message:Info:PayCenterService----target:http://182.92.5.99:8083/pay-web/factoring/account/batchTransferAccount
+reqTime:2017-09-08 14:24:10.711
+request:requestJson={"companyCode":"1","companyEmail":"fukh@reapal.com","companyReapalNo":"100000000001024","cashBackCode":"CSSX41080209","cashBackEmial":"3224132821@qq.com","cashBackReapalNo":"100000000001678","remark":"企业批量返现订单","ip":"1.1.1.1","billDateTime":"2017-10-31","corporateCode":"1093","billDays":"61","accountName":"测试保理","companyName":"苏测试分销一","firmName":"新测试企业九","batchNum":"636404765132516511","returnUrl":"http://123.57.7.161:5002/api/manage/remoney/notify","financingOrder":"[{\"orderId\":\"7815783453373\",\"ticketNo\":\"7815783453373\",\"passengerName\":\"何京东\",\"departureTime\":\"2017/8/30 0:00:00\",\"departureCity\":\"PEK\",\"reachCity\":\"SHA\",\"pnr\":\"QWERTY\",\"airline\":\"CA\",\"flightNo\":\"CA1234\",\"passengerNo\":\"\",\"orderPrice\":\"1880\"}]","transTime":"2017-09-08 14:24:10","sign":"87beb586dff391c2b258a31a34c35d98"}
+resTime:2017-09-08 14:24:11.113
+response:One or more errors occurred. (The remote server returned an error: (404) Not Found.)
+ 
+                        
+LoggerDateTime:2017/9/8 14:37:24   
+ID:[ThreadID:2]  
+Message:Info:SuspendedService----target:System.String[]
+reqTime:2017-09-08 14:37:21.290
+request:{"Catelog":"Ticket","TicketType":"BSP","Command":"Checkinfo","Airline":"CA1234","Args":{"TicketNo":"7815783453373","PassengerName":null}}
+resTime:2017-09-08 14:37:24.895
+response:{"Success":true,"Message":null,"ticketData":{"Price":"1830.00","TotalPrice":"1880.00","StartDate":"09-16","TicketState":"OPEN FOR USE","FlightNo":"MU2443","Name":" 何京东"}}
+ 
+                        
+LoggerDateTime:2017/9/8 14:38:14   
+ID:[ThreadID:2]  
+Message:Info:PayCenterService----target:http://182.92.5.99:8083/pay-web/factoring/account/batchTransferAccount
+reqTime:2017-09-08 14:38:14.701
+request:requestJson={"companyCode":"1","companyEmail":"fukh@reapal.com","companyReapalNo":"100000000001024","cashBackCode":"CSSX41080209","cashBackEmial":"3224132821@qq.com","cashBackReapalNo":"100000000001678","remark":"企业批量返现订单","ip":"1.1.1.1","billDateTime":"2017-10-31","corporateCode":"1093","billDays":"61","accountName":"测试保理","companyName":"苏测试分销一","firmName":"新测试企业九","batchNum":"636404782327437980","returnUrl":"http://123.57.7.161:5002/api/manage/remoney/notify","financingOrder":"[{\"orderId\":\"7815783453373\",\"ticketNo\":\"7815783453373\",\"passengerName\":\"何京东\",\"departureTime\":\"2017/8/30 0:00:00\",\"departureCity\":\"PEK\",\"reachCity\":\"SHA\",\"pnr\":\"QWERTY\",\"airline\":\"CA\",\"flightNo\":\"CA1234\",\"passengerNo\":\"\",\"orderPrice\":\"1880\"}]","transTime":"2017-09-08 14:38:14","sign":"36e09e39e7187466f57dbcb9054f9896"}
+resTime:2017-09-08 14:38:14.897
+response:One or more errors occurred. (The remote server returned an error: (404) Not Found.)
+ 
+                        

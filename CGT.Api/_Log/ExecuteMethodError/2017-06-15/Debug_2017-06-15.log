@@ -1,0 +1,76 @@
+LoggerDateTime:2017/6/15 14:43:35  
+ID:[ThreadID:152]
+Message:Debug:Model:{"GuidKey":"d217de95-8179-48f6-aa4c-8b1de845e15d","MerchantId":"CS01","Data":"vLCRoyqlBuRYHr70c4Jm9T6R0GrblUCt5GNaj1+hpygpPbfNcBcDnbpVsTZ+sQK62jBLvAfW6T+44nWFY7w8/QwtjwxM+Ob5P4vbhmUMJrJo4qwKr5c8hT4YWN9ahU+1nTw7uC9Qo/LdsEEmlO+gzgs8hKyJK6LD+7FceYoTDT4QXKaSyn2EkTgzXLMB2zBvkKaiKrzRPC3/v/JN9QWZug==","EncryptKey":"Nwr+cpJDH0IxrJveRPHVjhF0f55RaixiyCE1zI0CKLy/RD50qvgCRU8rbrOka+FYRAhm8rn6iCLcTjWx9z8mH+cSuPjOQ2hqHcBrvdjmzDFFS/ladAVPNMIxQLWEzir/nk3hWU3qqVBieXIPOIRiWZUSN8CoVK7mQ9OXghiMhChikX64tdOSfZp2Opbfy+Z3YtUdRQh48+5cQ//pBM5W8LD4W3ThtHOyauxRv/EwVP7a7IrMHY9ZB2Z3P78Wyrrllujq90fDyxR9olP8j+DP8Q7uRcs4rEP/zCa6rfJ1gSIh8FqzNEsLm+2z3Rhnz5EFRKfSS6atA3WbFu1y2J0sAg=="}
+Parameter:null
+Exception:A transport-level error has occurred when sending the request to the server. (provider: Session Provider, error: 19 - Physical connection is not usable)|   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at PetaPoco.NetCore.Database.<Query>d__63`1.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at PetaPoco.NetCore.Database.SingleOrDefault[T](String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.Cgt.InterfaceAccountRep.GetInterfaceAccount(InterfaceAccount model) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\Cgt\InterfaceAccountRep.cs:line 35
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 83
+   at CGT.Api.Service.Boss.Enterprise.DistributionEnterpriseService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\DistributionEnterpriseService.cs:line 35
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/6/15 14:43:35  
+ID:[ThreadID:153]
+Message:Debug:Model:{"GuidKey":"53e3d55b-de87-4708-ad1d-31b286b4ad5c","MerchantId":"CS01","Data":"6fMKe4avRNzNsdaEOkKTZg8WTPIIONHbtGK0Sv3l0j4sp9Q14tERDnV4BpfMrbEt3MEuRwpX/hABaAzn+lKjC/WXAQ6Xj2akHRK8pNR3VjaEFH9cK+kNx7fAzr1FYKFfUmSEpVWZpNDVEqyWxku34WkQjWClr5lJfwHZnN4ALHsr7LaCalIXv0po46nqkvZebKP0yGx2bHK0GOxtN0BBQdOGiysnE8b9CQpNEmMiowXGUGqGpERNy62z3lCzNctCOLBbc1KouFp7akdeuOyhu/04a+T5FrzAoBVr2rArv5tRZ4b1k3H7aVTYfLMFfmviYiyJebKi2wTML2Aj7rmlQXJVn+YrfCObpgWi8G41gek=","EncryptKey":"Ma8xlKCJTe3Qn56RNloo2UHnr5Z43me1alw+pzuHDi4M48h0dKINU03q1HV0YyzeUWCQE1z4tbcYdYrxWUMPHky0h7RBJEjRyvL8s2N/Tgjeymdhak1gxyptj5oqqAtJX/v0+kYluoTm0Jt1zhFfrDDfgAYw6By9QdIaqeTu7rIrZWOk03FHB71JR8+7KTrQ1mV0EuXRqfvO63gfEmcKOGUJNhHgKLCU5Z0rh0PgbCC76WZcSXSZWeOmpaeQJ3eICB3MksYoMkB2C7YOLwzpYE1Vh4C/bPGQmvm/JqdaYsj0w5i7aY/UoadfIQOxpD6UaSrsBklX20NcG3E6mfX8OQ=="}
+Parameter:{"Pageindex":1,"Pagesize":10,"EndDate":null,"StartDate":null,"MonthStatue":-1,"EnterpriseId":null,"EnterpriseStatue":null,"PayCenterCode":null,"TimesTamp":"1497537815562","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"97F27AAC2DC7606BF7FC3C1BC9497E3D","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:A transport-level error has occurred when sending the request to the server. (provider: Session Provider, error: 19 - Physical connection is not usable)|   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseWhiteRep.GetEnterpriseWhiteAndBackMoneyPageList(EnterpriseWhiteList model, Int32 PageIndex, Int32 PageSize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseWhiteRep.cs:line 137
+   at CGT.Api.Service.Boss.Enterprise.EnterpriseMonthlyLimitService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\EnterpriseMonthlyLimitService.cs:line 35
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/6/15 14:44:20  
+ID:[ThreadID:12] 
+Message:Debug:Model:{"GuidKey":"2099078c-7b60-4970-8d9b-7c5d77d661a1","MerchantId":"CS01","Data":"nGyZEfSJjc5IHJQbQSvFkOHsroA9GvJbHgkus7aUDIo5a7FOGWHrujwQASKn4iOIXYE8DfqbQExI6C3scjSq7K5Wc3f2GPwu2yzVys0DTKR9YZI89+TK0NODFn/qcXcVj0+WSCKDW38szgBcprImkF8Cfunz4kHfZGZlkH++3QKfAMvTuPz0LLElmdYksZ1vcumbJi1E4+XJT+267WhOYiyvv446TBLUqmkNk3MMJCXcHCXJtOee4bWH5h8d4tSWcxEzGPUG7g6l7reik8iJdpjPKFhZuSo2BMQE1j7GDjE/iQVTHqHUnVvifZ1aLxGg","EncryptKey":"eMxRjjd6Ul48o7CjldUwvCqdYWp4mg3IfDgSbLs8YCobrQrd7/pkOC66s3bgG9PZASbULUIeNdMqGK9Wq+h8PmkfHAUTYA0UapYs8XvUIp2Z8NH4N1I7vOv1UtXmaVekspvGGTvDMn1UZTpezv89j9JtIxpP8V5NofH/35RQXWgbvPMnQXCmSMoNEzxjomNL/oDlX3asyIATZnk0QZpGECwC+SpKadgMYxQ25ve7FHI86+o/W+Yayxf7cHwAdYDcEHKGk2yDJ+/4Z/1bI/l4evi9QQYbHGDpihgBH4haqvF5qQELA8oEzseFVcREvn3fzC5N9ge9rNefG9h4XmmJ"}
+Parameter:null
+Exception:参数错误。|   at System.Security.Cryptography.RSACng.EncryptOrDecrypt(SafeNCryptKeyHandle key, Byte[] input, AsymmetricPaddingMode paddingMode, Void* paddingInfo, EncryptOrDecryptAction encryptOrDecrypt)
+   at System.Security.Cryptography.RSACng.EncryptOrDecrypt(Byte[] data, RSAEncryptionPadding padding, EncryptOrDecryptAction encryptOrDecrypt)
+   at System.Security.Cryptography.RSACng.Decrypt(Byte[] data, RSAEncryptionPadding padding)
+   at CGT.DDD.Encrpty.Encrpty.RSADecrypt(String data, String address, String pwd) in C:\code\cgt_api\CGT.ApiCode\CGT.DDD\Encrpty\Encrpty.cs:line 87
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 88
+   at CGT.Api.Service.Boss.Staff.QueryStaffService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Staff\QueryStaffService.cs:line 34
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/6/15 15:07:35  
+ID:[ThreadID:14] 
+Message:Debug:Model:{"GuidKey":"89340f1a-4c49-4890-ad8d-f0e5237b1774","MerchantId":"CS01","Data":"v4jj06Jlzr4AXuOtYvoa+EgOe6otOTVveTFiffjgHHYMmjoyXT8qFdRCnRzCbUBHnkrVRG5ZuGpSjYobZq3BWsB9qXS+2NxgxlChb1QQWiGiOusz2WIlp9f4FqRcCnWVmZobik4rrusJrfjDFDzEALEJWMzM+H1JDLIoKFrbNdGLZ9KGOUe3vl510g9GmVEM4fV6AUBavXoN6UmDt1fOUndCN3rTsErxHmiBW1MaWTFnj34iPcGdKuvDiXdjZXvJbGVj5Qu5BzwGw9K0aPyNDE7CycKBw9mnGrzqBJ7xNb0Oj920Xgc+c/V+zddmazMKyhueWJJYLOalp1e71mV5AkZy3u1nsDC75V7hssY2f04=","EncryptKey":"jRpPG3cpiIqp54CqPHFIEcean/a1PGUdqLEiCalaMrKPY267+FYIrsSDFt/NhjtF2TFyeSEln4WVTY3wax5Y1ZqLFF7jcY6USljohOBgBVq02VxEYXSfifaKcVGynBpQbZrTBmqULbnAAxGsKfico0piXN/bAB7J73mLliA7PoAuSwrVU3LR5eU545tjWCoL8PMZdqObPbZxqPt3JJlHy44K6rh5z2ZD95YiylzAJBO9qf5nbWMexpuFDky87wQGMD6LQbdaae7NgD7XaXpZqc7NNiGGMFVvGlHyBgUR/kGKt95FgIIQzG6GAp7rN+2Ey3JBZaQOXOl+TdISmcEEqw=="}
+Parameter:{"UserType":null,"PayCenterCode":null,"ModifyBeginTime":null,"ModifyEndTime":null,"CreateBeginTime":null,"CreateEndTime":null,"PageIndex":1,"PageSize":10,"TimesTamp":"1497539254517","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"74327CA9514C55EF43AEA30EC127D456","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:关键字 'AND' 附近有语法错误。|   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.Cgt.UserAccountRep.GetUserAccountAndBackMoneyPageList(UserAccount model, Nullable`1 CreateBegionTime, Nullable`1 CreateEndTime, Int32 pageindex, Int32 pagesize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\Cgt\UserAccountRep.cs:line 115
+   at CGT.Api.Service.Boss.User.GetUserAccountLimitListService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\GetUserAccountLimitListService.cs:line 37
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/6/15 15:07:40  
+ID:[ThreadID:4]  
+Message:Debug:Model:{"GuidKey":"ed281ab8-cd98-4643-addd-dde07fb9fc84","MerchantId":"CS01","Data":"ZBz7UCi6h04bD3Ma8n7lXKrcsJEiK34YbdCmTvxfOaay6Erx2iYSp5GGhaEnkwS/TTgxtT6Kd+oyXU35anDrH6lDBFP99uh78WSVxDcWxQP5cqK9Ybe0osJ+UXEct+PRJ3NsOKka4FtmH4lT8NP3d4Wh/d+4qAs4coTsn3Cr3iOYZGFr5lMwYN/7ypOReiVE+hT7xet3VvOudtZyx7l8iDfSovlZvzn7xw4SVz0i3AdVQc1jg+dHn3xozeJ83/+gs3iYja4k6xIlAsS1c8WE1ap/qmveQU1hL4aGgV1YeM0NBlfe0xaVb/fCwdrQqN57nBrRpKg3EIlEl9UxVaTzCrCuiMdTkLVB9s9OIhhLMVo=","EncryptKey":"i0gck0jMOk270wB7W2Fd6Xf6UGlhj2YqLLqhVb3JtYn9kE2ptMaQNiU+PEfJ/uCqQhBWDQsCcjNtQEXfgUC2YX7TuAGuNd0/MnDGBQdcChoeCsuNFnaHAHshrueUqXS4144NB+kMWqPwq+qwQrJ2GVnv3zvGwOBpr07XKU0yM6dH5aOqNLwgPn7ABJvL4wwhg60Ca6HmyzwvxA5k6gMkv2YShGhnSpY5jWm0V2fOwzC6mdekX7mGwlvn1SeBT53oByZLbxrOc6F1vck5NxTjNYtT6YmvpO/BloGALDXKR3xvZAov6eYsglgMI2pNGcSiaZl2G6SX37hHo72JHlhAWg=="}
+Parameter:{"UserType":null,"PayCenterCode":null,"ModifyBeginTime":null,"ModifyEndTime":null,"CreateBeginTime":null,"CreateEndTime":null,"PageIndex":1,"PageSize":10,"TimesTamp":"1497539260596","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"CA160116C507F68825E96423702182BB","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:关键字 'AND' 附近有语法错误。|   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.Cgt.UserAccountRep.GetUserAccountAndBackMoneyPageList(UserAccount model, Nullable`1 CreateBegionTime, Nullable`1 CreateEndTime, Int32 pageindex, Int32 pagesize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\Cgt\UserAccountRep.cs:line 115
+   at CGT.Api.Service.Boss.User.GetUserAccountLimitListService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\GetUserAccountLimitListService.cs:line 37
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        

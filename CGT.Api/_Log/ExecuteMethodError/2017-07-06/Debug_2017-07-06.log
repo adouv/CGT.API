@@ -1,0 +1,9 @@
+LoggerDateTime:2017/7/6 13:02:44   
+ID:[ThreadID:22] 
+Message:Debug:Model:{"GuidKey":"716fc257-b3e9-4a2d-b600-7371d7516c03","MerchantId":"CS01","Data":"De4XZXRKk9uCc31eLCC8VI1ILCb8ODJ6j+hdt+EUghw8AEyPb8rzRlFSHBYYcKXPznusN2FglPTST1LuaWRkv7Axwgch4osDCcFgjOG0BsRlFqcQ2QVcAnbVStNiqg3W898KEzgZEFL+sGDy6RnleFj+HD8gU2nslWajRuLqn4fYvnnpymdFawdfLsFOR/m5yBnejfM4e2s/X12nlu74eDi6tchA5mZvzwcOMOZ0LWGx9qZHd5Ea6ntuNoVOMHeZ59E0w8W1/QK+1Qs631ihgb/m6dInFSk4oLgO0ZbTsr4wgKiOsXFDElQbAjBpbshLCUtP7hiMY9vd+Ynu73Sbe2pZjkX+sZKqZ+R+zbqG8dpqIMqGpI1uf78i/1hwcUuQ3CUraUFj8NyOLkv8n18/fdE/CwyJaHEGNVGyXKobS9Y=","EncryptKey":"a6+j2fxbEbR/YWT4t6jvdNuI5rA/1kyjbCbI0oCnxo7lw0sHkZUexiGRFMjWS7ECHQq7S1bcUokNun+VkWyZ/wjHCkHBwQGnoEcXNhzlkf/UsOz1v25CHnx+f7Moyokcqp2eWDqsZdZovoN7we+dkTsZ5eQprsxSleNPnnJIRSpJ1x151F4YMjbIxLnuqfhVwgINLx4g9hWFmX03HGFevNkHcWU9UlqMNL934L9hYMQh4hKoE/OJfUlcsSxnX13fkj1qJsFMFkZiCl5AuGOR1DAFfQHj9pWgFbyH2TY9YObW2WgO9TXTx1k3XAtTJ4tEYKQcT6DW0pC17sag+1iyDw=="}
+Parameter:{"PayCenterName":null,"PayCenterCode":"CSSX41080209","EnterpriseId":null,"EnterpriseName":null,"MerchantType":0,"StartBillDate":"1990-01-31T16:00:00Z","EndBillDate":"2017-07-30T16:00:00Z","Status":0,"BillType":"2","PageIndex":1,"PageSize":10,"TimesTamp":"1499346161879","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"F6A40676EB0B460FC398FC5207BE1C77","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:One or more errors occurred. (ExecuteScalar requires an open and available Connection. The connection's current state is connecting.)|   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 147 
+                        

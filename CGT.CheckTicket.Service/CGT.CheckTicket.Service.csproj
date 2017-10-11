@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CGT.DDD\CGT.DDD.csproj" />
+    <ProjectReference Include="..\CGT.Entity\CGT.Entity.csproj" />
+    <ProjectReference Include="..\CGT.PetaPoco.Repositories\CGT.PetaPoco.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>

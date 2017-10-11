@@ -1,0 +1,80 @@
+LoggerDateTime:2017/9/8 10:55:25   
+ID:[ThreadID:2]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 85
+   at CGT.SuspendedService.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        
+LoggerDateTime:2017/9/8 10:57:38   
+ID:[ThreadID:2]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 85
+   at CGT.SuspendedService.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        
+LoggerDateTime:2017/9/8 10:58:26   
+ID:[ThreadID:2]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 85
+   at CGT.SuspendedService.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        
+LoggerDateTime:2017/9/8 11:01:14   
+ID:[ThreadID:2]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 85
+   at CGT.SuspendedService.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        
+LoggerDateTime:2017/9/8 11:01:43   
+ID:[ThreadID:2]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 85
+   at CGT.SuspendedService.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        
+LoggerDateTime:2017/9/8 11:02:20   
+ID:[ThreadID:2]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 85
+   at CGT.SuspendedService.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        
+LoggerDateTime:2017/9/8 11:03:25   
+ID:[ThreadID:2]  
+Message:Error:Object reference not set to an instance of an object.|   at CGT.SuspendedService.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 85
+   at CGT.SuspendedService.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Suspended.Service\ProcessorBase.cs:line 55 
+                        
+LoggerDateTime:2017/9/8 11:27:38   
+ID:[ThreadID:2]  
+Message:Error:The type initializer for 'CGT.PayCenter.Service.ProcessorBase`2' threw an exception.|   at CGT.PayCenter.Service.TravelBatchRemoneyProcessor.get_ServiceAddress() in C:\code\cgt_api\CGT.ApiCode\CGT.PayCenter.Service\TravelBatchRemoneyProcessor.cs:line 15
+   at CGT.PayCenter.Service.ProcessorBase`2.GetRequestUrl() in C:\code\cgt_api\CGT.ApiCode\CGT.PayCenter.Service\ProcessorBase.cs:line 167
+   at CGT.PayCenter.Service.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.PayCenter.Service\ProcessorBase.cs:line 69 
+                        
+LoggerDateTime:2017/9/8 11:31:31   
+ID:[ThreadID:2]  
+Message:Error:The type initializer for 'CGT.PayCenter.Service.ProcessorBase`2' threw an exception.|   at CGT.PayCenter.Service.TravelBatchRemoneyProcessor.get_ServiceAddress() in C:\code\cgt_api\CGT.ApiCode\CGT.PayCenter.Service\TravelBatchRemoneyProcessor.cs:line 15
+   at CGT.PayCenter.Service.ProcessorBase`2.GetRequestUrl() in C:\code\cgt_api\CGT.ApiCode\CGT.PayCenter.Service\ProcessorBase.cs:line 167
+   at CGT.PayCenter.Service.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.PayCenter.Service\ProcessorBase.cs:line 69 
+                        
+LoggerDateTime:2017/9/8 13:47:22   
+ID:[ThreadID:2]  
+Message:Error:Unexpected character encountered while parsing value: O. Path '', line 0, position 0.|   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CGT.PayCenter.Service.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.PayCenter.Service\ProcessorBase.cs:line 111
+   at CGT.PayCenter.Service.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.PayCenter.Service\ProcessorBase.cs:line 78 
+                        
+LoggerDateTime:2017/9/8 14:24:11   
+ID:[ThreadID:2]  
+Message:Error:Unexpected character encountered while parsing value: O. Path '', line 0, position 0.|   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CGT.PayCenter.Service.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.PayCenter.Service\ProcessorBase.cs:line 111
+   at CGT.PayCenter.Service.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.PayCenter.Service\ProcessorBase.cs:line 78 
+                        
+LoggerDateTime:2017/9/8 14:38:14   
+ID:[ThreadID:2]  
+Message:Error:Unexpected character encountered while parsing value: O. Path '', line 0, position 0.|   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CGT.PayCenter.Service.ProcessorBase`2.ParseResponse(String response) in C:\code\cgt_api\CGT.ApiCode\CGT.PayCenter.Service\ProcessorBase.cs:line 111
+   at CGT.PayCenter.Service.ProcessorBase`2.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.PayCenter.Service\ProcessorBase.cs:line 78 
+                        

@@ -1,0 +1,18 @@
+LoggerDateTime:2017/7/10 10:38:07  
+ID:[ThreadID:11] 
+Message:Debug:Model:{"GuidKey":"eaa8b120-65e3-4cc0-b37b-5b3581994e5f","MerchantId":"CS01","Data":"piYz6s054PaSos3qlSUWzgrUq53A+Bjmq6VR0AGtS3aNgKkf6l9+OoaiHMTeuNVYPc2jY8NVnxGdCfvbo+gO7QKgR9Rj9XwUbLDaoBOCey2gIGOYyG1TqtIhfln78BgURKbdy+PGZhX3EtUlLnhpAkeWD/gyVbH1bBhHxAE2XUN5VmeJHahkbzK8fNiXKYioBAFiH/i7XlXsplsOA3KWrpD5LOotUdxerxrj9m2X0wQjkVoz5xENip1VoYnpttwrbjgi+3BOkxr1YD43Er9ENYRVmxYvqva0I4q4Uw+z+4dUWbiYlINC6tUAq1A0EAWlo3braeerbb2GI3EE8YgjvjevugSP5NIEIO+az3/AHz8Nhn7z0Macq/2+wDisxD+8eYCz3HGxgXbLkaqSr8T4S1HM1ELhsHG62ns74WXgwkk=","EncryptKey":"MBrVR5xrgpRV5Cw8xwJB+oDtJZ/ZDsU5NliZDtME1zI3Mo17wf4hGievD87rcU4T/EPY3W60cSM+KUzNnBiScVOPg3HEEkPKfiq3wTijcU+FPAVprCf5dqb0CFTAmA84HYuOaBOzP85mzjVtSoDTvbenhsF75NJipegUNOTK5sFOpUybaQwfce6uB145OJ8HZ3cnPbxxke4NC8X5G/osCnFXEsyh/bxsYPQNjPe3045/xjthr2PgTidwpl4TE5lLIhVYoiwvaYmw62G3oV9ud1WbNaKOYX158Y6d/8MpprUgWP1V+VY+GCvoJRPs3zFUsY4l1sp9iOKr4NJPrYU3iQ=="}
+Parameter:{"PayCenterName":null,"PayCenterCode":"CS0180210","EnterpriseId":null,"EnterpriseName":null,"MerchantType":0,"StartBillDate":"2017-06-30T16:00:01.947Z","EndBillDate":"2017-07-30T16:00:00Z","Status":-1,"BillType":"0","PageIndex":1,"PageSize":1,"TimesTamp":"1499683084948","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"CE778FC496B97218E674C6106838B574","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:One or more errors occurred. (ExecuteScalar requires an open and available Connection. The connection's current state is connecting.)|   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 147 
+                        
+LoggerDateTime:2017/7/10 11:15:50  
+ID:[ThreadID:13] 
+Message:Debug:Model:{"GuidKey":"35d133e6-6973-4aef-93c0-dfbe2cbf873e","MerchantId":"CS01","Data":"AcQnplaFJaaAkL1dnZAVkRPQWbTxUVl4jPPWUrJFu63Pp1fKohLKhgk83fqjbmV23UCc3Y5Q0cG4uWPGLIefQnHQ4dvd2T15psvvnzxmfT5WdF0miH0JBl4VEzYgi5/lSw3xYS12A8MWS4dxCTq0uL2grBg8C2civ6TDjFjEF30K33idXQU65BaEErD34tChgICCzUfb5wVubfgh7z8Ae3i7QlRprGZfc9ZwhtTjVlL8xX4Rb7emoXRWXrqb38tC3+YGj2YcVuRbTf3FH+K1FWAqur98EXnzX7eqA51+TYO+TjY733CgU+l1zURkmLw+N1H9It+9g+mqNGUXjlDrn1KznWIfEsJYzRconb7OhZr34ZVPAG/LYeuAEEajmuuGZcSp8e4g7KjlmB25g7YCjcbBlfvcZhmo4fEU3CLggu0=","EncryptKey":"i1YQEzk4hm8Z7njS4Hbvv6vjmi3ZstfIbtJ6A4u8fOEzEJJR7n/6i3ufukwoUDX7VwDi5tn4YIKLdZwHReVMawebUaISrpoAIM6cVu0Yi0TLrknMsLO2Di6h6W7/F5LF80hMqXP5ekH+g+CqMIOvldxcrjfVq3TwelzM9fAvPA4+xzR2ce1xw8DhxhxmNHW/B6nkh3N4za1WjwXAOc0MCD0NrAIM2JQ4YgPrnKW3tqNGYpUGg99OQII/mMF1u4SVcMCu21xe/QYWTlG0Yu57pbjeeyOxWKejv/ZPFeXwnHksC1Q/yzAmM8bx+F+6X7GtkPsS0ewA29M/sChTBivW5Q=="}
+Parameter:{"PayCenterName":null,"PayCenterCode":"CS0180210","EnterpriseId":null,"EnterpriseName":null,"MerchantType":0,"StartBillDate":"1990-01-31T16:00:00Z","EndBillDate":"2017-07-30T16:00:00Z","Status":0,"BillType":"2","PageIndex":1,"PageSize":10,"TimesTamp":"1499685347913","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"67CB0A24BE664FFAC49128399B092BF4","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:One or more errors occurred. (ExecuteScalar requires an open and available Connection. The connection's current state is connecting.)|   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 147 
+                        

@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Boss\" />
+    <Folder Include="Cgt\" />
+    <Folder Include="Sid\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CGT.DDD\CGT.DDD.csproj" />
+  </ItemGroup>
+
+</Project>

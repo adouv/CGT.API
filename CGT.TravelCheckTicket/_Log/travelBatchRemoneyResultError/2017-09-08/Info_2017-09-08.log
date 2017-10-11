@@ -1,0 +1,12 @@
+LoggerDateTime:2017/9/8 11:31:38   
+ID:[ThreadID:2]  
+Message:Info:The type initializer for 'CGT.PayCenter.Service.ProcessorBase`2' threw an exception. 
+                        
+LoggerDateTime:2017/9/8 13:47:22   
+ID:[ThreadID:2]  
+Message:Info:Unexpected character encountered while parsing value: O. Path '', line 0, position 0. 
+                        
+LoggerDateTime:2017/9/8 14:24:11   
+ID:[ThreadID:2]  
+Message:Info:Unexpected character encountered while parsing value: O. Path '', line 0, position 0. 
+                        

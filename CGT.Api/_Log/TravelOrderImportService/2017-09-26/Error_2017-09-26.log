@@ -1,0 +1,10 @@
+LoggerDateTime:2017/9/26 14:55:15  
+Type:TravelOrderImportService
+ID:[ThreadID:12] 
+Message:Error:Object reference not set to an instance of an object.|   at CGT.Api.Service.Manage.CheckTicket.TravelOrderImportService.ExecuteMethod() in D:\GitWork\CGT.API\CGT.Api.Service\Manage\CheckTicket\TravelOrderImportService.cs:line 110   |||
+                        
+LoggerDateTime:2017/9/26 15:26:54  
+Type:TravelOrderImportService
+ID:[ThreadID:16] 
+Message:Error:Object reference not set to an instance of an object.|   at CGT.Api.Service.Manage.CheckTicket.TravelOrderImportService.ExecuteMethod() in D:\GitWork\CGT.API\CGT.Api.Service\Manage\CheckTicket\TravelOrderImportService.cs:line 110   |||
+                        

@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="CgtTicket\InterRefund.cs" />
+    <Compile Remove="CgtTicket\PassengerRep - 复制.cs" />
+    <Compile Remove="CgtTicket\VoyageRep - 复制.cs" />
+    <Compile Remove="Insurance\UserAccountRep.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CGT.Entity\CGT.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

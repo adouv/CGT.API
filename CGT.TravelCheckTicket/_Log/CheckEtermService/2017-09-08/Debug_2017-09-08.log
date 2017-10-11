@@ -1,0 +1,320 @@
+LoggerDateTime:2017/9/8 11:06:46   
+ID:[ThreadID:2]  
+Message:Debug:验证票价失败：'9995783629889','9995789638889' 
+                        
+LoggerDateTime:2017/9/8 11:06:46   
+ID:[ThreadID:2]  
+Message:Debug:调用王帅核算比率返现,list集合：{"PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","UserFactoringId":1,"FactoringName":"测试保理","FactoringEmail":"fukh@reapal.com","FactoringReapalNo":"100000000001024","InterestRate":0.0003,"UserName":"3224132821@qq.com","BackReapalNo":"100000000001678","FactoringInterestRate":0.0,"AccountPeriod":"60","TravelBatchId":"636404633345862073","EnterpriseID":1089,"EnterpriseName":"新测试企业五","baseRiskModelList":[]} 
+                        
+LoggerDateTime:2017/9/8 11:06:52   
+ID:[ThreadID:2]  
+Message:Debug:返现报错：没有任何风控数据！ 
+                        
+LoggerDateTime:2017/9/8 11:07:04   
+ID:[ThreadID:2]  
+Message:Debug:验证票价失败：'9995715635002','9999783618889','9995783619889' 
+                        
+LoggerDateTime:2017/9/8 11:07:04   
+ID:[ThreadID:2]  
+Message:Debug:调用王帅核算比率返现,list集合：{"PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","UserFactoringId":1,"FactoringName":"测试保理","FactoringEmail":"fukh@reapal.com","FactoringReapalNo":"100000000001024","InterestRate":0.0003,"UserName":"3224132821@qq.com","BackReapalNo":"100000000001678","FactoringInterestRate":0.0,"AccountPeriod":"60","TravelBatchId":"636404635842561917","EnterpriseID":1093,"EnterpriseName":"新测试企业九","baseRiskModelList":[]} 
+                        
+LoggerDateTime:2017/9/8 11:07:10   
+ID:[ThreadID:2]  
+Message:Debug:返现报错：没有任何风控数据！ 
+                        
+LoggerDateTime:2017/9/8 11:07:38   
+ID:[ThreadID:2]  
+Message:Debug:验证票价失败：'9995789638889','9995783629889' 
+                        
+LoggerDateTime:2017/9/8 11:07:38   
+ID:[ThreadID:2]  
+Message:Debug:调用王帅核算比率返现,list集合：{"PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","UserFactoringId":1,"FactoringName":"测试保理","FactoringEmail":"fukh@reapal.com","FactoringReapalNo":"100000000001024","InterestRate":0.0003,"UserName":"3224132821@qq.com","BackReapalNo":"100000000001678","FactoringInterestRate":0.0,"AccountPeriod":"60","TravelBatchId":"636404635842561917","EnterpriseID":1089,"EnterpriseName":"新测试企业五","baseRiskModelList":[]} 
+                        
+LoggerDateTime:2017/9/8 11:07:41   
+ID:[ThreadID:2]  
+Message:Debug:返现报错：没有任何风控数据！ 
+                        
+LoggerDateTime:2017/9/8 11:09:33   
+ID:[ThreadID:2]  
+Message:Debug:验证票价失败：'9995783619889','9995715635002','9999783618889' 
+                        
+LoggerDateTime:2017/9/8 11:09:33   
+ID:[ThreadID:2]  
+Message:Debug:调用王帅核算比率返现,list集合：{"PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","UserFactoringId":1,"FactoringName":"测试保理","FactoringEmail":"fukh@reapal.com","FactoringReapalNo":"100000000001024","InterestRate":0.0003,"UserName":"3224132821@qq.com","BackReapalNo":"100000000001678","FactoringInterestRate":0.0,"AccountPeriod":"60","TravelBatchId":"636404638207139429","EnterpriseID":1093,"EnterpriseName":"新测试企业九","baseRiskModelList":[]} 
+                        
+LoggerDateTime:2017/9/8 11:09:34   
+ID:[ThreadID:2]  
+Message:Debug:返现报错：没有任何风控数据！ 
+                        
+LoggerDateTime:2017/9/8 11:09:49   
+ID:[ThreadID:2]  
+Message:Debug:验证票价失败：'9995783629889','9995789638889' 
+                        
+LoggerDateTime:2017/9/8 11:09:49   
+ID:[ThreadID:2]  
+Message:Debug:调用王帅核算比率返现,list集合：{"PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","UserFactoringId":1,"FactoringName":"测试保理","FactoringEmail":"fukh@reapal.com","FactoringReapalNo":"100000000001024","InterestRate":0.0003,"UserName":"3224132821@qq.com","BackReapalNo":"100000000001678","FactoringInterestRate":0.0,"AccountPeriod":"60","TravelBatchId":"636404638207139429","EnterpriseID":1089,"EnterpriseName":"新测试企业五","baseRiskModelList":[]} 
+                        
+LoggerDateTime:2017/9/8 11:09:51   
+ID:[ThreadID:2]  
+Message:Debug:返现报错：没有任何风控数据！ 
+                        
+LoggerDateTime:2017/9/8 11:10:24   
+ID:[ThreadID:2]  
+Message:Debug:验证票价失败：'9995715635002','9999783618889','9995783619889' 
+                        
+LoggerDateTime:2017/9/8 11:10:24   
+ID:[ThreadID:2]  
+Message:Debug:调用王帅核算比率返现,list集合：{"PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","UserFactoringId":1,"FactoringName":"测试保理","FactoringEmail":"fukh@reapal.com","FactoringReapalNo":"100000000001024","InterestRate":0.0003,"UserName":"3224132821@qq.com","BackReapalNo":"100000000001678","FactoringInterestRate":0.0,"AccountPeriod":"60","TravelBatchId":"636404645711666095","EnterpriseID":1093,"EnterpriseName":"新测试企业九","baseRiskModelList":[]} 
+                        
+LoggerDateTime:2017/9/8 11:10:27   
+ID:[ThreadID:2]  
+Message:Debug:返现报错：没有任何风控数据！ 
+                        
+LoggerDateTime:2017/9/8 11:10:48   
+ID:[ThreadID:2]  
+Message:Debug:验证票价失败：'9995789638889','9995783629889' 
+                        
+LoggerDateTime:2017/9/8 11:10:48   
+ID:[ThreadID:2]  
+Message:Debug:调用王帅核算比率返现,list集合：{"PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","UserFactoringId":1,"FactoringName":"测试保理","FactoringEmail":"fukh@reapal.com","FactoringReapalNo":"100000000001024","InterestRate":0.0003,"UserName":"3224132821@qq.com","BackReapalNo":"100000000001678","FactoringInterestRate":0.0,"AccountPeriod":"60","TravelBatchId":"636404645711666095","EnterpriseID":1089,"EnterpriseName":"新测试企业五","baseRiskModelList":[]} 
+                        
+LoggerDateTime:2017/9/8 11:10:51   
+ID:[ThreadID:2]  
+Message:Debug:返现报错：没有任何风控数据！ 
+                        
+LoggerDateTime:2017/9/8 11:15:43   
+ID:[ThreadID:2]  
+Message:Debug:验证票价失败：'9995715635002' 
+                        
+LoggerDateTime:2017/9/8 11:15:43   
+ID:[ThreadID:2]  
+Message:Debug:调用王帅核算比率返现,list集合：{"PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","UserFactoringId":1,"FactoringName":"测试保理","FactoringEmail":"fukh@reapal.com","FactoringReapalNo":"100000000001024","InterestRate":0.0003,"UserName":"3224132821@qq.com","BackReapalNo":"100000000001678","FactoringInterestRate":0.0,"AccountPeriod":"60","TravelBatchId":"636404661015112500","EnterpriseID":1093,"EnterpriseName":"新测试企业九","baseRiskModelList":[]} 
+                        
+LoggerDateTime:2017/9/8 11:15:44   
+ID:[ThreadID:2]  
+Message:Debug:返现报错：没有任何风控数据！ 
+                        
+LoggerDateTime:2017/9/8 11:21:56   
+ID:[ThreadID:2]  
+Message:Debug:验证票价失败：'9995715635002' 
+                        
+LoggerDateTime:2017/9/8 11:21:56   
+ID:[ThreadID:2]  
+Message:Debug:调用王帅核算比率返现,list集合：{"PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","UserFactoringId":1,"FactoringName":"测试保理","FactoringEmail":"fukh@reapal.com","FactoringReapalNo":"100000000001024","InterestRate":0.0003,"UserName":"3224132821@qq.com","BackReapalNo":"100000000001678","FactoringInterestRate":0.0,"AccountPeriod":"60","TravelBatchId":"636404662315223397","EnterpriseID":1093,"EnterpriseName":"新测试企业九","baseRiskModelList":[]} 
+                        
+LoggerDateTime:2017/9/8 11:21:58   
+ID:[ThreadID:2]  
+Message:Debug:返现报错：没有任何风控数据！ 
+                        
+LoggerDateTime:2017/9/8 11:22:38   
+ID:[ThreadID:2]  
+Message:Debug:验证票价失败：'9995715635002' 
+                        
+LoggerDateTime:2017/9/8 11:22:38   
+ID:[ThreadID:2]  
+Message:Debug:调用王帅核算比率返现,list集合：{"PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","UserFactoringId":1,"FactoringName":"测试保理","FactoringEmail":"fukh@reapal.com","FactoringReapalNo":"100000000001024","InterestRate":0.0003,"UserName":"3224132821@qq.com","BackReapalNo":"100000000001678","FactoringInterestRate":0.0,"AccountPeriod":"60","TravelBatchId":"636404662315223397","EnterpriseID":1093,"EnterpriseName":"新测试企业九","baseRiskModelList":[]} 
+                        
+LoggerDateTime:2017/9/8 11:22:39   
+ID:[ThreadID:2]  
+Message:Debug:返现报错：没有任何风控数据！ 
+                        
+LoggerDateTime:2017/9/8 11:23:01   
+ID:[ThreadID:2]  
+Message:Debug:黑屏接口调用成功：'7815783453373' 
+                        
+LoggerDateTime:2017/9/8 11:23:03   
+ID:[ThreadID:2]  
+Message:Debug:调用王帅核算比率返现,list集合：{"PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","UserFactoringId":1,"FactoringName":"测试保理","FactoringEmail":"fukh@reapal.com","FactoringReapalNo":"100000000001024","InterestRate":0.0003,"UserName":"3224132821@qq.com","BackReapalNo":"100000000001678","FactoringInterestRate":0.0,"AccountPeriod":"60","TravelBatchId":"636404664818095079","EnterpriseID":1093,"EnterpriseName":"新测试企业九","baseRiskModelList":[{"TicketPrice":1880.0,"OrderAmount":1880.0,"DepartureTime":"2017-08-30T00:00:00","DepartCode":"PEK","ArriveCode":"SHA","FlightNo":"CA1234","Cabin":"Y","PersonName":"何京东","TicketNum":"7815783453373","TicketTime":"2017-08-04T00:00:00","PNR":"QWERTY","EnterpriseID":1093,"EnterpriseName":"新测试企业九","PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","TravelBatchId":"636404664818095079","TravelRiskType":1,"EtermType":1,"WhiteResultState":0,"BlackResultState":0,"UUId":null,"RegisterStatus":0,"CheckStatus":0,"EtermStatus":1,"EtermSuccessRate":0.0,"EtermFailRate":0.0,"WhiteSuccessRate":0.0,"WhiteFailRate":0.0,"FailReason":null}]} 
+                        
+LoggerDateTime:2017/9/8 11:30:52   
+ID:[ThreadID:2]  
+Message:Debug:黑屏接口调用成功：'7815783453373' 
+                        
+LoggerDateTime:2017/9/8 11:30:54   
+ID:[ThreadID:2]  
+Message:Debug:调用王帅核算比率返现,list集合：{"PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","UserFactoringId":1,"FactoringName":"测试保理","FactoringEmail":"fukh@reapal.com","FactoringReapalNo":"100000000001024","InterestRate":0.0003,"UserName":"3224132821@qq.com","BackReapalNo":"100000000001678","FactoringInterestRate":0.0,"AccountPeriod":"60","TravelBatchId":"636404664818095079","EnterpriseID":1093,"EnterpriseName":"新测试企业九","baseRiskModelList":[{"TicketPrice":1880.0,"OrderAmount":1880.0,"DepartureTime":"2017-08-30T00:00:00","DepartCode":"PEK","ArriveCode":"SHA","FlightNo":"CA1234","Cabin":"Y","PersonName":"何京东","TicketNum":"7815783453373","TicketTime":"2017-08-04T00:00:00","PNR":"QWERTY","EnterpriseID":1093,"EnterpriseName":"新测试企业九","PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","TravelBatchId":"636404664818095079","TravelRiskType":1,"EtermType":1,"WhiteResultState":0,"BlackResultState":0,"UUId":null,"RegisterStatus":0,"CheckStatus":0,"EtermStatus":1,"EtermSuccessRate":0.0,"EtermFailRate":0.0,"WhiteSuccessRate":0.0,"WhiteFailRate":0.0,"FailReason":null}]} 
+                        
+LoggerDateTime:2017/9/8 11:31:45   
+ID:[ThreadID:2]  
+Message:Debug:黑屏接口调用成功：'7815783453373' 
+                        
+LoggerDateTime:2017/9/8 11:31:45   
+ID:[ThreadID:2]  
+Message:Debug:黑屏姓名验证成功'7815783453373' 
+                        
+LoggerDateTime:2017/9/8 11:31:45   
+ID:[ThreadID:2]  
+Message:Debug:调用王帅核算比率返现,list集合：{"PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","UserFactoringId":1,"FactoringName":"测试保理","FactoringEmail":"fukh@reapal.com","FactoringReapalNo":"100000000001024","InterestRate":0.0003,"UserName":"3224132821@qq.com","BackReapalNo":"100000000001678","FactoringInterestRate":0.0,"AccountPeriod":"60","TravelBatchId":"636404670074446684","EnterpriseID":1093,"EnterpriseName":"新测试企业九","baseRiskModelList":[{"TicketPrice":1880.0,"OrderAmount":1880.0,"DepartureTime":"2017-08-30T00:00:00","DepartCode":"PEK","ArriveCode":"SHA","FlightNo":"CA1234","Cabin":"Y","PersonName":"何京东","TicketNum":"7815783453373","TicketTime":"2017-08-04T00:00:00","PNR":"QWERTY","EnterpriseID":1093,"EnterpriseName":"新测试企业九","PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","TravelBatchId":"636404670074446684","TravelRiskType":0,"EtermType":1,"WhiteResultState":0,"BlackResultState":1,"UUId":null,"RegisterStatus":0,"CheckStatus":0,"EtermStatus":1,"EtermSuccessRate":0.0,"EtermFailRate":0.0,"WhiteSuccessRate":0.0,"WhiteFailRate":0.0,"FailReason":null}]} 
+                        
+LoggerDateTime:2017/9/8 11:33:40   
+ID:[ThreadID:2]  
+Message:Debug:黑屏接口调用成功：'7815783453373' 
+                        
+LoggerDateTime:2017/9/8 11:33:40   
+ID:[ThreadID:2]  
+Message:Debug:黑屏姓名验证成功'7815783453373' 
+                        
+LoggerDateTime:2017/9/8 11:33:40   
+ID:[ThreadID:2]  
+Message:Debug:调用王帅核算比率返现,list集合：{"PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","UserFactoringId":1,"FactoringName":"测试保理","FactoringEmail":"fukh@reapal.com","FactoringReapalNo":"100000000001024","InterestRate":0.0003,"UserName":"3224132821@qq.com","BackReapalNo":"100000000001678","FactoringInterestRate":0.0,"AccountPeriod":"60","TravelBatchId":"636404670074446684","EnterpriseID":1093,"EnterpriseName":"新测试企业九","baseRiskModelList":[{"TicketPrice":1880.0,"OrderAmount":1880.0,"DepartureTime":"2017-08-30T00:00:00","DepartCode":"PEK","ArriveCode":"SHA","FlightNo":"CA1234","Cabin":"Y","PersonName":"何京东","TicketNum":"7815783453373","TicketTime":"2017-08-04T00:00:00","PNR":"QWERTY","EnterpriseID":1093,"EnterpriseName":"新测试企业九","PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","TravelBatchId":"636404670074446684","TravelRiskType":0,"EtermType":1,"WhiteResultState":0,"BlackResultState":1,"UUId":null,"RegisterStatus":0,"CheckStatus":0,"EtermStatus":1,"EtermSuccessRate":0.0,"EtermFailRate":0.0,"WhiteSuccessRate":0.0,"WhiteFailRate":0.0,"FailReason":null}]} 
+                        
+LoggerDateTime:2017/9/8 11:44:47   
+ID:[ThreadID:2]  
+Message:Debug:黑屏接口调用成功：'7815783453373' 
+                        
+LoggerDateTime:2017/9/8 11:44:47   
+ID:[ThreadID:2]  
+Message:Debug:黑屏姓名验证成功'7815783453373' 
+                        
+LoggerDateTime:2017/9/8 11:44:47   
+ID:[ThreadID:2]  
+Message:Debug:调用王帅核算比率返现,list集合：{"PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","UserFactoringId":1,"FactoringName":"测试保理","FactoringEmail":"fukh@reapal.com","FactoringReapalNo":"100000000001024","InterestRate":0.0003,"UserName":"3224132821@qq.com","BackReapalNo":"100000000001678","FactoringInterestRate":0.0,"AccountPeriod":"60","TravelBatchId":"636404670074446684","EnterpriseID":1093,"EnterpriseName":"新测试企业九","baseRiskModelList":[{"TicketPrice":1880.0,"OrderAmount":1880.0,"DepartureTime":"2017-08-30T00:00:00","DepartCode":"PEK","ArriveCode":"SHA","FlightNo":"CA1234","Cabin":"Y","PersonName":"何京东","TicketNum":"7815783453373","TicketTime":"2017-08-04T00:00:00","PNR":"QWERTY","EnterpriseID":1093,"EnterpriseName":"新测试企业九","PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","TravelBatchId":"636404670074446684","TravelRiskType":0,"EtermType":1,"WhiteResultState":0,"BlackResultState":1,"UUId":null,"RegisterStatus":0,"CheckStatus":0,"EtermStatus":1,"EtermSuccessRate":0.0,"EtermFailRate":0.0,"WhiteSuccessRate":0.0,"WhiteFailRate":0.0,"FailReason":null}]} 
+                        
+LoggerDateTime:2017/9/8 11:46:23   
+ID:[ThreadID:2]  
+Message:Debug:黑屏接口调用成功：'7815783453373' 
+                        
+LoggerDateTime:2017/9/8 11:46:23   
+ID:[ThreadID:2]  
+Message:Debug:黑屏姓名验证成功'7815783453373' 
+                        
+LoggerDateTime:2017/9/8 11:46:23   
+ID:[ThreadID:2]  
+Message:Debug:调用王帅核算比率返现,list集合：{"PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","UserFactoringId":1,"FactoringName":"测试保理","FactoringEmail":"fukh@reapal.com","FactoringReapalNo":"100000000001024","InterestRate":0.0003,"UserName":"3224132821@qq.com","BackReapalNo":"100000000001678","FactoringInterestRate":0.0,"AccountPeriod":"60","TravelBatchId":"636404670074446684","EnterpriseID":1093,"EnterpriseName":"新测试企业九","baseRiskModelList":[{"TicketPrice":1880.0,"OrderAmount":1880.0,"DepartureTime":"2017-08-30T00:00:00","DepartCode":"PEK","ArriveCode":"SHA","FlightNo":"CA1234","Cabin":"Y","PersonName":"何京东","TicketNum":"7815783453373","TicketTime":"2017-08-04T00:00:00","PNR":"QWERTY","EnterpriseID":1093,"EnterpriseName":"新测试企业九","PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","TravelBatchId":"636404670074446684","TravelRiskType":0,"EtermType":1,"WhiteResultState":0,"BlackResultState":1,"UUId":null,"RegisterStatus":0,"CheckStatus":0,"EtermStatus":1,"EtermSuccessRate":0.0,"EtermFailRate":0.0,"WhiteSuccessRate":0.0,"WhiteFailRate":0.0,"FailReason":null}]} 
+                        
+LoggerDateTime:2017/9/8 11:48:49   
+ID:[ThreadID:2]  
+Message:Debug:黑屏接口调用成功：'7815783453373' 
+                        
+LoggerDateTime:2017/9/8 11:48:49   
+ID:[ThreadID:2]  
+Message:Debug:黑屏姓名验证成功'7815783453373' 
+                        
+LoggerDateTime:2017/9/8 11:48:49   
+ID:[ThreadID:2]  
+Message:Debug:调用王帅核算比率返现,list集合：{"PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","UserFactoringId":1,"FactoringName":"测试保理","FactoringEmail":"fukh@reapal.com","FactoringReapalNo":"100000000001024","InterestRate":0.0003,"UserName":"3224132821@qq.com","BackReapalNo":"100000000001678","FactoringInterestRate":0.0,"AccountPeriod":"60","TravelBatchId":"636404670074446684","EnterpriseID":1093,"EnterpriseName":"新测试企业九","baseRiskModelList":[{"TicketPrice":1880.0,"OrderAmount":1880.0,"DepartureTime":"2017-08-30T00:00:00","DepartCode":"PEK","ArriveCode":"SHA","FlightNo":"CA1234","Cabin":"Y","PersonName":"何京东","TicketNum":"7815783453373","TicketTime":"2017-08-04T00:00:00","PNR":"QWERTY","EnterpriseID":1093,"EnterpriseName":"新测试企业九","PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","TravelBatchId":"636404670074446684","TravelRiskType":0,"EtermType":1,"WhiteResultState":0,"BlackResultState":1,"UUId":null,"RegisterStatus":0,"CheckStatus":0,"EtermStatus":1,"EtermSuccessRate":0.0,"EtermFailRate":0.0,"WhiteSuccessRate":0.0,"WhiteFailRate":0.0,"FailReason":null}]} 
+                        
+LoggerDateTime:2017/9/8 13:47:21   
+ID:[ThreadID:2]  
+Message:Debug:黑屏接口调用成功：'7815783453373' 
+                        
+LoggerDateTime:2017/9/8 13:47:21   
+ID:[ThreadID:2]  
+Message:Debug:黑屏姓名验证成功'7815783453373' 
+                        
+LoggerDateTime:2017/9/8 13:47:21   
+ID:[ThreadID:2]  
+Message:Debug:调用王帅核算比率返现,list集合：{"PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","UserFactoringId":1,"FactoringName":"测试保理","FactoringEmail":"fukh@reapal.com","FactoringReapalNo":"100000000001024","InterestRate":0.0003,"UserName":"3224132821@qq.com","BackReapalNo":"100000000001678","FactoringInterestRate":0.0,"AccountPeriod":"60","TravelBatchId":"636404670074446684","EnterpriseID":1093,"EnterpriseName":"新测试企业九","baseRiskModelList":[{"TicketPrice":1880.0,"OrderAmount":1880.0,"DepartureTime":"2017-08-30T00:00:00","DepartCode":"PEK","ArriveCode":"SHA","FlightNo":"CA1234","Cabin":"Y","PersonName":"何京东","TicketNum":"7815783453373","TicketTime":"2017-08-04T00:00:00","PNR":"QWERTY","EnterpriseID":1093,"EnterpriseName":"新测试企业九","PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","TravelBatchId":"636404670074446684","TravelRiskType":0,"EtermType":1,"WhiteResultState":0,"BlackResultState":1,"UUId":null,"RegisterStatus":0,"CheckStatus":0,"EtermStatus":1,"EtermSuccessRate":0.0,"EtermFailRate":0.0,"WhiteSuccessRate":0.0,"WhiteFailRate":0.0,"FailReason":null}]} 
+                        
+LoggerDateTime:2017/9/8 13:47:29   
+ID:[ThreadID:2]  
+Message:Debug:验证票价失败：'7815783453374' 
+                        
+LoggerDateTime:2017/9/8 13:47:29   
+ID:[ThreadID:2]  
+Message:Debug:调用王帅核算比率返现,list集合：{"PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","UserFactoringId":1,"FactoringName":"测试保理","FactoringEmail":"fukh@reapal.com","FactoringReapalNo":"100000000001024","InterestRate":0.0003,"UserName":"3224132821@qq.com","BackReapalNo":"100000000001678","FactoringInterestRate":0.0,"AccountPeriod":"60","TravelBatchId":"636404673350218031","EnterpriseID":1093,"EnterpriseName":"新测试企业九","baseRiskModelList":[]} 
+                        
+LoggerDateTime:2017/9/8 13:47:29   
+ID:[ThreadID:2]  
+Message:Debug:返现报错：没有任何风控数据！ 
+                        
+LoggerDateTime:2017/9/8 13:47:34   
+ID:[ThreadID:2]  
+Message:Debug:验证票价失败：'7815783453374' 
+                        
+LoggerDateTime:2017/9/8 13:47:34   
+ID:[ThreadID:2]  
+Message:Debug:调用王帅核算比率返现,list集合：{"PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","UserFactoringId":1,"FactoringName":"测试保理","FactoringEmail":"fukh@reapal.com","FactoringReapalNo":"100000000001024","InterestRate":0.0003,"UserName":"3224132821@qq.com","BackReapalNo":"100000000001678","FactoringInterestRate":0.0,"AccountPeriod":"60","TravelBatchId":"636404679623826611","EnterpriseID":1093,"EnterpriseName":"新测试企业九","baseRiskModelList":[]} 
+                        
+LoggerDateTime:2017/9/8 13:47:34   
+ID:[ThreadID:2]  
+Message:Debug:返现报错：没有任何风控数据！ 
+                        
+LoggerDateTime:2017/9/8 13:50:32   
+ID:[ThreadID:2]  
+Message:Debug:黑屏接口调用成功：'7815783453373' 
+                        
+LoggerDateTime:2017/9/8 13:50:32   
+ID:[ThreadID:2]  
+Message:Debug:黑屏姓名验证成功'7815783453373' 
+                        
+LoggerDateTime:2017/9/8 13:50:32   
+ID:[ThreadID:2]  
+Message:Debug:调用王帅核算比率返现,list集合：{"PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","UserFactoringId":1,"FactoringName":"测试保理","FactoringEmail":"fukh@reapal.com","FactoringReapalNo":"100000000001024","InterestRate":0.0003,"UserName":"3224132821@qq.com","BackReapalNo":"100000000001678","FactoringInterestRate":0.0,"AccountPeriod":"60","TravelBatchId":"636404754096520811","EnterpriseID":1093,"EnterpriseName":"新测试企业九","baseRiskModelList":[{"TicketPrice":1880.0,"OrderAmount":1880.0,"DepartureTime":"2017-08-30T00:00:00","DepartCode":"PEK","ArriveCode":"SHA","FlightNo":"CA1234","Cabin":"Y","PersonName":"何京东","TicketNum":"7815783453373","TicketTime":"2017-08-04T00:00:00","PNR":"QWERTY","EnterpriseID":1093,"EnterpriseName":"新测试企业九","PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","TravelBatchId":"636404754096520811","TravelRiskType":0,"EtermType":1,"WhiteResultState":0,"BlackResultState":1,"UUId":null,"RegisterStatus":0,"CheckStatus":0,"EtermStatus":1,"EtermSuccessRate":0.0,"EtermFailRate":0.0,"WhiteSuccessRate":0.0,"WhiteFailRate":0.0,"FailReason":null}]} 
+                        
+LoggerDateTime:2017/9/8 13:51:28   
+ID:[ThreadID:2]  
+Message:Debug:返现报错：The type initializer for 'CGT.DDD.Caching.RedisCache' threw an exception. 
+                        
+LoggerDateTime:2017/9/8 13:59:27   
+ID:[ThreadID:2]  
+Message:Debug:黑屏接口调用成功：'7815783453373' 
+                        
+LoggerDateTime:2017/9/8 13:59:27   
+ID:[ThreadID:2]  
+Message:Debug:黑屏姓名验证成功'7815783453373' 
+                        
+LoggerDateTime:2017/9/8 13:59:27   
+ID:[ThreadID:2]  
+Message:Debug:调用王帅核算比率返现,list集合：{"PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","UserFactoringId":1,"FactoringName":"测试保理","FactoringEmail":"fukh@reapal.com","FactoringReapalNo":"100000000001024","InterestRate":0.0003,"UserName":"3224132821@qq.com","BackReapalNo":"100000000001678","FactoringInterestRate":0.0,"AccountPeriod":"60","TravelBatchId":"636404759415871705","EnterpriseID":1093,"EnterpriseName":"新测试企业九","baseRiskModelList":[{"TicketPrice":1880.0,"OrderAmount":1880.0,"DepartureTime":"2017-08-30T00:00:00","DepartCode":"PEK","ArriveCode":"SHA","FlightNo":"CA1234","Cabin":"Y","PersonName":"何京东","TicketNum":"7815783453373","TicketTime":"2017-08-04T00:00:00","PNR":"QWERTY","EnterpriseID":1093,"EnterpriseName":"新测试企业九","PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","TravelBatchId":"636404759415871705","TravelRiskType":0,"EtermType":1,"WhiteResultState":0,"BlackResultState":1,"UUId":null,"RegisterStatus":0,"CheckStatus":0,"EtermStatus":1,"EtermSuccessRate":0.0,"EtermFailRate":0.0,"WhiteSuccessRate":0.0,"WhiteFailRate":0.0,"FailReason":null}]} 
+                        
+LoggerDateTime:2017/9/8 14:00:26   
+ID:[ThreadID:2]  
+Message:Debug:黑屏接口调用成功：'7815783453373' 
+                        
+LoggerDateTime:2017/9/8 14:00:26   
+ID:[ThreadID:2]  
+Message:Debug:黑屏姓名验证成功'7815783453373' 
+                        
+LoggerDateTime:2017/9/8 14:00:26   
+ID:[ThreadID:2]  
+Message:Debug:调用王帅核算比率返现,list集合：{"PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","UserFactoringId":1,"FactoringName":"测试保理","FactoringEmail":"fukh@reapal.com","FactoringReapalNo":"100000000001024","InterestRate":0.0003,"UserName":"3224132821@qq.com","BackReapalNo":"100000000001678","FactoringInterestRate":0.0,"AccountPeriod":"60","TravelBatchId":"636404759415871705","EnterpriseID":1093,"EnterpriseName":"新测试企业九","baseRiskModelList":[{"TicketPrice":1880.0,"OrderAmount":1880.0,"DepartureTime":"2017-08-30T00:00:00","DepartCode":"PEK","ArriveCode":"SHA","FlightNo":"CA1234","Cabin":"Y","PersonName":"何京东","TicketNum":"7815783453373","TicketTime":"2017-08-04T00:00:00","PNR":"QWERTY","EnterpriseID":1093,"EnterpriseName":"新测试企业九","PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","TravelBatchId":"636404759415871705","TravelRiskType":0,"EtermType":1,"WhiteResultState":0,"BlackResultState":1,"UUId":null,"RegisterStatus":0,"CheckStatus":0,"EtermStatus":1,"EtermSuccessRate":0.0,"EtermFailRate":0.0,"WhiteSuccessRate":0.0,"WhiteFailRate":0.0,"FailReason":null}]} 
+                        
+LoggerDateTime:2017/9/8 14:09:12   
+ID:[ThreadID:2]  
+Message:Debug:黑屏接口调用成功：'7815783453373' 
+                        
+LoggerDateTime:2017/9/8 14:09:12   
+ID:[ThreadID:2]  
+Message:Debug:黑屏姓名验证成功'7815783453373' 
+                        
+LoggerDateTime:2017/9/8 14:09:12   
+ID:[ThreadID:2]  
+Message:Debug:调用王帅核算比率返现,list集合：{"PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","UserFactoringId":1,"FactoringName":"测试保理","FactoringEmail":"fukh@reapal.com","FactoringReapalNo":"100000000001024","InterestRate":0.0003,"UserName":"3224132821@qq.com","BackReapalNo":"100000000001678","FactoringInterestRate":0.0,"AccountPeriod":"60","TravelBatchId":"636404765132516511","EnterpriseID":1093,"EnterpriseName":"新测试企业九","baseRiskModelList":[{"TicketPrice":1880.0,"OrderAmount":1880.0,"DepartureTime":"2017-08-30T00:00:00","DepartCode":"PEK","ArriveCode":"SHA","FlightNo":"CA1234","Cabin":"Y","PersonName":"何京东","TicketNum":"7815783453373","TicketTime":"2017-08-04T00:00:00","PNR":"QWERTY","EnterpriseID":1093,"EnterpriseName":"新测试企业九","PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","TravelBatchId":"636404765132516511","TravelRiskType":0,"EtermType":1,"WhiteResultState":0,"BlackResultState":1,"UUId":null,"RegisterStatus":0,"CheckStatus":0,"EtermStatus":1,"EtermSuccessRate":0.0,"EtermFailRate":0.0,"WhiteSuccessRate":0.0,"WhiteFailRate":0.0,"FailReason":null}]} 
+                        
+LoggerDateTime:2017/9/8 14:16:42   
+ID:[ThreadID:2]  
+Message:Debug:黑屏接口调用成功：'7815783453373' 
+                        
+LoggerDateTime:2017/9/8 14:16:42   
+ID:[ThreadID:2]  
+Message:Debug:黑屏姓名验证成功'7815783453373' 
+                        
+LoggerDateTime:2017/9/8 14:16:42   
+ID:[ThreadID:2]  
+Message:Debug:调用王帅核算比率返现,list集合：{"PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","UserFactoringId":1,"FactoringName":"测试保理","FactoringEmail":"fukh@reapal.com","FactoringReapalNo":"100000000001024","InterestRate":0.0003,"UserName":"3224132821@qq.com","BackReapalNo":"100000000001678","FactoringInterestRate":0.0,"AccountPeriod":"60","TravelBatchId":"636404765132516511","EnterpriseID":1093,"EnterpriseName":"新测试企业九","baseRiskModelList":[{"TicketPrice":1880.0,"OrderAmount":1880.0,"DepartureTime":"2017-08-30T00:00:00","DepartCode":"PEK","ArriveCode":"SHA","FlightNo":"CA1234","Cabin":"Y","PersonName":"何京东","TicketNum":"7815783453373","TicketTime":"2017-08-04T00:00:00","PNR":"QWERTY","EnterpriseID":1093,"EnterpriseName":"新测试企业九","PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","TravelBatchId":"636404765132516511","TravelRiskType":0,"EtermType":1,"WhiteResultState":0,"BlackResultState":1,"UUId":null,"RegisterStatus":0,"CheckStatus":0,"EtermStatus":1,"EtermSuccessRate":0.0,"EtermFailRate":0.0,"WhiteSuccessRate":0.0,"WhiteFailRate":0.0,"FailReason":null}]} 
+                        
+LoggerDateTime:2017/9/8 14:24:04   
+ID:[ThreadID:2]  
+Message:Debug:黑屏接口调用成功：'7815783453373' 
+                        
+LoggerDateTime:2017/9/8 14:24:04   
+ID:[ThreadID:2]  
+Message:Debug:黑屏姓名验证成功'7815783453373' 
+                        
+LoggerDateTime:2017/9/8 14:24:04   
+ID:[ThreadID:2]  
+Message:Debug:调用王帅核算比率返现,list集合：{"PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","UserFactoringId":1,"FactoringName":"测试保理","FactoringEmail":"fukh@reapal.com","FactoringReapalNo":"100000000001024","InterestRate":0.0003,"UserName":"3224132821@qq.com","BackReapalNo":"100000000001678","FactoringInterestRate":0.0,"AccountPeriod":"60","TravelBatchId":"636404765132516511","EnterpriseID":1093,"EnterpriseName":"新测试企业九","baseRiskModelList":[{"TicketPrice":1880.0,"OrderAmount":1880.0,"DepartureTime":"2017-08-30T00:00:00","DepartCode":"PEK","ArriveCode":"SHA","FlightNo":"CA1234","Cabin":"Y","PersonName":"何京东","TicketNum":"7815783453373","TicketTime":"2017-08-04T00:00:00","PNR":"QWERTY","EnterpriseID":1093,"EnterpriseName":"新测试企业九","PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","TravelBatchId":"636404765132516511","TravelRiskType":0,"EtermType":1,"WhiteResultState":0,"BlackResultState":1,"UUId":null,"RegisterStatus":0,"CheckStatus":0,"EtermStatus":1,"EtermSuccessRate":0.0,"EtermFailRate":0.0,"WhiteSuccessRate":0.0,"WhiteFailRate":0.0,"FailReason":null}]} 
+                        
+LoggerDateTime:2017/9/8 14:37:24   
+ID:[ThreadID:2]  
+Message:Debug:黑屏接口调用成功：'7815783453373' 
+                        
+LoggerDateTime:2017/9/8 14:37:24   
+ID:[ThreadID:2]  
+Message:Debug:黑屏姓名验证成功'7815783453373' 
+                        
+LoggerDateTime:2017/9/8 14:37:24   
+ID:[ThreadID:2]  
+Message:Debug:调用王帅核算比率返现,list集合：{"PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","UserFactoringId":1,"FactoringName":"测试保理","FactoringEmail":"fukh@reapal.com","FactoringReapalNo":"100000000001024","InterestRate":0.0003,"UserName":"3224132821@qq.com","BackReapalNo":"100000000001678","FactoringInterestRate":0.0,"AccountPeriod":"60","TravelBatchId":"636404782327437980","EnterpriseID":1093,"EnterpriseName":"新测试企业九","baseRiskModelList":[{"TicketPrice":1880.0,"OrderAmount":1880.0,"DepartureTime":"2017-08-30T00:00:00","DepartCode":"PEK","ArriveCode":"SHA","FlightNo":"CA1234","Cabin":"Y","PersonName":"何京东","TicketNum":"7815783453373","TicketTime":"2017-08-04T00:00:00","PNR":"QWERTY","EnterpriseID":1093,"EnterpriseName":"新测试企业九","PayCenterCode":"CSSX41080209","PayCenterName":"苏测试分销一","TravelBatchId":"636404782327437980","TravelRiskType":0,"EtermType":1,"WhiteResultState":0,"BlackResultState":1,"UUId":null,"RegisterStatus":0,"CheckStatus":0,"EtermStatus":1,"EtermSuccessRate":0.0,"EtermFailRate":0.0,"WhiteSuccessRate":0.0,"WhiteFailRate":0.0,"FailReason":null}]} 
+                        

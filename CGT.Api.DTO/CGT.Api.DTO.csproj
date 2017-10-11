@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp1.1\CGT.Api.DTO.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Boss\CgtOrder\Response\ResponseInterChangeDetail.cs" />
+    <Compile Remove="Boss\Enterprise\Request\RequestGetEnterpriseList - 复制.cs" />
+    <Compile Remove="Boss\Enterprise\Response\RequestGetEnterpriseOverView.cs" />
+    <Compile Remove="Boss\InterRefund\Request\RequestInterRefundDetail - 复制.cs" />
+    <Compile Remove="Boss\InterRefund\Request\ResponseInterRefundDetail.cs" />
+    <Compile Remove="Boss\TravelBill\Request\RequestGetTravelBillList - 复制.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Boss\SidOrder\Request\" />
+    <Folder Include="Boss\SidOrder\Response\" />
+    <Folder Include="Boss\Staff\Response\" />
+    <Folder Include="Boss\TravelBatchOrder\Response\" />
+    <Folder Include="Boss\TravelBatch\Response\" />
+    <Folder Include="Boss\TravelBill\Response\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.1.1" />
+    <PackageReference Include="xunit.extensibility.core" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CGT.DDD\CGT.DDD.csproj" />
+    <ProjectReference Include="..\CGT.Entity\CGT.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

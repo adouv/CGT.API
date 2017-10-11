@@ -1,0 +1,287 @@
+LoggerDateTime:2017/6/2 10:59:52   
+ID:[ThreadID:12] 
+Message:Debug:Model:{"GuidKey":"a2930d0a-0115-4764-a7ce-ce651d46e905","MerchantId":"CS01","Data":"OX/BuZSOi+7wtDX7bYLK7T8B1H4g8GrnkkWzESFfddgp8xNLYdYecSuPOmWyf4VJqvaZg0G1HUf0ecgewLJf12Htr1bmmI/FN6TGjdRLPmFBl5TI5zvXkaiwy+/+xff8cWJwqgMjeHUMcqOPrEyrPPJv0eFM4Btg+M8ZEeaF6IBzxH9q+0jcrTaaOtZwlS+dC2/MQD+MI4uSu1kNUvGK1J4/N4BQO6qjDs/CoWhNHNzXjySLJro/2gdUdweIfzhkSoqZXsW9ffbXDchZ+n8W0GGpfjuAAzpR4x1+CpCB1R21n3aiMdoylxZPfTjxQfFm5Q38Kva5oe9WSix/fPXfPohIL+yTJ+2VQ5qzQvBcIkU=","EncryptKey":"AXa45Jit1z4JrNvpRvMxVYQ7iV9Xnc80WGgJFmyY5as/gjl9KefrgoEb5hvAgGuVLS9gy8MfQDnV80AdnUSL9PFXaBB6UAOA0m946CG/8YAgzciKL4pgGNnJ3EhEO25BqdhW1s41qYhDmy6PCcduvyqFA3EBE1y/Yk4mF0D0wCR2lB8fvfYMOVMPz7SdxTaNu8TwOqHLvqAv+Vu3vmgQFO80folBqTeVTkbFMdmh1sZO04fC9wDhG6LsvCxm0PwnJe3RhMxZaUezeOMHxKiKtS0VLYv/VpSjnRpeaKN9+0mQG6j0ZWzpoa4gVfNJnDSXHOU1NTamoYEAHyyDP8HUcA=="}
+Parameter:{"Pageindex":1,"Pagesize":10,"EndDate":null,"StartDate":null,"MonthStatue":-1,"EnterpriseId":null,"EnterpriseStatue":null,"PayCenterCode":null,"TimesTamp":"1496401149234","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"D61D7D896CBF227480C3D2FC8FA34764","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:'aa' 附近的语法不正确。如果它要用作公用表表达式，需要使用分号显式终止前一个语句。
+',' 附近有语法错误。|   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseWhiteRep.GetEnterpriseWhiteAndBackMoneyPageList(EnterpriseWhiteList model, Int32 PageIndex, Int32 PageSize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseWhiteRep.cs:line 136
+   at CGT.Api.Service.Boss.Enterprise.EnterpriseMonthlyLimitService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\EnterpriseMonthlyLimitService.cs:line 45
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/6/2 11:07:24   
+ID:[ThreadID:11] 
+Message:Debug:Model:{"GuidKey":"2cc077df-c185-44a1-b89d-b48db7075c84","MerchantId":"CS01","Data":"zWHtZ8uXaqLXYLV9Z2U5UJkrTtMVWvYdDEQSR9C1xslqnNJpmB11Jdtn+9/TBPgcyv9tI7QljLtHLdyTx5CLqjl0142nlE3k1NCbSAHmaWqi3loCY7ld35y/bqMXjCN7xhABsc02iGtGe3AJ8Gw8Nbt/aKDIUYb9XBaxEkRutNQ3eW2iTC5viRxbzYiIc3mvsmGRrfslh0BAmVJr3B6fGPG0gE+41xITOo+hJ7rTIbGUu+F5/9h1f4AOhFDSDVDh2NZPiIn0vBKgNc2FltIWGrq63GtdcF8Yd1+iGxECmGlt2KEDXo9elG6OVlHlUetiu2yuENbXm1yUNIRZKPXHYGRhEQmSLev/GlaXrnTN8jY=","EncryptKey":"ZsFTmH2Mf0TFg5kPQXqkQ8rZ+jR2+1ALtv73XwkCA+L5GSEnRxHC6wdFegM6qKOdtIG9vWKGvhxI+PgFXNeDpj5vK+l+f2Bs+IWHQSfrGg3SsuqwgdB/tVzLfd0Yir2GYlURyeQsAVBoPebAVOF1h2nxV7AofIiDFmSxdPLx3jgtrPyplIXRRLHdU6yzdvWMG3+kSMv8Trb/csh9X68w7yjznUyldjwYSemYYho96G6DX6Y5xaS8mKMyICDjqxSahqlxPKiFD7B/KRrjPYjNUYz0GO8vsnikc8K7aCoSor0EcUDVyDp04SmYneJvFdoZwJfrfJGKrbUTrKJAxlqq/A=="}
+Parameter:{"Pageindex":1,"Pagesize":10,"EndDate":null,"StartDate":null,"MonthStatue":-1,"EnterpriseId":0,"EnterpriseStatue":null,"PayCenterCode":null,"TimesTamp":"1496401195085","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"136CD6B276520AAB7C4E8686F7D47346","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:'aa' 附近的语法不正确。如果它要用作公用表表达式，需要使用分号显式终止前一个语句。
+',' 附近有语法错误。|   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseWhiteRep.GetEnterpriseWhiteAndBackMoneyPageList(EnterpriseWhiteList model, Int32 PageIndex, Int32 PageSize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseWhiteRep.cs:line 136
+   at CGT.Api.Service.Boss.Enterprise.EnterpriseMonthlyLimitService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\EnterpriseMonthlyLimitService.cs:line 45
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/6/2 11:24:38   
+ID:[ThreadID:12] 
+Message:Debug:Model:{"GuidKey":"79f21e3e-c6d9-4d9f-af41-c40e7637c706","MerchantId":"CS01","Data":"n80E2bE5ijHGG4DDjoA1WK/EHLvhczmeL8mAQ3x6uQWRPzeiGJs1naALEaK5CSNvHqloITMYGYfJJZWH3/URNdaFuy2sTmdaE2ZYiVXi7kq95dJw0NcTVM8UM/WSqEMAI6XngftyD8XZr+ARVC25yDB9aywBz9MqVpeQKZZZVKXviR0y9mM8g6WzcXl/0baNR6Z9fLzVB5jw3U0J3TdpnNSS94yDA72cQPJSrylcKRUSLdjbG6DueqoQGwhUiJHwsliQktO81R3uG8SYi8EhSp1vA7habpf68U250fbeygDZQ3RfvqgRszEOWd+aJ5W7EMCJpXt7M+V2oYay+UcwcNfvtluvaKyU8ypvQuUkioo=","EncryptKey":"hb+CApUOz7eolcS0eTzOQ2a6yyrb7dmRkNBalg/Pf1//Ku4+08Riz6NYdN6bQ1NADce5NXZQ0yn+SqaDTfOjqiJVsA0uGyGdq0qnxA2bDqN92Y55vQ1rhczVo1UZI83R/7dS16iHhNO1FkzgY43BOFV0KmshvMjRNWH9JxRftJXIpPbs0FIznRYrCnPKWmIbjMycGnUrIcWhAKdKZ6h40l5VLOHz2QtM92rw9npXqFwafoqApoeFW2BaTbYw3lMT6TBnM+UkkTX0HoQK/mjS/MX8V4GeylJ4DJItJpSi74THIQLo7tjur9sFs4zUzLIBABeG3bWtqKEtNZ66YSXMLQ=="}
+Parameter:{"Pageindex":1,"Pagesize":10,"EndDate":null,"StartDate":null,"MonthStatue":-1,"EnterpriseId":null,"EnterpriseStatue":null,"PayCenterCode":null,"TimesTamp":"1496402653529","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"F5EE913BF2785B5F4A136A5853D64550","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:'aa' 附近的语法不正确。如果它要用作公用表表达式，需要使用分号显式终止前一个语句。
+',' 附近有语法错误。|   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseWhiteRep.GetEnterpriseWhiteAndBackMoneyPageList(EnterpriseWhiteList model, Int32 PageIndex, Int32 PageSize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseWhiteRep.cs:line 138
+   at CGT.Api.Service.Boss.Enterprise.EnterpriseMonthlyLimitService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\EnterpriseMonthlyLimitService.cs:line 45
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/6/2 11:26:21   
+ID:[ThreadID:12] 
+Message:Debug:Model:{"GuidKey":"223b4f1b-0144-41f8-8149-7a70d3514913","MerchantId":"CS01","Data":"0dim6f8uFHko624K5VtQ7Pahz5jq3Skpax9Q8W6GZcJvKHnzt1UealoJ5NB6IlnjCKTfE71MITj1IJn871BTJERI6t3skE0lEbU21MLIMtrKWRa5qMWcnN/XNbv+IA0p0kbRS/3/qf0s+Eo+w0yqvCx7+Bxa2bp7gEn9NMN6dt98GF85TO7PGrkKqUQ2OsHADLikQ/K0i9Vh0d4UsSwxlXLvbuHzTmXKkp3cGv5+t14DHGFusi46l8AsEax5NQZDz40FWyS4za9pHSwV+dAkacJTP1MxnpU2Vjm33+Hquzu70XauZ3exKBPPBnMb11xosCKPdXdl/oiedxlm2psvE36OVBRCx0pMjM6wR9razhM=","EncryptKey":"cCPCNhVA/BXHBAhocBpGXEV6yfDCFFJphdHHwov1hAnRJ8AqvT1H6yI16IzumeAvBHhjXpHkxpaX4ZsrqTCpUJSl6LC4fqPC+EmeN+KGVrgQROrN8wW9sCcMVXOJc/mbnM9+6EFofPF5A2oxvg0aFQ+nz6sRIp7HksAVWjPgkzGq7VQdshiGjHoegayzgj14ylDGW0C+7w+lblk5YJG3uiqXGsxFi+ZWfMYlwTP2EAu0BEgEedgVOELDQ4fxOBPwf5z+rGTPrDm60apO1awmwXFDxQej+/FMv8BUwmBwAhb8Xb4pjZwt9DgFv1+bC+yWoQ7Kqv14cWT/ZeyoOh398g=="}
+Parameter:{"Pageindex":1,"Pagesize":10,"EndDate":null,"StartDate":null,"MonthStatue":-1,"EnterpriseId":null,"EnterpriseStatue":null,"PayCenterCode":null,"TimesTamp":"1496402781362","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"9D3FCF0EC1412FD9E4D74238F0A2A46E","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:'aa' 附近的语法不正确。如果它要用作公用表表达式，需要使用分号显式终止前一个语句。
+',' 附近有语法错误。|   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseWhiteRep.GetEnterpriseWhiteAndBackMoneyPageList(EnterpriseWhiteList model, Int32 PageIndex, Int32 PageSize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseWhiteRep.cs:line 136
+   at CGT.Api.Service.Boss.Enterprise.EnterpriseMonthlyLimitService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\EnterpriseMonthlyLimitService.cs:line 45
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/6/2 11:33:53   
+ID:[ThreadID:4]  
+Message:Debug:Model:{"GuidKey":"32188130-d886-43d2-abc8-77ba497466ce","MerchantId":"CS01","Data":"rkN2kpoZitCo44egSVc93xDXfSZcbeppcjZaW1U38xJvOJFFzj9ILm5z6sFMwLM9Fogb1kY5P2bz+8XkeuQVrpGVT1VtuD3mKe2zrnxwDiF3CpKDsSIDPEdSq4855X4SrXRAJHZtFoi4rav+lDG8d2nIOT1EQCZ4RudJbhLa7j6ETVsrhBg+RCn09V8p5T7rKM6Hhdr/xzXpf8v/jXcsZANFDARsXwvdWYl4bmkPt/gG3CR2JYPqSRFwyujyf0EU+FuoPbUsOoNcGWB7k6syb0Vn14O1BlFKBDPfyp68eAm8YfTEYTsRa0LQd7DqSoUOwW9bq+c2EgmFvNIIZNPP+YyL6bXFngzb8yYUog+3cLI=","EncryptKey":"ZyibfqAFNMq/jcHqb2U2vCTROuIlcOSZfksGLjM6IZR4slUZzh+tka39VWgXFdxjz6WYgPWrrokA1hzCO4ymTl2ExXcoSBwLDZ/3tyoWt/M8aBTRbkYuYFfilDPf8p/u2KPb3n0su6HVaVIiP4JDeaABvXJA4LdO7qHKCbvT+ri9zaog8AOD4DoWoA1XKCPkA7U5T25VB6wg3lcopetLgVTLTj2p4yrAL1e5kJ22HX306bVnq9BRt6f0E1wxbJknrLzrzTsr6KdoSo6Bh+y5n67NtLypG/qKqBut7fZZ63WajTPwG+PWy5aA19QdagomJX1Wjx8lA76TBtDXO1i9LQ=="}
+Parameter:{"Pageindex":1,"Pagesize":10,"EndDate":null,"StartDate":null,"MonthStatue":-1,"EnterpriseId":0,"EnterpriseStatue":null,"PayCenterCode":null,"TimesTamp":"1496402811250","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"F0C90DA57DF4BA6ECCCD293F43F9D4C8","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:'aa' 附近的语法不正确。如果它要用作公用表表达式，需要使用分号显式终止前一个语句。
+',' 附近有语法错误。|   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseWhiteRep.GetEnterpriseWhiteAndBackMoneyPageList(EnterpriseWhiteList model, Int32 PageIndex, Int32 PageSize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseWhiteRep.cs:line 136
+   at CGT.Api.Service.Boss.Enterprise.EnterpriseMonthlyLimitService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\EnterpriseMonthlyLimitService.cs:line 45
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/6/2 12:03:58   
+ID:[ThreadID:5]  
+Message:Debug:Model:{"GuidKey":"94b78731-823e-443f-8c46-112651891e49","MerchantId":"CS01","Data":"3dFecy45H020xpeZlnj8khzOOZz1XL2nyWexJew+NOGbG3C6IdvrKw0lzFM4YfOTYZ6GK4VAufAnOep2XBknoqIz+3zh+GBwFALaWz/1NCTtUFQ7bzP47lglPKR9WFI/sVGaGR2JzblKNxUXPSw4MsXnV+BDY3wK6V28m2Z/qL2uO3Jjb+S5CdRYG0WLka6WK7kCR4a1h4BxBRrt575K0byu9VMA6mYhisGTxZQBxCv4EHRvZJrulNjrBLLBcsEdA0ICALwyJBTSVVO7xpcjLWXIikWZbjCGebopgXkqcLEeikLdtq2X6OLa+2sMEK0JkowiC9Jd/DsLgb1VrgDF3fGUeKC9QmFCbkd/WSyesEk=","EncryptKey":"GDL2PI3uP/FGVlwX9PP4nwahmTwWjFLzzS+TfKLWI3V8KvyBImbd4VjawzfKh7DfGfAD0F/lmvkMU/OxEvMWbKGKKjfuVWapW6VV1YoJintZuPJANdkORxMH6t1eMQDJ4h8SVsF6AtrMevw+cOiHMLVJF9KLojGLBWtlDKLMLImYSFVXVFO8ul1gG7D5DPufXxTrx+miJ0d0TH6XFoB53v6kB0N67AmxapmiCyDUvk/2A3RL/t7F7JoHlSUokfNfIwVjV2JBdsYUHc7ybO+J43blLt+IBx7dIN1ndvjKmpBXh/q+at5y8QYSLckQAiPpwtyYHADzOLI8nvgBp7VyfA=="}
+Parameter:{"Pageindex":1,"Pagesize":10,"EndDate":null,"StartDate":null,"MonthStatue":-1,"EnterpriseId":0,"EnterpriseStatue":null,"PayCenterCode":null,"TimesTamp":"1496404593117","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"0E909EBE29DEC9BD71E4AC1F5250895A","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:'aa' 附近的语法不正确。如果它要用作公用表表达式，需要使用分号显式终止前一个语句。
+',' 附近有语法错误。|   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseWhiteRep.GetEnterpriseWhiteAndBackMoneyPageList(EnterpriseWhiteList model, Int32 PageIndex, Int32 PageSize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseWhiteRep.cs:line 136
+   at CGT.Api.Service.Boss.Enterprise.EnterpriseMonthlyLimitService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\EnterpriseMonthlyLimitService.cs:line 45
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/6/2 12:03:59   
+ID:[ThreadID:12] 
+Message:Debug:Model:{"GuidKey":"5a0e5c56-c00b-4103-a3a2-540336860e8f","MerchantId":"CS01","Data":"xixM8xRzM1cDvBJG16Dhc/3wMAmrOm4kB6E6JjNiokHAefwmCpvfH5NYNudlFmzyys86mENAheoj4exAn6eXvqROoHEOZ038nskS8VuTJXEyXWwLucNzK4JRazhuZB6/FXHyvJIuLrRqyv2VhVK/r6yRZihVmNnO72wj5DTPSnJ+iP5o3RTaQJ8WpVlJs/EPJNejDTNywSklvHOs0EIm7fG3Q1ZHwen3WN7OdoKJxqBtc3+5+JSnN0K3XtbV1ThgUMhiAei7e/J/Jesj6JQb5FeoODkm0n+Jqk8MG5c0wkybWQBfJ0M/I9xCZ1nmJ4hk3wMhyDUWBdM5PyqTd0guHLbyrkWL2VwKwhrdFg0helU=","EncryptKey":"k6arHW57R1OBql4A1gLxRfNtM+QbuLP1/vNlKgfJMGWvcH5YOfH94GspErLZOMAMpJXUsbnmXmYJpNNvp0kThqa1RG7jntFo5zuqbgZ0bfVYbCLXHQTRxTWGC2CAgdSrAfXLc3k8e5D4D6tArz4qFbNzkoMwZqgFWN0dSqvhE320a4ffG+kEjmCIkkj2vo2BfGz31OnjkmNhqPfjTtLBbBqFoj4Axnx9BrAMtKVBfgeqWFELN6Llaq87W1liBprbvrugIvKMGuDkyzqijN2/0eXNc47r7fyjxNedWTUiqopZ8x+X+q7ya//wAqhyaC+v1wd5YIWqbStNOfhxsm8uIA=="}
+Parameter:{"Pageindex":1,"Pagesize":10,"EndDate":null,"StartDate":null,"MonthStatue":-1,"EnterpriseId":null,"EnterpriseStatue":null,"PayCenterCode":null,"TimesTamp":"1496405038678","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"558ACA548624A0AABE7BED8486111CCB","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:'aa' 附近的语法不正确。如果它要用作公用表表达式，需要使用分号显式终止前一个语句。
+',' 附近有语法错误。|   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseWhiteRep.GetEnterpriseWhiteAndBackMoneyPageList(EnterpriseWhiteList model, Int32 PageIndex, Int32 PageSize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseWhiteRep.cs:line 136
+   at CGT.Api.Service.Boss.Enterprise.EnterpriseMonthlyLimitService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\EnterpriseMonthlyLimitService.cs:line 45
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/6/2 12:08:10   
+ID:[ThreadID:13] 
+Message:Debug:Model:{"GuidKey":"90fd8f15-0ddb-4b0d-a987-f03294add9bf","MerchantId":"CS01","Data":"UzOlAhqpzrTVQ3teZGj+sSnaGEQaF5zhGUc3lJSi/0q6jkdAA8BXqW+GY0XW96kMAklwB9mx/SGbfNznLe7WeXdKDlErHvXrJqvG+LTJqhAbsMhUvge5pIYx91RoYlduyOilhxIy5z6xyXIKRNsLVJ1l3uZQNi5Gk/dgjvCpc2KIEic2S2yhhAD5YKz+tuAUfVkVd+qa0aKewki6vpOk1NaJmnfk39BR21XPxkD5VfNFQhV1a+XrtPZa464oD5rLSn7gQEfIYaHJkH4emAa8cwnsNsEzwpFkF0gFjKUU/BNEqJRAgP5QSjO74Z2Cr19Vk5EGz4pcC9tENesQHa6gknmv8i7CpAjKl0jMXDnwbXY=","EncryptKey":"OM5UzCVX7k8PRh8P/B7wooDqvqofFcYZXsTqeRR9tdq0xJlmeD+f6qlJQQGDZ4duNt75c9KxcN0xYJs20f4dZLhjmgo21bnZp/lAZGhl4gwyzYUhhZNXnIUE82I793i0C4qHKAqGlzW0Xj3fPVE8jgkmohaQg384p+qlzEYRjexGBDAN+6ZmxXz1NVHkUKBn0LMPemFfvNtEIsiUjx0QyOzcjwiv2XaWN0Mi+IWxgr94uP+1pAdfWYNsMI5bWHWA1ChL/hVSsU7LJu+ISWS+YwnNAA1yAVCnSmUeE/OptP4iXN0Q+nwWRwxbN4QhlP7Bo1CR77Uji81pmg/QR04U5Q=="}
+Parameter:{"Pageindex":1,"Pagesize":10,"EndDate":null,"StartDate":null,"MonthStatue":-1,"EnterpriseId":null,"EnterpriseStatue":null,"PayCenterCode":null,"TimesTamp":"1496405243819","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"7485DEBCC758FBF32C69C8E0BEEC38F4","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:'aa' 附近的语法不正确。如果它要用作公用表表达式，需要使用分号显式终止前一个语句。
+',' 附近有语法错误。|   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at PetaPoco.NetCore.Database.ExecuteScalar[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseWhiteRep.GetEnterpriseWhiteAndBackMoneyPageList(EnterpriseWhiteList model, Int32 PageIndex, Int32 PageSize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseWhiteRep.cs:line 144
+   at CGT.Api.Service.Boss.Enterprise.EnterpriseMonthlyLimitService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\EnterpriseMonthlyLimitService.cs:line 45
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/6/2 13:20:00   
+ID:[ThreadID:11] 
+Message:Debug:Model:{"GuidKey":"c99196b8-5cdf-4d09-97e4-330fb1fba7dd","MerchantId":"CS01","Data":"AdgjOwx6FEqa0Qj30cYwKisyfHsyLLhyrIaFxfdKA+Fafu6yMSAhWBmyZRd3lG2DmjvydzL+Bir4CMW/q+WV3ZGGHHw4n9g9asHSMO/8/IUMAD2SlQMg9EFUdKVPZjoKmPuoU50sd2/XQyUVZYOjILNwKIWwBsM35mmDL6OtNKHAuO3rwIGF8KimVQrLf+lFXNO5JuGMXyrhLYh9iitY1vDQlSBkNumyDAzdaYEizEUvRlFGTvYWzqgiyM7xYord3gzkXLhpsUxuTaXNLRp346Le6t7bOFGe2fNo6nXsqbAq5zCFWZH0/axmZ+nX7j3QHoAH13rXlCY5a/M+SqCEdL/SseMho9cRkzW/Mi8wRvg=","EncryptKey":"HkHCHKf6HxhAV9feHWXbAMUwGz/w3XDumzdGOnT9Yk2sZYDIIpKxMkksXqiQFtf6T8/b48gjubhueaNzeSrGBmQSad5D0kZNvrs6AZTOANDrDEoPj2Fit7hdknzWGP1msk2YqI+3oCJUKMTR8nBZblUdqJVoP6Wex3XgGqGxID9AtF4UvfwlZh70ws5Ej7BcdvKZIRfAul8YhWQ+ssIeufrIO7GX39SZaa5lkHBcEa+4+EmSZnEGlojP9/uxk1Y1abeJqQpLdqcY3qtiWSeydTf5V+Y4oyMDBcV5Oty0lY6ifj+fq9rgf+ri7/M4BjzZ+nbrPIOyyhrIJVOAKFNyrg=="}
+Parameter:{"Pageindex":1,"Pagesize":10,"EndDate":null,"StartDate":null,"MonthStatue":-1,"EnterpriseId":null,"EnterpriseStatue":null,"PayCenterCode":null,"TimesTamp":"1496409600069","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"486BDAFA5B854F413941A3E33AD33E47","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:Unable to parse SQL statement for paged query|   at PetaPoco.NetCore.Database.BuildPageQueries[T](Int64 skip, Int64 take, String sql, Object[]& args, String& sqlCount, String& sqlPage)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseWhiteRep.GetEnterpriseWhiteAndBackMoneyPageList(EnterpriseWhiteList model, Int32 PageIndex, Int32 PageSize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseWhiteRep.cs:line 145
+   at CGT.Api.Service.Boss.Enterprise.EnterpriseMonthlyLimitService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\EnterpriseMonthlyLimitService.cs:line 45
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/6/2 13:26:20   
+ID:[ThreadID:3]  
+Message:Debug:Model:{"GuidKey":"517a06e3-5dbc-47ea-8b57-5138185767b5","MerchantId":"CS01","Data":"ypj5QYwDM5E4Iuc9+u1wXTt/xXHgRsac56BYR1aa7BZlCScGL5vy9b9ANKohp3qJC+HXr+T7mjeDSVRmX+vq/ZKWpX4qO5gd+rMTRMu744R+bddXI3KHyRU4ViZXEmmn40gJLxGL9X8P/Yu6NACQELzUwS3OqILziL5WbHNteoxRV50J/NFfY24IBeruLM+ZdB80kJdf7zpjdPlYFxQhxxxGAfn3FGt28/3WBnUNqii0FW6fpss7l00zbQ88xkzoGCztoY/e6t9ia70sJ54H+fCtXK/HEePo+xvaJcBCHH9d7bOBjsXb+hBVKdCsIT+/PlId553OPhGHWKWxTgHDHxrfjwuvPiWmrIp5GBuPpPM=","EncryptKey":"PZyr9d3yluysnzn1+GI3H1caxhTIQRWYItkcF1hAJkPCulY+App605/1a62piRt9fr8e6U1UFVtth0/auPYCRU2o/qtA+JzdjdHuSZ1X9SWZS78uxmk4MIsXtrbard7BbfUkudzSi5LKjBle7PGg5LlNlXdyxQBpZ/mdHb1+XMgiZFtTHhBBGVdgHUsgNttcCkD3rhbr5cexFfjGME5w+JXe8ZSDDvOrFqtbXYonJo9jA4YVDifIbiOtgsvsOS2JkeCZ5zkxFKLLLcnUH7JjvqDHb9BYgTObkqW+iy+SuuBUTLLmZy7xpcoTCgwuELobx/BPYLTdOXWnlrgjLNfzlA=="}
+Parameter:{"Pageindex":1,"Pagesize":10,"EndDate":null,"StartDate":null,"MonthStatue":-1,"EnterpriseId":0,"EnterpriseStatue":null,"PayCenterCode":null,"TimesTamp":"1496409636340","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"47B17725B7673B41065CC885CE549946","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:Unable to parse SQL statement for paged query|   at PetaPoco.NetCore.Database.BuildPageQueries[T](Int64 skip, Int64 take, String sql, Object[]& args, String& sqlCount, String& sqlPage)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseWhiteRep.GetEnterpriseWhiteAndBackMoneyPageList(EnterpriseWhiteList model, Int32 PageIndex, Int32 PageSize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseWhiteRep.cs:line 145
+   at CGT.Api.Service.Boss.Enterprise.EnterpriseMonthlyLimitService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\EnterpriseMonthlyLimitService.cs:line 45
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/6/2 13:29:26   
+ID:[ThreadID:37] 
+Message:Debug:Model:{"GuidKey":"3b22807f-e1d3-4941-9fdc-5c0dca212dd0","MerchantId":"CS01","Data":"Cao8CAvVgUY+alovlE6w5fM0SxXDnVjwhvO8uxtwwRpUl/4xmBHS/VLqQ1n5v55+FivF1uLJ8KXCry+J11DQ5RkTqkNW3P5Qy0U3Qp8kQ2J8CVRu0PRXB8RIqxyRq2I6TTe5nn7YTVuVelVlPvyY2i5pwwRBcEoK/5RHLOj1YtipQMqHdguKC85/FxBzvqFkhGhzlLMObpCFC3Obks7IuhSswcX5tmaRxRGyvPh6HumWjLt49rN1NBaFNK6QpH1cmtF2zSWkxK27gFu31/xbyVkZ0cS+kgKuB3mGqKEOvgr0nkWjUYIJ5vW+blzII23Ea8zItdVmfiZ3k41as2+BR9JX9TheJXZ+lAuPPRi9gv0=","EncryptKey":"cCrWkzQ1TgFQbk8iLD9CR4OoQimOk59vBfD2BmNf1OCol70W2DU9myZ4oftG66n+Dl+7qoL8oLi2B5hycrS1t3CoCi7s8artahemBSEFPLlRQVwF6h/SJEYQaJB5gYQGfZfM96SQwLUD07qhwz+NCSIjym2N8wuA0JcQI5RXsP3gJkk49ZLA1xhmt+n6QQ5YRTDhSSwt+RJh+x264gsDqNqsWb1xBmadyuM5MEoDNc+sRLaaPZW7+0qsh78Ny/gYn4gkDi0RfbUzUP0DkvsD3fgUrGZmEXunpvwAd+TfhVf5NmcxYffp0ToMk53j/bt+WyvuxkCOqKTjcZkbjRul2w=="}
+Parameter:{"Pageindex":1,"Pagesize":10,"EndDate":null,"StartDate":null,"MonthStatue":-1,"EnterpriseId":null,"EnterpriseStatue":null,"PayCenterCode":null,"TimesTamp":"1496410165764","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"BC4E555B11EDD9232B21921FE69A6FB7","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:Unable to parse SQL statement for paged query|   at PetaPoco.NetCore.Database.BuildPageQueries[T](Int64 skip, Int64 take, String sql, Object[]& args, String& sqlCount, String& sqlPage)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseWhiteRep.GetEnterpriseWhiteAndBackMoneyPageList(EnterpriseWhiteList model, Int32 PageIndex, Int32 PageSize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseWhiteRep.cs:line 145
+   at CGT.Api.Service.Boss.Enterprise.EnterpriseMonthlyLimitService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\EnterpriseMonthlyLimitService.cs:line 45
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/6/2 13:30:29   
+ID:[ThreadID:38] 
+Message:Debug:Model:{"GuidKey":"f7cb2429-c637-40f3-9bad-aded529b26d0","MerchantId":"CS01","Data":"Zn7u82iYSbKfyYAo1jdJlr2Wp99Gn+aE/sLPLxWR17mtQ/nc+9FjUnCfhYnDRdlFDtU2HMnoF4yehZwac0+0VSzEtWJe2UFskkjDNK6Uvud7LNzn7Ah49uyJ8Z9vo1V+U2CBzAWJz9apV+Q4eBqmE7BnEIIIM43wLAn2o1+K5dSf90/q/lKP+0Kt+CwOFUdw3lH2VKj6A9i05PkNsuA074QQScuuaYOTe4ZDi63CNQfaS1/JDZV+da13kdGUF02ZwM83CefkQT2Az+TGnWuUzxJsjkzE0ZmtOc3utfuXRhs5jFvy9TtcQErcfjcM/ev2erutD64FD5UEutJ0Roc/2wNfwTVTWwz6RWIYkTZg5hk=","EncryptKey":"RlVK1gXgn0IYZIQcezQRT6KLf7k3BI2wLLCLjoC/St6S/C22SY9SuFSkvQj1OwjgmMVdQfQFxM1V0g3FtBbXAKI+eL3AVFltFCz8wzYsTr1YXn6bt5yD01aEtMqaxH2kNHeV60Su+wKZE5xkjm02YMQA4DoU1Dmi6yXxl47WU2Qt64BKhBThRiH38h18uzoIvI4/RnaY5Y4STB8TKf+Lb/nMfuKUOWaCMwPidjMvf4odcg4AXO5mfSyii81snpQrSiPpCQISP11gfMQ7Wm2LaJ5K3TqYqhrOR/rHBSXZXthTgviXc1hg+TqrSfS6XreavEW0lM24ReraYA1pAjfvRg=="}
+Parameter:{"Pageindex":1,"Pagesize":10,"EndDate":null,"StartDate":null,"MonthStatue":-1,"EnterpriseId":null,"EnterpriseStatue":null,"PayCenterCode":null,"TimesTamp":"1496410229165","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"9E76129BDFFE3A05A74195BABB64777D","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:Unable to parse SQL statement for paged query|   at PetaPoco.NetCore.Database.BuildPageQueries[T](Int64 skip, Int64 take, String sql, Object[]& args, String& sqlCount, String& sqlPage)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseWhiteRep.GetEnterpriseWhiteAndBackMoneyPageList(EnterpriseWhiteList model, Int32 PageIndex, Int32 PageSize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseWhiteRep.cs:line 145
+   at CGT.Api.Service.Boss.Enterprise.EnterpriseMonthlyLimitService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\EnterpriseMonthlyLimitService.cs:line 45
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/6/2 13:31:33   
+ID:[ThreadID:47] 
+Message:Debug:Model:{"GuidKey":"6321ebfa-0372-4221-b6ca-cf19c69752fc","MerchantId":"CS01","Data":"EANx3zzgbjPvZeMXgDrBmt2MH8Qq26JQ0yB3kU/zXmdEwqvVtQp6Ai5SczNzO+BVv1JeGUR+lhlN8MhqNtbBAFC1fKMV0wnfjWIi+KYhUBZ/quP9uWY10VWVRBQNeDZ9KKdmmpA/XderRjNatmK2KhJODfnqx9fbg0WIs04ySi4LjJ47DJdHjaDLBgRJ0UFpRt9heVdIu9UclUktdzKUJ2KrEYRq07HgNVPREvrU0d6OO/C3wXnYs8UBOh1w9yC6lrKnsNdGeb3GKTgHcnZ+9YRhyThFQxdlsqwXuuFPRK+7HneRfBSP/P8eVbmIV11VpQhRRYT+jsrhuFBaq7jjfhdZjjdcOHJtk3tSELT/o0U=","EncryptKey":"dZdaC2NMpUellUON9h7oN/ffwUM2s88mR9ZDSj7BTLd84rml4ijs1nMc1MVEXCO1NYoJXdqWLomcC1/n0Ro3IB1D3FIt8ZJ2IjpQOJ7h5rg5mN9cJAEKEbRjOOgansAcF6qKgOd9yxN84+RcUbztbwLA04cpNS2A6P+nbxRonyGT0mrFUKTkGavIIDLou4IF5fSiG/PlYSqRrxwCKmVNM7jBhv8Ip4BIy9ipnC1dJe1iOXzVKKvN1vf/QjvCxj8XrWuphUCv361/Ve2v47D8rLDcauynSkt9bfAPnzqPrqUfpeRE+j2bOlVvWllJw8CYFKfqEYbIzi3FrTeuzLpEoA=="}
+Parameter:{"Pageindex":1,"Pagesize":10,"EndDate":null,"StartDate":null,"MonthStatue":-1,"EnterpriseId":null,"EnterpriseStatue":null,"PayCenterCode":null,"TimesTamp":"1496410293608","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"43136EBAB32809503B34049690DF0B8B","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:Unable to parse SQL statement for paged query|   at PetaPoco.NetCore.Database.BuildPageQueries[T](Int64 skip, Int64 take, String sql, Object[]& args, String& sqlCount, String& sqlPage)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseWhiteRep.GetEnterpriseWhiteAndBackMoneyPageList(EnterpriseWhiteList model, Int32 PageIndex, Int32 PageSize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseWhiteRep.cs:line 145
+   at CGT.Api.Service.Boss.Enterprise.EnterpriseMonthlyLimitService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\EnterpriseMonthlyLimitService.cs:line 45
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/6/2 13:35:14   
+ID:[ThreadID:61] 
+Message:Debug:Model:{"GuidKey":"32407b8b-8dc9-4fe9-8477-47d0f02fcddc","MerchantId":"CS01","Data":"Zc75PzkgXmxES8dVjdgrIx+dI6kcandMjjB8EhOCIneq8wmk8FnAEL5XWdDE/1tFlGfCRuFnH2fdwCGLEvUNADcUDT22dej96OZ3Smy7T2+96WZd4ZIXMP2OlOU0ji4f3dW5jnUNty9zza16gJ5gRR68dwNEYWh1gVCAiySf8rE1R3x8bU7/KtBSvib8fY3iTLvSh+H4R/CoI1xbDktEUcgPAum81JRnZl4bl1LriZh1CxSEe8g/R5QeDDrc6zurX9dcnHc2iCJw3OLRZKdQs23bFG+lXa9b9lD8rvuqdQG53ULxJWDesAGKqFCk1Lih+mTZ9zke/QzQm2w1FhwqTTJazXxvXe/UU+Ee2uMKfYU=","EncryptKey":"p0u4qWmaekdIN6jbxjFowA/JZxy3fiZRPwbqnZXeO1wiU7vmNkhdvyBXS8iNuE0fEF4V3eyQ73vTvLMkpQZzVCdpbcsI12SbrU1d0SjcumArwznW+s0XKtNZYcqXdK9t8dL34gDcKDUdS0ZxOnXkjHbBUDzbWryX7PbzJT2DrleO/GlZ04mnEYqGE6TYz1Xv2mj3cuOaVfRera2GFpxRXrNy1U1h4DUCW2dz/DmRpU3Vk3UzgFedzW6pIKHQ/c6mc6LOO+ExIoEehpqY1Ted5g/C6XnLVtuQAPMg6gR7Kbtri2Raq7c8Kzbx4BshfIQ8Pdsyw1ihciFiqa5vWrgS"}
+Parameter:null
+Exception:参数错误。|   at System.Security.Cryptography.RSACng.EncryptOrDecrypt(SafeNCryptKeyHandle key, Byte[] input, AsymmetricPaddingMode paddingMode, Void* paddingInfo, EncryptOrDecryptAction encryptOrDecrypt)
+   at System.Security.Cryptography.RSACng.EncryptOrDecrypt(Byte[] data, RSAEncryptionPadding padding, EncryptOrDecryptAction encryptOrDecrypt)
+   at System.Security.Cryptography.RSACng.Decrypt(Byte[] data, RSAEncryptionPadding padding)
+   at CGT.DDD.Encrpty.Encrpty.RSADecrypt(String data, String address, String pwd) in C:\code\cgt_api\CGT.ApiCode\CGT.DDD\Encrpty\Encrpty.cs:line 87
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 88
+   at CGT.Api.Service.Boss.Enterprise.EnterpriseMonthlyLimitService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\EnterpriseMonthlyLimitService.cs:line 31
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/6/2 13:37:13   
+ID:[ThreadID:62] 
+Message:Debug:Model:{"GuidKey":"2c9cae1f-79ce-430f-a432-4ea5f7e040d0","MerchantId":"CS01","Data":"67qUCeXA5n9BJ6ssLnuHzMcloOZ5btV6rd5c59/0pj/Zw5Jz/W2zqz5k9x1fQ4f2CBd7q//MklNZJoC0dKXfS6iMAmiV5/FeqheTcgbNEMctbXQ6GFyhlHxCtDQSiq+O6HH5LC5Mvq8VswxrtZKVbT51ixzrQnF0DO/5EZfWsVQZn4hbTKx0B8rO1Af/MmUFSPsJNs3mQUxhZtSnsR5MUN6U5SS3X9MaDxNnAINZBHZvEZQXrUc+qic5ABbpkixhEr/+P2vj5ZF3Vi4Rx8iLq+TqEFjmgcf4xXBS1eFv6dlxJWinrjtKV4XTt7ldwbPyJXmg76KdzBiAmT5qhVzyPyw1NDmKlOgLQfSc7VlI2rA=","EncryptKey":"X7DRAl7Sc5QjBH6bfS/8OmW3AMXSMnx46UQ3661LImD2kVxJgJM1Zp0dl+dVCEEmCsXAaUceoxnA04Xa0rS8i4g2iET6W7DznAlI+eKWEQ2055SsmkntBDZmdK895Kqu5RUuPngKuZSXqdfimOlmAz1xlvsCXNSMiH51uIEhVsMnshwoP81Z8fRZrgWLbL27j5EuG+u+s2UWwCeo+N58enSYBK2ZEiTA9DEZm6T5fXzyREtgcYcTHTZQu8sNUUqWOXUyLbxe9Tcbb9F/uFeIjlcsDpAWleDmg+5LOMDkdEi8zMqnFlHBokP+gruMs+D4050xl2S10ZMU4hCOK3gk7A=="}
+Parameter:{"Pageindex":1,"Pagesize":10,"EndDate":null,"StartDate":null,"MonthStatue":-1,"EnterpriseId":null,"EnterpriseStatue":null,"PayCenterCode":null,"TimesTamp":"1496410535897","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"F1A34B369FE90133D777CF63C656E35F","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:Unable to parse SQL statement for paged query|   at PetaPoco.NetCore.Database.BuildPageQueries[T](Int64 skip, Int64 take, String sql, Object[]& args, String& sqlCount, String& sqlPage)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseWhiteRep.GetEnterpriseWhiteAndBackMoneyPageList(EnterpriseWhiteList model, Int32 PageIndex, Int32 PageSize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseWhiteRep.cs:line 145
+   at CGT.Api.Service.Boss.Enterprise.EnterpriseMonthlyLimitService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\EnterpriseMonthlyLimitService.cs:line 45
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/6/2 13:48:29   
+ID:[ThreadID:13] 
+Message:Debug:Model:{"GuidKey":"448d40f9-2751-4b10-b0a4-ea041d5494a1","MerchantId":"CS01","Data":"mgUmRuRC//g1rw6VJPkmSHuCYMMKlYouzZraCBoUM6XpOcRKzMJvAG43Ii9CGNb+gK573fRvGIwyHLu0aXytqGWbLx1vxHWG/CcX0FtAHKjeEfzMWphnI4fSLJMUweFTFiZFQmUHp7LWYFq5QYlLUBpux9SbGOoCEcXXub/MoBgpNMjPY5UiaWkIkoKte4hKN+cdHFaHgR7crQqjFaunMHuRP1LMIMO363sqBAJQEM8vVG4bt32mU/FmeT6hJ1XfHbMd6H6w06eW0ogCv8MnIzH53pAeefprWJSXUAzBnPy68I2iB263naf/AzP485nrNKVAKIC4KV4HXRdyeJF0UtwtvxxQWKTp+t9RqjbZvoU=","EncryptKey":"Fagj8CzvR4VUt9FsBaR9ZiDGHfz/GKBM5kqJf5Xig/RlOYuh4Cfrp7AbJC3eA8v10YV1KitEbCNsGb3fL32CS2CnClGz4hm9aclAXBhsVVqmLzmhIPYVCd8JchhxiePljvWFFyk8wUrrfuc6nTypS7Lt9wq+Xpra11OkyUOhyfYtPPuebM2PUTJ1kBIyb8F2iIcgRqyFexO+oAlmyvl/ST2zXlOilD8VU9jugKd3AFVDOG0zrnVy/CrUuWA45NsMF90xfrhm7xFKedc4+oSEM2ve2AVcr3ctkl8C5eiz763mGAJfCIfEhwdeUrZoVINyTuSfBSd5Vu3rdHnXsFQR0Q=="}
+Parameter:{"Pageindex":1,"Pagesize":10,"EndDate":null,"StartDate":null,"MonthStatue":-1,"EnterpriseId":null,"EnterpriseStatue":null,"PayCenterCode":null,"TimesTamp":"1496411309562","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"D2C80BF76E1F96E07592A4BB05F074D2","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:多次为 'peta_paged' 指定了列 'EnterpriseWhiteListID'。|   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at PetaPoco.NetCore.Database.<Query>d__63`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at PetaPoco.NetCore.Database.Fetch[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseWhiteRep.GetEnterpriseWhiteAndBackMoneyPageList(EnterpriseWhiteList model, Int32 PageIndex, Int32 PageSize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseWhiteRep.cs:line 138
+   at CGT.Api.Service.Boss.Enterprise.EnterpriseMonthlyLimitService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\EnterpriseMonthlyLimitService.cs:line 45
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/6/2 13:48:35   
+ID:[ThreadID:3]  
+Message:Debug:Model:{"GuidKey":"16a18427-df54-49a6-8ea4-dac943e585cd","MerchantId":"CS01","Data":"eKbwlQK9G/8HDyxG8pDKtaVo3P40vIRZmF3yc+luo4S/Z/oTDVtaYMj8BDDnVS6t+ksIeSE6ByumuB1gwL+jzjGcFRmLPbdVdR66wFPfEwAYVxowlRBVVyRJIlTv9pT3Te/XoWLIOISiiq1UeuohjYbuEru/d9EHdbiiUGsosQzZ+qsXTr+VtjRit46PE5WXJIilv48ba4wVRIm20pMw+O2LWH/uXxs83p00LJPkoYoQ5FpptKYPnSSwqUJS+yWJIGUlRGuHk5PV6COW9pUnhV9OmZWOpaDIyFmjf6hoEbKvtUcPqSHMZSi1O1xnrtHwGL/APBzLhGV+8i0v6U/aaS9TcSyImHq7x2udvQZhC08=","EncryptKey":"b7dgv3K2e5bYHB7Bg1rC53NJRxM0fPAoxCkT3tM5a29BaU9X1WBeNcCC/L+tmD05128q7nKzJQDvtWZPQk9oyWVIgkP+CKD+MVosmQdncu46OHnJ1l9Lo5LVN3fXelsgqlByu4lhno28sJIbHjyWtSQ5tNoP+vaQtv63xgwIKR6sQJPiVRcDz4uV9p30VZzhCbHr60CCz2do9hAX6YQwf07B6X8x3yn+J4uvEI5gsi3l5nQfcijAvM5LbqmOT4sKb6hJXWmNYU5QCO5spQJq7v/4nBPcZhbyx655T+gKOlSwWeaX9LAk8MegQnWRPIHdtd2M8B06Q/slQbXYF3CpbA=="}
+Parameter:{"Pageindex":1,"Pagesize":10,"EndDate":null,"StartDate":null,"MonthStatue":-1,"EnterpriseId":null,"EnterpriseStatue":null,"PayCenterCode":null,"TimesTamp":"1496411315659","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"CD1DA5D6BC9229D0AC894D4612776FE1","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:多次为 'peta_paged' 指定了列 'EnterpriseWhiteListID'。|   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at PetaPoco.NetCore.Database.<Query>d__63`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at PetaPoco.NetCore.Database.Fetch[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseWhiteRep.GetEnterpriseWhiteAndBackMoneyPageList(EnterpriseWhiteList model, Int32 PageIndex, Int32 PageSize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseWhiteRep.cs:line 138
+   at CGT.Api.Service.Boss.Enterprise.EnterpriseMonthlyLimitService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\EnterpriseMonthlyLimitService.cs:line 45
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/6/2 14:15:33   
+ID:[ThreadID:11] 
+Message:Debug:Model:{"GuidKey":"b5f9eb1b-591a-4845-8739-a83ad365a55a","MerchantId":"CS01","Data":"DG46zQpLE95yR8o13MooLKWhgCHSL1DrcpN5d9AXGDBFtdk82Ff5e274U5BEWuC7MdqaywRAYN2B9ZquXgfUdSJaJ6VTVgXiRG/H98rwsmdEv6RXBd73J/SSRUQgyFQwiEUbGlBPhafdCi//WQ5XEQ6QWZ/YNVykviyRDMmjFHKkA1jj/mKpEbMa8zkPvnxZQPZLG03Je9jNjnp+LW2ZHojKEI/Pn+GOBRexGsisPpa1wfTU94uBO3VfT/qI0Lhm/zHMKhEVvvjqDGACsmGQfNgvoqHGU5q8YzFN12se+9L11GTcuL7MWYfMuP9XiwUSUyPYSt3ZQ+ZzdqfSkEvJ7VMQ5Bz1PHJXWyX8KIAkulE=","EncryptKey":"CWs6FNI+oq1uJRdn2ij+PK5DcdAkMOLUQ+qzlyNxsyx7tIet9LJOqbEaIquTEir2BiIdbS1u+4pzv4jSFcAU0h1YUMpVSCil7YDxIr2/J9DpOoTNlzk3QCq886U3+4Fl9pexT3/kWCDfCksgE4FI+D59gqf1Hd+z2/faEmy9PQDX7ZVoCvLMx3yMWxRqpmHBs4VTROYUD/2So6ME2/N4HaYJhrRfqHhoIO6Suq0ZpgDnxWo6OespRNPB5wm+6Lhzknieh0FSFze58o0ItXpQWinBKlANuf+T7Z43JQzEws3DmuEx+3rG5xd6K6mwYutBYXaWQr+ooU+dnA9YyTBgEA=="}
+Parameter:{"Pageindex":1,"Pagesize":10,"EndDate":null,"StartDate":null,"MonthStatue":-1,"EnterpriseId":null,"EnterpriseStatue":null,"PayCenterCode":null,"TimesTamp":"1496412930088","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"D33D7FC2652FF312A718A6A257864719","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:多次为 'peta_paged' 指定了列 'EnterpriseWhiteListID'。|   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at PetaPoco.NetCore.Database.<Query>d__63`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at PetaPoco.NetCore.Database.Fetch[T](String sql, Object[] args)
+   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseWhiteRep.GetEnterpriseWhiteAndBackMoneyPageList(EnterpriseWhiteList model, Int32 PageIndex, Int32 PageSize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseWhiteRep.cs:line 138
+   at CGT.Api.Service.Boss.Enterprise.EnterpriseMonthlyLimitService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\EnterpriseMonthlyLimitService.cs:line 45
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        

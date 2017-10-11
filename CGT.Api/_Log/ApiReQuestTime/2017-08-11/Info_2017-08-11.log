@@ -1,0 +1,324 @@
+LoggerDateTime:2017/8/11 14:25:04  
+ID:[ThreadID:12] 
+Message:Info:请求花费673.0725ms 
+                        
+LoggerDateTime:2017/8/11 14:25:10  
+ID:[ThreadID:12] 
+Message:Info:请求花费4825.9561ms 
+                        
+LoggerDateTime:2017/8/11 14:25:32  
+ID:[ThreadID:11] 
+Message:Info:请求花费100.1617ms 
+                        
+LoggerDateTime:2017/8/11 14:25:32  
+ID:[ThreadID:12] 
+Message:Info:请求花费123.293ms 
+                        
+LoggerDateTime:2017/8/11 14:25:35  
+ID:[ThreadID:5]  
+Message:Info:请求花费90.9986ms 
+                        
+LoggerDateTime:2017/8/11 14:25:36  
+ID:[ThreadID:5]  
+Message:Info:请求花费834.1268ms 
+                        
+LoggerDateTime:2017/8/11 14:25:49  
+ID:[ThreadID:5]  
+Message:Info:请求花费486.6719ms 
+                        
+LoggerDateTime:2017/8/11 14:25:49  
+ID:[ThreadID:12] 
+Message:Info:请求花费559.0462ms 
+                        
+LoggerDateTime:2017/8/11 14:27:18  
+ID:[ThreadID:19] 
+Message:Info:请求花费82.4354ms 
+                        
+LoggerDateTime:2017/8/11 14:27:26  
+ID:[ThreadID:4]  
+Message:Info:请求花费4597.8878ms 
+                        
+LoggerDateTime:2017/8/11 14:32:50  
+ID:[ThreadID:32] 
+Message:Info:请求花费55.1129ms 
+                        
+LoggerDateTime:2017/8/11 14:32:56  
+ID:[ThreadID:39] 
+Message:Info:请求花费4607.4865ms 
+                        
+LoggerDateTime:2017/8/11 14:34:42  
+ID:[ThreadID:44] 
+Message:Info:请求花费37.4378ms 
+                        
+LoggerDateTime:2017/8/11 14:34:47  
+ID:[ThreadID:44] 
+Message:Info:请求花费4660.2784ms 
+                        
+LoggerDateTime:2017/8/11 14:35:58  
+ID:[ThreadID:49] 
+Message:Info:请求花费41.3248ms 
+                        
+LoggerDateTime:2017/8/11 14:36:03  
+ID:[ThreadID:49] 
+Message:Info:请求花费4612.6743ms 
+                        
+LoggerDateTime:2017/8/11 14:37:10  
+ID:[ThreadID:54] 
+Message:Info:请求花费57.8103ms 
+                        
+LoggerDateTime:2017/8/11 14:37:20  
+ID:[ThreadID:57] 
+Message:Info:请求花费3585.2051ms 
+                        
+LoggerDateTime:2017/8/11 14:37:20  
+ID:[ThreadID:56] 
+Message:Info:请求花费3586.8499ms 
+                        
+LoggerDateTime:2017/8/11 14:37:28  
+ID:[ThreadID:56] 
+Message:Info:请求花费284.0444ms 
+                        
+LoggerDateTime:2017/8/11 14:37:33  
+ID:[ThreadID:57] 
+Message:Info:请求花费6546.3588ms 
+                        
+LoggerDateTime:2017/8/11 14:37:35  
+ID:[ThreadID:51] 
+Message:Info:请求花费6409.4977ms 
+                        
+LoggerDateTime:2017/8/11 14:38:15  
+ID:[ThreadID:54] 
+Message:Info:请求花费38.0625ms 
+                        
+LoggerDateTime:2017/8/11 14:38:20  
+ID:[ThreadID:51] 
+Message:Info:请求花费4669.9202ms 
+                        
+LoggerDateTime:2017/8/11 14:39:17  
+ID:[ThreadID:49] 
+Message:Info:请求花费37.6431ms 
+                        
+LoggerDateTime:2017/8/11 14:39:29  
+ID:[ThreadID:49] 
+Message:Info:请求花费6779.6201ms 
+                        
+LoggerDateTime:2017/8/11 14:39:31  
+ID:[ThreadID:54] 
+Message:Info:请求花费6732.4538ms 
+                        
+LoggerDateTime:2017/8/11 14:40:35  
+ID:[ThreadID:47] 
+Message:Info:请求花费46.5689ms 
+                        
+LoggerDateTime:2017/8/11 14:40:40  
+ID:[ThreadID:47] 
+Message:Info:请求花费4604.1905ms 
+                        
+LoggerDateTime:2017/8/11 14:40:50  
+ID:[ThreadID:45] 
+Message:Info:请求花费30.193ms 
+                        
+LoggerDateTime:2017/8/11 14:40:55  
+ID:[ThreadID:44] 
+Message:Info:请求花费4622.9754ms 
+                        
+LoggerDateTime:2017/8/11 14:41:48  
+ID:[ThreadID:47] 
+Message:Info:请求花费4610.2129ms 
+                        
+LoggerDateTime:2017/8/11 14:42:20  
+ID:[ThreadID:44] 
+Message:Info:请求花费4610.3017ms 
+                        
+LoggerDateTime:2017/8/11 15:29:05  
+ID:[ThreadID:13] 
+Message:Info:请求花费794.3205ms 
+                        
+LoggerDateTime:2017/8/11 15:29:06  
+ID:[ThreadID:11] 
+Message:Info:请求花费132.1634ms 
+                        
+LoggerDateTime:2017/8/11 15:29:24  
+ID:[ThreadID:13] 
+Message:Info:请求花费4675.5539ms 
+                        
+LoggerDateTime:2017/8/11 15:30:43  
+ID:[ThreadID:12] 
+Message:Info:请求花费47.5575ms 
+                        
+LoggerDateTime:2017/8/11 15:30:48  
+ID:[ThreadID:11] 
+Message:Info:请求花费4620.1905ms 
+                        
+LoggerDateTime:2017/8/11 15:31:43  
+ID:[ThreadID:19] 
+Message:Info:请求花费4600.1653ms 
+                        
+LoggerDateTime:2017/8/11 15:32:53  
+ID:[ThreadID:24] 
+Message:Info:请求花费53.1891ms 
+                        
+LoggerDateTime:2017/8/11 15:32:58  
+ID:[ThreadID:23] 
+Message:Info:请求花费4629.0328ms 
+                        
+LoggerDateTime:2017/8/11 15:35:37  
+ID:[ThreadID:30] 
+Message:Info:请求花费108.5303ms 
+                        
+LoggerDateTime:2017/8/11 15:35:42  
+ID:[ThreadID:23] 
+Message:Info:请求花费4624.7541ms 
+                        
+LoggerDateTime:2017/8/11 15:38:24  
+ID:[ThreadID:36] 
+Message:Info:请求花费49.9097ms 
+                        
+LoggerDateTime:2017/8/11 15:38:29  
+ID:[ThreadID:37] 
+Message:Info:请求花费4617.4654ms 
+                        
+LoggerDateTime:2017/8/11 15:40:53  
+ID:[ThreadID:43] 
+Message:Info:请求花费102.9645ms 
+                        
+LoggerDateTime:2017/8/11 15:40:58  
+ID:[ThreadID:35] 
+Message:Info:请求花费4616.3168ms 
+                        
+LoggerDateTime:2017/8/11 15:47:44  
+ID:[ThreadID:56] 
+Message:Info:请求花费44.3626ms 
+                        
+LoggerDateTime:2017/8/11 15:47:49  
+ID:[ThreadID:53] 
+Message:Info:请求花费4606.0026ms 
+                        
+LoggerDateTime:2017/8/11 15:51:31  
+ID:[ThreadID:65] 
+Message:Info:请求花费51.6416ms 
+                        
+LoggerDateTime:2017/8/11 15:51:37  
+ID:[ThreadID:63] 
+Message:Info:请求花费4629.6894ms 
+                        
+LoggerDateTime:2017/8/11 16:07:16  
+ID:[ThreadID:88] 
+Message:Info:请求花费4666.5129ms 
+                        
+LoggerDateTime:2017/8/11 16:07:41  
+ID:[ThreadID:79] 
+Message:Info:请求花费182.2208ms 
+                        
+LoggerDateTime:2017/8/11 16:07:47  
+ID:[ThreadID:79] 
+Message:Info:请求花费4660.042ms 
+                        
+LoggerDateTime:2017/8/11 16:10:44  
+ID:[ThreadID:79] 
+Message:Info:请求花费65.9383ms 
+                        
+LoggerDateTime:2017/8/11 16:10:49  
+ID:[ThreadID:79] 
+Message:Info:请求花费4621.5575ms 
+                        
+LoggerDateTime:2017/8/11 16:21:19  
+ID:[ThreadID:62] 
+Message:Info:请求花费47.1257ms 
+                        
+LoggerDateTime:2017/8/11 16:21:24  
+ID:[ThreadID:61] 
+Message:Info:请求花费4622.7881ms 
+                        
+LoggerDateTime:2017/8/11 16:22:17  
+ID:[ThreadID:65] 
+Message:Info:请求花费46.5109ms 
+                        
+LoggerDateTime:2017/8/11 16:22:20  
+ID:[ThreadID:60] 
+Message:Info:请求花费91.2055ms 
+                        
+LoggerDateTime:2017/8/11 16:22:23  
+ID:[ThreadID:65] 
+Message:Info:请求花费5553.8886ms 
+                        
+LoggerDateTime:2017/8/11 16:22:26  
+ID:[ThreadID:60] 
+Message:Info:请求花费5409.6155ms 
+                        
+LoggerDateTime:2017/8/11 16:24:09  
+ID:[ThreadID:50] 
+Message:Info:请求花费62.1418ms 
+                        
+LoggerDateTime:2017/8/11 16:24:16  
+ID:[ThreadID:50] 
+Message:Info:请求花费4632.7708ms 
+                        
+LoggerDateTime:2017/8/11 16:43:03  
+ID:[ThreadID:70] 
+Message:Info:请求花费3602.4028ms 
+                        
+LoggerDateTime:2017/8/11 16:43:03  
+ID:[ThreadID:71] 
+Message:Info:请求花费3644.5323ms 
+                        
+LoggerDateTime:2017/8/11 16:43:03  
+ID:[ThreadID:69] 
+Message:Info:请求花费3539.9191ms 
+                        
+LoggerDateTime:2017/8/11 16:51:13  
+ID:[ThreadID:80] 
+Message:Info:请求花费47.7854ms 
+                        
+LoggerDateTime:2017/8/11 16:51:19  
+ID:[ThreadID:45] 
+Message:Info:请求花费4617.8123ms 
+                        
+LoggerDateTime:2017/8/11 16:51:55  
+ID:[ThreadID:45] 
+Message:Info:请求花费49.6418ms 
+                        
+LoggerDateTime:2017/8/11 16:52:06  
+ID:[ThreadID:45] 
+Message:Info:请求花费4908.7491ms 
+                        
+LoggerDateTime:2017/8/11 17:06:45  
+ID:[ThreadID:28] 
+Message:Info:请求花费82.3198ms 
+                        
+LoggerDateTime:2017/8/11 17:06:45  
+ID:[ThreadID:25] 
+Message:Info:请求花费47.4248ms 
+                        
+LoggerDateTime:2017/8/11 17:06:45  
+ID:[ThreadID:31] 
+Message:Info:请求花费60.0384ms 
+                        
+LoggerDateTime:2017/8/11 17:06:50  
+ID:[ThreadID:25] 
+Message:Info:请求花费64.4126ms 
+                        
+LoggerDateTime:2017/8/11 17:08:00  
+ID:[ThreadID:20] 
+Message:Info:请求花费84.1847ms 
+                        
+LoggerDateTime:2017/8/11 17:08:00  
+ID:[ThreadID:21] 
+Message:Info:请求花费123.863ms 
+                        
+LoggerDateTime:2017/8/11 17:08:00  
+ID:[ThreadID:26] 
+Message:Info:请求花费52.6826ms 
+                        
+LoggerDateTime:2017/8/11 17:08:01  
+ID:[ThreadID:26] 
+Message:Info:请求花费56.7185ms 
+                        
+LoggerDateTime:2017/8/11 17:17:27  
+ID:[ThreadID:32] 
+Message:Info:请求花费253.7012ms 
+                        
+LoggerDateTime:2017/8/11 17:17:34  
+ID:[ThreadID:27] 
+Message:Info:请求花费4621.6169ms 
+                        

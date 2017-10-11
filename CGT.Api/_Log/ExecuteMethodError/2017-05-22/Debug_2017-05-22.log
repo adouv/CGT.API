@@ -1,0 +1,480 @@
+LoggerDateTime:2017/5/22 11:30:40  
+ID:[ThreadID:13] 
+Message:Debug:Model:{"GuidKey":"250b5df8-4fb2-413f-a75d-c4782bac8f96","MerchantId":"CS01","Data":"XEi6+aYPpznBI6zAQHVW09tn4Z1bfs8J9P8ybvZbCGt273VHJL5TPwfmjAVPdmpz9E/6C1DhnHz4TIxwDquTpAPD3C5ZvOedOmG0FqqZQwgrIpvBbKHVc05s2RidHbDevpMuhAwtJg2rJrqF/OXS2c9vzshvH/yICE75kDifMDjUHHPSSrDNarZEriViTimMT5XiWWNHzEqKEMn9D8sI/A+QLxVgQXAs0x1fbIE52LEEbjlGvh0eOyylXoEq8hc8sUB6KJcKkhn9ilUOCE8p4fWne6WkLxDq6OLx/3JGxp8IsPYEUnoCJl/O+e0otVcfgTQ02MZ7FuX20YTP0es0vWc6s0txXy67nGE94eKbFX5Xvb2p5QFjY1fgfnF24Ueist/e3FvFZSZu/YjSqE/lbIrVNO+Mmjbzv+GT08X0CrocOmaRg1YpfLQR7qj6UV2GZl1iuufutAMXeQqPfG6GSHvF/ISsX8vvt0PgTfck/zw1tHRFlEa5Ust6g7uIH3huABWto0IrVEei1/CqXmedf09VMPFZcpr5EvBCLGL8xoFmzvoYA7lvd+SnYGfskHGMr+pZjWb0mkN28tkDa5xCzgdhIfAOridTGliZS0zl6ZSA3zaJ4wNyPK/FqgPGHQYqy1kt3Y98nau/v3bxZVdKhlT38+h9VF8gcOqXmHZkZNx244ZTOldsDOGm4xlQq1Mv7JGSN5AYhmyX8NRgNsmRLXubccLSltA0ZDa8yiLIjQKxxvjEsJf4ijp5Wo+eoKCjoQfsaMvrYaqqp6qqD5aQPZjMR8Bva4io/MuP/lLSGeyJpu69z/50nwz0isra3bTAzxqNMnPhfRvtwFF+JsiOlrTscHFJqU3+CXxCGFPI/f2YzEfAb2uIqPzLj/5S0hnsSh7rqICeMixxYJ5to74UuDXfIOxpBWur0fHR0pSDlkwxwRsoduM6DyDp5XEszg2FKK+huT6AVOiGe596dQgT1moGLNJGS9XXiJL0ozEzNdDuKpGtOq19AQTwgfP5Bvr3xGElTT3Xli5XSoGDiDzZYZInezYENxQay3vXvCpW28gAbTX3x/O0SraVrY+p1Apr/mo7D10tCSrkIwzPBfLzg3D0Niq4pdgv7FWEQ1+r/1rmM+paZj+OJrV1C0ZWZ7YAQXT00C8OPsCEHZQ/YefczXZ75SAKqLMWX3J1RRd+5Nqx1bJROBx/aZavRhH6DWSs81yqMwcnDOGdFo1WGE05o/LXMJdrxelw2jYETKzztI8=","EncryptKey":"LK6UK34oHo8nJSyI1D3RvH9AHAv2KTqT1lIXcICJI648GDu0FJjxpScvj+wxwigTP7Xhjw34JIjE/8YyVQPe5tS7LIPEBqlTB/Wxp+x5jM11/eVz1ALyTj6lvEYoQBnt4ui0YDdjJkPJl+K/DpBd1SZoMjCKFtGEvlJTJSHYPgw5tSukbj6mn9bX4DTTIbRVn9eoyM+jMq9KdBVGOVT/O0vRX9MtJFpKp7dO9Im/FtvDg8K7fiK6A5aY77NsxaAbSU/KOvaYszByXiGX/vPoFPezrY62Fw3QTK1dO7MC1AUVdggUYAW/qXsIDsMNd9HlE852uylMawy+aWLETeDvaw=="}
+Parameter:null
+Exception:Unexpected character encountered while parsing value: {. Path 'PayCenterCode', line 1, position 46.|   at Newtonsoft.Json.JsonTextReader.ReadStringValue(ReadType readType)
+   at Newtonsoft.Json.JsonTextReader.ReadAsString()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 94
+   at CGT.Api.Service.Boss.User.GetUserAccountListService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\GetUserAccountListService.cs:line 26
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/5/22 11:34:54  
+ID:[ThreadID:12] 
+Message:Debug:Model:{"GuidKey":"0c32eb2f-3248-4df6-8314-501e6e9d994c","MerchantId":"CS01","Data":"j0zkDrSBbGZnL5AI9adWgdKADHOzjRy+rH4opTa4PfUhXeXX/aELuPv/xRG5EAzJZvrUbK76tZGd2AL+fL7w5zR0ecgpipjdRMeG8g/1sJq4UGbozYyUil9bD3jAgrYMi3O5/3CyOu8pGhYmJ6BzM8JHuI3i3xWfep+jill0O/9RXnCjNSY5fPVUhp9ClD5nlwSyNv6uAyJzbxigR906Dg==","EncryptKey":"Wk7KEku5+DSwh9ugbw8KckmcGy5NWQXhlZks2sjTHv3AtSx75nmseaeWEDUkVCgmbDMmnIqfuwURjfbcU5laPAqdR6xiHe4UD78BWK+3Sbc5KMeZYRREm8Uh0MqQ/gTYts4ed2FYo/Of/oU/bXux6RO66KyeU1OwWsUXqT+Ri1VeRdu8ko0M+cP7k94dLnv2ym6gaKXpWc47FrOreDtomMaZTStFxC3Z2FQgkPRD25nG7RpSq+q3CbqqL6RoypJT8NVqIm01+8ND11P69GMoLO2gi0/etqlG3vqhJ2GoODNPJShZEtMQyWE8hpZghEvN1s5QZ1poNwGo9P7R/PgfmQ=="}
+Parameter:{"PayCenterCode":null,"PageIndex":0,"PageSize":0,"TimesTamp":"1495452892663","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"5516BF48828A1A786C53CDE7E56EF5ED","Version":"1.0.0","Token":null,"IsValid":false}
+Exception:0001|PayCenterCode:商户子编号必填|   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 108
+   at CGT.Api.Service.Boss.Enterprise.GetEnterpriseWhitePageListService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\GetEnterpriseWhitePageListService.cs:line 27
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/5/22 11:34:58  
+ID:[ThreadID:12] 
+Message:Debug:Model:{"GuidKey":"b5559566-bc21-4803-b202-5c22f3f81f6a","MerchantId":"CS01","Data":"z2FCbu5pLkdonbeAmF6KCiC3k4web1GNBvFiAUQTHTMuaK5+zuee65AQr6HyEKa/4xRFk+8H2+TSvamHWf7iDEsMX4IyiA+6BVChKp4b2p3J3Vb6ilpJNsPxdVlHiByU00iUJ/tU2dDjay8fG0g5L54El2NQ6uWlwqBuPKJx0XJeQooWe/LP5Z0opawUQZM3i+WZzKFhOIlgwCdUlRme9g==","EncryptKey":"EsqMu/e1aqqg066YveAFh2yl2SIsZZGUM/9iAeyfpkTA+74UzQMDzjDFVT7Lxc1q274vPCiWkDZuY9Gya83p93zFCRk6v9z4vd61tkwR+IU8s7gko4vL9dq6ACgp1Lw+wVkxFG+n/HXUugHXs4UL54WOzEgj0RauUsEJxCxxud41phzN0PW7YMs8mSE7ITcQwL+bJYM+uazzvAumkUb+WCCF/MuR3AlSwBXSkuO3pVKr5nN/GqamAAeuFuv9dlrzC//uxxh7ZO/vl5UFktaZ+l5D+9rV1NEeU8v75oAZwqND5AeUAhOaw+m0s5jWm3u4bgMLEAot31f1lGyMqBLrBg=="}
+Parameter:{"PayCenterCode":null,"PageIndex":0,"PageSize":0,"TimesTamp":"1495452901896","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"5EAB5BE60BD8B3453FD043A23EE1EEC0","Version":"1.0.0","Token":null,"IsValid":false}
+Exception:0001|PayCenterCode:商户子编号必填|   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 108
+   at CGT.Api.Service.Boss.Enterprise.GetEnterpriseWhitePageListService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\GetEnterpriseWhitePageListService.cs:line 27
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/5/22 11:35:13  
+ID:[ThreadID:11] 
+Message:Debug:Model:{"GuidKey":"60782881-1146-4170-8259-319700514370","MerchantId":"CS01","Data":"FGmq758wmZPo2oIiDICOE4Xz1S5uyGqobYIyiNk1+c9dnnN09nor5SM8qDQd68USC0J0PBnKl90ZtQ0DHqxS4nI1RC7FBl9PdKqPPbnKzabE14IEQH3nDaF4NJ6CXZCxQD+AsbhhX69nMCLSwbSsLmAoYGIhF/jfwdmiDSZyFUbwpLUTDt1Tp+vUprxuvehbpKS4DE6W9x3acoSUW/5Ukg==","EncryptKey":"PsPHIalklK6H1XWc7vYY7pMlWDQS5lUzv8AqYPQI9rf6fcFwPXbjIZyOMaWKrsMoT2q1h5Stov/LarJlUSxVxkntc7IKFnjNW9J6PG+d7xkGVfHrndckpYGBRK79zJJ9wCwaZH9ev47cY3ms3V91bmJyu3QiBHiEX1iNuCTF9vJgFFR6rpowpmIe9OGvS8vdmY30eA3mVsb/KBVP/HJA9Gh+LO6G+ybedej9tHqUXlEWpDQTv8IAiOQF4ItNN6O+gi8Ibh4uJKTjcjQPXXyach8X1FyyUMD504DEY52ig1W1Q+Hsqy6w7xYHrXizvUJF8TymFfZU1N+Mcmbjbw0+cw=="}
+Parameter:{"PayCenterCode":null,"PageIndex":0,"PageSize":0,"TimesTamp":"1495452913978","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"12AD6777FDC80B1E8FFF7679E1E08457","Version":"1.0.0","Token":null,"IsValid":false}
+Exception:0001|PayCenterCode:商户子编号必填|   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 108
+   at CGT.Api.Service.Boss.Enterprise.GetEnterpriseWhitePageListService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\GetEnterpriseWhitePageListService.cs:line 27
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/5/22 11:45:26  
+ID:[ThreadID:73] 
+Message:Debug:Model:{"GuidKey":"81de8c4a-1225-4253-b665-88ef47980ed3","MerchantId":"CS01","Data":"CTAxFY8dvPLylipP7kc485HGUtuUHIdm5CULVKAuwMlRiHGQbWwkU84sg5DPAkD3EmVok3RQqs5Y+UEHYkp0FByDedZIHuud6uaulSpJjWN+1GxvXO8WUazbUGrHqr0+ja9+W/lk22g4dzEc90/CrdLfRvoyCQs+v33E4uAbEKy0spNgvoaAR47VWZFY4CX9qvJGqQ7BQLdxpEKI+B+LTz5lVi0tvcOMPT2J5wCsq5GGZy9Vi4MLKIQ3emBMaQi+FtDaB5Thn8C0uAVtgfxc0g==","EncryptKey":"TRYM7FTdi2Qa9SxuerZ4tx1cnJe9mlrd22bixmH6JPRqGyxcRlJI0uvmhX4emxOF+XNDE9LP+AmoPuhyuWt/j3LaNqUrxvo7Lvx4pE7OyB5H0J/4lEC/SKmnjXXdqLYRl/rXW4hVlEwckxgOWatP0TCXyi6wbaxcu+eQ1gAIc+YSBe76sI+m//OzhlnczKE4CHEjOw2fHSExT+F1CBjeZx9gh3fVaWqD4LEY72o5txnPDzu/wVtn8Wa6fVQoA/GfzEe4CVdRutFeQ09WM/H/ld/ja3E2P6nv5cPoCE5OWZMV3aIpBokTvMy0LWkNP+cFY9y8vJAEc/AUMYXl9N75Ww=="}
+Parameter:{"PayCenterCode":null,"PageIndex":1,"PageSize":10,"TimesTamp":"1495453525284","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"75A83E3C388D653D8D725BF060B1CC26","Version":"1.0.0","Token":null,"IsValid":false}
+Exception:0001|PayCenterCode:商户子编号必填|   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 108
+   at CGT.Api.Service.Boss.Enterprise.GetEnterpriseWhitePageListService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\GetEnterpriseWhitePageListService.cs:line 27
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/5/22 12:21:17  
+ID:[ThreadID:159]
+Message:Debug:Model:{"GuidKey":"4a0e474c-8b9e-464c-957e-94fd332ff489","MerchantId":"CS01","Data":"XeOj4JrSN9zQUsihMXCV2/uPzfepBQZcic5uMPDwizZZMia38k1HsIowHnnIetxYLE5tqydPgn8FgauinfYcrj8V0dh6iXh6z81zgmsV5H/tbmrqw6aa+AUODGqx2mFEF4p+w/P4KYnSWtO4AoHAgpq4NtUPN216SRKCkboGxQm1TYMdko82pjtReVbI3rmqjZoueWF3eA7EfXx0TRMYXA==","EncryptKey":"L998eD4Px9ixOYdgzyN4DXqkq3VNU2g/jiRAuHISqNWViWSuEvSu3wIwaQ735Rqe9bwFwLIxhd4r0zyEbnKazxbn8YvwVKUr5JyQtH/PveVzV3MkFW13GQSyk6E9HvNNgEyRqz4pVNwGIVV99Dq3gV+QYGHK9utLEYfJrHzjIr7J+ikK4Pd8b0A36dK2eD2xET53QaAr4+p68hd10hqlDLbyG8iMAPI9anA5pM3+3Ru6PVFwNqXS9iiB4WbC7y1iEED8u1Y4vmO6/NBPN3zbxMBNMCpY4KB6o72B9/RAB3c8V7bqWKrrtJGL7GmhP6rZLET0vHcBm5xi5pWVNp/1Xg=="}
+Parameter:null
+Exception:A transport-level error has occurred when sending the request to the server. (provider: Session Provider, error: 19 - Physical connection is not usable)|   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at PetaPoco.NetCore.Database.<Query>d__63`1.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at PetaPoco.NetCore.Database.SingleOrDefault[T](String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.Cgt.InterfaceAccountRep.GetInterfaceAccount(InterfaceAccount model) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\Cgt\InterfaceAccountRep.cs:line 35
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 83
+   at CGT.Api.Service.Boss.Enterprise.DistributionEnterpriseService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\DistributionEnterpriseService.cs:line 35
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/5/22 12:21:32  
+ID:[ThreadID:169]
+Message:Debug:Model:{"GuidKey":"3b41326d-e4a1-4312-8b0a-d96b52bad8d4","MerchantId":"CS01","Data":"Bet46995aKBwcXeYZkWGPPm+1WBwyFD10lMWrmU2fadY/6YjvVBLKrMXhOVY1MYe4PdZGeHjz60uZiKroISKs7RHOmT2W01KpM1AdhrZx2vAsjz9S/RkDrpOmgBGGTAGaAoU33vSd8e1NbCNYfDkKf40DjBtSh9qX0lNMdL9UEk4hVWdQj/8VKRWTFpVEvrzELnESY9xIolQ6ReeIYkdlmYhY0EOhdmOE3le2ZhA2e2+geLJmCsdxrDMxm7kVgg/p9R8JBrePPhenbLbjcs2g9CNMI6UIwCU9r51U4jkhH0=","EncryptKey":"eTOPjTrM1nIgfdjkc21BvKtXXMOrNBdW/P5wQoQodGlYNFo3inXnnRgT+33q3uZt0rWzm04bhnuwVrGRezKNHRGN8AmA2KAAhUiAd5QX9y9eWCIuTg9vSgV6a3jER1gPtATS3nXik7fYC4RQC5qeeKGRSCNhF2f0qAexy2xbp4WUCCQ/RweU2OT1OPU0YxgosS2ZMw68Cn0BNJM9TnTti8mSchj29XXh9+/7zshGf0keBLcBDzA0CenpiLcWmq5JASe6zMytGGNkQEAewtTTKbZ59B/cSNgzawrc8fEiic647eEdLAG5kdK8kqIzt3/AbdLUiYQNRTVpICEHcgr2UQ=="}
+Parameter:null
+Exception:Error converting value {null} to type 'System.Int32'. Path 'PageSize', line 1, position 31.|   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 94
+   at CGT.Api.Service.Boss.User.GetUserAccountListService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\GetUserAccountListService.cs:line 26
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/5/22 12:21:50  
+ID:[ThreadID:169]
+Message:Debug:Model:{"GuidKey":"8000a243-ad66-48a8-82ed-899cfd34ae7e","MerchantId":"CS01","Data":"ZKKVXfKC+Bp6ishXQIy3eUzTKV8xZCVkwEjw+Ymz9nHDZbe8OE+7hltY5gnIJD1BeAIddVVgS5CCW7vJfstXznojKTKNyfjEXE8C7HIIrFDoMz8xuJCKl28ynyKFgwm2k73qYFmFXYkkPLko9vzWmUoFrjbpjqbRCBf1Sg6hU4i/2JExtcM7IHiY8XMCSbuuw3gENGzojc7tkMBGqtqNdhbhmMQXmWhsIVmW5XukK/wkXOcLrq4FP9xeh+X8QTwgoLegGbg8I3OZ8x3K2YXAfvlLoKjEdJ9YQzrJB028PPTuzsHzhHdWUCC38EUdxjSa","EncryptKey":"LES1R8s2YYvvEZdf7EmFOpNoyeAVr3oHaHcaOU0LWCb3NB8gGZGubutE1qN+f7lQC7AMNHqCzNPRye4UPMWZmw6ajjNUjVEeOM0LEVMAWnUmlf9wesdFO4QRV428WupxDGHV1YTpm/b+7Y7ixHtE9+jEEhjrXPTozVVSFJvpm3Hp7KWHDl1O837rMCCQgpvf9yb5FlkmeJ8hsILlppt6ZMEaQ5hVdMYlkzotYf/eq4j5XsuI6Xb5e16Ahl2tX4nXdtysyT+3lubIo+VR/liZQ046FL8vJ/3/IL7b4LVkoIHOCUm7LpgTyA9DAnIE4CM9V2j425VlNE5pK69pTisKpw=="}
+Parameter:null
+Exception:Error converting value {null} to type 'System.Int32'. Path 'PageSize', line 1, position 31.|   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 94
+   at CGT.Api.Service.Boss.User.GetUserAccountListService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\GetUserAccountListService.cs:line 26
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/5/22 12:22:37  
+ID:[ThreadID:169]
+Message:Debug:Model:{"GuidKey":"2c9b33ba-99be-4da4-aa4e-602239281a9b","MerchantId":"CS01","Data":"uaccwemRPqzJ7q4e0nvsBiENxFv8SU/NfEL7qdJVEo3XhWJxLftMPsj6GUgM40/8FPdDBAweVJghj4SyH9vN/cBOI72z1w9iHEViUqSzPNOl3l6alCSRON2IR5+Xk3+bYuzj0RtZpRP9Z8XPXWJa4TpsOf3bH6zRd1IXBRGGdIG20L8NbK6iNFUnuRIw0yTDr+LdSexJGczJP/0eMd5jFQ==","EncryptKey":"blnAN1n0Tbg9uDpAGg1wtheiskv1DDPjpaM9fuKPkFf9daJCOp4qOB+yun2Bae1N0sWNqWrmbXFChUy1UYf4uMuaH5LJLKT3wq5HFcOtTjDOfjBlR4KvgAD0aH57g49vKvxqtfNhOf8O0VCdU0aX6xG19+27MOMVnu39Y5uKkzPUbMt/E4TUnarh+1TO2b1h8wvrMNU3NaZOakRk+zmbfe1ujNCkN/5Cmf4QY4Ai1QfpYpX3XvgMGkZwsjtBoMpebz2RBOsr08DBJ8Uf2un3PQ4THHZAw7Sp/iLdDIptqeaXy8hO3HV8OX7uhrzyAGTXZrPjZxC+naOOnfFSHx9Cyg=="}
+Parameter:{"TimesTamp":"1495455757335","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"B0081D52B4F78F108D37526030BB00FB","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:A transport-level error has occurred when sending the request to the server. (provider: Session Provider, error: 19 - Physical connection is not usable)|   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.SNIWritePacket(SNIHandle handle, SNIPacket packet, UInt32& sniError, Boolean canAccumulate, Boolean callerHasConnectionLock)
+   at System.Data.SqlClient.TdsParserStateObject.WriteSni(Boolean canAccumulate)
+   at System.Data.SqlClient.TdsParserStateObject.WritePacket(Byte flushMode, Boolean canAccumulate)
+   at System.Data.SqlClient.TdsParserStateObject.ExecuteFlush()
+   at System.Data.SqlClient.TdsParser.TdsExecuteSQLBatch(String text, Int32 timeout, TdsParserStateObject stateObj, Boolean sync, Boolean callerHasConnectionLock)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at PetaPoco.NetCore.Database.<Query>d__63`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseWhiteRep.EnterpriseInfoList() in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseWhiteRep.cs:line 73
+   at CGT.Api.Service.Boss.Enterprise.DistributionEnterpriseService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\DistributionEnterpriseService.cs:line 43
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/5/22 12:22:44  
+ID:[ThreadID:175]
+Message:Debug:Model:{"GuidKey":"f92a234c-d77e-4c41-8522-3e64ffd203d1","MerchantId":"CS01","Data":"RI7XSA375EGVAHYopVQGuy4ezY15SsgPrZrogcv0IXDA5ahFfaZ/s954d79LHJgyFLVxe+jKgvOYCnDhNsN+PhMRTDIQ8/9kWVPrng0BN0PEoDWNiscTNfuc/kZ0AHR2pZtZyQflKjessmj6iDxZpL7IsQqqXPh9MWR9qJgWKcRPnWfefWnW6EacgL+lTzf1erXVioI7tDtHzaritlhrDIl85c4C7b1BbxdWvWNapf7AXglnZLkZ0ZaiH2ABSuAvotIWz7jYoonbpqHLtE1yYWgQ4d8dJ5V0MYgbY5CFnXY=","EncryptKey":"i0NULIj2RRN0wSdnxlj8qEUhFqPY3mqXtaszigyLuTnwOXcb/mMxEBQPfKwktR142MEAtTkx5hfilzbGghT2zok3gDkk9qneO1p8uXy411keMfOyzGV1Z0ENF6Pd8SKKPNjaJksusv6aThoC5kxgXH/0Erp1LsaT1dUMWCxcCrcQwubvUpb4sd+s4HYFgsYzLM/pzSW1qjhRpRd6NYLbnISbEBt5KpsqkbPwWumBu7gF6ysqfJhnCa3H7Ih+PcMArB0UknFejTQv7UIkQPWwd9f0iYJu0HcOCcGK64+1xIb02SreKnEDyCJ12poAF8a/ImNaf+TaUQv6MaC/IITvmA=="}
+Parameter:null
+Exception:Error converting value {null} to type 'System.Int32'. Path 'PageSize', line 1, position 31.|   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 94
+   at CGT.Api.Service.Boss.User.GetUserAccountListService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\GetUserAccountListService.cs:line 26
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/5/22 12:23:20  
+ID:[ThreadID:169]
+Message:Debug:Model:{"GuidKey":"0c10dff5-9f2e-4b4e-bb70-84fd4e6f4ce6","MerchantId":"CS01","Data":"fhgIMaURSR57aBs6XG453k3mCZBURtQu6kpsgC6tIsIAEdE1coOr+grC44AodTyUq16gGcno10C0hUhdBAJe2lfoSXFGPavajACvNzLUYbM+7EuR4Ou6+BvfIxhdN6GfMwYoXtY7BN3hO9UMvvrMNJvvHzRIqIg0DWocRk/AdB7pH9ufbQvsHaRI4UEG2rmLaIEpM9BBdhABFq4p6Thj5aIk7jGQfVC0AR81/FVbSNdM01HU/iK+T40hq4pNs6dsXcBhVo8ciiWdquE+Sd36/vJpomSVGcEIX1o3xavF5kNaENisuomcRS7xu6WRNGLy","EncryptKey":"dprHLoOfiT5DosyYs9t5lhzsOsW8JGeN9ULX7369E57n9/KGeaPvyYrTuEtdHsKlLp8A/ICx31WLpSuh6qaRZ2d6Mu9wcJ+md06fmYjepOEmOGilArYAjFpKhMDggEeeahrcpYBBUb3C19vRARICJXtHt7QsLidfGOW5T2tk5vI4DMOd/Nv12GjtBKR7sSDhMiejbY5A4MjiPd2dwGT2u+JvBv4NB0F5lqY3QU2HQiKFaaWcDc/5h4k9Q4ndTGuIjvi6I0ky18koUZoUGQif8hI4kQVpw7a2lMipbHiVFsTGePuWKD7AdadTduLt5f/0/Tn9kvPDXr6pC48cXKtlog=="}
+Parameter:null
+Exception:Error converting value {null} to type 'System.Int32'. Path 'PageSize', line 1, position 31.|   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 94
+   at CGT.Api.Service.Boss.User.GetUserAccountListService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\GetUserAccountListService.cs:line 26
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/5/22 13:21:27  
+ID:[ThreadID:286]
+Message:Debug:Model:{"GuidKey":"484cb413-57fd-49e0-ba36-c3ddd6c56da1","MerchantId":"CS01","Data":"rPuzt+fbx/ISkNUg5XnFJ+7W8Zkyz4Pnczr23I2YEUa5LanD789e20Vo7qgS01j04PUl5n3ndFuVnvPwmMKP9suGlD3wxTLihakq+gzlR6vIZ7PvKgJEZ1MGqeRz861kgQzUeFCWkAah9xMf8LVA6LEOdqNikQfDML/QDNRX2uGPzkBOHIr/G2Vz4yJfpoMtko5lh+bxq512d3w/4LfrzDm+oMQTVQ53yajIIcY/ShQ6ZshH1PXTypS47Xozo5aGU9KbwptZms+T8eK4rfq9DQ==","EncryptKey":"Zyc9Vs9EJ2XGY6sNPxNDHZZBP90BaF3e0Op0FMMbCPSXAlWQ0E8InVTtMs8i75oVKG2PKxdd1hTf+DmaKO0ednkQ2QGMIO+CrbJpU9jDaCe9sCFYoDYR8Epg5cdjdUUTZsw2frhr74O1Gyv45o+74vPMAyPTl7pYMo80Thb4pGrgSjnoNh7z5lFuc2u67kbyt/I8LeC3H8wT12aRkE3juVHvxFufBRDlEunjteG8AQ74W1HRkz1PbH4StzCroA/+CzF0n8E8UHd/WnjohXIJuKT/mTreWMeumtnDiVahNFMcUPGyVZS80Ub1gN1OyqrWtro0+3LmDbJDopK9J4QhTA=="}
+Parameter:null
+Exception:A transport-level error has occurred when sending the request to the server. (provider: Session Provider, error: 19 - Physical connection is not usable)|   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at PetaPoco.NetCore.Database.<Query>d__63`1.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at PetaPoco.NetCore.Database.SingleOrDefault[T](String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.Cgt.InterfaceAccountRep.GetInterfaceAccount(InterfaceAccount model) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\Cgt\InterfaceAccountRep.cs:line 35
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 83
+   at CGT.Api.Service.Boss.Enterprise.GetEnterpriseWhitePageListService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\GetEnterpriseWhitePageListService.cs:line 27
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/5/22 13:22:44  
+ID:[ThreadID:308]
+Message:Debug:Model:{"GuidKey":"351fdabb-8431-48a0-9b2e-c2892474bc5f","MerchantId":"CS01","Data":"Wu0CCHERqKZci92BmSUd1bb1TBEFgDtnCMwAT9SXOetC2Sxd+RN5Sxi8z5yB4ktJ9rsi72M0LI9lNE4pOFQ+jjHcV7w/ElOvENV8JEet/DJMJcRFLv/87SRL7Z1wHoG0HdAgLOC3b4i38mjAoyWUMFUzwgmGgFhboksADTHuTmCmF0GKn9hxNbEADXd1P8KjNOi0xbBR2PhF62ZErtAeeg==","EncryptKey":"H8sB11hWOlB934jDNERZupvD6stVUbyILvcw4EsHKRWIDea+ewmmg1tHby+0vf/OINxBbKtIcNzfPPwEEbCnxxShd441wiA6ALNiu6hTBMytmDboNSgZnuxRo3UHqck+PtlkbrLJv9H3+3d6HgF6YzXHr9ysXtyOLm/09NU44FodyJ7c8rfReqLelKzet7/Lh/vJCn3khq8AV3Y1XBgkucIrvYnhI/JFiqhw1r9qG5A96NysJ82FZ2bJXaneMvTC/3/QLl9stYWMJJNKeCPW1hVSEV+SYypKLSJ0B8QtCnzGG8GRCy3Fszw2cgsiroQ4DR+WyoWp9TAUf1JTqxLtBA=="}
+Parameter:{"TimesTamp":"1495459360142","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"66F80F08104D00147379413CE42DDB9C","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:A transport-level error has occurred when sending the request to the server. (provider: Session Provider, error: 19 - Physical connection is not usable)|   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.SNIWritePacket(SNIHandle handle, SNIPacket packet, UInt32& sniError, Boolean canAccumulate, Boolean callerHasConnectionLock)
+   at System.Data.SqlClient.TdsParserStateObject.WriteSni(Boolean canAccumulate)
+   at System.Data.SqlClient.TdsParserStateObject.WritePacket(Byte flushMode, Boolean canAccumulate)
+   at System.Data.SqlClient.TdsParserStateObject.ExecuteFlush()
+   at System.Data.SqlClient.TdsParser.TdsExecuteSQLBatch(String text, Int32 timeout, TdsParserStateObject stateObj, Boolean sync, Boolean callerHasConnectionLock)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at PetaPoco.NetCore.Database.<Query>d__63`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at CGT.PetaPoco.Repositories.CgtTravel.EnterpriseWhiteRep.EnterpriseInfoList() in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\EnterpriseWhiteRep.cs:line 73
+   at CGT.Api.Service.Boss.Enterprise.DistributionEnterpriseService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\Enterprise\DistributionEnterpriseService.cs:line 43
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/5/22 15:54:06  
+ID:[ThreadID:12] 
+Message:Debug:Model:{"GuidKey":"8f7706f3-f8b7-4515-87c5-123e2ace8e6a","MerchantId":"CS01","Data":"ByQBQZeQ37WTsWawEEaP7anngHdYiXiA78mBtBnCj5foSjaALeTRPDaYOn7iYGW5W0W3ljM7jgRCphWQWtQXdcXXpxwN5HikMEATaMZ4LfHiogYDiXCp5Oml0h/AMlO2fBL7NTZ9F3YKnET/XgJZMurJDDMbVEgr6iewOXJfX+sB81+TrdKIoWS4Ye0JKP/cpEoJl3LNp0p1Lt75b9Yanjy/esJq2Hi6Zf4hZZCESBnGYcHq1hsQRMdjCvokr/gecu1KXP6EjrRltouR9387Ezz27KRQyXRWiGwCWz9KbX4=","EncryptKey":"lh5J42R9x8Lvm3fQxqMb/xFJOFtNt/h7kzGZcQG4RRSgIycKJCL+NMX+7FzX0QhI03ZsADONZcOsYtaYFTCDMmKue+6dvnHKa6W/DqQ5aD5MprmZKdf6OXNpwfuIqpO5B3p0x305c6xK5IY3DyYA7jzcb+7AAKmd30xeAgOOJ6dBNWT4xkCyZ1aeuxsYDvfXbUIzO6XuaIb7v3pl4BIn6/6NTw2l2o0W6J1ltUvrnlEvuuLPc673wKxT0x0nQPn7/g5DGpD0DaUrSZMrhQ2eCg5fgxyAZi2B9WcS0melZIIpZAJbNNEhzhxEH/RKldITlczQdHcgB9svlDJ9xWoC2Q=="}
+Parameter:null
+Exception:Could not convert string to integer: {{CurrentPage+1}}. Path 'PageIndex', line 1, position 32.|   at Newtonsoft.Json.JsonReader.ReadInt32String(String s)
+   at Newtonsoft.Json.JsonTextReader.ReadNumberValue(ReadType readType)
+   at Newtonsoft.Json.JsonTextReader.ReadAsInt32()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 94
+   at CGT.Api.Service.Boss.User.GetUserAccountListService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\GetUserAccountListService.cs:line 26
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/5/22 15:54:06  
+ID:[ThreadID:44] 
+Message:Debug:Model:{"GuidKey":"a4c0e40d-48c3-425f-8611-b8878969f7db","MerchantId":"CS01","Data":"vNiK6BFy8dAKiEFhg+IrOt+yw0t9DPysH+BnephL4zrf5DRGM+64ZM8pYNBw76dAm4BTdi09ot709bAkBhmewk7QR4dEooRWDi0701U+f45Qs0jaeI+opIUe0VpdxodD4Afas+Bgar6bTYq1vAYwVAO822GjkXLu3sAZv9tRc4ExifUrauciH8RwTRRMgg0b+rC/fdnyFFvE94grl9wBgdMnNro4UfW5rm0gONemcpANmwsC6NSQbu40Y6/MS1EIFqzPmRlUdjZOowLw2EuRuGMwj3AHW6lGnWxyl1zmsfA=","EncryptKey":"lPJ7IqhArGJc4Mz3nPnoqZaYSL2ZG/MX99/LaWX28EK4NMdVZxbhnMlM0UufMSzfSjKeE8fn7CXNvH8BP3JPDmdRwOph+PFpfpOHvKCJd6D0DA4R3d1fqB05dvrdfogOKLRyQMXAjlvb3zOvHIQi9pv8Qnet0e3bQ1Wq1/z7PyyWAjvwOk58Jo9brsc3zrT24Y3Cr3fPoCmfFDd8rW49+Dl9bHPIcEevTonKooI1Hbjih2DY6kEVhx9q7tTIjFl2fFtM4dpZFXIGbhZ0liAdz9dQNdCTkZ3HPg6une784NLLN0djglTnwNjQvMmrVFv87w3hYfbuIlzeVSWGQgC7JA=="}
+Parameter:null
+Exception:Could not convert string to integer: {{CurrentPage+1}}. Path 'PageIndex', line 1, position 32.|   at Newtonsoft.Json.JsonReader.ReadInt32String(String s)
+   at Newtonsoft.Json.JsonTextReader.ReadNumberValue(ReadType readType)
+   at Newtonsoft.Json.JsonTextReader.ReadAsInt32()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 94
+   at CGT.Api.Service.Boss.User.GetUserAccountListService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\GetUserAccountListService.cs:line 26
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/5/22 15:54:06  
+ID:[ThreadID:34] 
+Message:Debug:Model:{"GuidKey":"10d00bb3-19b5-41a7-bb7a-903c4c14ad6e","MerchantId":"CS01","Data":"/cTv9g0C39bhyg/5A32LNx7l0bpRGbJlz14ippZv/eu9Hf9NOtfhAZCUjBDVptqnnSxOGLhDl9XGiJqJFTm3xWPaQNaDhroNBlNURfYTn1o46a6UFyuuPQr5qwsNEx6DfKErF5Re3uRlcb5HChawceivyg/VlvJ4gDbWAlK4RQnqK5KrfqFAokz0Jw9Wt5FhjYtWkLrag0Zooy0TX+n9bAOPQAfT6HQTxL+kLbBJaGJ3OGsNL7gWR6NKNOxvb+Erqmf7qr9ZhcTQ9V0PR/s8e/Vw4bBAcjG2FNtF7OEfhjc=","EncryptKey":"KWSoikO1l8UAHZ64e21NEv6Zv15wU0ffIm3UPNNbL8FcUnxXUEsoJvJYoZEgH8gkZxLd4O2IJyyMSXTaK/x1dUvM3jsVmmmEqs+xl/HPS/w2uwD0g8F8Y7tIEshiZ4XrRAqerEQfmmv7pC8B/+40SpEjGNcvAn3CkgvJ+gNslC8ryXqkZUxHIyQ9nSSQ08li2uBrHxfWY7W3oqXA/dbTKNXJQ9n1nC1R3mpABsPEIUCSEWZg9jn3Pm4s0/jx68cKmPmA6MLaFKedagkIi0+z/lczQXOAacu4cTJPhUXYEIHHnJJOveOjUzVW7R5thUzQGR5AJXtQsH1MA2yf+y5jww=="}
+Parameter:null
+Exception:Could not convert string to integer: {{CurrentPage+1}}. Path 'PageIndex', line 1, position 32.|   at Newtonsoft.Json.JsonReader.ReadInt32String(String s)
+   at Newtonsoft.Json.JsonTextReader.ReadNumberValue(ReadType readType)
+   at Newtonsoft.Json.JsonTextReader.ReadAsInt32()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 94
+   at CGT.Api.Service.Boss.User.GetUserAccountListService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\GetUserAccountListService.cs:line 26
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/5/22 15:54:06  
+ID:[ThreadID:11] 
+Message:Debug:Model:{"GuidKey":"830c587e-226b-46e0-9e63-1e5d6f007eac","MerchantId":"CS01","Data":"kp7TY667so4oNapLEc93gjJ3jKTvM3CHfBDfrvgw5DE9klEMHI2reuyjRAEU3vp9l+lFCWUgnAx9jSqxkB6c4FsrBsh2mmxAkdnIE49hfnmrg3x/mQJfB+WDhwBtWqGwlWy9WCXn5fX+5yRXPKYwdrLk6fm72MEgpbGhuBUix4GlB7dEByZjslY9kLVW57fTPBaGKH7ERYs4NBz7FSBVo7Yn0wpQ9O1euCYIoukHpvKn3SvYO/wI/kUWpUoBwwoHd2PEklNNrRlprVwzmi5uMkFKVX71wElHIzEMr0U50s0=","EncryptKey":"kU2gx8iCoBdqmWgv8T7zmJTPqwwJB2TwANx9w9xM9ALabbFuek+g3Dfy3pvXSJRK9WJJ81bbyMdpbiB+BJ4T1BOHC3rikQRzdwoF040iaBtpdjSZwOXag/IjlRHYEBNKuAUaeAu/L2BOC84YfJyVrfSFyyMnQNhPg+pGvNQPDVW/wSQMeuPNbHxzikOGgUb/8xdFNyNJzAOPLXHK5SMwjIXvPw4t2DtatDYimHnE3W5mxHAI8KDJOR4mVpAzq5k9vpfmNq+2OEZzhmudugKz4qu+/8DI3lTnKszt51nXpn688pAt9xKxxIiouBKD57wEJIGMqPq2fCYABM+nl0i5hw=="}
+Parameter:null
+Exception:Could not convert string to integer: {{CurrentPage+1}}. Path 'PageIndex', line 1, position 32.|   at Newtonsoft.Json.JsonReader.ReadInt32String(String s)
+   at Newtonsoft.Json.JsonTextReader.ReadNumberValue(ReadType readType)
+   at Newtonsoft.Json.JsonTextReader.ReadAsInt32()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 94
+   at CGT.Api.Service.Boss.User.GetUserAccountListService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\GetUserAccountListService.cs:line 26
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/5/22 15:54:06  
+ID:[ThreadID:42] 
+Message:Debug:Model:{"GuidKey":"76d54c82-a74a-4398-839d-4780f1bdbc33","MerchantId":"CS01","Data":"ROcXJcK1SgCxwcqkzJdAuCw3oQH4yKhHCQHpROeaqAiC/HT/0pqc3JDCoMGoQn46UK0V873GCJamxoJHajibyLdS6hNznU4EP/Xk1Ew1EzmCEhl3Xry5i/S1XBKGL+aa1ETtzTM4XbLFmwxW6q5IQECVpBa3xX2OIvnirzThTht17V0BiYM+seUZrKymY+PwEqXaYVSjPf1ifgs3EI3LhTNgyXuABWpcU3A4334sp9ZLSUPdet5MHHLHQb0t9V82xaGmMnHj9ZH376mc0l7E8B2PrXHt2B0FTifU9e1xx7w=","EncryptKey":"JMnoIDRML+xr/9KAteX6+91Sgr5krytdRZf7KD3R+gaFUO/quXVwEVXtUgLgcLvLutsO9Use81Lwd8ME+4d453KuUpc1JEH8exr5zDqC0Gr/CB/Zq3OBFG8C55EbRdT4tlTvHulfBGjwq/xZcWK7pfYG+7gxVo1ZPybsX4R4Eq1PeRQkrIqTGDwglcF13tPe7SwlOp+ocOI553CRFfTrnMcAbJQemQNY8xnxdMrSakw5d0ihgqn9vxV+UXZB30n3g+KsxS+sZHr0uAgHPEtasEG53JruMPhozXa0+2eGLmeFZzHLXWGcIjJrv9MsVRkFlYKHIpNiGRIG0UEdBEVOlA=="}
+Parameter:null
+Exception:Could not convert string to integer: {{CurrentPage+1}}. Path 'PageIndex', line 1, position 32.|   at Newtonsoft.Json.JsonReader.ReadInt32String(String s)
+   at Newtonsoft.Json.JsonTextReader.ReadNumberValue(ReadType readType)
+   at Newtonsoft.Json.JsonTextReader.ReadAsInt32()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 94
+   at CGT.Api.Service.Boss.User.GetUserAccountListService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\GetUserAccountListService.cs:line 26
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/5/22 15:54:07  
+ID:[ThreadID:43] 
+Message:Debug:Model:{"GuidKey":"b237f5ca-cdf0-41fa-b6a6-d361c886fcb9","MerchantId":"CS01","Data":"BNoMEOTFGS8+OWS2arETNFDcUipEfHi6+lrFWSMUyK86yRKCaEFUp/IsD9sZC8zZuvbgPoLCtcfqhYICGruousNptOssnxS9ip79sTT/S7HE4YHvk0WFw1I2QQKqazib1a0CRTohA2tQHLShE0dRkcpaJone/B4PwVs5QAYmnV9qEvf+7nc/cZYy7rL9BHrhJhp8UhH/7HtFE7Jgu1T5BBJ8QMfxHfHkL0QpnyTr8uvRTogU7NLsK9XlLcfd/djk0NAb4IkmApBKYUwC4hoSLtk1rpqbThRGtLMcfMKW01E=","EncryptKey":"S0BDN2Hjj1OEnXkz+9oqN2eyARpNIFZLCa9vpouZrSE7Uwj2skXSmA5cKI8WzbH3SoIYyD/ng8hO3cH55hUmbXrLw+RxQs5TghLjuS1L3IFpLqGhinDHbIPKhv3bpkmwgDBaIQuduWEtY9W21PC1OLUHak+xNFMgBSns9T8xhnuI59P++cVsDwDhB78OrBT34c866q+BDoInPsjUZquZAQJy2Xn48HjgIii1S32yPVacKlt43h7vYUuSdfFiOt+BMdsTI5IbMZrSREpsNMM5t6ziPm0g4v+GaE8wizeIYfqP3GBp/hacscTKR9cmatKFX7bdc2nVZ4cChD4dZloBfw=="}
+Parameter:null
+Exception:Could not convert string to integer: {{CurrentPage+1}}. Path 'PageIndex', line 1, position 32.|   at Newtonsoft.Json.JsonReader.ReadInt32String(String s)
+   at Newtonsoft.Json.JsonTextReader.ReadNumberValue(ReadType readType)
+   at Newtonsoft.Json.JsonTextReader.ReadAsInt32()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 94
+   at CGT.Api.Service.Boss.User.GetUserAccountListService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\GetUserAccountListService.cs:line 26
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/5/22 15:54:07  
+ID:[ThreadID:42] 
+Message:Debug:Model:{"GuidKey":"1db25d5f-5913-4b4c-be86-d72a369ecf8c","MerchantId":"CS01","Data":"oJm3HBI+rrimAeuP2utzmyRO4WthtJLeTuvEPHinn/QvzKGpPrXbxrcyhZezRvU68/sQmNTu8FqQ8b9/xfNVggCAgirKqeWALTMNGVsI36yRXw3p6l1hthZIczYr8YRFUAeq/j+U5fPPbnEhuCfhABnw2AaFXWsaM0NGK80cJ3s28VJr1P3rM54JbfRI/sjzFt5s51o87g1M4zdiSYyOQdyIEvxQiC3hV4u1XKoMkrgvQDGfRk5kjdXaFX/jXNZYKJTUsf41KW2DeSzmZ4PoVZzmEV0ey8Xx8yTmTJy1imE=","EncryptKey":"eBvA2Uc09sENd0yCWQJFBxFI5DGgCbDAJEo1LNV53AYiAL0nKIX6wAGL047mmW0HOm2xe+fLcrIspgvkKAn6jLSeaC2IgB2CuVzPnZHcbCE3DM27PMhFRTZMuHoBD1a5XqC0XqN3Uh3A8Vqp4GFKGVyhB8/unQ/FxEmXllhFpXYdTyUlrI0EXTka4soKmr0etLknY9DDaNTcx2FxULuIJCNHlEwF4WLI8HteO7cZ4DlpJV3HcPPXrgu5MiUjFlhw+Ea5xdt46rovqGnaUSPRthyEy6sipRGEtqCN+eD87bNt7MN3EIxaSzmdIkae9AJDqd7o17POz7OGZ0ivL6jjzw=="}
+Parameter:null
+Exception:Could not convert string to integer: {{CurrentPage+1}}. Path 'PageIndex', line 1, position 32.|   at Newtonsoft.Json.JsonReader.ReadInt32String(String s)
+   at Newtonsoft.Json.JsonTextReader.ReadNumberValue(ReadType readType)
+   at Newtonsoft.Json.JsonTextReader.ReadAsInt32()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 94
+   at CGT.Api.Service.Boss.User.GetUserAccountListService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\GetUserAccountListService.cs:line 26
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/5/22 15:54:08  
+ID:[ThreadID:44] 
+Message:Debug:Model:{"GuidKey":"14a0e097-90d7-444f-a982-2d5c2df7730b","MerchantId":"CS01","Data":"QbKZJiPkHx6KZIHpXzbPlSV1q+6cHrEKj/VFzKscPx5w+uEOeg4qF255P3vrWn4tvwkNMMq1/v+a9FvgBKe5cpTXG5CO4QZxj12ZvHduZfJluSfVxsnLQCZC3CmnhHfFhAYc2EDQ0/25X0SR3bSyG5392b805dHs4/6FcTxYf0QwFsuO+IzVI4i9h7nUSdbv/NywpXAHrn9VPPKleWQRRN6VJNEmRXvIPyK0sJUuxT4SNVyrqhtuVxQdyBxyLweqyhkPmNaWyRP8O8vaGeTt2ejoe0WIrYQcHoVsBaHLB7A=","EncryptKey":"OZ+zYosInvY+BADQdUI5u6K/UeURtESWjTxtvoaqlISADQEUeIZU+bD9GgG/5OhMnAc68zWQC5qbiHQdQamKeTptbB5onZ88ZjO1sBsHjr62KJSlOXp49q1MtX3zJetgivcaRpOse/a8LdmPo7snFNFItCTSXHAdVAw1oe/lGRzcP32ewFzzvlNbOsKoCa/6VXwaQcXlIHNDcqeLMSMR8Wn40i+F+jzuctYuEB0EUfv97DWfLHWfIw0FHNVZS6452GrapxFJvaz5SfiIxNRRIvsAyicu5tuqpw+vv1+jvyzmyvB5rmQiDSGnhQOsIvdB2mW9a6neIqc6vNzb8N/j4g=="}
+Parameter:null
+Exception:Could not convert string to integer: {{CurrentPage+1}}. Path 'PageIndex', line 1, position 32.|   at Newtonsoft.Json.JsonReader.ReadInt32String(String s)
+   at Newtonsoft.Json.JsonTextReader.ReadNumberValue(ReadType readType)
+   at Newtonsoft.Json.JsonTextReader.ReadAsInt32()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 94
+   at CGT.Api.Service.Boss.User.GetUserAccountListService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\GetUserAccountListService.cs:line 26
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/5/22 15:54:08  
+ID:[ThreadID:12] 
+Message:Debug:Model:{"GuidKey":"9175f1ec-885d-406d-9567-9ab18d1f6e40","MerchantId":"CS01","Data":"2pLJY93xqOOSrb5uNOVhyv6PKqW6G8Sw0IYAtdfsuxWQ4tBMP3WeNhXFzB1nKysr4/jvdYZFnKjIQspRRs53LA5Bn+5K5xUOLw9LmcXLnHUXjTG24p8OVi7NQT9qJ9PwjhodWZfKCGUpPdAhkk6hm+28jLEyHT1kYW/UdkIqI6P+lMahSkVRCJjkukemIrpZsOwvehT5980u9mxQ6ww+tzCfUKo6X2dLC+r4OuyJ/r7KUqyY5CAivEvq2H+1D8ammP91hYPFn0PyD/FJw02eoRsHv0kTvOZ9us8daitv+ls=","EncryptKey":"iVY+q8ldxzJ+ZrsVqATUk4HFHBSCMFo4IyF8BrhjdCBrSF0+5tzHIHF5k5p+8jCuzUZvSnoSdUTWu8Fo+irUJxyFSA8GwOcM+DhJ8gHuhMGXCCW3CwGCLM9WfvrXcuZ3AS2GmfCQhdSkuZ/QpX7s5gjpm9Uj5kXurSQgtNNNBWA63yYnAjcFfYuE4Ebe94VlFMiSuePKpjnetPkesZGCf/e0lLK+0GkE92vAzWHAYKxXPNNhn3ukWDMrwc70MUSLZBnMl6zN7BB2vsc8vzKYRaKlyqMxKlPU12+Tsf2dpofMCP9QEABKUfpb33mMYXH1VWwAWfN6VWbCBXB5Jwqq8w=="}
+Parameter:null
+Exception:Could not convert string to integer: {{CurrentPage+1}}. Path 'PageIndex', line 1, position 32.|   at Newtonsoft.Json.JsonReader.ReadInt32String(String s)
+   at Newtonsoft.Json.JsonTextReader.ReadNumberValue(ReadType readType)
+   at Newtonsoft.Json.JsonTextReader.ReadAsInt32()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 94
+   at CGT.Api.Service.Boss.User.GetUserAccountListService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\GetUserAccountListService.cs:line 26
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/5/22 15:54:08  
+ID:[ThreadID:11] 
+Message:Debug:Model:{"GuidKey":"9b11674e-feb6-4589-b47f-db88a394accc","MerchantId":"CS01","Data":"SVDDqa2UKSL0Y1wdOWQhjgdsJsCnazcxjZfehgoHDFK+knS7A7PInlq0PhLpxusp1CbBGQuxHIv71WBSu9/U1F1ilck/bLbyZtNnENNqexeniVOgkEtEUq1SR4kwIYJ6i/aSbvNzgnGHFF7A5DTQtXScQDfy/tctZ6ya9sc8h9MPy6Xtl7MexcdcbFYOOj48AktG8jvIeq/pn31XgS99bgmXzc+0WRdPVaKb5ucJmbrg/JW0Q50VgYb/UQY29QNwIuHXtjEkq0a32k9dpOhsBxiiX59XoIsNTp96BGdb+VI=","EncryptKey":"B7kg795HOPn5+vhDSXl7rhljikUIgwBsFvz1lMQf7W3A+Cm4heukFgsQQv9HoHuh53znHri32bvCkmFru1Bj3kno7eAizX1KvccNijgHgN3KweHduAwBDbhxzoTq4h/6Fn6iet/GaLMNqmT/W9qbe0oPffMq4PLIA9ins+M8L9ri+Kgm2ty3Dp7mrmdc+2tTPGZKrVVMGyNNnjKu7PudvwH4Js1jvddR2S9E8wv0amynDQj4bn8Q4S95FCsGQ3zfSZGkfPpDf1EtQIV3PTvHQQSAPS6SojuTTpjkOStMoIunDgzfwS/PLkH9+Zw80jOVm52pNcZj7bzu9T4DPPEDUw=="}
+Parameter:null
+Exception:Could not convert string to integer: {{CurrentPage+1}}. Path 'PageIndex', line 1, position 32.|   at Newtonsoft.Json.JsonReader.ReadInt32String(String s)
+   at Newtonsoft.Json.JsonTextReader.ReadNumberValue(ReadType readType)
+   at Newtonsoft.Json.JsonTextReader.ReadAsInt32()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 94
+   at CGT.Api.Service.Boss.User.GetUserAccountListService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\GetUserAccountListService.cs:line 26
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/5/22 15:56:22  
+ID:[ThreadID:34] 
+Message:Debug:Model:{"GuidKey":"ac7e3325-9795-4524-bb39-24397e308fed","MerchantId":"CS01","Data":"Mk2x86Ozi/WUDEAfZqxwdEOHgk9Q3/0thGCwW3WoXSi5BwYKq8GiW7Xb62WxEZxoG4QElsBXB7Dj1LJl1QMAMmz0tKopw1MJTQUej4wNF4VFByeCH51ju0sTV72BRZERO7Cj77CEeHlNSq78835kWZPwPiPlOWPPP7TRj/k3Ko7MOzUmxHO/Af8WZu0HCXppu8hTduaNnta+vQSiUFktBfUIB4A3NKIebgEweAewDCKA7FKjryok6GDCdwrjL0y+n3lMzIiz+0YkQOWPaE95oM7cBE08/+MygcU5VsrjEKU=","EncryptKey":"MYplLfyfA2kWpVSA4955lGCF3WhnCFx0KsOnuRDTrh1VPwM3+HkDE2woo6iNXtpZcQ4jwkV+kgUL5HN/dpfgbi4ez7g4ik+2T29OG8+NhXrvaynuEDzteHxIiNfclQUmDX1a0vUe+D6Ju+dfx1UdHZzZxRZpD3InV2QlDs9WCAi27lvcHpaf0xMIEl0fRnQm5vaafYahgr2s0LKaPHBLMOO5YdTj3maXi0hTrUsAT/xW/5qenFZkKDegV2wGcfw1zL511zGtHR9K0wWnA9dnjjx/zpWiz/XazVhh8ONWo1KuRHWKKflY9ohuE5yapwcVo1laV397QsTPalCbP3zoDQ=="}
+Parameter:null
+Exception:Could not convert string to integer: {{CurrentPage+1}}. Path 'PageIndex', line 1, position 32.|   at Newtonsoft.Json.JsonReader.ReadInt32String(String s)
+   at Newtonsoft.Json.JsonTextReader.ReadNumberValue(ReadType readType)
+   at Newtonsoft.Json.JsonTextReader.ReadAsInt32()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 94
+   at CGT.Api.Service.Boss.User.GetUserAccountListService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\GetUserAccountListService.cs:line 26
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/5/22 16:34:07  
+ID:[ThreadID:110]
+Message:Debug:Model:{"GuidKey":"5903b408-d5ac-4879-ac9e-a27085228b65","MerchantId":"CS01","Data":"AP81ROSuy08ZYhim/rbtJWPyCg1GB2czeEOeYzZ7ljOcKf9dirqfy676dWMeuEzTX+k4vEHd8p9CIMAFWEF/Wh8VAlIamUlvlVl0J3vvoNhO2uUykDJhZ8vE9//JW6CSToAG7PkzdSSLZXnBKA/ocDEzuhdv7Ca1gCVXspS6sS1XBKFlq/A7oi7iMr2NTCKsHGRdLIYHbZmTmmNRxbooeRENnoWPMGWp7VKAdSoVDcvHFE0SMPu+xLJne0CRpGXtZvvR269Lzoot6tNFM1ProGNoTAC5rEoAZmSSNStZpvWIUEWD/bEjG1PT/f31llfHPGL8It9Zmcppwf0kyeMkkmaTesRheYxFgjhpxmVS+0xSoA3MwEbG45lIiYitODgY","EncryptKey":"VbjCu+ck3fbJTAOhYEw4W06s3NAFK+j4Lf/J7u8sJYrI6RqoeVQMjT0MLZCSnxRxUBkqGiSmX5VH7t6/MoqCRKMsA7yRNYpJDhiiqjLjmFHgMm9zlCYMno65mCT6XB53yTVrFr+9+tFnFuvgpLm8hxvvJi6YQDC71/ypa2JkgQrFXNWQ5383ynYT7g6J3QM0pcM7lTkiQ8ZfBZIGX4ZUCqOAI6KRqp9NJBlBxtuh0h3KOy+7bHPG4z1MypNksMsbVYrXmLaigEykEqiZRA+wUacXGdvgBBQcEhXfRLE1sPB669VZX+jI4gcd4CM8x8geq09G4S9T51tqgOEiuR0gPg=="}
+Parameter:null
+Exception:Could not convert string to integer: {{CurrentPage+1}}. Path 'PageIndex', line 1, position 32.|   at Newtonsoft.Json.JsonReader.ReadInt32String(String s)
+   at Newtonsoft.Json.JsonTextReader.ReadNumberValue(ReadType readType)
+   at Newtonsoft.Json.JsonTextReader.ReadAsInt32()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 94
+   at CGT.Api.Service.Boss.User.GetUserAccountListService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\GetUserAccountListService.cs:line 26
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/5/22 16:35:46  
+ID:[ThreadID:88] 
+Message:Debug:Model:{"GuidKey":"b2863a8d-8996-410a-9804-ffad3f568e83","MerchantId":"CS01","Data":"GAS/MjRwXy5vB+0eRwzH0iTso9G+iagpoXWWE57m6Iw2eUGTR4oEX2/m6vY9jKS26B5/UY8BfzY7txUZudHmZPivCHHbUJMK2fwIOrr7aT8JCojldyWf9zYEcmXlvOvtQcZ1cWIGMmWqBR0594yCyYqmt8jAjxSVBBlHxb/y0J92tiC4nUS8C+xTrlxnWA1+/xlapSNHsmIF9NwVuUVHahWhRMZs/ISQIcsu1jRyBk4QvWDW64h24JlRqiALaHjIie4jr/KM4+gPfzkHbi7IYafZLZ8C5mrA5snfl8H6CKdGZMFopY2mNZHPFfWUZ6gRC18Xw6abZqAoH+caX71pMA==","EncryptKey":"df2d+0bRLJ9OXYbGw8pTMEwcvxlFWuDCmodCAiNkpTLuunmdQCvklcRN2YsmDN5puQUJdTfjKjasJBalwmc2hF8IzNR7Tt8Cf+Gecs1MAvbSckQyzVuS0mND6hQiJpI4PbEPOATJPNQpFoVbuvdch+fon1rgR9TN58PskLlqVNlBXyetoelpimm4bYOsNkgy6MK3goZFdnznb1/vySyjrnxDhRRIaVVB7huXHak5TUliNDDfg0sR7o3UJrqxbnquPvLVc17d3AkPJvWImLPDme3yrdFsciKmxpmkVXDrsu9umo8F1YonIL6eBOBaqIrYn6Z51CULV0Tbth9vOipxJg=="}
+Parameter:null
+Exception:Could not convert string to integer: {{CurrentPage}}+1. Path 'PageIndex', line 1, position 32.|   at Newtonsoft.Json.JsonReader.ReadInt32String(String s)
+   at Newtonsoft.Json.JsonTextReader.ReadNumberValue(ReadType readType)
+   at Newtonsoft.Json.JsonTextReader.ReadAsInt32()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 94
+   at CGT.Api.Service.Boss.User.GetUserAccountListService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\GetUserAccountListService.cs:line 26
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/5/22 16:36:46  
+ID:[ThreadID:88] 
+Message:Debug:Model:{"GuidKey":"380740e0-979b-4765-9658-84843898395e","MerchantId":"CS01","Data":"B+wwcv75xM0p967V05jnFh83QZd5iENnpHvseHwX3BN74IMfTfELduq7cnQH9EzV4JqmnhOD+n32tRZF/qxs+D5zscSgbQwapaph9bOF0fD/iCUaTjkl8wlzH7JDpMBG6DPNt0dDT1KpJeKZTMnYLOAZgFvz7CfkvZ+2fr9PbaF9j49btMaDrjGRfEH/9FbfJPR2fwmnlu4/iqDj6PUmuGW1z9jIBDCMtqemINQqPvJiDD1X8KHNb5oVifZst92TLoCi8OgtK/u9coLmurTvlC2qSyCej14hfHHuhn7yxkkdQJ1vGTRbU1A6zIgqhWnmGfVMpOYHB/cpWjopPk8REQ==","EncryptKey":"NMkxkbPgYG6gl+kXkwep/cj75eTb4yLoYVrsz1wm1JLr5gzHaISz9cOjEfxBdLVQGRX0ubbBWCZl9mlkDX1JaJ2IY+v7qxvGH8t3NqWcGgR1tCcdp1AO1MYV1r+IfeZbPRxLsx6K/NutH8zDifUkeqqZTfm6xJdw6nb3oWZuWTll1k1EFzJpg/7OmITv0zF2MmccY/WuEhXWWwwSvPAxx0LaKNM+X8fGSKiwQZ8f7c+yTAlDgDzHJaRpdRHvKumV3CgOkcw7HI3DXF7GUY0t1c66m7BA9Y2D9joG6RFaWhJH9BmyT7dm6be4Z3mZL9dpqysZAzOWNx2ftPV3B4p6wQ=="}
+Parameter:null
+Exception:Could not convert string to integer: {{CurrentPage}}. Path 'PageIndex', line 1, position 30.|   at Newtonsoft.Json.JsonReader.ReadInt32String(String s)
+   at Newtonsoft.Json.JsonTextReader.ReadNumberValue(ReadType readType)
+   at Newtonsoft.Json.JsonTextReader.ReadAsInt32()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 94
+   at CGT.Api.Service.Boss.User.GetUserAccountListService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\GetUserAccountListService.cs:line 26
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/5/22 16:38:17  
+ID:[ThreadID:54] 
+Message:Debug:Model:{"GuidKey":"8c1d9834-f961-4c36-8d06-a73738948d40","MerchantId":"CS01","Data":"GcDTK9NTRHHZ3t+2bq6nQKYnlAWLc09aEqlWdnWn/SEIcdOIQCrtnURyZeEsVi6pXPENxQ2V/zCZmVLRAOcmymMb033hcqMh7JGWunmEZZK5quCMe53Zn/nVVWAU/YPUQcfOKLY+vSgB4z3uEL/TGthq2d7u2AFlk/2emMacl98jTVsUfx1qt29a549zCVYgG8luy1LegBq59uOrG7wrMaVu0uItbngCG8qTTS+R/BSoTHlYkgi0A6OB4JkWDRoc+rcOTF7R7+wqO6/8VnBGkAwkY9TBc/hh/ZGV5X8z+7fCx3KywjTek97q5MPVyWF3S3PISZ0wAmqthoB8YWEPiw==","EncryptKey":"FA+KfOB0CSJS5CbwMJvB/VoOXSfJ7Mt1LtkiUh1mfkkBL9OXidbdm4mvTekk4Z99zw/Ykb962KagmspNWQPFxUYOP4WgCtk6KGTtRY16sC/qMcrR0A3OkJYXxw9PYqSB3ijCVAn6jquFa+aa+bcvYYZuGkud7ZGCaCI8sCfcn/QcndJQqguf58AzEaTK8AFS6JgiCBa3YNpZ2iKnjCOMsCb4qviHiyEX2ULG5Lto6sObcaGKa+J96A9ClYGW2+KQJH9q7gnGdBFftKof2ZtHa6fSW3vZxl1GwIY7b+B0xyKBHpgr3gccKqO3J3h0G9NGHzF190Jy1s+noTCAMzr4KQ=="}
+Parameter:null
+Exception:Could not convert string to integer: +{{CurrentPage}}+. Path 'PageIndex', line 1, position 32.|   at Newtonsoft.Json.JsonReader.ReadInt32String(String s)
+   at Newtonsoft.Json.JsonTextReader.ReadNumberValue(ReadType readType)
+   at Newtonsoft.Json.JsonTextReader.ReadAsInt32()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 94
+   at CGT.Api.Service.Boss.User.GetUserAccountListService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\GetUserAccountListService.cs:line 26
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/5/22 16:54:31  
+ID:[ThreadID:15] 
+Message:Debug:Model:{"GuidKey":"7c257bbf-e5f9-49b9-80c7-c50122fc88eb","MerchantId":"CS01","Data":"Abj/ex+iK+I0+zVY4gwurq1BStDlsvF2c+CRtet1eO3mKYpi9FFkpc+3gnTm74I1FaolfSToA1W1/k4ThWlTx9QIKIGQY2z8YTSrMr4IziXIQN58zM9XylytXgVKKiniU0QBgEyX4MS+wzLgt94QIbt8TRqVlZMPOPzcqathumqezCj/XRnL9aySNNKAqH64vGH8fkQNeknujy0mRlf3HhK6+75M4jyEN4gEGresjkdABAqKe+sb5UiVDkIrHmfub56CJyzU+b48gfBRcrlvSO6JahVHuFxCJrWXQAyh/Ns=","EncryptKey":"H14xlTHkojT7IoUosLv3v+ojr8ogimgf2BPop4qL0b1+n+HN5QHAIA1JFghI3dw4nOzDNmefDWfyHukIHs4YcDvf6YT2ZA5TGUq9aP2zVizMSnn3r1H69np3YJHHTI+OKZgOD8p8AUSS7Am/5yLbIWWf0OPaWHonwmkucchNzUTzKgFfnOLFLUijPC1UCI0pMNbhNrrPLZzFlfT9wixnO8yYQ8o4Cq4GVQbIxVcKwyKEYI/ZhRH8dkXiQir4lXuXTGROaPwVOm6lU2Po56OXS9Tofmal/TT4LzuSKV8/a6nBoOPj1P61Iphm/noK6UlFbqDQyC3Dbgbd0+j3syIpYg=="}
+Parameter:{"UserType":null,"PayCenterCode":null,"ModifyBeginTime":null,"ModifyEndTime":null,"PageIndex":1,"PageSize":0,"TimesTamp":"1495472071092","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"67DED7934E310E3B21DCD5A6B96547B0","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:Attempted to divide by zero.|   at PetaPoco.NetCore.Database.Page[T](Int32 page, Int32 itemsPerPage, String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.Cgt.UserAccountRep.GetUserAccountList(UserAccount model, Nullable`1 ModifyBegionTime, Nullable`1 ModifyEndTime, Int32 pageindex, Int32 pagesize) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\Cgt\UserAccountRep.cs:line 42
+   at CGT.Api.Service.Boss.User.GetUserAccountListService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\GetUserAccountListService.cs:line 36
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 135 
+                        
+LoggerDateTime:2017/5/22 17:07:02  
+ID:[ThreadID:50] 
+Message:Debug:Model:{"GuidKey":"61663543-9b97-4be8-b735-5fd2d6196686","MerchantId":"CS01","Data":"w11+xZUvbjAcmdxTEGP0m9mOPf1GEL+goQykFiWam4oh8YHSz70ZiHbh6/yIdvrL5YPjRrTxS3M072F8M5ss3ZYM4CHBZ9ESe5g5qkHU8guxb6TQ02pFp1BH67XNUqYZIoOqKWLxzFauY4v14li+KKX60P/OnAwTxGB+PxrpjxqiTOu6qZQ/WRzRQXw21RfKJYl65dawDuiKhBKzbBgOtPGIz6OJGGHl1uCs3sR4oLOuyFaVjeY+J7ed5/9EF/kSaAWBRjjI5BkyfK9Y0uXNKLva69ScAjjVK+nXoq1W2c4=","EncryptKey":"biSkIxeyeRYQ3WHKEdEnC6y1SwM/RvCfq9iuO6Sy28nyISdt9GDv3LqimoqJ8Jje1PB4gDULJq/4FjLhuu2PBawu+XnP7oDCpWaxhHoUplx4cjMSN06v1mETpCKPotheP1suANrTCTBiq93vXDWMxGvQZUZmm7uZbbWVmy5PMVbY9at7t2l34V+lE3Ck/P5l2Gc2IbdkZlwRjwLngTjo67NDmYu1+9U2NCu/zMM0jf9KK+G7WazEjOuyWTOJYnwN9e1YBQpon/XniJqCNCHnCyNMzk0A5S2tsOLxjZt8u25TdmJrZTbOxerUKlrDTcVe6UHS1gLyHSvUPjQnrrRIWw=="}
+Parameter:null
+Exception:Could not convert string to integer: {{CurrentPage+1}}. Path 'PageIndex', line 1, position 32.|   at Newtonsoft.Json.JsonReader.ReadInt32String(String s)
+   at Newtonsoft.Json.JsonTextReader.ReadNumberValue(ReadType readType)
+   at Newtonsoft.Json.JsonTextReader.ReadAsInt32()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 94
+   at CGT.Api.Service.Boss.User.GetUserAccountListService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\GetUserAccountListService.cs:line 26
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        

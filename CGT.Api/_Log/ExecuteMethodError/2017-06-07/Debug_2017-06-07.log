@@ -1,0 +1,126 @@
+LoggerDateTime:2017/6/7 16:03:57   
+ID:[ThreadID:41] 
+Message:Debug:Model:{"GuidKey":"e1ddb72b-b3b1-4860-9a6e-bf741c9d06bb","MerchantId":"CS01","Data":"yNIeEmZsiEIISXC888AKgXRiXK9W3E9WhZ3Arz5smGGkLUXP3D6HWUmd7ylq8uuIAMzpXhBQ9Wj0Vifj3NrD8Hg/nDobmeco3g83Qd6U1VMxw4n0lGYzkUuvwqOKmNQvBwtBkw/Tid5j/esojMRAxajKXxSbysBZzQPdD4iO2jYFaj00bNTESEqraGXuXMg6mYkc8oAHJ3NC6I4Gb+eFq4ZQognS5gNMsX2szXhmXs9vP6seEhRBANZClO8kUJkRrllWWZE65BcGN0vV6DcRGzfeNzlFsZD60BBh3O6UOUE=","EncryptKey":"UfyujTPqCs+ajY4PMZruvePjzMCxQTomMlBiVkBeFMQdL89FencRmNWCdBt70uiwQKktcOXQb82PY9iRD7AQ9qeK3Pkzz0KUpgxCNLMkAi+dPY7IQ54pPia6gLTnXmTHFD/J7Sw2X/jDW+6F/CfuqokSfufof2590Au71/ud9b9pqqEa7T8WvnbsXzRlyojY/LLKPx1NpcZqv+ppUqoXS4AqWllLFAJnXygag7WGfFuY0H3+PfHXY7b9BkdhEqqVePErWfgPmn4SvMZkYGBpcR/8XV4WBVbQxtp1WoLwX0SCPjMIjDNye1qcNVg9PPS/nfgw7qcSfx4W/FIHBhrN6w=="}
+Parameter:{"PayCenterCode":"44444","GraceDay":0,"ModifyName":null,"GraceBate":0.04,"OverdueBate":0.03,"TimesTamp":null,"Mac":"F4-6D-04-35-B5-A1","Ip":"0:0:0:0:0:0:0:1","Sign":"F30755635180BA5A1A4047AFCC5E0016","Version":null,"Token":null,"IsValid":false}
+Exception:0003|签名验证失败！|   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 104
+   at CGT.Api.Service.Boss.User.UpdateUserAccountService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\UpdateUserAccountService..cs:line 27
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/6/7 16:27:18   
+ID:[ThreadID:4]  
+Message:Debug:Model:{"GuidKey":"a898acd1-b225-493f-b090-51804553bd80","MerchantId":"CS01","Data":"tmIUHLj4oQhm+NymxyYEZkdlL9b5m1O94oNYiiRoNKHdOVGQ/vKeW+fVjmjVwCfMYOCfM9nQBDBjZvLSNMGdPUBioXlA3XXm5uTJ35p+xPH5h3GnDJzmvXuh5PGQdWbvXQYzonJP2hZVXFmjZhstAo+H/a46DmXcVSC30cF3lccaOkMV3+HSRGB4GT/1RpvzKpqPG0NxG4gr3ZrSl7C55S1QX3bZ93nfo95WPmWF9uwHtrutItWzH7Wc3XGACota+3XWb7u6wpssJPXyRVsN+LscT5EriyRJ45bZynVM4/+tOZAtJJqhrd/kHUO9DRRcBMxGb/Pfn3ZrOUAJVvc7wA==","EncryptKey":"dgfgGlJgKN8Xub0r9rkJ51yWRMursVR/x0sprinvcaBKkJSECZnbF3/G/RA6FO7/EZ+WPvotVW736I+FpDji/saI2c5gdW3+Svv/EPAu6ZB0Gb21JrUTpApZjik9OB+w4m2cxKSkRrd+cSXtpnzGLKxZ2AbVQMil/aNo7h9lMW9oi/rRky5D2MZqzTNcdtfRWTeGIrp3LFy6e9A9xS/fhvBzPp3cKFvY/oYvmNFNhxvwnGB07vYQkXz06sGtq7+e/2DbUX8jcJR7ALcV/xNMS2CTkpiYEFHkHo2I/qU38/7TsVFazmqpHcdxw/Fq31tbFme1JV/0j9dPv4cBy9tJmw=="}
+Parameter:{"PayCenterCode":"44444","GraceDay":0,"ModifyName":null,"GraceBate":0.04,"OverdueBate":0.03,"TimesTamp":"2017-06-07 16:27:15","Mac":"F4-6D-04-35-B5-A1","Ip":"0:0:0:0:0:0:0:1","Sign":"0FEB4C425DE112B6E6A66BCA4442513A","Version":null,"Token":null,"IsValid":false}
+Exception:0003|签名验证失败！|   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 104
+   at CGT.Api.Service.Boss.User.UpdateUserAccountService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\UpdateUserAccountService..cs:line 27
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/6/7 17:22:53   
+ID:[ThreadID:4]  
+Message:Debug:Model:{"GuidKey":"6e934e56-84e0-4a9c-9450-63a6bd11fb39","MerchantId":"CS01","Data":"oKscme3WeMefRANMLLslJ0vkVjny4jVWeyNbzHw0abCxogYH7+RTIBQHf53PmN/1xdtRbdBNlinWBDSSROP2TdspHU9a8QCP5fghb5lRaL+Up/hIInXt63qtwiMYh88zEyk1bVSD2Ozmt8imjomvHbz/z6YHqoyOKumvnfK2YYJ//iFs/MwKsLFe01IzfpfiPFP8ssjxlmU+cf7zvXc20Z4WbMqpSB9UaPN71vpqDZb4fIDVDr32JNA9rzTPbutH3EzbXVh9/U9fjMAMTSfTCD+Zo7O4GCwA8Z3pcDcJvMIx3C0mXpAVm3+3+ZTmAYfzkZXqHgbcSGk7IVyk7pLdVA==","EncryptKey":"Rd08lWvCcfxftcTaE3laHB7OBK3s4OSX8iYEtzDROLct7X1OirtHinCIcPqPyfqk2ChPEoTKi7ivHWRbzdu81voFoK84T1ZnKOlngt276V2qpAQW/on/gmn04IkFLOQ1q4BXvtBUidNF5tlhpTgSu6c2OX0GpN2mQqaRPWH14mEK3Irqih4+yjW6WU04TzaU+vSqfe8BT9kWOc5JZ/XKx4uONvMY9D0+gW1fyNMh7fnnc4328toETjLVLekd5vGfUoa2gpvUQOO21VW1Q1Gwikr0Cl6ywxiztwoM/Ub5NNienW153/H2ND6NnA2Dwu/I6wePnXixqfsbeg34MwBoQw=="}
+Parameter:{"PayCenterCode":"44444","GraceDay":0,"ModifyName":null,"GraceBate":0.01,"OverdueBate":0.01,"TimesTamp":"1496827369216","Mac":"F4-6D-04-35-B5-A1","Ip":"0:0:0:0:0:0:0:1","Sign":"3F8E1DB7B7911E5A3E1D8E07C7B6A434","Version":null,"Token":null,"IsValid":true}
+Exception:0003|签名验证失败！|   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 104
+   at CGT.Api.Service.Boss.User.UpdateUserAccountService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\UpdateUserAccountService..cs:line 27
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/6/7 17:25:59   
+ID:[ThreadID:11] 
+Message:Debug:Model:{"GuidKey":"10a9612d-af33-4dec-992b-49d97ca3ceb9","MerchantId":"CS01","Data":"OgL4gQrKH3GqrK54cQX6g6/CKq9Pd8NA2BHU5Sw7NhJhQleGw/hnyee4MZ53qXJ9U38RUcrCxfezP8Q/pNXsn+DNh8XH3z/HlJTz4EF6MpFA4wX8IunDTf8ngW0e6hARm4FyMutE+x/TiVlceHQQo4tmZ360ToT/O4fHz9aKlrYcs0h1NzunMjswYWupaZ3Fn8EbnL4mpS9uj9hwq5dSWSH30SS2YcRhmJMPf3TVClmXJSr3QSpAp/0PxTr3jNttW0w194/cPf7a85fg30NeI68QL/8qYsi0JQgOWFiXvUQ4QwF5DRU93uJh8wKml3lPROksFHoFRM9O5hJ5w3k7+A==","EncryptKey":"MPd/oFad7AIC+sWzmCS/3lxfSOfT0i3qW514Wrt6mc35DM4R/FlH12Q93nCxySccDTMXVywlFpS6LC1DmS4nKp8YJbLk9+Ut/DCh9fmevg8DQKxFSOSxKo6fPVN4q/z5zuq071168Tjd6QfS3AZhxXXVhNz0E1AYg+xhwozqqHGCA8u1GJrCaZ+tEk++RdYjzuHLrmz2P5Ts8PMvpd7t8wvO67n2JZEilgJuCJKNQrzE4kXV6hurQv1uE4sy18aCzaQ8gEQ+xyGPhsuUocvqGLo0as6s9u7f2Z+aosusbvgaxN32cvcVKzKI+aYIUlwbODzMWc6rjBEWr9PK4GI+6w=="}
+Parameter:{"PayCenterCode":"44444","GraceDay":0,"ModifyName":null,"GraceBate":0.01,"OverdueBate":0.01,"TimesTamp":"1496827409713","Mac":"F4-6D-04-35-B5-A1","Ip":"0:0:0:0:0:0:0:1","Sign":"4BFEACD02F09D685D27734405F3DCFB9","Version":null,"Token":null,"IsValid":true}
+Exception:0003|签名验证失败！|   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 104
+   at CGT.Api.Service.Boss.User.UpdateUserAccountService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\UpdateUserAccountService..cs:line 27
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/6/7 17:34:00   
+ID:[ThreadID:11] 
+Message:Debug:Model:{"GuidKey":"1e1e6f9d-282a-4c81-9953-50c175496fff","MerchantId":"CS01","Data":"i/T4VBHfCemK7gKtMqeVpiTW3yrmn2HPuSYlAvCHOHHXWHp3Shx1n90sBkV9+JrsOVMvlolf1wjNg2TSQI7A0mJP/xuij9RoEwhcgbe7VM0BbVbANeRrQ9zuBLFqq0vh9FrFlH7fFSsRcR+jnbCt1U6QfpOTwATA6BCns5Av3bNn9VL0/9MO8cjj8iiqJHuJHVCTLdqOZWOQg/yKuk0H8pfyBYbmitH/eHoRiC//bYzhTs4JIjTREat/76+7j8LYSP5dwOOVEN5Xn5AS0Kp13ceXbcHQBVlQlApgB2a/hhoeGjk7zDpY6PM3Pj0pQHpm7gIvjuIkRA+bUsK0PM2Bug==","EncryptKey":"ZXCQzTqa1d60Ai97v1SVmubRJIH0Z3CJRRquRxOs7Nxhy9BnD+d0kWNqAZtShDvH3LGtOfE+qYxT8VEA4Nu7TLkcxvEV2/XJpbLSnx6VSWoAWtBft/vIuR36gXSLaDpr0DLsrIOjBsK8ZLBeYdi6H6YldUQyo1D90JTq1IZxKMwSVCmopjByuBZR3KOok9WtKsnJCpAq3O1RlUMopjFmnLV7P4cxezfd8TMHZukzm0odQyui9QgXtJtKa86YI9t5CjMz7NXUeHMfBwKJpzcVJt5snMBVwUibXglM9XJnK1nJ058nhbarY4aF6cuqfMrTspAKYuf0kOZdNhwnO9wO3A=="}
+Parameter:{"PayCenterCode":"44444","GraceDay":0,"ModifyName":null,"GraceBate":0.01,"OverdueBate":0.01,"TimesTamp":"1496827582030","Mac":"F4-6D-04-35-B5-A1","Ip":"167.0.12.31","Sign":"4F65B6EEE981FED488534D477D2D61CC","Version":null,"Token":null,"IsValid":true}
+Exception:0003|签名验证失败！|   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 104
+   at CGT.Api.Service.Boss.User.UpdateUserAccountService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\UpdateUserAccountService..cs:line 27
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/6/7 17:44:51   
+ID:[ThreadID:28] 
+Message:Debug:Model:{"GuidKey":"cab03b80-1501-4f4a-9dfe-dbd0b9e06cbd","MerchantId":"CS01","Data":"lNYM8rDm+8pFXt4VHjQvaEfeP6W57dxFdQZlr/55BBvdGHrm3munKzQJxVrgZmfRhJvPfplcFZr2qV7bMl+86s8dXFbLmfYLOcmiibVAEDo3GgQjrCxz0MlCiOs6r5DMnV2mBZ6aXkT0CvXASvYyCHHzudGScB2RSuuXr1ncm2cnCBTx2ejryT9Tt0+GAyAPiSkSpEmJGy9auglWLRuULxQzTN6OfJXw4KCZR/bRIyLGpDyKShWF8LAkWnjbVMak","EncryptKey":"C6m/gctPXokUlwqEpa6C/S3Wbp6zPtPJeoFv5bFzFE3w6V5WB3Lo3iA6ysXlLDFEP6ZpKe/uaPHoyZoGxgLGEUCsN7tYtiQgueS1XMWmdW5xcVRsxUtOHDic1rMQS9HtA7HeAJQUO6KecuCQllzkWMvzKWuTSLu3/9LZdIJQORureDPLyPATVn/96iKR9D6+pzBr9fga7JUxNH8YLkBXarwzyimHf/L91TO+ODxDDDMbbR2c+V1JXXleJyCkOUWEnCuzHj/HT8ZCNM6kDIwVEVJc3bt4gQOGPqImYb5bd9mjMr44xUA9l5bEC3Xn4B/LmCkMdCj2BH+7Q6tFySGnjQ=="}
+Parameter:{"PayCenterCode":null,"GraceDay":0,"ModifyName":null,"GraceBate":null,"OverdueBate":null,"TimesTamp":"1496828028403","Mac":"F4-6D-04-35-B5-A1","Ip":"167.0.12.31","Sign":"D7CC8C5E462CFB8FDCA0E36AF685E097","Version":null,"Token":null,"IsValid":true}
+Exception:0003|签名验证失败！|   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 104
+   at CGT.Api.Service.Boss.User.UpdateUserAccountService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\UpdateUserAccountService..cs:line 27
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/6/7 17:46:57   
+ID:[ThreadID:11] 
+Message:Debug:Model:{"GuidKey":"b7d5d197-b376-4540-beee-13af18631a59","MerchantId":"CS01","Data":"UAx9SwVly8ywj1vX49rE0ZyAv4MmqRNNdtxVE5kO9EMBWe9D8P0Tr3ikoInF64o32ZM2sGyg7ZCPCVt0kFr/n3HMBq4kwA9+mtn4Dbr3G3VJA6HvnBGDO32UDAHmmCDuMPo4Hmdf/BMi9M9cmyQkEKhNq8NeX6CTFr+Y6AFX8gWwdrFzRQCUImQQaY+8BXTltjiN2ZybHbxSz1cjGJeCboafhFmRLr4OnPDJsZJ4rJUF0rNLhP+bMH6AjVoIGAQO","EncryptKey":"RNEiJaV/VEhkcF+p0ivrTqvfIE33CQZ8B3lLX2xWzeCwgVS377vsbl09e073cilnETN2CM9/0lLIxdLVi4O5SMW9ufXwMIQraPMWASjm/KZVdEDW6LkkYp9bcZBJNLePgWsLzULgt07bIbQzRDAT6bIuq8XAWMBKLQZYUzItrUv6R6XGX5I6D2fbp8tV2NQY/G+J+tnoJt9exgb/1b4JmFRXAJx++hv7gj2HE7lQeLbJVeWiuctG6EPk3g9uqeQDJ2XY3XNCv2FYl2Dk1rI7zj9Ulzj5+LO41nbpKFy0IUTuM9rhB25fkgohpPPSG2gwUk+f2o18YGi0nKBxcL1eww=="}
+Parameter:null
+Exception:A transport-level error has occurred when sending the request to the server. (provider: Session Provider, error: 19 - Physical connection is not usable)|   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at PetaPoco.NetCore.Database.<Query>d__63`1.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at PetaPoco.NetCore.Database.SingleOrDefault[T](String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.Cgt.InterfaceAccountRep.GetInterfaceAccount(InterfaceAccount model) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\Cgt\InterfaceAccountRep.cs:line 35
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 83
+   at CGT.Api.Service.Boss.User.UpdateUserAccountService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\UpdateUserAccountService..cs:line 27
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/6/7 17:47:45   
+ID:[ThreadID:4]  
+Message:Debug:Model:{"GuidKey":"3389d3b7-b5c4-4e26-95bb-859e86ef0f3c","MerchantId":"CS01","Data":"WiYbaDQqpJPRFSa9FZoPcwSzeEg7zHzooqkG+jgE8JMLJEkUTMwxz7ImAW0/QIZ08op2pbrqBGcuxVyeUgKeBtCAqUWZQJIu/FhGTL+u2cqJNi8teE1GjHX27Vg5zZ6rYH9qD/Ccb5CwkaM/e3ZlLPMTZQAADDpH5VrEFY2C1SLCan1tp8c7iHKq79MT+ngJngG2uIAX59TAyec2joT0LQuEUBnqnziUAXmsQyyGieFNvk3tbfpznBD/3sUkv2+9","EncryptKey":"PmPErMpT0VqhoNBJmgjZWQrihPM/JilirEpWIYp2uggTRwbiSlgPpuUFpkAV5idinuqv9wgl9yu4VMEvqMIhQS0tKujLG1XpXPfTVrOUz5bZsvfNUwgpYOsAHFGUxzDM4dK+n2qLBmzn6ZDeX8ht5CtjkhKUllyKpHuonuKAHLPoCHv7HMrnLoWTWDm+iyNfY/j6rsZtL0LdzdL7Ktg3Zgxaoc8GC+si8MICjDYegRMU8fxk81K4L8L1irIDPecHJXUH+5gUEFHRy9W9Tsrbb2wXFzWnOQMfwofo9PDCScKEkpYkNr6plTFLIGzzqyMlCbw44nxCgtyPo3z5Q3Npiw=="}
+Parameter:{"PayCenterCode":null,"GraceDay":0,"ModifyName":null,"GraceBate":null,"OverdueBate":null,"TimesTamp":"1496828847288","Mac":"F4-6D-04-35-B5-A1","Ip":"167.0.12.31","Sign":"BCC257890EB05E78B4E344902C3BF421","Version":null,"Token":null,"IsValid":true}
+Exception:分销Code不能为空！|   at CGT.Api.Service.Boss.User.UpdateUserAccountService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\UpdateUserAccountService..cs:line 31
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/6/7 17:50:21   
+ID:[ThreadID:4]  
+Message:Debug:Model:{"GuidKey":"c443148e-a19b-4baa-b188-0fc57505eefb","MerchantId":"CS01","Data":"vtHJfRKTog1nSvuIKDfNXCdtFKSwmcPXYHo3i4qPZrmKV6KZWMwxkADWEGVtoLSCqS/retzdFTDOTxVCOe2U1Mc+fTf6OWA6Dr95Tjs+zsqt0+HYVJWVc40w2fV4G/Z//OghoH5bl5C+zx5SL3q6ggZ/e7sWXnfSOzf84o5ap0DxYmfAxarnlcidPVKTYA5I09ORaM/231/FilYIidTSq7JN7z8AiGEIUi0sErD5VZKZ0vExKhADaaZufUSu2QuO","EncryptKey":"A8d/IxkfGDwZU1KDy5DpcD84OmeFt/7bpSJf21RAtkp+o+6j9kzYbQ39V5y1xMYe2F7cks3nu6pXm4KNkBwNWZ6yQAsy9awYgd1mhewavOpi4/6yimVm+EbpBZUlJJ2lomyLno+IyHX8R/AXwp0BD+ia1XIaE8C24pk+HiFt7JijnsKbdJDPpulzusLR1Vf0T4gMMVZlA4/BWbL++4R7ijbm+gizmlIZKp5qYSQSi7iTkFpoLa4SyjbmeKQz+xPSQlGXk2+QBMZhzcfT/ssGAKMW5QBiQhmWpfkJ+Fv4mPt+FIXjorGRCCBQQr1dCRml4u4HDs7EY/+GkwHCW9DUqg=="}
+Parameter:{"PayCenterCode":null,"GraceDay":0,"ModifyName":null,"GraceBate":null,"OverdueBate":null,"TimesTamp":"1496828976930","Mac":"F4-6D-04-35-B5-A1","Ip":"167.0.12.31","Sign":"110BBA9094B1BFE5FE35EF21ACEF4190","Version":null,"Token":null,"IsValid":true}
+Exception:分销Code不能为空！|   at CGT.Api.Service.Boss.User.UpdateUserAccountService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\UpdateUserAccountService..cs:line 31
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/6/7 18:04:31   
+ID:[ThreadID:4]  
+Message:Debug:Model:{"GuidKey":"4582fb61-26d5-4c40-8313-acb707252b67","MerchantId":"CS01","Data":"mEUVv1/bSJZG21/1oBPmm01wmoxppxLjcQH1Juaaj0muWrlIWmixtlRVbKrhTrf0","EncryptKey":"VuyCER0FSrv0z4CPy3+6Fp1OW/vZrW4A7WWDd5AP+A70njvOKySml4crY9IQ6zscshu2X5Coem1dWpeOyejkYTOTwgE/HC5xzpnmEracEtfYiSpKmv5TyTgcenzU5FIJ+svPa0oBJUcTPVHF+wpMb0As5xO39+UVZdKDL17CQMguP6OL5b8zPKBp655r3MepRo+gTGWqLL4LjAuKVjeZVdkBtXaDLPA/9mpIP9GdXRE1ozuceL1GkkyZOaj5Dt5KP+TgeONE1k5XuBDXbnOPN9X2OTUbNsbfoIiBes6kMAAdAhEEQ5sYpFZ3p9OuJlaobwZEBZool/W0sPUIVwPNoQ=="}
+Parameter:{"PayCenterCode":null,"GraceDay":0,"ModifyName":null,"GraceBate":null,"OverdueBate":null,"TimesTamp":null,"Mac":null,"Ip":null,"Sign":null,"Version":null,"Token":null,"IsValid":false}
+Exception:Object reference not set to an instance of an object.|   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 98
+   at CGT.Api.Service.Boss.User.UpdateUserAccountService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\UpdateUserAccountService..cs:line 27
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/6/7 18:14:00   
+ID:[ThreadID:4]  
+Message:Debug:Model:{"GuidKey":"d2dc1974-237e-40f8-8cb3-458a89d8aee7","MerchantId":"CS01","Data":"rLpVbtZUBPTdrzrfLLzXAgOw51Fr8apV0G3qf0ow+XXizNFkRX5IFHj6u631Kac2Z04ZOgREo7uuG5thj+m2a69LnoPlxpaZdF4OlsRG+vQeLLAS8N2+Ow0z2aMwpKvnYiXJYNHW8dqK1Ah65B8Qsw==","EncryptKey":"IQXvgKZYGbP40rDl8kjrHR49apK2HY9MQ8r7/VKXmD3JwkCEVln811kaFmU7tU2u+p3Povj6MaeLlo2bQSn/EJq2fWoapwrpjXMpgn0VahPxy+9E/4T+EejHg/j3I9hxjbNPqiHtxwMyxRPQsGmVyycpWJFas6o2MQ74qDUMkx8Jlu3rDrt/83TnGho14PEKikbUvDSlniWpSL8HekmI5uKXQov6wFkgGQQnNqxQeSJFGf1TIlxY3DeJIj6WtNFsJq49f/N1/GxvbAM+Orj9QbJGyAtWtEpEeWJjwuslgkwu42Dqsq0Hn3TEaJ5KP32QpPdHnUyqQGGNuXIXqpZawQ=="}
+Parameter:{"PayCenterCode":"44444","GraceDay":0,"ModifyName":null,"GraceBate":0.07,"OverdueBate":0.05,"TimesTamp":null,"Mac":null,"Ip":null,"Sign":"5761C0299A96FC1A870064061593F92C","Version":null,"Token":null,"IsValid":false}
+Exception:0003|签名验证失败！|   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 104
+   at CGT.Api.Service.Boss.User.UpdateUserAccountService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\UpdateUserAccountService..cs:line 27
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/6/7 18:16:12   
+ID:[ThreadID:4]  
+Message:Debug:Model:{"GuidKey":"ba8f3b7b-5dd6-4765-bc0e-6c4cd57c09f5","MerchantId":"CS01","Data":"51K0dRVtBrvAlNOnphj0RXCjVCFrMzF85aIN2n9qOE1UrP2FVAqkqvnx1pK1/gwAbuEbhk421WCls9AojiPHX9/1lmWhUFJOsgmhhluRYloq45Ttsrc5HfaA2TXhkuz3kxXZ6fu+nOWb90BDJejqjg==","EncryptKey":"azhONSdh+0HOCdpyoXpE+EMAW7FKhAk7/vIKJT+3SU6aKN24doYSQfbr0RW/thJcTuHWxyM09Q/U6BSW9Id5r21qDYHC0jNDYVmwfSB1NbbXp/SqKCaRR7l1z5ONMA0pH1+f9V6OzxH6YEZk4hpWK6n7vFy0s/JagGFl2zuvX5PMM/MKr+RYAvkqD4NQKDuEwNt/+MSWfzBnOQYqE/IlMNyYfA9BKMYTfdQ29FS2rZ9i3ZJuIbvcrWPMuEgp1PJeFknXK6dknJ0/Iq9lJlCQiD0tq/4Ey1dMJixq8P6aPccy+Q6ga46PHs6flIkkB+OdMzlN8nqc/eYsPrlDHiL/ew=="}
+Parameter:{"PayCenterCode":"44444","GraceDay":0,"ModifyName":null,"GraceBate":0.07,"OverdueBate":0.05,"TimesTamp":null,"Mac":null,"Ip":null,"Sign":"05D9E721B8BE0883B5C04C4E0A6F6DF9","Version":null,"Token":null,"IsValid":false}
+Exception:0003|签名验证失败！|   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 104
+   at CGT.Api.Service.Boss.User.UpdateUserAccountService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\UpdateUserAccountService..cs:line 27
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        
+LoggerDateTime:2017/6/7 18:18:52   
+ID:[ThreadID:4]  
+Message:Debug:Model:{"GuidKey":"5713f315-afd0-4542-b4c7-33a8c8489c27","MerchantId":"CS01","Data":"nslJjy+wwzyMBxViZCNilJ11Z3Tu8poFTfC+76WsZdEioJMY6zYKMehooj4hKVFclKQXW3+Nq7QWe6PR3BUT5N1lN8gWSYiiZnBnhpt4lSMsgwjIVSZcO2/VpJK6pFQY7oV5xmh74vmmT5eEsBRhrw==","EncryptKey":"UCAiertkga0A6IL8+1WEsXx4h0bMfvpbGtnr846P1vw1d1X/Y/N344es7nZSVl9Minx7PME41zz95MtdId7h9yCdtFbqg7VjApjrfX1hsvn6At2PJZ1kUN2zxihpMSjksNIMfZKPvqPQaIwDJInvI4rYys0Vv9heGe9yCpb55WQW/H/1o/oRuJNNHK0eI4qpIq6Gcl1lp56k1gAjflvVz+CF3GG4lw8+PxcfOnbqjVQl4YKfw3DranEBEDcnJ+Sffu+vLZeVIeeszI+R1nndD0h91BSc2RhfO082uNnKIy53KnfmvAasgxbrTRMWYzm33E37v65wibDRbjJaNuP11g=="}
+Parameter:null
+Exception:A transport-level error has occurred when receiving results from the server. (provider: Session Provider, error: 19 - Physical connection is not usable)|   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at PetaPoco.NetCore.Database.<Query>d__63`1.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at PetaPoco.NetCore.Database.SingleOrDefault[T](String sql, Object[] args)
+   at CGT.PetaPoco.Repositories.Cgt.InterfaceAccountRep.GetInterfaceAccount(InterfaceAccount model) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\Cgt\InterfaceAccountRep.cs:line 35
+   at CGT.Api.Service.ApiBase`1.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 83
+   at CGT.Api.Service.Boss.User.UpdateUserAccountService.Validate() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\User\UpdateUserAccountService..cs:line 27
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 133 
+                        

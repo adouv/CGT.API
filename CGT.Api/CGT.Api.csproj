@@ -1,0 +1,69 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <DebugType>portable</DebugType>
+    <OutputType>Exe</OutputType>
+    <RuntimeIdentifiers>win10-x64;win7-x64;win7-x86</RuntimeIdentifiers>
+    <UserSecretsId>4d67bb84-5e0f-4647-8426-8df24ecc6b2f</UserSecretsId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+  </PropertyGroup>
+
+  <!--<ItemGroup>
+    <Content Remove="wwwroot/07dc8a91-c61e-40e6-8159-62a8783e441c.xlsx" />
+    <Content Remove="wwwroot/60a2f18f-b844-463a-b14e-e884a85ed2a5.xlsx" />
+    <Content Remove="wwwroot/8a360901-8f94-46c9-bcea-abcd67d05ad9.xlsx" />
+    <Content Remove="wwwroot/ExcelOutput\bf252544-e8d0-49d3-981e-3ef939cebfda.xlsx" /> 
+    <Content Remove="wwwroot/f4ec9d0a-fc4d-4e3b-b3b0-dd8a9b87cd6b.xlsx" />
+    <Content Remove="wwwroot/Protocol\c5003165-1110-4ba6-a01c-af3318b5895e.jpg" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Content Include="wwwroot\ExcelTemplate\DistributionTemplate.xlsx" />
+    <Content Include="wwwroot\ExcelTemplate\EnterpriseStaff.xlsx" />
+  </ItemGroup>-->
+
+
+  <ItemGroup>
+    <Folder Include="wwwroot\ExcelOutput\" />
+    <Folder Include="wwwroot\ExcelOutput\" />
+    <Folder Include="wwwroot\Protocol\" />
+    <Folder Include="wwwroot\Protocol\" />
+    <Folder Include="wwwroot\Protocol\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="appsettings.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.2.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Formatters.Xml" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="2.0.0" />
+    <PackageReference Include="SwaggerUi" Version="1.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="1.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="1.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.4.0" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="4.4.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CGT.Api.Controller\CGT.Api.Controllers.csproj" />
+    <ProjectReference Include="..\CGT.Api.DTO\CGT.Api.DTO.csproj" />
+    <ProjectReference Include="..\CGT.Api.Service\CGT.Api.Service.csproj" />
+    <ProjectReference Include="..\CGT.DDD\CGT.DDD.csproj" />
+    <ProjectReference Include="..\CGT.Entity\CGT.Entity.csproj" />
+    <ProjectReference Include="..\CGT.Mongo.Repositories\CGT.Mongo.Repositories.csproj" />
+    <ProjectReference Include="..\CGT.PayCenter.Service\CGT.PayCenter.Service.csproj" />
+    <ProjectReference Include="..\CGT.PetaPoco.Repositories\CGT.PetaPoco.Repositories.csproj" />
+    <ProjectReference Include="..\CGT.Reapal.Service\CGT.Reapal.Service.csproj" />
+    <ProjectReference Include="..\CGT.Suspended.Service\CGT.Suspended.Service.csproj" />
+  </ItemGroup>
+  <ProjectExtensions><VisualStudio><UserProperties Properties_4launchSettings_1json__JSONSchema="" appsettings_1json__JSONSchema="" /></VisualStudio></ProjectExtensions>
+
+</Project>

@@ -1,0 +1,13 @@
+LoggerDateTime:2017/7/31 16:35:37  
+ID:[ThreadID:6]  
+Message:Error:ExecuteReader requires an open and available Connection. The connection's current state is connecting.|   at System.Data.SqlClient.SqlConnection.GetOpenTdsConnection(String method)
+   at System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(Boolean async, String method)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at PetaPoco.NetCore.Database.<Query>d__63`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at CGT.PetaPoco.Repositories.CgtTravel.TravelBillRep.GetTravelBillListDownload(String PayCenterCode, Int32 Status, String BillType, Nullable`1 StartDate, Nullable`1 EndDate) in C:\code\cgt_api\CGT.ApiCode\CGT.PetaPoco.Repositories\CgtTravel\TravelBillRep.cs:line 181
+   at CGT.Api.Service.Boss.TravelBill.GetTravelBillDownloadService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelBill\GetTravelBillDownloadService.cs:line 43 
+                        

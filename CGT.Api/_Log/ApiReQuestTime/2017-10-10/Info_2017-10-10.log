@@ -1,0 +1,375 @@
+LoggerDateTime:2017/10/10 10:38:35 
+Type:ApiReQuestTime
+ID:[ThreadID:6]  
+Message:Info:请求花费39309.143ms   |||
+                        
+LoggerDateTime:2017/10/10 10:38:51 
+Type:ApiReQuestTime
+ID:[ThreadID:6]  
+Message:Info:请求花费155.125ms   |||
+                        
+LoggerDateTime:2017/10/10 10:40:17 
+Type:ApiReQuestTime
+ID:[ThreadID:6]  
+Message:Info:请求花费660.2537ms   |||
+                        
+LoggerDateTime:2017/10/10 10:44:50 
+Type:ApiReQuestTime
+ID:[ThreadID:12] 
+Message:Info:请求花费860.3995ms   |||
+                        
+LoggerDateTime:2017/10/10 10:44:51 
+Type:ApiReQuestTime
+ID:[ThreadID:13] 
+Message:Info:请求花费58.9854ms   |||
+                        
+LoggerDateTime:2017/10/10 10:45:01 
+Type:ApiReQuestTime
+ID:[ThreadID:13] 
+Message:Info:请求花费196.307ms   |||
+                        
+LoggerDateTime:2017/10/10 10:45:02 
+Type:ApiReQuestTime
+ID:[ThreadID:12] 
+Message:Info:请求花费439.8296ms   |||
+                        
+LoggerDateTime:2017/10/10 10:45:08 
+Type:ApiReQuestTime
+ID:[ThreadID:4]  
+Message:Info:请求花费105.5908ms   |||
+                        
+LoggerDateTime:2017/10/10 10:45:12 
+Type:ApiReQuestTime
+ID:[ThreadID:15] 
+Message:Info:请求花费3767.293ms   |||
+                        
+LoggerDateTime:2017/10/10 10:46:51 
+Type:ApiReQuestTime
+ID:[ThreadID:20] 
+Message:Info:请求花费17365.3537ms   |||
+                        
+LoggerDateTime:2017/10/10 10:46:53 
+Type:ApiReQuestTime
+ID:[ThreadID:15] 
+Message:Info:请求花费6495.3863ms   |||
+                        
+LoggerDateTime:2017/10/10 10:46:54 
+Type:ApiReQuestTime
+ID:[ThreadID:19] 
+Message:Info:请求花费879.581ms   |||
+                        
+LoggerDateTime:2017/10/10 10:47:07 
+Type:ApiReQuestTime
+ID:[ThreadID:20] 
+Message:Info:请求花费866.0824ms   |||
+                        
+LoggerDateTime:2017/10/10 10:47:11 
+Type:ApiReQuestTime
+ID:[ThreadID:19] 
+Message:Info:请求花费233.6011ms   |||
+                        
+LoggerDateTime:2017/10/10 10:47:20 
+Type:ApiReQuestTime
+ID:[ThreadID:20] 
+Message:Info:请求花费268.052ms   |||
+                        
+LoggerDateTime:2017/10/10 10:48:24 
+Type:ApiReQuestTime
+ID:[ThreadID:23] 
+Message:Info:请求花费39654.5964ms   |||
+                        
+LoggerDateTime:2017/10/10 10:48:26 
+Type:ApiReQuestTime
+ID:[ThreadID:15] 
+Message:Info:请求花费41952.196ms   |||
+                        
+LoggerDateTime:2017/10/10 10:49:42 
+Type:ApiReQuestTime
+ID:[ThreadID:28] 
+Message:Info:请求花费1655.173ms   |||
+                        
+LoggerDateTime:2017/10/10 10:51:41 
+Type:ApiReQuestTime
+ID:[ThreadID:27] 
+Message:Info:请求花费463.5413ms   |||
+                        
+LoggerDateTime:2017/10/10 10:52:12 
+Type:ApiReQuestTime
+ID:[ThreadID:28] 
+Message:Info:请求花费450.1957ms   |||
+                        
+LoggerDateTime:2017/10/10 10:52:16 
+Type:ApiReQuestTime
+ID:[ThreadID:4]  
+Message:Info:请求花费309.7145ms   |||
+                        
+LoggerDateTime:2017/10/10 10:53:30 
+Type:ApiReQuestTime
+ID:[ThreadID:4]  
+Message:Info:请求花费400.7264ms   |||
+                        
+LoggerDateTime:2017/10/10 10:53:37 
+Type:ApiReQuestTime
+ID:[ThreadID:12] 
+Message:Info:请求花费215.6718ms   |||
+                        
+LoggerDateTime:2017/10/10 10:53:53 
+Type:ApiReQuestTime
+ID:[ThreadID:33] 
+Message:Info:请求花费226.5738ms   |||
+                        
+LoggerDateTime:2017/10/10 11:03:34 
+Type:ApiReQuestTime
+ID:[ThreadID:37] 
+Message:Info:请求花费260.7098ms   |||
+                        
+LoggerDateTime:2017/10/10 11:03:45 
+Type:ApiReQuestTime
+ID:[ThreadID:39] 
+Message:Info:请求花费196.6867ms   |||
+                        
+LoggerDateTime:2017/10/10 11:07:07 
+Type:ApiReQuestTime
+ID:[ThreadID:39] 
+Message:Info:请求花费461.8922ms   |||
+                        
+LoggerDateTime:2017/10/10 11:07:17 
+Type:ApiReQuestTime
+ID:[ThreadID:38] 
+Message:Info:请求花费374.7005ms   |||
+                        
+LoggerDateTime:2017/10/10 11:19:20 
+Type:ApiReQuestTime
+ID:[ThreadID:50] 
+Message:Info:请求花费294.0406ms   |||
+                        
+LoggerDateTime:2017/10/10 11:19:45 
+Type:ApiReQuestTime
+ID:[ThreadID:53] 
+Message:Info:请求花费276.4149ms   |||
+                        
+LoggerDateTime:2017/10/10 11:20:47 
+Type:ApiReQuestTime
+ID:[ThreadID:53] 
+Message:Info:请求花费488.6734ms   |||
+                        
+LoggerDateTime:2017/10/10 11:30:44 
+Type:ApiReQuestTime
+ID:[ThreadID:14] 
+Message:Info:请求花费1064.7237ms   |||
+                        
+LoggerDateTime:2017/10/10 11:34:46 
+Type:ApiReQuestTime
+ID:[ThreadID:13] 
+Message:Info:请求花费208366.3138ms   |||
+                        
+LoggerDateTime:2017/10/10 11:36:56 
+Type:ApiReQuestTime
+ID:[ThreadID:13] 
+Message:Info:请求花费78199.0346ms   |||
+                        
+LoggerDateTime:2017/10/10 11:52:06 
+Type:ApiReQuestTime
+ID:[ThreadID:17] 
+Message:Info:请求花费162247.2243ms   |||
+                        
+LoggerDateTime:2017/10/10 13:50:30 
+Type:ApiReQuestTime
+ID:[ThreadID:13] 
+Message:Info:请求花费163155.2118ms   |||
+                        
+LoggerDateTime:2017/10/10 14:05:10 
+Type:ApiReQuestTime
+ID:[ThreadID:15] 
+Message:Info:请求花费6715.8103ms   |||
+                        
+LoggerDateTime:2017/10/10 14:07:04 
+Type:ApiReQuestTime
+ID:[ThreadID:17] 
+Message:Info:请求花费1726.2869ms   |||
+                        
+LoggerDateTime:2017/10/10 14:07:42 
+Type:ApiReQuestTime
+ID:[ThreadID:22] 
+Message:Info:请求花费618.2054ms   |||
+                        
+LoggerDateTime:2017/10/10 14:08:05 
+Type:ApiReQuestTime
+ID:[ThreadID:18] 
+Message:Info:请求花费167.6267ms   |||
+                        
+LoggerDateTime:2017/10/10 14:28:31 
+Type:ApiReQuestTime
+ID:[ThreadID:14] 
+Message:Info:请求花费1384.2044ms   |||
+                        
+LoggerDateTime:2017/10/10 14:28:39 
+Type:ApiReQuestTime
+ID:[ThreadID:16] 
+Message:Info:请求花费221.9606ms   |||
+                        
+LoggerDateTime:2017/10/10 14:28:57 
+Type:ApiReQuestTime
+ID:[ThreadID:16] 
+Message:Info:请求花费4642.2151ms   |||
+                        
+LoggerDateTime:2017/10/10 14:31:29 
+Type:ApiReQuestTime
+ID:[ThreadID:16] 
+Message:Info:请求花费6109.3289ms   |||
+                        
+LoggerDateTime:2017/10/10 14:31:34 
+Type:ApiReQuestTime
+ID:[ThreadID:16] 
+Message:Info:请求花费2357.2059ms   |||
+                        
+LoggerDateTime:2017/10/10 14:32:33 
+Type:ApiReQuestTime
+ID:[ThreadID:16] 
+Message:Info:请求花费1274.6637ms   |||
+                        
+LoggerDateTime:2017/10/10 14:41:18 
+Type:ApiReQuestTime
+ID:[ThreadID:13] 
+Message:Info:请求花费1491.3152ms   |||
+                        
+LoggerDateTime:2017/10/10 14:41:27 
+Type:ApiReQuestTime
+ID:[ThreadID:13] 
+Message:Info:请求花费230.4187ms   |||
+                        
+LoggerDateTime:2017/10/10 15:02:57 
+Type:ApiReQuestTime
+ID:[ThreadID:17] 
+Message:Info:请求花费48319.8888ms   |||
+                        
+LoggerDateTime:2017/10/10 15:02:57 
+Type:ApiReQuestTime
+ID:[ThreadID:13] 
+Message:Info:请求花费33636.2024ms   |||
+                        
+LoggerDateTime:2017/10/10 15:31:41 
+Type:ApiReQuestTime
+ID:[ThreadID:14] 
+Message:Info:请求花费1509.0244ms   |||
+                        
+LoggerDateTime:2017/10/10 15:34:07 
+Type:ApiReQuestTime
+ID:[ThreadID:15] 
+Message:Info:请求花费788.4739ms   |||
+                        
+LoggerDateTime:2017/10/10 17:13:40 
+Type:ApiReQuestTime
+ID:[ThreadID:18] 
+Message:Info:请求花费3915.335ms   |||
+                        
+LoggerDateTime:2017/10/10 17:21:46 
+Type:ApiReQuestTime
+ID:[ThreadID:14] 
+Message:Info:请求花费116995.9964ms   |||
+                        
+LoggerDateTime:2017/10/10 17:34:38 
+Type:ApiReQuestTime
+ID:[ThreadID:18] 
+Message:Info:请求花费95294.0203ms   |||
+                        
+LoggerDateTime:2017/10/10 17:34:57 
+Type:ApiReQuestTime
+ID:[ThreadID:21] 
+Message:Info:请求花费2071.9419ms   |||
+                        
+LoggerDateTime:2017/10/10 17:35:59 
+Type:ApiReQuestTime
+ID:[ThreadID:4]  
+Message:Info:请求花费4469.0584ms   |||
+                        
+LoggerDateTime:2017/10/10 17:39:21 
+Type:ApiReQuestTime
+ID:[ThreadID:28] 
+Message:Info:请求花费969.9519ms   |||
+                        
+LoggerDateTime:2017/10/10 17:39:43 
+Type:ApiReQuestTime
+ID:[ThreadID:32] 
+Message:Info:请求花费3604.9254ms   |||
+                        
+LoggerDateTime:2017/10/10 17:41:04 
+Type:ApiReQuestTime
+ID:[ThreadID:21] 
+Message:Info:请求花费766.9461ms   |||
+                        
+LoggerDateTime:2017/10/10 17:41:04 
+Type:ApiReQuestTime
+ID:[ThreadID:35] 
+Message:Info:请求花费863.3632ms   |||
+                        
+LoggerDateTime:2017/10/10 17:43:14 
+Type:ApiReQuestTime
+ID:[ThreadID:39] 
+Message:Info:请求花费497.5375ms   |||
+                        
+LoggerDateTime:2017/10/10 17:43:25 
+Type:ApiReQuestTime
+ID:[ThreadID:39] 
+Message:Info:请求花费880.9177ms   |||
+                        
+LoggerDateTime:2017/10/10 17:43:37 
+Type:ApiReQuestTime
+ID:[ThreadID:38] 
+Message:Info:请求花费591.8045ms   |||
+                        
+LoggerDateTime:2017/10/10 17:50:07 
+Type:ApiReQuestTime
+ID:[ThreadID:13] 
+Message:Info:请求花费3383.3027ms   |||
+                        
+LoggerDateTime:2017/10/10 17:50:12 
+Type:ApiReQuestTime
+ID:[ThreadID:15] 
+Message:Info:请求花费486.2495ms   |||
+                        
+LoggerDateTime:2017/10/10 17:55:25 
+Type:ApiReQuestTime
+ID:[ThreadID:18] 
+Message:Info:请求花费2908.3603ms   |||
+                        
+LoggerDateTime:2017/10/10 17:56:38 
+Type:ApiReQuestTime
+ID:[ThreadID:22] 
+Message:Info:请求花费469.3005ms   |||
+                        
+LoggerDateTime:2017/10/10 17:56:44 
+Type:ApiReQuestTime
+ID:[ThreadID:23] 
+Message:Info:请求花费837.7236ms   |||
+                        
+LoggerDateTime:2017/10/10 17:58:01 
+Type:ApiReQuestTime
+ID:[ThreadID:22] 
+Message:Info:请求花费4070.8237ms   |||
+                        
+LoggerDateTime:2017/10/10 17:58:01 
+Type:ApiReQuestTime
+ID:[ThreadID:16] 
+Message:Info:请求花费2752.1588ms   |||
+                        
+LoggerDateTime:2017/10/10 17:58:22 
+Type:ApiReQuestTime
+ID:[ThreadID:27] 
+Message:Info:请求花费239.4454ms   |||
+                        
+LoggerDateTime:2017/10/10 17:58:23 
+Type:ApiReQuestTime
+ID:[ThreadID:27] 
+Message:Info:请求花费689.5614ms   |||
+                        
+LoggerDateTime:2017/10/10 18:24:49 
+Type:ApiReQuestTime
+ID:[ThreadID:8]  
+Message:Info:请求花费1958.0502ms   |||
+                        
+LoggerDateTime:2017/10/10 18:25:18 
+Type:ApiReQuestTime
+ID:[ThreadID:17] 
+Message:Info:请求花费528.6052ms   |||
+                        

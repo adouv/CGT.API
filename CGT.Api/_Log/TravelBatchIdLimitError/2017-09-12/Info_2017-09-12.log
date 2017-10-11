@@ -1,0 +1,15 @@
+LoggerDateTime:2017/9/12 17:32:17  
+Type:TravelBatchIdLimitError
+ID:[ThreadID:14] 
+Message:Info:636403794183510244|列名 'AccountBalance' 无效。   |||
+                        
+LoggerDateTime:2017/9/12 17:33:37  
+Type:TravelBatchIdLimitError
+ID:[ThreadID:3]  
+Message:Info:636403794183510244|列名 'AccountBalance' 无效。   |||
+                        
+LoggerDateTime:2017/9/12 17:34:33  
+Type:TravelBatchIdLimitError
+ID:[ThreadID:22] 
+Message:Info:636403794183510244|列名 'AccountBalance' 无效。   |||
+                        

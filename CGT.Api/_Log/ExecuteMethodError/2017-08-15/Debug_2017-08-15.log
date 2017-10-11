@@ -1,0 +1,14 @@
+LoggerDateTime:2017/8/15 8:47:45   
+ID:[ThreadID:25] 
+Message:Debug:Model:{"GuidKey":"6be3b5bb-c07f-47df-85fe-4828fcda058a","MerchantId":"CS01","Data":"bKn/uDo0zqPj+0zGhKzponC8H16ZFEgBCk3qCiQxH30IMMYKLxj+VJ87Rtwm4MdfJ9lQtN3D9GHm7TkPCtUxVQE8LUrMX9wxmWsSPWrdY/l6ypD3E1FMKmkHRa48flyDAgYVzzJCiIb9pWsaBxPHpL9zJaBwVyGDSHBmHxGy3tKD5RDkRVYAT0PLSrzLNqycfmiq/vZpao1OnhX5uPU5Bsfzfrvhmf0zQVSd5bfXcsn16dVmuwbz63ZEKcPjI0t6hXLcqgAgEoKOTqX0ZEjHna4CYusWtL2PRmMZI6gjy5lXQkHPWv3BBxVg1XNx5DjO","EncryptKey":"QfoSc4Z1+4dJ2ltZlQ9IHywdOL5hposMGNysmoQ49G1GSxoFltXUQY6ukmWv1ba57GyyTs0EYByBKvDQQYZs7aMpetPtM4/1ai9yJaYlegOw/MKRbHpNqiOjY1EFePUGprppvFP6lO/BFuduaO+GtEgYFoIEAbvFZwHKAkI08jXj6nNDVJjPvDySgQgU/svKEn2aoIhV9bqg8VCN9TflIyVtrtAE9M6CJ5u5obUWJ33Ev7ElCqJo6EMNX7xsXCiB5qgjkRJGm1KpDFw26/UMNfvQR/RR+iEYmWMdusBwwFY2lrr3wZwWeK1Ncl24sLpdhlJRcYsJa/P+/+nwH5pV5g=="}
+Parameter:{"EOrderIds":null,"ReviewState":1,"RefuseReason":"","ReviewUserId":17,"TimesTamp":"1502786801022","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"0DBE4813E8980353C3B6443B40186451","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:Object reference not set to an instance of an object.|   at CGT.Api.Service.Boss.TravelOrder.ReviewTravelOrderService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelOrder\ReviewTravelOrderService.cs:line 48
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 146 
+                        
+LoggerDateTime:2017/8/15 8:48:59   
+ID:[ThreadID:20] 
+Message:Debug:Model:{"GuidKey":"36b60af1-eb31-4f61-bb0b-e727b8e80cea","MerchantId":"CS01","Data":"KViz6kwLU2kjgIvhVlgXGO5pq0wKEr0HJgnHJb7x+hOLmc+o1EGf6lDDanaNXqI4ctb5ZN4QwyGX1FVBjKGmhdJ7z1yRbih31ObDrHq3FfcApLJfoiTzII2e8ZsKhkdzu2BMx7/1xOptCBWC8ZhR4IuvMwcn0UTdB6HOnhCzZozgTnuQWFMDPnPaU+VH8W+steD3Cf505uGBg3Ssc7awVPW/UQ1BJPZsNVGrseIEYeZTPNcfqMk8/frVZnG0HLsxJPtiSbWGR1xELKWNHhJAgEs/JeZkm4BHTTYIlp9BGx5FfDUEO1eMiB7BRhxKnq3q","EncryptKey":"YdBY7i18qZOF5n+u0YazqWijk8QcXbq+1bVvAKyjk7mj0cgXCdOcTC4Eczowp32htIxjVqt1xxqUD+iQK4KA/AgaAF0nrBPWlKRELEDkXRQ9AxPAoDYHe9SidCiIqu6qCgMJihrQPYdwqaKr3aTb04OaLkin4IXfnFPvrGxVcykcfxINaORvmb5BgzrXl3KSHZOiELK5eUius8uto/2PQbqJNwgKWeetXOKRhUg36ZxIZtU29u9cMp09p1AF1q4XGjQB4Bpg5mH5CLPao9p22yKmf1y8elWW2EIKjNIrnn5F6nMHPQl9/aFTSZOqrj6yGAJaRMkr6F4pZOKoVSyfdw=="}
+Parameter:{"EOrderIds":null,"ReviewState":1,"RefuseReason":"","ReviewUserId":17,"TimesTamp":"1502786931171","Mac":"00-15-5D-7E-36-5B","Ip":"167.0.12.31","Sign":"7E7CB5A780C20AEB4AD4DE143FE5D693","Version":"1.0.0","Token":null,"IsValid":true}
+Exception:Object reference not set to an instance of an object.|   at CGT.Api.Service.Boss.TravelOrder.ReviewTravelOrderService.ExecuteMethod() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\Boss\TravelOrder\ReviewTravelOrderService.cs:line 48
+   at CGT.Api.Service.ApiBase`1.Execute() in C:\code\cgt_api\CGT.ApiCode\CGT.Api.Service\ApiBase.cs:line 146 
+                        

@@ -1,0 +1,94 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>7</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PetaPoco.NetCore" Version="1.0.1" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.4.0" />
+    <PackageReference Include="T4" Version="2.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CGT.DDD\CGT.DDD.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Models\cgthangfire\CgtHangfireDB.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CgtHangfireDB.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Models\cgtInsurance\CgtInsuranceDB.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CgtInsuranceDB.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Models\cgtlog\CgtLogDB.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CgtLogDB.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Models\cgtTicket\CgtTicketDB.cs">
+      <DependentUpon>CgtTicketDB.tt</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Models\cgttravel\CgtTravelDB.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CgtTravelDB.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Models\cgtUser\CgtUserDB.cs">
+      <DependentUpon>CgtUserDB.tt</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Models\cgt\CgtDB.cs">
+      <DependentUpon>CgtDB.tt</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Models\cgthangfire\CgtHangfireDB.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>CgtHangfireDB.cs</LastGenOutput>
+    </None>
+    <None Update="Models\cgtInsurance\CgtInsuranceDB.tt">
+      <LastGenOutput>CgtInsuranceDB.cs</LastGenOutput>
+      <Generator>TextTemplatingFileGenerator</Generator>
+    </None>
+    <None Update="Models\cgtlog\CgtLogDB.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>CgtLogDB.cs</LastGenOutput>
+    </None>
+    <None Update="Models\cgtTicket\CgtTicketDB.tt">
+      <LastGenOutput>CgtTicketDB.cs</LastGenOutput>
+      <Generator>TextTemplatingFileGenerator</Generator>
+    </None>
+    <None Update="Models\cgttravel\CgtTravelDB.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>CgtTravelDB.cs</LastGenOutput>
+    </None>
+    <None Update="Models\cgtUser\CgtUserDB.tt">
+      <LastGenOutput>CgtUserDB.cs</LastGenOutput>
+      <Generator>TextTemplatingFileGenerator</Generator>
+    </None>
+    <None Update="Models\cgt\CgtDB.tt">
+      <LastGenOutput>CgtDB.cs</LastGenOutput>
+      <Generator>TextTemplatingFileGenerator</Generator>
+    </None>
+  </ItemGroup>
+
+</Project>
